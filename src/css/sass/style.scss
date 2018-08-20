@@ -1,0 +1,222 @@
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+
+// Modules
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/fonts";
+
+// Partials
+@import "partials/reset";
+@import "partials/wordpress";
+@import "partials/utils";
+@import "partials/wrapper";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/print";
+
+
+.jarallax {
+    position: relative;
+    z-index: 0;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+html {
+  font-size: 100% !important;
+  body {
+    font-size: 100%;
+    section {
+      padding-top: 9vh !important;
+      padding-bottom: 9vh !important;
+    }
+    .container {
+      // width: 1370px;
+    }
+    h1 {
+      font-size: 3rem;
+      font-family: 'Gotham';
+      line-height: 100%;
+      margin: 0px;
+      color: #000;
+    }
+    h2 {
+      font-size: 2rem;
+      font-family: 'Gotham' !important;
+      text-transform: uppercase;
+      color: #000;
+    }
+    h3 {
+      font-size: 1.4rem;
+      font-family: 'Didot';
+      margin: 0px;
+    }
+    h4 {
+      font-size: 1rem;
+      font-family: 'Gotham';
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #000;
+    }
+    p {
+      font-size: 1rem;
+      font-family: 'Gotham' !important;
+      color: #767676;
+      line-height: 1.7 !important;
+    }
+    ul {
+      li {
+        font-size: 1rem;
+      }
+    }
+    a {
+      font-size: 1rem;
+    }
+    span {
+      font-size: 1rem;
+    }
+    img {
+      max-width: 100%;
+    }
+    .masthead {
+      min-height: 80vh;
+      position: relative;
+      h1,h4,p {
+        color: #fff;
+        position: relative;
+        z-index: 4;
+      }
+      h4 {
+        font-weight: 400;
+        margin-top: 160px;
+      }
+      &:after {
+        content:'';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.5);
+      }
+      @media all and (max-width: 767px) {
+
+      }
+    }
+    .vertical-carousel {
+      .slider {
+        .slick-slide {
+          margin-right: 10px !important;
+        }
+      }
+    }
+    .product-callout {
+      padding: 0px 8vw;
+      .right-aligned {
+
+      }
+      .images {
+        position: relative;
+        .background {
+          height: 460px; width: 340px;
+        }
+        .foreground {
+          height: 27vw;
+          width: 40vw;
+          position: absolute;
+          left: 15%;
+          top: 12.5%;
+        }
+      }
+      .content {
+        h4 {
+          font-family: 'Gotham';
+          font-size: .875rem;
+          color: #000;
+          text-transform: uppercase;
+          letter-spacing: 0;
+          margin: 0px 0px 4px;
+        }
+        h2 {
+          font-family: 'Gotham';
+          font-size: 24px;
+          color: #000000;
+          letter-spacing: 1.71px;
+          line-height: 33px;
+          text-transform: uppercase;
+          margin: 0px;
+        }
+        p {
+          font-family: 'Gotham';
+          font-size: 14px;
+          color: #767676;
+          letter-spacing: 0;
+          line-height: 28px;
+        }
+      }
+    }
+    .stats-wall {
+      h2 {
+        font-size: 3.5rem;
+        margin: 0px;
+        font-family: 'Gotham';
+        font-weight: 400;
+        line-height: 100%;
+      }
+      h4 {
+        margin: 0px;
+        font-family: 'Gotham';
+        font-weight: 600;
+        font-size: .875rem;
+        letter-spacing: 1px;
+      }
+      @media all and (max-width: 767px) {
+        .stat {
+          margin: 4vh auto;
+        }
+      }
+    }
+    .process-steps {
+      h2 {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+// Mobile styles
+@media all and (max-width: 767px) {
+  html {
+    body {
+      font-size: 50% !important;
+      section {
+        padding-top: 4vh !important;
+        padding-bottom: 4vh !important;
+      }
+      h1 {
+        font-size: 2.4rem;
+      }
+      .container {
+        padding-left: 4vw;
+        padding-right: 4vw;
+      }
+    }
+  }
+}

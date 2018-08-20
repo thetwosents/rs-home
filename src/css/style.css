@@ -1,0 +1,410 @@
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/**
+ * modules/mixins
+ * ---
+ */
+/**
+ * modules/fonts
+ * ---
+ * Declare fonts here
+ */
+/*
+@font-face {
+  font-family: "Font-Name";
+  src: url("fonts/font-name.eot");
+  src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-name.woff") format("woff"),
+    url("fonts/font-name.ttf") format("truetype"),
+    url("fonts/font-name.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Light.otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Medium.otf");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Didot";
+  src: url("fonts/Didot.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+/**
+ * partials/reset
+ * ---
+ * Reset file
+ * NOTE: also `normalize.css` is used
+ */
+*,
+*:after,
+*:before {
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+  font-size: 140%;
+  line-height: 1.5;
+  color: #767676;
+  background-color: #fff; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+a {
+  color: #767676;
+  text-decoration: none; }
+  a:focus, a:hover {
+    text-decoration: underline; }
+
+input[type="text"],
+input[type="search"] {
+  font-size: inherit;
+  line-height: inherit; }
+
+::selection {
+  background-color: #04A4CC;
+  color: #fff;
+  text-shadow: none; }
+
+/**
+ * partials/wordpress
+ * ---
+ * Wordpess core classes
+ */
+/**
+ * Alignment
+ */
+.alignnone {
+  margin: 5px 15px 15px 0; }
+
+.aligncenter {
+  display: block;
+  margin: 5px auto; }
+
+.alignright {
+  float: right;
+  margin: 5px 0 15px 15px; }
+
+.alignleft {
+  float: left;
+  margin: 5px 15px 15px 0; }
+
+/**
+ * Gallery & images
+ */
+.wp-caption {
+  background: #fff;
+  border: thin solid #F0F0F0;
+  max-width: 95%;
+  padding: 5px 5px;
+  text-align: center; }
+  .wp-caption img {
+    width: auto;
+    max-width: 98.5%;
+    height: auto;
+    border: 0 none;
+    padding: 0;
+    margin: 0; }
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  margin: 0;
+  padding: 0 5px 5px;
+  font-size: 140%;
+  line-height: 1.5; }
+
+/**
+ * partials/utils
+ * ---
+ * Utils classes
+ */
+.clear:before, .clear:after {
+  content: " ";
+  display: table; }
+
+.clear:after {
+  clear: both; }
+
+.reset-box {
+  padding: 0;
+  margin: 0; }
+
+/**
+ * partials/wrapper
+ * ---
+ */
+.wrapper {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative; }
+
+/**
+ * partials/header
+ * ---
+ */
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 5;
+  background: #fff; }
+
+.logo-img {
+  margin-top: 8px;
+  display: block;
+  max-width: 220px; }
+
+/**
+ * partials/nav
+ * ---
+ * Menus
+ */
+.nav ul {
+  list-style-type: none;
+  margin-top: 10px; }
+  .nav ul li {
+    display: inline-block;
+    margin: 0px 20px; }
+    .nav ul li:last-child {
+      margin-right: 0px; }
+    .nav ul li a {
+      text-transform: uppercase;
+      font-family: 'Gotham';
+      font-weight: 600;
+      font-size: .725rem;
+      color: #000; }
+
+/**
+ * partials/sidebar
+ * ---
+ */
+/**
+ * partials/footer
+ * ---
+ */
+/**
+ * partials/print
+ * ---
+ * Print version
+ * (from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css)
+ */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+  a,
+  a:visited {
+    text-decoration: underline; }
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+  tr,
+  img {
+    page-break-inside: avoid; }
+  img {
+    max-width: 100% !important; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+.jarallax {
+  position: relative;
+  z-index: 0; }
+
+.jarallax > .jarallax-img {
+  position: absolute;
+  object-fit: cover;
+  /* support for plugin https://github.com/bfred-it/object-fit-images */
+  font-family: 'object-fit: cover;';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
+html {
+  font-size: 100% !important; }
+  html body {
+    font-size: 100%; }
+    html body section {
+      padding-top: 9vh !important;
+      padding-bottom: 9vh !important; }
+    html body h1 {
+      font-size: 3rem;
+      font-family: 'Gotham';
+      line-height: 100%;
+      margin: 0px;
+      color: #000; }
+    html body h2 {
+      font-size: 2rem;
+      font-family: 'Gotham' !important;
+      text-transform: uppercase;
+      color: #000; }
+    html body h3 {
+      font-size: 1.4rem;
+      font-family: 'Didot';
+      margin: 0px; }
+    html body h4 {
+      font-size: 1rem;
+      font-family: 'Gotham';
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #000; }
+    html body p {
+      font-size: 1rem;
+      font-family: 'Gotham' !important;
+      color: #767676;
+      line-height: 1.7 !important; }
+    html body ul li {
+      font-size: 1rem; }
+    html body a {
+      font-size: 1rem; }
+    html body span {
+      font-size: 1rem; }
+    html body img {
+      max-width: 100%; }
+    html body .masthead {
+      min-height: 80vh;
+      position: relative; }
+      html body .masthead h1, html body .masthead h4, html body .masthead p {
+        color: #fff;
+        position: relative;
+        z-index: 4; }
+      html body .masthead h4 {
+        font-weight: 400;
+        margin-top: 160px; }
+      html body .masthead:after {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); }
+    html body .vertical-carousel .slider .slick-slide {
+      margin-right: 10px !important; }
+    html body .product-callout {
+      padding: 0px 8vw; }
+      html body .product-callout .images {
+        position: relative; }
+        html body .product-callout .images .background {
+          height: 460px;
+          width: 340px; }
+        html body .product-callout .images .foreground {
+          height: 27vw;
+          width: 40vw;
+          position: absolute;
+          left: 15%;
+          top: 12.5%; }
+      html body .product-callout .content h4 {
+        font-family: 'Gotham';
+        font-size: .875rem;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        margin: 0px 0px 4px; }
+      html body .product-callout .content h2 {
+        font-family: 'Gotham';
+        font-size: 24px;
+        color: #000000;
+        letter-spacing: 1.71px;
+        line-height: 33px;
+        text-transform: uppercase;
+        margin: 0px; }
+      html body .product-callout .content p {
+        font-family: 'Gotham';
+        font-size: 14px;
+        color: #767676;
+        letter-spacing: 0;
+        line-height: 28px; }
+    html body .stats-wall h2 {
+      font-size: 3.5rem;
+      margin: 0px;
+      font-family: 'Gotham';
+      font-weight: 400;
+      line-height: 100%; }
+    html body .stats-wall h4 {
+      margin: 0px;
+      font-family: 'Gotham';
+      font-weight: 600;
+      font-size: .875rem;
+      letter-spacing: 1px; }
+    @media all and (max-width: 767px) {
+      html body .stats-wall .stat {
+        margin: 4vh auto; } }
+    html body .process-steps h2 {
+      font-size: 1.6rem; }
+
+@media all and (max-width: 767px) {
+  html body {
+    font-size: 50% !important; }
+    html body section {
+      padding-top: 4vh !important;
+      padding-bottom: 4vh !important; }
+    html body h1 {
+      font-size: 2.4rem; }
+    html body .container {
+      padding-left: 4vw;
+      padding-right: 4vw; } }
+
+/*# sourceMappingURL=style.css.map */
