@@ -12,8 +12,23 @@
     li {
       display: inline-block;
       margin: 0px 20px;
+      position: relative;
+      &:hover {
+        border-bottom: 1px solid #000;
+        a {
+          text-decoration: none;
+        }
+      }
       &:last-child {
         margin-right: 0px;
+      }
+      ul {
+        display: none;
+        position: absolute;
+        left: 0px;
+        padding: 0px;
+        margin: 0px;
+        background: #fff;
       }
       a {
         text-transform: uppercase;
@@ -23,6 +38,9 @@
         color: #000;
       }
     }
+  }
+  @media all and (max-width: 767px) {
+    display: none;
   }
 }
 

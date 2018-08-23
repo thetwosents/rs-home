@@ -33,15 +33,14 @@
 			<header class="header clear" role="banner">
 
 				<div class="container">
-					<div class="row middle-xs">
+					<div class="row middle-xs center-xs">
 						<!-- logo -->
 						<!-- /logo -->
 						<div class="col-xs-12 col-md-3">
-							<img src="http://localhost:8888/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img">
+							<a href="<?php echo site_url(); ?>"><img src="http://localhost:8888/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
 						</div>
 						<div class="col-xs-12 col-md-9 center-xs end-md">
 							<div class="box">
-								<!-- nav -->
 								<nav class="nav" role="navigation">
 									<?php 
 
@@ -49,7 +48,6 @@
 
 									wp_nav_menu($args); ?>
 								</nav>
-								<!-- /nav -->
 							</div>
 						</div>
 					</div>

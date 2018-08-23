@@ -78,17 +78,21 @@ if (have_posts()) : while (have_posts()) : the_post();
     if( get_row_layout() == 'process_steps' )
       get_template_part('partials/section', 'process_steps');
 
+    // Our story module
+    if( get_row_layout() == 'our_story' )
+      get_template_part('partials/section', 'our_story');
+
     // Vertical carousel
     if( get_row_layout() == 'vertical_carousel' )
       get_template_part('partials/section', 'vertical_carousel');            
 
     // Large banner callout
-    if( get_row_layout() == 'large_banner_callout' )
-      get_template_part('partials/section', 'large_banner_callout');
+    if( get_row_layout() == 'large_callout' )
+      get_template_part('partials/section', 'large_callout');
 
     // CTA Banner
-    if( get_row_layout() == 'cta_banner' )
-      get_template_part('partials/section', 'cta_banner');
+    if( get_row_layout() == 'call_to_action' )
+      get_template_part('partials/section', 'call_to_action');
 
     // Stats wall
     if( get_row_layout() == 'stats_wall' )

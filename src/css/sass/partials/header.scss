@@ -12,6 +12,13 @@
   width: 100%;
   z-index: 5;
   background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  @media all and (max-width: 767px) {
+    text-align: center;
+    .logo-img {
+      margin: 16px auto 8px;
+    }
+  }
 }
 
 // Logo
@@ -21,4 +28,5 @@
   margin-top: 8px;
   display: block;
   max-width: 220px;
+
 }

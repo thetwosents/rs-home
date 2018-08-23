@@ -158,7 +158,7 @@ gulp.task( "envProduction", function() {
 });
 
 /** Livereload */
-gulp.task( "watch", [ "template", "styles", "jshint", "modernizr", "jquery", "normalize" ], function() {
+gulp.task( "watch", [ "template", "styles", "modernizr", "jquery", "normalize" ], function() {
 	var server = $.livereload;
 	server.listen();
 
@@ -179,7 +179,7 @@ gulp.task( "watch", [ "template", "styles", "jshint", "modernizr", "jquery", "no
 	], [ "styles" ] );
 
 	/** Watch for JSHint */
-	gulp.watch( "src/js/{!(lib)/*.js,*.js}", ["jshint"] );
+	// gulp.watch( "src/js/{!(lib)/*.js,*.js}", ["jshint"] );
 });
 
 /** Build */
