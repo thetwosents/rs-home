@@ -322,6 +322,21 @@ html body .product-callout {
     float: right; }
   html body .product-callout .right-aligned .foreground {
     margin-top: 12.5%; }
+  html body .product-callout.product-photos .foreground {
+    margin-top: 0px;
+    top: 0px;
+    height: 35vw;
+    width: 30vw;
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    -moz-background-size: contain !important; }
+  html body .product-callout.product-photos .background {
+    height: 360px;
+    width: 520px;
+    margin-top: 60px;
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    -moz-background-size: contain !important; }
   html body .product-callout .images {
     position: relative; }
     html body .product-callout .images .background {

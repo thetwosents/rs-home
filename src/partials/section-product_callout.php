@@ -8,6 +8,8 @@ $content = get_sub_field('content');
 
 $images = get_sub_field('images'); // make gallery
 
+$product_photos = get_sub_field('product_photos');
+
 $have_primary_cta = get_sub_field('have_primary_cta'); // true / false
 $primary_cta_text = get_sub_field('primary_cta_text');
 $primary_cta_link = get_sub_field('primary_cta_link');
@@ -18,7 +20,7 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
 
 ?>
 
-<section class="product-callout">
+<section class="product-callout <?php if ($product_photos) {echo 'product-photos'; } ?>">
   <div class="row middle-xs">
 
   <?php if ($left_or_right_side === 'left') { ?>

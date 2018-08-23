@@ -136,6 +136,25 @@
                             "endpoint": 0
                         },
                         {
+                            "key": "field_5b7ef58bec07f",
+                            "label": "Product photos?",
+                            "name": "product_photos?",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
                             "key": "field_5b6c78c8abb36",
                             "label": "Images",
                             "name": "images",
@@ -1271,5 +1290,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1534790088
+    "modified": 1535047098
 }
