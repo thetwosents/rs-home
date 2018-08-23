@@ -24,7 +24,7 @@
     });
 
     $('.brand-wall .logo-slider').slick({
-      slidesToShow: 4,
+      slidesToShow: 6,
       slidesToScroll: 1,
       autoplay: true,
       speed: 600,
