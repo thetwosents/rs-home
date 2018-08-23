@@ -36,7 +36,8 @@
       slidesToScroll: 1,
       autoplay: true,
       speed: 600,
-      autoplaySpeed: 2200
+      autoplaySpeed: 2200,
+      fade: true
     });
 
     AOS.init({
