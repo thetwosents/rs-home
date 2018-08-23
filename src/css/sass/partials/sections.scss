@@ -148,7 +148,13 @@ html {
     .brand-wall {
       .logo-slider {
         .slick-slide {
-          margin-right: 10px;
+          margin-right: 20px !important;
+          .logo {
+            width: 75% !important;
+          }
+          img {
+            height: auto !important;
+          }
         }
       }
     }

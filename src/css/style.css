@@ -401,7 +401,11 @@ html body .call-to-action-banner {
       color: #fff; }
 
 html body .brand-wall .logo-slider .slick-slide {
-  margin-right: 10px; }
+  margin-right: 20px !important; }
+  html body .brand-wall .logo-slider .slick-slide .logo {
+    width: 75% !important; }
+  html body .brand-wall .logo-slider .slick-slide img {
+    height: auto !important; }
 
 html body .large-callout .box {
   position: relative; }
