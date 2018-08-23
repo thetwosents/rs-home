@@ -47,7 +47,7 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
 
     <?php } else { ?>
 
-      <div class="col-xs-12 col-md-5 content last-xs first-md" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="col-xs-12 col-md-4 content last-xs first-md" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <?php if ($above_title) {
           echo '<h4>' . $above_title . '</h4>';
         } ?>
@@ -60,7 +60,7 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
           echo '<p>' . $content . '</p>';
         } ?>
       </div>
-      <div class="col-xs-12 col-md-offset-1 col-md-5 right-aligned first-xs last-md">
+      <div class="col-xs-12 col-md-8 right-aligned first-xs last-md">
         <?php if( $images ): ?>
             <div class="images">
               <div class="background" style="background: url('<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>') no-repeat center center;  background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;"></div>
