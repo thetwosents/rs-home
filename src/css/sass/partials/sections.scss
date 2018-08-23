@@ -28,6 +28,9 @@ html {
       }
     }
     .vertical-carousel {
+      .slick-list {
+        overflow: visible !important;
+      }
       .slider {
         .slick-slide {
           margin-right: 10px !important;
