@@ -1,5 +1,7 @@
 html {
   body {
+    overflow-x: hidden;
+    width: 100%;
     .masthead {
       min-height: 80vh;
       position: relative;
@@ -35,7 +37,7 @@ html {
         .slick-slide {
           margin-right: 10px !important;
           &:nth-child(even) {
-            margin-top: 10px !important;
+            margin-top: 20px !important;
           }
         }
       }
