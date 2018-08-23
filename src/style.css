@@ -338,6 +338,10 @@ html body .vertical-carousel .slider .slick-slide {
 
 html body .product-callout {
   padding: 0px 8vw; }
+  html body .product-callout .right-aligned .background {
+    float: right; }
+  html body .product-callout .right-aligned .foreground {
+    margin-top: 12.5vh; }
   html body .product-callout .images {
     position: relative; }
     html body .product-callout .images .background {
@@ -348,7 +352,7 @@ html body .product-callout {
       width: 40vw;
       position: absolute;
       left: 15%;
-      top: 12.5%; }
+      top: 12.5; }
   html body .product-callout .content h4 {
     font-family: 'Gotham';
     font-size: .875rem;

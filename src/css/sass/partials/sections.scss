@@ -37,7 +37,12 @@ html {
     .product-callout {
       padding: 0px 8vw;
       .right-aligned {
-
+        .background {
+          float:right;
+        }
+        .foreground {
+          margin-top: 12.5vh;
+        }
       }
       .images {
         position: relative;
@@ -50,7 +55,7 @@ html {
           width: 40vw;
           position: absolute;
           left: 15%;
-          top: 12.5%;
+          top: 12.5;
         }
       }
       .content {
