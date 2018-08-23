@@ -421,7 +421,7 @@ html body .call-to-action-banner {
       color: #fff; }
 
 html body .brand-wall .logo-slider .slick-slide {
-  margin-right: 20px !important; }
+  margin: 0px 20px !important; }
   html body .brand-wall .logo-slider .slick-slide .logo {
     width: 75% !important; }
   html body .brand-wall .logo-slider .slick-slide img {
