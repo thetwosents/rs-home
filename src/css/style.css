@@ -318,6 +318,8 @@ html body .vertical-carousel .slick-list {
 
 html body .vertical-carousel .slider .slick-slide {
   margin-right: 10px !important; }
+  html body .vertical-carousel .slider .slick-slide:nth-child(even) {
+    margin-top: 10px !important; }
 
 html body .product-callout {
   padding: 0px 8vw; }
