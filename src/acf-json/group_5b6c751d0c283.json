@@ -1257,6 +1257,15 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_5b7f3d4bdd542": {
+                    "key": "layout_5b7f3d4bdd542",
+                    "name": "image_callout",
+                    "label": "Image callout",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Section",
@@ -1290,5 +1299,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1535047098
+    "modified": 1535065531
 }

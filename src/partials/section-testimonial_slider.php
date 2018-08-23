@@ -26,7 +26,8 @@
 
           <?php
 
-             endwhile;
+          endwhile;
+          
           else :
 
           endif;
