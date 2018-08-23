@@ -1,8 +1,6 @@
-
-
 <section class="testimonial-slider">
   <div class="container">
-    <div class="row center-xs">
+    <div class="row center-xs middle-xs">
       <div class="col-xs-12 col-md-10">
         <div class="slider">
 
@@ -23,6 +21,7 @@
             <h1 class="quote">
               <?php echo $quote; ?>
             </h1>
+            <h4><?php echo $author; ?></h4>
           </div>
 
           <?php
