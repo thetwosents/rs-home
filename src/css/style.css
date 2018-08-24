@@ -527,7 +527,7 @@ html {
         background: #fff;
         color: #000; }
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1441px) {
   html {
     font-size: 160% !important; }
     html body {
