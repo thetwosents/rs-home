@@ -6,6 +6,7 @@ $section_title = get_sub_field('section_title');
 $category = get_sub_field('category');
 $number_of_posts = get_sub_field('number_of_posts');
 
+$version = get_sub_field('version');
 
 $across = get_sub_field('across');
 
@@ -13,6 +14,8 @@ $query = new WP_Query( array( 'cat' => $category->term_id ) );
 
 
 ?>
+
+<?php if ($version === 'feed') { ?>
 
 <section class="articles-by-category">
   <div class="container">
@@ -53,6 +56,50 @@ $query = new WP_Query( array( 'cat' => $category->term_id ) );
     </div>
   </div> 
 </section>
+
+<?php } else if ($version === 'pull-quotes') { ?>
+
+<section class="pull-quotes">
+  <div class="container">
+    <div class="row center-xs middle-xs">
+
+  <?php if ( $query->have_posts() ) : ?>
+
+      <!-- the loop -->
+      <?php while ( $query->have_posts() ) : $query->the_post();  $post_date = get_the_date();
+
+        $url = get_field('url');
+
+        ?>
+
+        <div class="col-xs-12 col-md-4">
+          <div class="box">
+            <article>
+              <a href="<?php echo $url; ?>" target="_blank">
+                <img src="http://placehold.it/150x60">
+                <p><?php echo get_the_content(); ?></p>
+              </a>
+            </article>
+          </div>
+        </div>
+
+      <?php endwhile; ?>
+          <!-- end of the loop -->
+
+          <?php wp_reset_postdata(); ?>
+
+        <?php else : ?>
+        <?php endif; ?>
+
+    </div>
+  </div>
+</section>
+
+<?php } ?>
+
+
+      
+
 
 
 
