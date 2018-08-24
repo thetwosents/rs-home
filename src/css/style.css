@@ -527,6 +527,16 @@ html {
         background: #fff;
         color: #000; }
 
+@media all and (min-width: 1440px) {
+  html {
+    font-size: 160% !important; }
+    html body {
+      font-size: 160%; }
+      html body .container {
+        padding: 0px 12vw; }
+      html body section {
+        padding: 0px 12vw; } }
+
 @media all and (max-width: 767px) {
   html body {
     font-size: 50% !important; }

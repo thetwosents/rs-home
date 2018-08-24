@@ -119,6 +119,21 @@ html {
   }
 }
 
+@media all and (min-width: 1440px) {
+  html {
+    font-size: 160% !important;
+    body {
+      font-size: 160%;
+      .container {
+        padding: 0px 12vw;
+      }
+      section {
+        padding: 0px 12vw;
+      }
+    }
+  }
+}
+
 // Mobile styles
 @media all and (max-width: 767px) {
   html {

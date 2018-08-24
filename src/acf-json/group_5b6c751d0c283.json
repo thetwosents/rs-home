@@ -1263,7 +1263,32 @@
                     "name": "image_callout",
                     "label": "Image callout",
                     "display": "block",
-                    "sub_fields": [],
+                    "sub_fields": [
+                        {
+                            "key": "field_5b7f3d69dd543",
+                            "label": "Image",
+                            "name": "image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "full",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
                     "min": "",
                     "max": ""
                 }
@@ -1299,5 +1324,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1535065531
+    "modified": 1535066295
 }
