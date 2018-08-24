@@ -29,6 +29,20 @@
 		<!-- wrapper -->
 		<!-- <div class="wrapper"> -->
 
+			<!-- <div class="topbar" data-aos="fade-up" data-aos-anchor-placement="center-top">
+				<div class="container">
+					<div class="row middle-xs end-xs">
+						<div class="col-xs-12 col-md-12">
+							<nav>
+								<ul>
+									<li><a href="">LikeToKnow.it</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
 			<!-- header -->
 			<header class="header clear" role="banner">
 

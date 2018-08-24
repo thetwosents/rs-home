@@ -1,7 +1,7 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 				<div class="container">
-					<div class="row top-xs">
+					<div class="row top-xs center-xs start-md">
 
 						<div class="col-xs-12 col-md-3">
 
