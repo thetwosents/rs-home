@@ -380,18 +380,18 @@ html body {
       margin: 0px 0px 4px; }
     html body .product-callout .content h2 {
       font-family: 'Gotham';
-      font-size: 24px;
+      font-size: 1.4rem;
       color: #000000;
       letter-spacing: 1.71px;
-      line-height: 33px;
+      line-height: 1.4;
       text-transform: uppercase;
       margin: 0px; }
     html body .product-callout .content p {
       font-family: 'Gotham';
-      font-size: 14px;
+      font-size: .875rem;
       color: #767676;
       letter-spacing: 0;
-      line-height: 28px; }
+      line-height: 1.4; }
     @media all and (max-width: 767px) {
       html body .product-callout .images .background {
         height: 240px;
