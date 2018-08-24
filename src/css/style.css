@@ -540,7 +540,9 @@ html {
           padding: 0vh 12vw !important; }
       html body .product-callout .images .foreground {
         height: 19vw;
-        width: 30vw; } }
+        width: 30vw; }
+      html body .masthead {
+        min-height: 1px; } }
 
 @media all and (max-width: 767px) {
   html body {
