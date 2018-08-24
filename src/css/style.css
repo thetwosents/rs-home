@@ -542,9 +542,7 @@ html {
         height: 19vw;
         width: 30vw; }
       html body .masthead {
-        min-height: 1px; }
-        html body .masthead h4 {
-          margin-top: 0px !important; } }
+        min-height: 1px; } }
 
 @media all and (max-width: 767px) {
   html body {
