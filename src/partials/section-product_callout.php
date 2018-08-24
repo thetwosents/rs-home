@@ -26,7 +26,7 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
 
   <?php if ($left_or_right_side === 'left') { ?>
 
-    <div class="col-xs-12 col-md-8 col-lg-8">
+    <div class="col-xs-12 col-md-8 col-lg-7">
       <?php if( $images ): ?>
           <div class="images">
             <div class="background jarallax" data-jarallax data-speed="0.96">
