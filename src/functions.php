@@ -412,6 +412,22 @@ add_shortcode( 'html5_shortcode_demo_2', 'html5_shortcode_demo_2' ); // Place [h
     Custom Post Types
 \*------------------------------------*/
 
+function create_post_type() {
+  register_post_type( 'rs_verticals',
+    array(
+      'labels' => array(
+        'name' => __( 'Verticals' ),
+        'singular_name' => __( 'Vertical' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'supports' => array('title', 'editor', 'thumbnail')
+    )
+  );
+}
+add_action( 'init', 'create_post_type' );
+
+
 /*------------------------------------*\
     ShortCode Functions
 \*------------------------------------*/

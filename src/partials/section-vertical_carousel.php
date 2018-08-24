@@ -5,9 +5,14 @@ $title = get_sub_field('title');
 $subtext = get_sub_field('subtext');
 $vertical_title = '';
 
+
+$args = array(
+    'post_type' => 'rs_verticals',
+    'posts_per_page' => -1
+  );
+
+$verticals = new WP_Query($args);
 ?>
-
-
 
 <section class="vertical-carousel">
   <div class="container">
@@ -21,15 +26,21 @@ $vertical_title = '';
       </div>
     </div>
     <div class="slider">
-      <div><img src="http://placehold.it/400x600"></div>
-      <div><img src="http://placehold.it/400x600"></div>
-      <div><img src="http://placehold.it/400x600"></div>
-      <div><img src="http://placehold.it/400x600"></div>
-      <div><img src="http://placehold.it/400x600"></div>
-      <div><img src="http://placehold.it/400x600"></div>
-      <div><img src="http://placehold.it/400x600"></div>
-      <div><img src="http://placehold.it/400x600"></div>
-      <div><img src="http://placehold.it/400x600"></div>
+
+      <?php if ( $verticals->have_posts() ) : ?>
+
+        <!-- the loop -->
+        <?php while ( $verticals->have_posts() ) : $verticals->the_post(); 
+        $image = get_the_post_thumbnail_url();
+        ?>
+          <div><img src="<?php echo $image; ?>"><h4><?php echo get_the_title(); ?></h4></div>
+        <?php endwhile; ?>
+        <!-- end of the loop -->
+
+        <?php wp_reset_postdata(); ?>
+
+      <?php else : ?>
+      <?php endif; ?>
     </div>
   </div>
 </section>

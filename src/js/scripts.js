@@ -5,7 +5,7 @@
 		// DOM ready, take it away
 
     $('.vertical-carousel .slider').slick({
-      slidesToShow: 7,
+      slidesToShow: 6,
       slidesToScroll: 1,
       autoplay: true,
       speed: 600,
