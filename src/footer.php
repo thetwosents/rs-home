@@ -3,7 +3,7 @@
 				<div class="container">
 					<div class="row top-xs center-xs center-md">
 						<div class="col-xs-12 col-md-3">
-							<a href="<?php echo site_url(); ?>"><img src="http://localhost:8888/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
+							<a href="<?php echo site_url(); ?>"><img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
 							<p>Copyright 2018 rewardStyle.com | <a href="">Privacy Policy</a></p>
 						</div>
 					</div>
