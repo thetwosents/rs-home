@@ -11,9 +11,10 @@ $have_primary_cta = get_sub_field('have_primary_cta'); // true / false
 $primary_cta_text = get_sub_field('primary_cta_text');
 $primary_cta_link = get_sub_field('primary_cta_link');
 
+
 ?>
 
-<section data-jarallax data-speed="0.2" class="masthead jarallax">
+<section data-jarallax disableParallax="/iPad|iPhone|iPod|Android/" data-speed="0.2" class="masthead jarallax">
   <img class="jarallax-img" src="<?php echo $image; ?>" alt="">
   <div class="container">
     <div class="row middle-xs">
@@ -22,7 +23,13 @@ $primary_cta_link = get_sub_field('primary_cta_link');
           <h4><?php echo $above_title; ?></h4>
           <h1><?php echo $title; ?></h1>
           <p><?php echo $content; ?></p>
-          <a href="" class="btn btn-secondary">Get Started</a>
+
+          <?php if ($have_primary_cta) { ?>
+            <a href="<?php echo $primary_cta_link; ?>" class="btn btn-secondary"><?php echo $primary_cta_text; ?></a>
+
+
+          <?php } ?>
+          
         </div>
       </div>
     </div>

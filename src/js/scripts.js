@@ -49,6 +49,15 @@
       offset: 120
     });
 
+    jarallax(document.querySelectorAll('.jarallax'), {
+        disableParallax: function () {
+            return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
+        },
+        disableVideo: function () {
+            return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
+        }
+    });
+
     // (function() {
     //   //add css file to dom so IE8 recognizes it
     //   document.write('<link href="https://rewardstyle.bamboohr.com/css/jobs-embed.css" rel="stylesheet" />');
