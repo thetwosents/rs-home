@@ -592,6 +592,9 @@ html body {
   height: 100%;
   z-index: -1; }
 
+.error-page .container .row {
+  min-height: 30vh; }
+
 html {
   font-size: 100% !important; }
   html body {

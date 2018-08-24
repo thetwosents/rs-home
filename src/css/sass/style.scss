@@ -38,6 +38,14 @@
     z-index: -1;
 }
 
+.error-page {
+  .container {
+    .row {
+      min-height: 30vh;
+    }
+  }
+}
+
 html {
   font-size: 100% !important;
   body {

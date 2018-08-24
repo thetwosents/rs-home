@@ -5,7 +5,7 @@
 $section_title = get_sub_field('section_title');
 $category = get_sub_field('category');
 $number_of_posts = get_sub_field('number_of_posts');
-$post_date = get_the_date();
+
 
 $across = get_sub_field('across');
 
@@ -26,7 +26,7 @@ $query = new WP_Query( array( 'cat' => $category->term_id ) );
     <?php if ( $query->have_posts() ) : ?>
 
       <!-- the loop -->
-      <?php while ( $query->have_posts() ) : $query->the_post(); 
+      <?php while ( $query->have_posts() ) : $query->the_post();  $post_date = get_the_date();
 
         $url = get_field('url');
       ?>
