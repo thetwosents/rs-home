@@ -281,6 +281,10 @@ input[type="search"] {
   padding: 4vh 0px; }
   .footer p {
     font-size: .725rem; }
+    .footer p a {
+      font-size: .725rem; }
+  .footer .logo-img {
+    margin: 8px auto; }
 
 /**
  * partials/print
