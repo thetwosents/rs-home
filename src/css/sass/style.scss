@@ -134,6 +134,14 @@ html {
           padding: 0vh 12vw !important;
         }
       }
+      .product-callout {
+        .images {
+          .foreground {
+            height: 19vw;
+            width: 30vw;
+          }
+        }
+      }
     }
   }
 }
