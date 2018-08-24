@@ -552,7 +552,8 @@ html {
     html body {
       font-size: 160%; }
       html body .container {
-        padding: 0px 12vw; }
+        padding: 0px 12vw;
+        width: auto; }
       html body section {
         padding: 0px 12vw; } }
 
