@@ -22,6 +22,7 @@ $primary_cta_link = get_sub_field('primary_cta_link');
           <h4><?php echo $above_title; ?></h4>
           <h1><?php echo $title; ?></h1>
           <p><?php echo $content; ?></p>
+          <a href="" class="btn">Get Started</a>
         </div>
       </div>
     </div>

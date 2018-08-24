@@ -211,6 +211,20 @@ input[type="search"] {
         text-decoration: none; }
     .nav ul li:last-child {
       margin-right: 0px; }
+      .nav ul li:last-child a {
+        background: #000;
+        color: #fff;
+        display: inline-block;
+        padding: 8px 20px;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out; }
+        .nav ul li:last-child a:hover {
+          text-decoration: none;
+          background: #fff;
+          color: #000; }
+      .nav ul li:last-child:hover {
+        border-bottom: 0px; }
     .nav ul li ul {
       display: none;
       position: absolute;
@@ -298,7 +312,7 @@ html body {
   html body .masthead {
     min-height: 80vh;
     position: relative; }
-    html body .masthead h1, html body .masthead h4, html body .masthead p {
+    html body .masthead h1, html body .masthead h4, html body .masthead p, html body .masthead a {
       color: #fff;
       position: relative;
       z-index: 4; }
@@ -525,7 +539,8 @@ html {
       -moz-transition: all .2s ease-in-out; }
       html body .btn:hover {
         background: #fff;
-        color: #000; }
+        color: #000;
+        text-decoration: none; }
 
 @media all and (min-width: 1441px) {
   html {
