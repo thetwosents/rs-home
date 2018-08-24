@@ -29,19 +29,20 @@
 		<!-- wrapper -->
 		<!-- <div class="wrapper"> -->
 
-			<!-- <div class="topbar" data-aos="fade-up" data-aos-anchor-placement="center-top">
+			<div class="topbar" data-aos="fade-up" data-aos-anchor-placement="center-top">
 				<div class="container">
 					<div class="row middle-xs end-xs">
 						<div class="col-xs-12 col-md-12">
-							<nav>
+						<?php // do_action('wpml_add_language_selector'); ?>
+							<!-- <nav>
 								<ul>
 									<li><a href="">LikeToKnow.it</a></li>
 								</ul>
-							</nav>
+							</nav> -->
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 
 			<!-- header -->
 			<header class="header clear" role="banner">
@@ -51,7 +52,7 @@
 						<!-- logo -->
 						<!-- /logo -->
 						<div class="col-xs-12 col-md-3">
-							<a href="<?php echo site_url(); ?>"><img src="http://localhost:8888/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
+							<a href="<?php echo site_url(); ?>"><img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
 						</div>
 						<div class="col-xs-12 col-md-9 center-xs end-md">
 							<div class="box">
