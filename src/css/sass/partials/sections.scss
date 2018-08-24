@@ -233,5 +233,54 @@ html {
         height: 400px;
       }
     }
+    .values-callout {
+      .container {
+        position: relative;
+        min-height: 80vh;
+        .images {
+          max-width: 50%;
+          position: absolute;
+          right: 0px;
+          top: 0px;
+          margin-top: 20.5%;
+          img {
+            display: block;
+            margin: 8px auto;
+          }
+          .row {
+          }
+        }
+        p {
+          max-width: 55%;
+          margin-bottom: 40px;
+        }
+      }
+    }
+    .perks-wall {
+      margin-top: 60px;
+      .perks {
+        margin-top: 60px;
+        .perk {
+          margin: 20px auto 40px;
+          h4 {
+            font-size: 1rem;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+          }
+          p {
+            font-size: .725rem;
+          }
+          .top-line {
+            height: 3px;
+            background: #000;
+            width: 50%;
+          }
+        }
+      }
+      .perk-gallery {
+        height: 400px;
+        width: 90%;
+      }
+    }
   }
 }

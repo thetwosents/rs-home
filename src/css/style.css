@@ -507,6 +507,40 @@ html body {
   html body .large-callout .bottom-img {
     width: 625px;
     height: 400px; }
+  html body .values-callout .container {
+    position: relative;
+    min-height: 80vh; }
+    html body .values-callout .container .images {
+      max-width: 50%;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      margin-top: 20.5%; }
+      html body .values-callout .container .images img {
+        display: block;
+        margin: 8px auto; }
+    html body .values-callout .container p {
+      max-width: 55%;
+      margin-bottom: 40px; }
+  html body .perks-wall {
+    margin-top: 60px; }
+    html body .perks-wall .perks {
+      margin-top: 60px; }
+      html body .perks-wall .perks .perk {
+        margin: 20px auto 40px; }
+        html body .perks-wall .perks .perk h4 {
+          font-size: 1rem;
+          letter-spacing: 1px;
+          margin-bottom: 8px; }
+        html body .perks-wall .perks .perk p {
+          font-size: .725rem; }
+        html body .perks-wall .perks .perk .top-line {
+          height: 3px;
+          background: #000;
+          width: 50%; }
+    html body .perks-wall .perk-gallery {
+      height: 400px;
+      width: 90%; }
 
 .jarallax {
   position: relative;
@@ -586,7 +620,8 @@ html {
         text-decoration: none; }
       html body .btn.btn-secondary {
         background: #fff;
-        color: #000; }
+        color: #000;
+        border: 1px solid #000 !important; }
         html body .btn.btn-secondary:hover {
           background: #000;
           color: #fff; }
