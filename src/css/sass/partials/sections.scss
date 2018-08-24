@@ -282,5 +282,29 @@ html {
         width: 90%;
       }
     }
+    .articles-by-category {
+      article {
+        margin-bottom: 20px;
+        a {
+          text-decoration: none;
+          h4 {
+            margin-bottom: 8px;
+            font-size: .725rem;
+            letter-spacing: 1px;
+          }
+          h2 {
+            transition: all .2s ease-in-out;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            margin-top: 0px;
+          }
+          &:hover {
+            h2 {
+              opacity: .9;
+            }
+          }
+        }
+      }
+    }
   }
 }

@@ -541,6 +541,21 @@ html body {
     html body .perks-wall .perk-gallery {
       height: 400px;
       width: 90%; }
+  html body .articles-by-category article {
+    margin-bottom: 20px; }
+    html body .articles-by-category article a {
+      text-decoration: none; }
+      html body .articles-by-category article a h4 {
+        margin-bottom: 8px;
+        font-size: .725rem;
+        letter-spacing: 1px; }
+      html body .articles-by-category article a h2 {
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        margin-top: 0px; }
+      html body .articles-by-category article a:hover h2 {
+        opacity: .9; }
 
 .jarallax {
   position: relative;
