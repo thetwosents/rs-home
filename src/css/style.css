@@ -385,10 +385,7 @@ html body {
     html body .product-callout.product-photos .background {
       height: 360px;
       width: 520px;
-      margin-top: 60px;
-      -webkit-background-size: contain !important;
-      background-size: contain !important;
-      -moz-background-size: contain !important; }
+      margin-top: 60px; }
     html body .product-callout .images {
       position: relative; }
       html body .product-callout .images .background {

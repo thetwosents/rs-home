@@ -9,7 +9,7 @@ $subheader = get_sub_field('subheading');
   <div class="container">
     <div class="row middle-xs center-xs">
       <div class="col-xs-12 col-md-10">
-        <div class="box" data-jarallax-element="-35">
+        <div class="box">
           <h2><?php echo $header; ?></h2>
           <p><?php echo $subheader; ?></p>
         </div>
