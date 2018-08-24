@@ -554,7 +554,9 @@ html {
       html body .container {
         width: 100% !important; }
       html body section {
-        padding: 0px 12vw !important; } }
+        padding: 9vh 12vw !important; }
+        html body section.masthead {
+          padding: 0vh 12vw !important; } }
 
 @media all and (max-width: 767px) {
   html body {
