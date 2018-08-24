@@ -131,7 +131,7 @@ html {
       section {
         padding: 9vh 12vw !important;
         &.masthead {
-          padding: 0vh 12vw !important;
+          padding: 4vh 12vw !important;
         }
       }
       .product-callout {
@@ -144,6 +144,9 @@ html {
       }
       .masthead {
         min-height: 1px;
+        h4 {
+          margin-top: 0px !important;
+        }
       }
     }
   }

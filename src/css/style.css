@@ -537,12 +537,14 @@ html {
       html body section {
         padding: 9vh 12vw !important; }
         html body section.masthead {
-          padding: 0vh 12vw !important; }
+          padding: 4vh 12vw !important; }
       html body .product-callout .images .foreground {
         height: 19vw;
         width: 30vw; }
       html body .masthead {
-        min-height: 1px; } }
+        min-height: 1px; }
+        html body .masthead h4 {
+          margin-top: 0px !important; } }
 
 @media all and (max-width: 767px) {
   html body {
