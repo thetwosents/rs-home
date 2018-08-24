@@ -15,4 +15,22 @@
   .logo-img {
     margin: 8px auto;
   }
+  nav {
+    ul {
+      margin: 0px;
+      padding: 0px;
+      list-style-type: none;
+      li {
+        display: inline-block;
+        margin: 8px 20px;
+        a {
+          text-transform: uppercase;
+          font-size: .725rem;
+          color: #767676;
+          font-family: 'Gotham';
+          font-weight: 600;
+        }
+      }
+    }
+  }
 }

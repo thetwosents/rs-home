@@ -2,8 +2,18 @@
 			<footer class="footer" role="contentinfo">
 				<div class="container">
 					<div class="row top-xs center-xs center-md">
-						<div class="col-xs-12 col-md-3">
+						<div class="col-xs-12 col-md-10">
 							<a href="<?php echo site_url(); ?>"><img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
+							<nav>
+							<?php 
+
+									$args = array('menu' => 'Footer' );
+
+									wp_nav_menu($args); 
+
+							?>
+							</nav>
+
 							<p>Copyright 2018 rewardStyle.com | <a href="">Privacy Policy</a></p>
 						</div>
 					</div>

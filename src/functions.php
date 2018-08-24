@@ -83,6 +83,24 @@ function html5blank_nav() {
         'items_wrap'      => '<ul>%3$s</ul>',
         'depth'           => 0,
         'walker'          => '',
+        ),
+    array(
+        'theme_location'  => 'footer-menu',
+        'menu'            => '',
+        'container'       => 'div',
+        'container_class' => 'menu-{menu slug}-container',
+        'container_id'    => '',
+        'menu_class'      => 'menu',
+        'menu_id'         => '',
+        'echo'            => true,
+        'fallback_cb'     => 'wp_page_menu',
+        'before'          => '',
+        'after'           => '',
+        'link_before'     => '',
+        'link_after'      => '',
+        'items_wrap'      => '<ul>%3$s</ul>',
+        'depth'           => 0,
+        'walker'          => '',
         )
     );
 }
@@ -157,6 +175,8 @@ function html5blank_styles() {
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
         'header-menu'  => esc_html( 'Header Menu', 'html5blank' ), // Main Navigation
+
+        'footer-menu'  => esc_html( 'Footer Menu', 'html5blank' ),
         'extra-menu'   => esc_html( 'Extra Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
     ) );
 }
