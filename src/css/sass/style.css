@@ -548,7 +548,7 @@ html body {
   html body .employee-spotlight {
     background: #f2f2f2; }
     html body .employee-spotlight h2 {
-      font-size: 3rem;
+      font-size: 4rem;
       font-family: 'Didot' !important;
       font-weight: 300;
       font-style: italic;
@@ -556,6 +556,12 @@ html body {
       margin-bottom: 0px; }
     html body .employee-spotlight h4 {
       margin-top: 0px; }
+  html body .instagram-feed h2 {
+    font-family: 'Didot' !important;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 300;
+    margin: 30px auto; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
     html body .articles-by-category article a {

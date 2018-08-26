@@ -14,7 +14,7 @@ $primary_cta_link = get_sub_field('primary_cta_link');
 
 ?>
 
-<section data-jarallax disableParallax="/iPad|iPhone|iPod|Android/" data-speed="0.2" class="masthead jarallax">
+<section data-jarallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-speed="0.2" class="masthead jarallax">
   <img class="jarallax-img" src="<?php echo $image; ?>" alt="">
   <div class="container">
     <div class="row middle-xs">

@@ -285,7 +285,7 @@ html {
     .employee-spotlight {
       background: #f2f2f2;
       h2 {
-        font-size: 3rem;
+        font-size: 4rem;
         font-family: 'Didot' !important;
         font-weight: 300;
         font-style: italic;
@@ -294,6 +294,15 @@ html {
       }
       h4 {
         margin-top: 0px;
+      }
+    }
+    .instagram-feed {
+      h2 {
+        font-family: 'Didot' !important;
+        text-transform: none;
+        font-style: italic;
+        font-weight:300;
+        margin: 30px auto;
       }
     }
     .articles-by-category {

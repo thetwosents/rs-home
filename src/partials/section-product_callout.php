@@ -22,18 +22,18 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
 
 <section class="product-callout <?php if ($product_photos) {echo 'product-photos'; } ?>">
   <div class="container" data-jarallax-element="-140">
-  <div class="row middle-xs">
+    <div class="row middle-xs">
 
   <?php if ($left_or_right_side === 'left') { ?>
 
     <div class="col-xs-12 col-md-8 col-lg-7">
       <?php if( $images ): ?>
           <div class="images">
-            <div class="background jarallax" data-jarallax data-speed="0.96">
-              <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+            <div class="background jarallax" data-jarallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-speed="0.96">
+              <img class="jarallax-img" data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
             </div>
-            <div class="foreground jarallax" data-jarallax data-speed="0.96">
-            <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+            <div class="foreground jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
+            <img class="jarallax-img" data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
             </div>
           </div>
       <?php endif; ?>
@@ -70,10 +70,10 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
       <div class="col-xs-12 col-md-8 col-lg-8 right-aligned first-xs last-md">
         <?php if( $images ): ?>
             <div class="images">
-              <div class="background jarallax" data-jarallax data-speed="0.96">
+              <div class="background jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
                 <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
               </div>
-              <div class="foreground jarallax" data-jarallax data-speed="0.96">
+              <div class="foreground jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
               <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
               </div>
             </div>

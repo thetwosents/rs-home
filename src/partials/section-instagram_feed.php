@@ -3,7 +3,7 @@
 ?>
 <section class="instagram-feed">
 	<div class="container">
-		<div class="row">
+		<div class="row center-xs middle-xs">
 			<div class="col-xs-12 col-md-12">
 				<div class="box">
 					<h1>rewardStyle Family</h1>
@@ -14,7 +14,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12">
-				
+				<?php echo do_shortcode('[instagram-feed]'); ?>
 			</div>
 		</div>
 	</div>
