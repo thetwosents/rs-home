@@ -35,6 +35,11 @@ $images = get_sub_field('images');
               $perk_title = get_sub_field('perk_title');
               $perk_content = get_sub_field('perk_content'); ?>
 
+              
+            <?php 
+
+            if ($count < 9) { ?>
+
               <div class="col-xs-12 col-md-3">
                 <div class="box perk">
                   <div class="top-line"></div>
@@ -43,7 +48,8 @@ $images = get_sub_field('images');
                 </div>
               </div> 
 
-            <?php 
+
+            <?php  }
 
             if ($count === 8) { ?>
               </div>
@@ -55,12 +61,24 @@ $images = get_sub_field('images');
                   </div>
                 </div> 
                 <div class="col-xs-12 col-md-6">
+                  <div class="row">
+            <?php }
 
+            if ($count > 8) { ?>
+
+              <div class="col-xs-12 col-md-6">
+                <div class="box perk">
+                  <div class="top-line"></div>
+                  <h4><?php echo $perk_title; ?></h4>
+                  <p><?php echo $perk_content; ?></p>
                 </div>
-              </div>
+              </div> 
+
             <?php }
 
             $count++;
+
+
          endwhile;
 
       else :
