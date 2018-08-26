@@ -26,8 +26,6 @@ $primary_cta_link = get_sub_field('primary_cta_link');
 
           <?php if ($have_primary_cta) { ?>
             <a href="<?php echo $primary_cta_link; ?>" class="btn btn-secondary"><?php echo $primary_cta_text; ?></a>
-
-
           <?php } ?>
           
         </div>
