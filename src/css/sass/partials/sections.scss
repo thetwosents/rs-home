@@ -191,6 +191,12 @@ html {
       }
     }
     .brand-wall {
+      h2 {
+        font-family: 'Didot' !important;
+        font-style: italic;
+        margin-bottom: 40px;
+        font-weight: 300;
+      }
       .logo-slider {
         .slick-slide {
           margin: 0px 20px !important;
