@@ -681,7 +681,7 @@ html {
           background: #000;
           color: #fff; }
 
-@media all and (min-width: 1600px) {
+@media all and (min-width: 1800px) {
   html {
     font-size: 160% !important; }
     html body {
