@@ -282,6 +282,20 @@ html {
         width: 90%;
       }
     }
+    .employee-spotlight {
+      background: #f2f2f2;
+      h2 {
+        font-size: 3rem;
+        font-family: 'Didot' !important;
+        font-weight: 300;
+        font-style: italic;
+        text-transform: none;
+        margin-bottom: 0px;
+      }
+      h4 {
+        margin-top: 0px;
+      }
+    }
     .articles-by-category {
       article {
         margin-bottom: 20px;

@@ -94,6 +94,10 @@ if (have_posts()) : while (have_posts()) : the_post();
     if( get_row_layout() == 'call_to_action' )
       get_template_part('partials/section', 'call_to_action');
 
+    // CTA Banner
+    if( get_row_layout() == 'employee_spotlight' )
+      get_template_part('partials/section', 'employee_spotlight');
+
     // Stats wall
     if( get_row_layout() == 'stats_wall' )
       get_template_part('partials/section', 'stats_wall');

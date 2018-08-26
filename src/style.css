@@ -560,6 +560,17 @@ html body {
     html body .perks-wall .perk-gallery {
       height: 400px;
       width: 90%; }
+  html body .employee-spotlight {
+    background: #f2f2f2; }
+    html body .employee-spotlight h2 {
+      font-size: 3rem;
+      font-family: 'Didot' !important;
+      font-weight: 300;
+      font-style: italic;
+      text-transform: none;
+      margin-bottom: 0px; }
+    html body .employee-spotlight h4 {
+      margin-top: 0px; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
     html body .articles-by-category article a {
