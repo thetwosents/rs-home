@@ -17,9 +17,15 @@
       -webkit-transition: all .2s ease-in-out;
       -moz-transition: all .2s ease-in-out;
       &:hover {
-        border-bottom: 1px solid #000;
+        // border-bottom: 1px solid #000;
         a {
           text-decoration: none;
+          font-weight: 600;
+        }
+      }
+      &.current-menu-item {
+        a {
+          font-weight: 600;
         }
       }
       &:last-child {
@@ -53,9 +59,10 @@
       a {
         text-transform: uppercase;
         font-family: 'Gotham';
-        font-weight: 600;
+        font-weight: 300;
         font-size: .725rem;
         color: #000;
+        letter-spacing: 1.7px;
       }
     }
   }

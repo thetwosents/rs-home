@@ -37,7 +37,8 @@
       autoplay: true,
       speed: 600,
       autoplaySpeed: 2200,
-      fade: true
+      fade: true,
+      dots: true
     });
 
     $('.press-timeline .slider').slick({

@@ -40,7 +40,7 @@
 @font-face {
   font-family: "Gotham";
   src: url("fonts/Gotham-Light.otf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal; }
 
 @font-face {
@@ -242,10 +242,11 @@ input[type="search"] {
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out; }
-    .nav ul li:hover {
-      border-bottom: 1px solid #000; }
-      .nav ul li:hover a {
-        text-decoration: none; }
+    .nav ul li:hover a {
+      text-decoration: none;
+      font-weight: 600; }
+    .nav ul li.current-menu-item a {
+      font-weight: 600; }
     .nav ul li:last-child {
       margin-right: 0px; }
       .nav ul li:last-child a {
@@ -272,9 +273,10 @@ input[type="search"] {
     .nav ul li a {
       text-transform: uppercase;
       font-family: 'Gotham';
-      font-weight: 600;
+      font-weight: 300;
       font-size: .725rem;
-      color: #000; }
+      color: #000;
+      letter-spacing: 1.7px; }
 
 @media all and (max-width: 767px) {
   .nav {
@@ -425,6 +427,9 @@ html body {
     @media all and (max-width: 767px) {
       html body .masthead {
         padding-bottom: 8vh !important; } }
+  html body .vertical-carousel h4 {
+    font-weight: 300;
+    margin-top: 8px; }
   html body .vertical-carousel .slick-list {
     overflow: visible !important; }
   html body .vertical-carousel .slider .slick-slide {
@@ -469,10 +474,10 @@ html body {
         top: 12.5%; }
     html body .product-callout .content h4 {
       font-family: 'Gotham';
+      font-weight: 300;
       font-size: .875rem;
       color: #000;
       text-transform: uppercase;
-      letter-spacing: 0;
       margin: 0px 0px 4px; }
     html body .product-callout .content h2 {
       font-family: 'Gotham';
@@ -752,6 +757,7 @@ html {
       font-family: 'Gotham' !important;
       text-transform: uppercase;
       color: #000;
+      letter-spacing: 1.7px;
       margin: 0px; }
     html body h3 {
       font-size: 1.4rem;
@@ -760,15 +766,15 @@ html {
     html body h4 {
       font-size: 1rem;
       font-family: 'Gotham';
-      letter-spacing: 3px;
+      letter-spacing: 1.7px;
       text-transform: uppercase;
       color: #000; }
     html body p {
       font-size: 1rem;
       font-family: 'Gotham' !important;
       color: #767676;
-      line-height: 1.7 !important;
-      font-weight: 600; }
+      line-height: 1.9 !important;
+      font-weight: 400; }
     html body ul li {
       font-size: 1rem; }
     html body a {
@@ -806,11 +812,9 @@ html {
 
 @media all and (min-width: 1800px) {
   html {
-    font-size: 160% !important; }
+    font-size: 100% !important; }
     html body {
-      font-size: 160%; }
-      html body .container {
-        width: 100% !important; }
+      font-size: 100%; }
       html body section {
         padding: 9vh 12vw !important; }
         html body section.masthead {
