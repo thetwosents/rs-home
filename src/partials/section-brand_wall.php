@@ -11,8 +11,8 @@ $size = 'medium';
   <div class="container">
     <div class="row middle-xs center-xs">
       <div class="col-xs-12">
-        <h1><?php echo $title; ?></h1>
-        <h2><?php echo $subtitle; ?></h2>
+        <h1 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><?php echo $title; ?></h1>
+        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><?php echo $subtitle; ?></h2>
       </div>
     </div>
     <div class="row middle-xs">
