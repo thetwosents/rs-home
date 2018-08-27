@@ -20,7 +20,7 @@
 						?>
 
 						<div class="col-xs-12 col-md-3">
-							<div class="box">
+							<div class="box team-member">
 								<img src="<?php echo $image; ?>">
 								<p><?php echo $title; ?></p>
 								<h4><?php echo $name; ?></h4>

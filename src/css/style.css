@@ -610,6 +610,10 @@ html body {
     font-size: .725rem; }
   html body .team-member-wall h4 {
     margin-top: 0px; }
+  html body .team-member-bio.left .content {
+    padding-left: 40px; }
+  html body .team-member-bio.right .content {
+    padding-right: 40px; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
     html body .articles-by-category article a {

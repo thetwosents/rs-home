@@ -12,7 +12,7 @@ $left_or_right = get_sub_field('left_or_right');
 
 
       <?php if ($left_or_right === 'left') { ?>
-        <section class="team-member-bio">
+        <section class="team-member-bio left">
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-md-4 col-md-offset-1">
@@ -30,7 +30,7 @@ $left_or_right = get_sub_field('left_or_right');
         </section>
 
       <?php } else { ?>
-        <section class="team-member-bio">
+        <section class="team-member-bio right">
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-md-6 col-md-offset-1">
