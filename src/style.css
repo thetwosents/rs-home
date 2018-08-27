@@ -673,7 +673,8 @@ html {
       font-size: 1rem;
       font-family: 'Gotham' !important;
       color: #767676;
-      line-height: 1.7 !important; }
+      line-height: 1.7 !important;
+      font-weight: 600; }
     html body ul li {
       font-size: 1rem; }
     html body a {
