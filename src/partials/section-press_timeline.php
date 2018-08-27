@@ -7,7 +7,7 @@
 		<div class="row middle-xs center-xs">
 			<div class="col-xs-1">
 				<div class="circle prev">
-
+					<i class="fas fa-angle-left"></i>
 				</div>
 			</div>
 			<div class="col-xs-10">
@@ -44,7 +44,7 @@
 			</div>
 			<div class="col-xs-1 end-xs">
 				<div class="circle next">
-
+					<i class="fas fa-angle-right"></i>
 				</div>
 			</div>
 		</div>

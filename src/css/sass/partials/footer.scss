@@ -29,6 +29,31 @@
           color: #767676;
           font-family: 'Gotham';
           font-weight: 600;
+          transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+          &:hover {
+            color: #000;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .social {
+    margin: 30px auto 0px;
+    padding: 0px;
+    list-style-type:none;
+    li {
+      display: inline-block;
+      a {
+        padding: 16px;
+        font-size: 1.2rem;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        &:hover {
+          color: #000;
         }
       }
     }

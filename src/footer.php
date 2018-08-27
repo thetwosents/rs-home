@@ -14,6 +14,13 @@
 							?>
 							</nav>
 
+							<ul class="social">
+								<li><a href=""><i class="fab fa-facebook"></i></a></li>
+								<li><a href=""><i class="fab fa-twitter"></i></a></li>
+								<li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href=""><i class="fab fa-instagram"></i></a></li>
+							</ul>
+
 							<p>Copyright 2018 rewardStyle.com | <a href="">Privacy Policy</a></p>
 						</div>
 					</div>

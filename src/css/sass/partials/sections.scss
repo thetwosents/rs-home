@@ -330,9 +330,16 @@ html {
         -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out;
         cursor: pointer;
+        i {
+          // color: #fff;
+          // font-size: 1.4rem;
+        }
         &:hover {
           background: #fff;
           border: 1px solid #000;
+          i {
+            color: #000;
+          }
         }
       }
       img {
