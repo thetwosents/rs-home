@@ -491,8 +491,9 @@ html body {
   html body .brand-wall h2 {
     font-family: 'Didot' !important;
     font-style: italic;
-    margin-bottom: 40px;
-    font-weight: 300; }
+    margin-bottom: 60px;
+    font-weight: 300;
+    text-transform: none; }
   html body .brand-wall .logo-slider .slick-slide {
     margin: 0px 20px !important; }
     html body .brand-wall .logo-slider .slick-slide .logo {
