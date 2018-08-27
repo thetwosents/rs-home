@@ -60,8 +60,7 @@ $across = get_sub_field('across');
 
 <section class="pull-quotes">
   <div class="container">
-    <div class="row center-xs middle-xs">
-
+    <div class="row center-xs top-xs">
   <?php if ( $query->have_posts() ) : ?>
 
       <!-- the loop -->
