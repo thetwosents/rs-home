@@ -25,8 +25,8 @@
 
     $('.brand-wall .logo-slider').slick({
       slidesToShow: 6,
-      slidesToScroll: 1,
       autoplay: true,
+      fade: true,
       speed: 600,
       autoplaySpeed: 2200
     });
