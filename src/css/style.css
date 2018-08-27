@@ -617,6 +617,9 @@ html body {
     padding-right: 40px; }
   html body .team-member-wall .team-member {
     margin-bottom: 30px; }
+  html body .pull-quotes article p {
+    font-family: 'Didot' !important;
+    font-style: italic; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
     html body .articles-by-category article a {

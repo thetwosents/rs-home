@@ -10,12 +10,11 @@ $version = get_sub_field('version');
 
 $across = get_sub_field('across');
 
-$query = new WP_Query( array( 'cat' => $category->term_id ) );
-
-
 ?>
 
-<?php if ($version === 'feed') { ?>
+<?php if ($version === 'feed') { $query = new WP_Query( array( 'cat' => $category->term_id ) ); ?>
+
+
 
 <section class="articles-by-category">
   <div class="container">
@@ -57,7 +56,7 @@ $query = new WP_Query( array( 'cat' => $category->term_id ) );
   </div> 
 </section>
 
-<?php } else if ($version === 'pull-quotes') { ?>
+<?php } else if ($version === 'pull-quotes') { $query = new WP_Query( array( 'cat' => $category->term_id, 'tag' => 'pull-quotes' ) ); ?>
 
 <section class="pull-quotes">
   <div class="container">

@@ -391,6 +391,14 @@ html {
         margin-bottom: 30px;
       }
     }
+    .pull-quotes {
+      article {
+        p {
+          font-family: 'Didot' !important;
+          font-style: italic;
+        }
+      }
+    }
     .articles-by-category {
       article {
         margin-bottom: 20px;
