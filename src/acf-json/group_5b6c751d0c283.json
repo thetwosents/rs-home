@@ -472,6 +472,15 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_5b833d6e4532c": {
+                    "key": "layout_5b833d6e4532c",
+                    "name": "press_timeline",
+                    "label": "Press Timeline",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_5b82fec110d41": {
                     "key": "layout_5b82fec110d41",
                     "name": "instagram_feed",
@@ -1997,5 +2006,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1535326364
+    "modified": 1535327615
 }
