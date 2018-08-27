@@ -318,6 +318,12 @@ input[type="search"] {
         -moz-transition: all .2s ease-in-out; }
         .footer .social li a:hover {
           color: #000; }
+  @media all and (max-width: 767px) {
+    .footer nav ul {
+      margin-top: 30px; }
+      .footer nav ul li {
+        display: block;
+        margin-bottom: 30px; } }
 
 /**
  * partials/print
@@ -548,6 +554,16 @@ html body {
     html body .values-callout .container p {
       max-width: 55%;
       margin-bottom: 40px; }
+  @media all and (max-width: 767px) {
+    html body .values-callout .container .images {
+      position: relative;
+      max-width: 100%; }
+    html body .values-callout .container .btn {
+      display: block;
+      text-align: center;
+      line-height: 40px; }
+    html body .values-callout .container p {
+      max-width: 100%; } }
   html body .perks-wall {
     margin-top: 60px; }
     html body .perks-wall .perks {

@@ -262,6 +262,22 @@ html {
           margin-bottom: 40px;
         }
       }
+      @media all and (max-width: 767px) {
+        .container {
+          .images {
+            position: relative;
+            max-width: 100%;
+          }
+          .btn {
+            display: block;
+            text-align: center;
+            line-height: 40px;
+          }
+          p {
+            max-width: 100%;
+          }
+        }
+      }
     }
     .perks-wall {
       margin-top: 60px;
