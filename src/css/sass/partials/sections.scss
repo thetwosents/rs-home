@@ -3,7 +3,7 @@ html {
     overflow-x: hidden;
     width: 100%;
     .masthead {
-      min-height: 80vh;
+      min-height: 700px;
       position: relative;
       h1,h4,p,a {
         color: #fff;
@@ -27,6 +27,7 @@ html {
       }
       @media all and (max-width: 767px) {
         padding-bottom: 8vh !important;
+        min-height: 80vh;
       }
     }
     .vertical-carousel {

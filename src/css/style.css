@@ -405,7 +405,7 @@ html body {
   overflow-x: hidden;
   width: 100%; }
   html body .masthead {
-    min-height: 80vh;
+    min-height: 700px;
     position: relative; }
     html body .masthead h1, html body .masthead h4, html body .masthead p, html body .masthead a {
       color: #fff;
@@ -426,7 +426,8 @@ html body {
       background: rgba(0, 0, 0, 0.5); }
     @media all and (max-width: 767px) {
       html body .masthead {
-        padding-bottom: 8vh !important; } }
+        padding-bottom: 8vh !important;
+        min-height: 80vh; } }
   html body .vertical-carousel h4 {
     font-weight: 300;
     margin-top: 8px; }
@@ -804,8 +805,7 @@ html {
         text-decoration: none; }
       html body .btn.btn-secondary {
         background: #fff;
-        color: #000;
-        border: 1px solid #000 !important; }
+        color: #000; }
         html body .btn.btn-secondary:hover {
           background: #000;
           color: #fff; }
