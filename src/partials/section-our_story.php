@@ -9,7 +9,7 @@
 
 <section class="our-story">
   <div class="container">
-    <div class="row center-xs">
+    <div class="row center-xs middle-xs">
       <div class="col-xs-12 col-md-12">
 
       </div>
@@ -23,7 +23,7 @@
       </div>
       <div class="col-xs-12 col-md-7 col-md-offset-1">
         <div class="box">
-          <img src="http://placehold.it/600x400">
+          <img src="http://placehold.it/800x400">
         </div>
       </div>
     </div>
