@@ -396,11 +396,22 @@ html {
         margin-bottom: 48px;
       }
       article {
+        img {
+          transition: all .2s ease-in-out;
+          -webkit-transition: all .2s ease-in-out;
+          -moz-transition: all .2s ease-in-out;
+        }
+        &:hover {
+          img {
+            opacity: .8;
+          }
+        }
         p {
           font-family: 'Didot' !important;
           font-style: italic;
-          max-width: 75%;
+          max-width: 90%;
           margin: 16px auto;
+          color: #000;
         }
       }
     }
