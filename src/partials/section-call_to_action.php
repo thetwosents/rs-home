@@ -24,11 +24,11 @@ $img = get_sub_field('image');
 
           <?php if ($is_external) { ?>
 
-            <a class="btn" href="<?php echo $link; ?>" target="_blank"><?php echo $cta_text; ?></a>
+            <a class="btn btn-secondary" href="<?php echo $link; ?>" target="_blank"><?php echo $cta_text; ?></a>
 
           <?php } else { ?>
 
-            <a class="btn" href="<?php echo $link; ?>"><?php echo $cta_text; ?></a>
+            <a class="btn btn-secondary" href="<?php echo $link; ?>"><?php echo $cta_text; ?></a>
 
           <?php } ?>          
         </div>

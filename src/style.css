@@ -822,13 +822,15 @@ html {
       html body .btn:hover {
         background: #fff;
         color: #000;
-        text-decoration: none; }
+        text-decoration: none;
+        font-weight: 600; }
       html body .btn.btn-secondary {
         background: #fff;
         color: #000; }
         html body .btn.btn-secondary:hover {
           background: #000;
-          color: #fff; }
+          color: #fff;
+          font-weight: 600; }
 
 @media all and (min-width: 1800px) {
   html {
