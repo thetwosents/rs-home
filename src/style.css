@@ -633,6 +633,8 @@ html body {
     padding-left: 40px; }
   html body .team-member-bio.right .content {
     padding-right: 40px; }
+  html body .team-member-wall .team-member {
+    margin-bottom: 30px; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
     html body .articles-by-category article a {
