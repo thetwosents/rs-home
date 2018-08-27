@@ -472,6 +472,215 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_5b837bbcf8ece": {
+                    "key": "layout_5b837bbcf8ece",
+                    "name": "team_member_bio",
+                    "label": "Team Member Bio",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5b837bc4f8ecf",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5b837bcff8ed0",
+                            "label": "Name",
+                            "name": "name",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5b837bd8f8ed1",
+                            "label": "Bio",
+                            "name": "bio",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5b837be4f8ed2",
+                            "label": "Image",
+                            "name": "image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5b837c14fd177",
+                            "label": "Left or right",
+                            "name": "left_or_right",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "left": "Left",
+                                "right": "Right"
+                            },
+                            "default_value": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5b837e49914b0": {
+                    "key": "layout_5b837e49914b0",
+                    "name": "team_member_wall",
+                    "label": "Team Member Wall",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5b837e51914b1",
+                            "label": "Team members",
+                            "name": "team_members",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "table",
+                            "button_label": "Add Team Member",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5b837e5c914b2",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5b837e64914b3",
+                                    "label": "Name",
+                                    "name": "name",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5b837e6d914b4",
+                                    "label": "Image",
+                                    "name": "image",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "url",
+                                    "preview_size": "thumbnail",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_5b833d6e4532c": {
                     "key": "layout_5b833d6e4532c",
                     "name": "press_timeline",
@@ -2006,5 +2215,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1535327615
+    "modified": 1535344336
 }

@@ -42,7 +42,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-1">
+			<div class="col-xs-1 end-xs">
 				<div class="circle next">
 
 				</div>
