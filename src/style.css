@@ -427,6 +427,13 @@ html body {
     margin-right: 10px !important; }
     html body .vertical-carousel .slider .slick-slide:nth-child(even) {
       margin-top: 20px !important; }
+  @media all and (max-width: 767px) {
+    html body .vertical-carousel .slick-list {
+      overflow: hidden !important; }
+    html body .vertical-carousel .slider .slick-slide {
+      margin-right: 10px !important; }
+      html body .vertical-carousel .slider .slick-slide:nth-child(even) {
+        margin-top: 20px !important; } }
   html body .product-callout {
     padding: 0px 8vw; }
     html body .product-callout .right-aligned .background {

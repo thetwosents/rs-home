@@ -41,6 +41,19 @@ html {
           }
         }
       }
+      @media all and (max-width: 767px) {
+        .slick-list {
+          overflow: hidden !important;
+        }
+        .slider {
+          .slick-slide {
+            margin-right: 10px !important;
+            &:nth-child(even) {
+              margin-top: 20px !important;
+            }
+          }
+        }
+      }
     }
     .product-callout {
       padding: 0px 8vw;
