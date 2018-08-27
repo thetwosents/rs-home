@@ -59,6 +59,11 @@
       offset: 120
     });
 
+    $('.menu-toggle').click(function(){
+      console.log('Hey');
+      $('.nav').toggleClass('active');
+    });
+
     jarallax(document.querySelectorAll('.jarallax'), {
         disableParallax: function () {
             return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);

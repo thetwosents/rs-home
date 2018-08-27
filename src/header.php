@@ -48,7 +48,9 @@
 
 			<!-- header -->
 			<header class="header clear" role="banner">
-
+				<div class="menu-toggle">
+					<i class="fas fa-bars"></i>
+				</div>
 				<div class="container">
 					<div class="row middle-xs center-xs">
 						<!-- logo -->

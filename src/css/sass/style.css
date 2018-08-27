@@ -178,11 +178,22 @@ input[type="search"] {
   z-index: 5;
   background: #fff;
   border-bottom: 1px solid #e8e8e8; }
+  .header .menu-toggle {
+    display: none; }
   @media all and (max-width: 767px) {
     .header {
       text-align: center; }
       .header .logo-img {
-        margin: 16px auto 8px; } }
+        margin: 16px auto 8px; }
+      .header .menu-toggle {
+        position: absolute;
+        right: 24px;
+        top: 25%;
+        display: block;
+        z-index: 8; }
+        .header .menu-toggle i {
+          opacity: .25;
+          font-size: 2rem; } }
 
 .topbar {
   display: none;
@@ -262,7 +273,20 @@ input[type="search"] {
       color: #000; }
 @media all and (max-width: 767px) {
   .nav {
-    display: none; } }
+    display: none;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    background: rgba(252, 252, 252, 0.95); }
+    .nav.active {
+      display: block; }
+    .nav ul {
+      width: 100%;
+      padding: 0px;
+      margin: 0px; }
+      .nav ul li {
+        display: block;
+        margin: 32px auto; } }
 
 /**
  * partials/sidebar

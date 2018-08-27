@@ -61,6 +61,22 @@
   }
   @media all and (max-width: 767px) {
     display: none;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    background: rgba(252,252,252,.95);
+    &.active {
+      display: block;
+    }
+    ul {
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      li {
+        display: block;
+        margin: 32px auto;
+      }
+    }
   }
 }
 
