@@ -392,10 +392,15 @@ html {
       }
     }
     .pull-quotes {
+      .col-md-4 {
+        margin-bottom: 48px;
+      }
       article {
         p {
           font-family: 'Didot' !important;
           font-style: italic;
+          max-width: 75%;
+          margin: 16px auto;
         }
       }
     }
