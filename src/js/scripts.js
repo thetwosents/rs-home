@@ -60,7 +60,6 @@
     });
 
     $('.menu-toggle').click(function(){
-      console.log('Hey');
       $('.nav').toggleClass('active');
     });
 
