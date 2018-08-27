@@ -40,6 +40,16 @@
       fade: true
     });
 
+    $('.press-timeline .slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      speed: 600,
+      fade: true,
+      prevArrow: '.prev',
+      nextArrow: '.next'
+    });
+
     AOS.init({
       duration: 1200,
       delay: 0,

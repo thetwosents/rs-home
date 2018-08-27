@@ -571,6 +571,22 @@ html body {
   html body .press-timeline {
     width: 100%;
     position: relative; }
+    html body .press-timeline .circle {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      line-height: 48px;
+      text-align: center;
+      background: #000;
+      position: relative;
+      z-index: 8;
+      transition: all .2s ease-in-out;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      cursor: pointer; }
+      html body .press-timeline .circle:hover {
+        background: #fff;
+        border: 1px solid #000; }
     html body .press-timeline img {
       position: relative;
       z-index: 5;
