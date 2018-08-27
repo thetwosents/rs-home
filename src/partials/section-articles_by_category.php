@@ -56,7 +56,7 @@ $across = get_sub_field('across');
   </div> 
 </section>
 
-<?php } else if ($version === 'pull-quotes') { $query = new WP_Query( array( 'cat' => $category->term_id, 'tag' => 'pull-quotes' ) ); ?>
+<?php } else if ($version === 'pull-quotes') { $query = new WP_Query( array( 'tag' => 'pull-quotes' ) ); ?>
 
 <section class="pull-quotes">
   <div class="container">
