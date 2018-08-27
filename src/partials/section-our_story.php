@@ -15,13 +15,13 @@
       </div>
     </div>
     <div class="row middle-xs">
-      <div class="col-xs-12 col-md-3 col-md-offset-1">
+      <div class="col-xs-12 col-md-4 col-md-offset-1">
         <div class="box">
           <h2><?php echo $title; ?></h2>
           <p><?php echo $content; ?></p>
         </div>
       </div>
-      <div class="col-xs-12 col-md-8">
+      <div class="col-xs-12 col-md-7">
         <div class="box">
           <img src="http://placehold.it/600x400">
         </div>
