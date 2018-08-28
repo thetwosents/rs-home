@@ -1,4 +1,4 @@
-<?php 
+\<?php 
 /* 
 Template name: Customizable Page
 */
@@ -14,8 +14,7 @@ if (have_posts()) : while (have_posts()) : the_post();
     // loop through all the rows of flexible content
     while ( have_rows('page_content') ) : the_row();
 
-    // Product Callout
-    if( get_row_layout() == 'product_callout' )
+    // Product Callout if( get_row_layout() == 'product_callout' )
       get_template_part('partials/section', 'product_callout');
 
     // Articles by category
@@ -93,6 +92,10 @@ if (have_posts()) : while (have_posts()) : the_post();
     // CTA Banner
     if( get_row_layout() == 'call_to_action' )
       get_template_part('partials/section', 'call_to_action');
+
+    // Join the family
+    if( get_row_layout() == 'join_the_family' )
+      get_template_part('partials/section', 'join_the_family');
 
     // CTA Banner
     if( get_row_layout() == 'employee_spotlight' )

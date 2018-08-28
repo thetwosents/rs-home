@@ -472,6 +472,73 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_5b848cc96265e": {
+                    "key": "layout_5b848cc96265e",
+                    "name": "join_the_family",
+                    "label": "Join The Family",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5b848cd16265f",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5b848cd862660",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5b848cde62661",
+                            "label": "Content",
+                            "name": "content",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_5b837bbcf8ece": {
                     "key": "layout_5b837bbcf8ece",
                     "name": "team_member_bio",
@@ -2215,5 +2282,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1535344336
+    "modified": 1535413593
 }
