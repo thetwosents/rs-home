@@ -41,6 +41,15 @@
       dots: true
     });
 
+    $('.become-rs-influencer .slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 600,
+      autoplaySpeed: 2200,
+      dots: true
+    });
+
     $('.press-timeline .slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,

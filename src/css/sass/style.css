@@ -513,6 +513,10 @@ html body {
         width: auto; }
       html body .product-callout .content {
         margin-top: 4vh; } }
+  html body .become-rs-influencer .content .box {
+    padding: 0px 40px; }
+  html body .become-rs-influencer .seperator {
+    margin-top: 30px; }
   html body .testimonial-slider .quote {
     font-family: 'Didot';
     font-style: italic;

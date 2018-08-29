@@ -90,6 +90,10 @@ if (have_posts()) : while (have_posts()) : the_post();
     if( get_row_layout() == 'vertical_carousel' )
       get_template_part('partials/section', 'vertical_carousel');            
 
+    // Become RS Influencer
+    if( get_row_layout() == 'become_rs_influencer' )
+      get_template_part('partials/section', 'become_rs_influencer');
+
     // Large banner callout
     if( get_row_layout() == 'large_callout' )
       get_template_part('partials/section', 'large_callout');
