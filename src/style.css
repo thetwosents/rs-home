@@ -453,6 +453,8 @@ html body {
     height: 400px; }
   html body .side-by-side p {
     max-width: 90%; }
+  html body .company-stats .stat {
+    margin: 20px auto; }
   html body .vertical-carousel h4 {
     font-weight: 300;
     margin-top: 8px; }

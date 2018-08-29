@@ -30,7 +30,7 @@ $content = get_sub_field('content');
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6 content">
-				<div class="box">
+				<div class="box" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 					<?php echo $content; ?>
 				</div>
 			</div>

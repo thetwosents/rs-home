@@ -448,6 +448,15 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_5b869f8586abd": {
+                    "key": "layout_5b869f8586abd",
+                    "name": "company_stats",
+                    "label": "Company Stats",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_5b6c999b75262": {
                     "key": "layout_5b6c999b75262",
                     "name": "articles_by_category",
@@ -2527,5 +2536,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1535540974
+    "modified": 1535549330
 }
