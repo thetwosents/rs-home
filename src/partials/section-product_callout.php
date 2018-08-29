@@ -21,7 +21,7 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
 ?>
 
 <section class="product-callout <?php if ($product_photos) {echo 'product-photos'; } ?>">
-  <div class="container" data-jarallax-element="-140">
+  <div class="container">
     <div class="row middle-xs">
 
   <?php if ($left_or_right_side === 'left') { ?>

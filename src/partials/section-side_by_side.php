@@ -13,7 +13,7 @@ $left_or_right = get_sub_field('left_or_right');
 
 <section class="side-by-side">
 	<div class="container">
-		<div class="row middle-xs">
+		<div class="row top-xs">
 
 			<?php if ($left_or_right === 'left') { ?> 
 
@@ -30,7 +30,7 @@ $left_or_right = get_sub_field('left_or_right');
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="box">
-						<div class="jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
+						<div class="jarallax">
 							<img class="jarallax-img" src="<?php echo $image; ?>">
 						</div>
 					</div>
@@ -39,7 +39,7 @@ $left_or_right = get_sub_field('left_or_right');
 			<?php } else { ?>
 				<div class="col-xs-12 col-md-6">
 					<div class="box">
-						<div class="jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
+						<div class="jarallax" >
 							<img class="jarallax-img" src="<?php echo $image; ?>">
 						</div>
 					</div>
