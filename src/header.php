@@ -31,16 +31,16 @@
 		<!-- wrapper -->
 		<!-- <div class="wrapper"> -->
 
-			<div class="topbar" data-aos="fade-up" data-aos-anchor-placement="center-top">
+			<div class="topbar">
 				<div class="container">
 					<div class="row middle-xs end-xs">
 						<div class="col-xs-12 col-md-12">
-						<?php // do_action('wpml_add_language_selector'); ?>
-							<!-- <nav>
+						<?php do_action('wpml_add_language_selector'); ?>
+							<nav>
 								<ul>
 									<li><a href="">LikeToKnow.it</a></li>
 								</ul>
-							</nav> -->
+							</nav>
 						</div>
 					</div>
 				</div>

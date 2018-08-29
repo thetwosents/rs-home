@@ -226,7 +226,8 @@ input[type="search"] {
   right: 0px;
   width: 100%;
   background: #fff;
-  z-index: 5; }
+  z-index: 8;
+  height: 30px; }
   .topbar ul {
     margin: 0px;
     padding: 0px;

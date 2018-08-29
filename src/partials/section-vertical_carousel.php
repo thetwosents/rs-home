@@ -8,7 +8,8 @@ $vertical_title = '';
 
 $args = array(
     'post_type' => 'rs_verticals',
-    'posts_per_page' => -1
+    'posts_per_page' => -1,
+    'orderby' => 'menu_order'
   );
 
 $verticals = new WP_Query($args);
