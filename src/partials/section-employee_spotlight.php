@@ -13,7 +13,7 @@ $testimonials = get_sub_field('testimonials');
 						<div>
 							<div class="row">
 								<div class="col-xs-12 col-md-3">
-									<img src="http://placehold.it/400x500">
+									<img src="https://placehold.it/400x500">
 								</div>
 								<div class="col-xs-12 col-md-offset-1 col-md-8">
 									<h2>Chelsee</h2>
@@ -30,7 +30,7 @@ $testimonials = get_sub_field('testimonials');
 						<div>
 							<div class="row">
 								<div class="col-xs-12 col-md-3">
-									<img src="http://placehold.it/400x500">
+									<img src="https://placehold.it/400x500">
 								</div>
 								<div class="col-xs-12 col-md-offset-1 col-md-8">
 									<h2>Chelsee</h2>
