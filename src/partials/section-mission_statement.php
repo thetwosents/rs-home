@@ -2,6 +2,7 @@
 
 $header = get_sub_field('heading');
 $subheader = get_sub_field('subheading');
+$isLarge = get_sub_field('is_large');
 
 ?>
 
@@ -11,7 +12,12 @@ $subheader = get_sub_field('subheading');
       <div class="col-xs-12 col-md-10">
         <div class="box">
           <h2><?php echo $header; ?></h2>
-          <p><?php echo $subheader; ?></p>
+          <?php if ($isLarge) { ?>
+            <p class="subheading"><?php echo $subheader; ?></p>
+          <?php } else { ?>
+            <p><?php echo $subheader; ?></p>
+          <?php } ?>
+          
         </div>
       </div>
     </div>  

@@ -68,7 +68,7 @@
         disableParallax: function () {
             return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
         },
-        disableVideo: function () {
+      disableVideo: function () {
             return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
         }
     });

@@ -1,4 +1,4 @@
-\<?php 
+<?php 
 /* 
 Template name: Customizable Page
 */
@@ -14,12 +14,17 @@ if (have_posts()) : while (have_posts()) : the_post();
     // loop through all the rows of flexible content
     while ( have_rows('page_content') ) : the_row();
 
-    // Product Callout if( get_row_layout() == 'product_callout' )
+    // Product Callout 
+    if( get_row_layout() == 'product_callout' )
       get_template_part('partials/section', 'product_callout');
 
     // Articles by category
     if( get_row_layout() == 'articles_by_category' )
       get_template_part('partials/section', 'articles_by_category');
+
+    // Side by side
+    if( get_row_layout() == 'side_by_side' )
+      get_template_part('partials/section', 'side_by_side');
 
     // Mission Statement
     if( get_row_layout() == 'mission_statement' )

@@ -16,7 +16,7 @@ $images = get_sub_field('images');
         <p><?php echo $content; ?></p>
       </div>
       <div class="col-xs-12 col-md-2">
-        <img src="http://placehold.it/300x360">
+        <img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/RS-Press-Logos-FC-MOST-INNOVATIVE.jpg">
       </div>
     </div>
     <div class="row perks">

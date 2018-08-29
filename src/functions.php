@@ -124,11 +124,9 @@ function html5blank_header_scripts() {
                 'html5blankscripts',
                 get_template_directory_uri() . '/js/scripts.js',
                 array(
-                    'conditionizr',
-                    'modernizr',
                     'jquery'
                 ),
-                '1.0.0' );
+                '' );
 
             // Enqueue Scripts
             wp_enqueue_script( 'html5blankscripts' );
