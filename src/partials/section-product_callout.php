@@ -18,6 +18,15 @@ $have_secondary_cta = get_sub_field('have_secondary_cta'); // true / false
 $secondary_cta_text = get_sub_field('secondary_cta_text');
 $secondary_cta_link = get_sub_field('secondary_cta_link');
 
+
+
+$top_photo = get_sub_field('top_photo');
+$left_photo_x = get_sub_field('left_photo_x');
+$left_photo_y = get_sub_field('left_photo_y');
+
+$right_photo_x = get_sub_field('right_photo_x');
+$right_photo_y = get_sub_field('right_photo_y');
+
 ?>
 
 <section class="product-callout <?php if ($product_photos) {echo 'product-photos'; } ?>">
@@ -29,10 +38,10 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
     <div class="col-xs-12 col-md-8 col-lg-7">
       <?php if( $images ): ?>
           <div class="images">
-            <div class="background jarallax" data-jarallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-speed="0.96">
+            <div class="background jarallax" style="margin-top: <?php echo $left_photo_y; ?>px; margin-left: <?php echo $left_photo_x; ?>px;" data-jarallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-speed="0.96">
               <img class="jarallax-img" data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
             </div>
-            <div class="foreground jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
+            <div class="foreground jarallax" style="margin-top: <?php echo $right_photo_y; ?>px; margin-left: <?php echo $right_photo_x; ?>px;" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
             <img class="jarallax-img" data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
             </div>
           </div>
@@ -70,10 +79,10 @@ $secondary_cta_link = get_sub_field('secondary_cta_link');
       <div class="col-xs-12 col-md-8 col-lg-8 right-aligned first-xs last-md">
         <?php if( $images ): ?>
             <div class="images">
-              <div class="background jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
+              <div class="background jarallax" style="margin-top: <?php echo $left_photo_y; ?>px; margin-left: <?php echo $left_photo_x; ?>px;" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
                 <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
               </div>
-              <div class="foreground jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
+              <div class="foreground jarallax" style="margin-top: <?php echo $right_photo_y; ?>px; margin-left: <?php echo $right_photo_x; ?>px;" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
               <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
               </div>
             </div>

@@ -1,0 +1,29 @@
+html {
+	body {
+		.call-to-action-banner {
+	      position: relative;
+	      z-index: 0;
+	      padding: 12vh 0px !important;
+	      &:after {
+	        content: '';
+	        position: absolute;
+	        top: 0px;
+	        left: 0px;
+	        right: 0px;
+	        bottom: 0px;
+	        width: 100%;
+	        height: 100%;
+	        background: rgba(0,0,0,.5);
+	        z-index: 0;
+	      }
+	      .box {
+	        position: relative;
+	        z-index: 1;
+	        p {
+	          font-family: 'Gotham';
+	          color: #fff;
+	        }
+	      }
+	    }
+	}
+}

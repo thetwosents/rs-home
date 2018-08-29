@@ -1,0 +1,19 @@
+html body .perks-wall {
+  margin-top: 60px; }
+  html body .perks-wall .perks {
+    margin-top: 60px; }
+    html body .perks-wall .perks .perk {
+      margin: 20px auto 40px; }
+      html body .perks-wall .perks .perk h4 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        margin-bottom: 8px; }
+      html body .perks-wall .perks .perk p {
+        font-size: .725rem; }
+  html body .perks-wall .top-line {
+    height: 3px;
+    background: #000;
+    width: 50%; }
+  html body .perks-wall .perk-gallery {
+    height: 400px;
+    width: 90%; }

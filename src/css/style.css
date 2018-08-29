@@ -55,6 +55,271 @@
   font-weight: normal;
   font-style: normal; }
 
+html body .call-to-action-banner {
+  position: relative;
+  z-index: 0;
+  padding: 12vh 0px !important; }
+  html body .call-to-action-banner:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0; }
+  html body .call-to-action-banner .box {
+    position: relative;
+    z-index: 1; }
+    html body .call-to-action-banner .box p {
+      font-family: 'Gotham';
+      color: #fff; }
+
+html body .company-stats .stat {
+  margin: 20px auto; }
+
+html body .employee-spotlight {
+  background: #f2f2f2; }
+  html body .employee-spotlight h2 {
+    font-size: 4rem;
+    font-family: 'Didot' !important;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: none;
+    margin-bottom: 0px; }
+  html body .employee-spotlight h4 {
+    margin-top: 0px; }
+
+html body .instagram-feed h2 {
+  font-family: 'Didot' !important;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 300;
+  margin: 30px auto; }
+
+html body .job-postings {
+  padding-top: 0px !important; }
+  html body .job-postings #BambooHR {
+    padding: 0 40px; }
+    html body .job-postings #BambooHR .BambooHR-ATS-board li {
+      font-family: 'Gotham'; }
+
+html body .join-the-family h2 {
+  font-family: 'Didot' !important;
+  text-transform: none;
+  font-style: italic;
+  letter-spacing: 0px;
+  font-weight: 300; }
+
+.masthead {
+  min-height: 700px;
+  position: relative; }
+  .masthead h1, .masthead h4, .masthead p, .masthead a {
+    color: #fff;
+    position: relative;
+    z-index: 4; }
+  .masthead h4 {
+    font-weight: 400;
+    margin-top: 160px; }
+  .masthead:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); }
+  @media all and (max-width: 767px) {
+    .masthead {
+      padding-bottom: 8vh !important;
+      min-height: 80vh; } }
+
+html body .mission-statement .subheading {
+  font-size: 1.6rem;
+  font-family: 'Didot' !important;
+  text-transform: none;
+  font-style: italic;
+  letter-spacing: 0px;
+  font-weight: 300; }
+
+html body .perks-wall {
+  margin-top: 60px; }
+  html body .perks-wall .perks {
+    margin-top: 60px; }
+    html body .perks-wall .perks .perk {
+      margin: 20px auto 40px; }
+      html body .perks-wall .perks .perk h4 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        margin-bottom: 8px; }
+      html body .perks-wall .perks .perk p {
+        font-size: .725rem; }
+  html body .perks-wall .top-line {
+    height: 3px;
+    background: #000;
+    width: 50%; }
+  html body .perks-wall .perk-gallery {
+    height: 400px;
+    width: 90%; }
+
+html body .press-timeline {
+  background: #f2f2f2;
+  width: 100%;
+  position: relative; }
+  html body .press-timeline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    background: #000;
+    width: 100%;
+    top: 50%; }
+  html body .press-timeline .circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    line-height: 48px;
+    text-align: center;
+    background: #000;
+    position: relative;
+    z-index: 8;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    cursor: pointer; }
+    html body .press-timeline .circle:hover {
+      background: #fff;
+      border: 1px solid #000; }
+      html body .press-timeline .circle:hover i {
+        color: #000; }
+  html body .press-timeline img {
+    position: relative;
+    z-index: 5;
+    cursor: pointer; }
+  html body .press-timeline .content {
+    padding: 0px 30px; }
+  html body .press-timeline .box {
+    position: relative;
+    z-index: 5;
+    background: #f2f2f2;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 0px 40px; }
+
+html body .product-callout {
+  padding: 0px 8vw; }
+  html body .product-callout .right-aligned .background {
+    float: right; }
+  html body .product-callout .right-aligned .foreground {
+    margin-top: 12.5%; }
+  html body .product-callout.product-photos .foreground {
+    margin-top: 0px;
+    top: 0px;
+    height: 35vw;
+    width: 30vw;
+    -webkit-background-size: contain !important;
+    background-size: contain !important;
+    -moz-background-size: contain !important; }
+  html body .product-callout.product-photos .background {
+    height: 360px;
+    width: 520px;
+    margin-top: 60px; }
+  html body .product-callout .images {
+    position: relative; }
+    html body .product-callout .images .background {
+      height: 460px;
+      width: 340px; }
+    html body .product-callout .images .foreground {
+      height: 27vw;
+      width: 40vw;
+      position: relative;
+      left: 15%;
+      top: 12.5%; }
+  html body .product-callout .content h4 {
+    font-family: 'Gotham';
+    font-weight: 300;
+    font-size: .875rem;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0px 0px 4px; }
+  html body .product-callout .content h2 {
+    font-family: 'Gotham';
+    font-size: 1.4rem;
+    color: #000000;
+    letter-spacing: 1.71px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin: 0px; }
+  html body .product-callout .content p {
+    font-family: 'Gotham';
+    font-size: .875rem;
+    color: #767676;
+    letter-spacing: 0;
+    line-height: 1.4; }
+  @media all and (min-width: 1500px) {
+    html body .product-callout .images .foreground {
+      width: 34vw;
+      height: 23vw; } }
+  @media all and (max-width: 767px) {
+    html body .product-callout .images .background {
+      height: 240px;
+      width: auto; }
+    html body .product-callout .content {
+      margin-top: 4vh; } }
+
+html body .side-by-side .jarallax {
+  width: 100%;
+  height: 400px; }
+
+html body .side-by-side p {
+  max-width: 90%; }
+
+html body .team-member-wall p {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 0px;
+  font-size: .725rem; }
+
+html body .team-member-wall h4 {
+  margin-top: 0px; }
+
+html body .team-member-wall .team-member {
+  margin-bottom: 30px; }
+
+html body .testimonial-slider .quote {
+  font-family: 'Didot';
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px; }
+
+html body .testimonial-slider h4 {
+  font-size: .875rem; }
+
+html body .vertical-carousel h4 {
+  font-weight: 300;
+  margin-top: 8px; }
+
+html body .vertical-carousel .slick-list {
+  overflow: visible !important; }
+
+html body .vertical-carousel .slider .slick-slide {
+  margin-right: 10px !important; }
+  html body .vertical-carousel .slider .slick-slide:nth-child(even) {
+    margin-top: 20px !important; }
+
+@media all and (max-width: 767px) {
+  html body .vertical-carousel .slick-list {
+    overflow: hidden !important; }
+  html body .vertical-carousel .slider .slick-slide {
+    margin-right: 10px !important; }
+    html body .vertical-carousel .slider .slick-slide:nth-child(even) {
+      margin-top: 20px !important; } }
+
 /**
  * partials/reset
  * ---
@@ -405,126 +670,10 @@ input[type="search"] {
 html body {
   overflow-x: hidden;
   width: 100%; }
-  html body .masthead {
-    min-height: 700px;
-    position: relative; }
-    html body .masthead h1, html body .masthead h4, html body .masthead p, html body .masthead a {
-      color: #fff;
-      position: relative;
-      z-index: 4; }
-    html body .masthead h4 {
-      font-weight: 400;
-      margin-top: 160px; }
-    html body .masthead:after {
-      content: '';
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      right: 0px;
-      bottom: 0px;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.5); }
-    @media all and (max-width: 767px) {
-      html body .masthead {
-        padding-bottom: 8vh !important;
-        min-height: 80vh; } }
-  html body .side-by-side .jarallax {
-    width: 100%;
-    height: 400px; }
-  html body .side-by-side p {
-    max-width: 90%; }
-  html body .company-stats .stat {
-    margin: 20px auto; }
-  html body .vertical-carousel h4 {
-    font-weight: 300;
-    margin-top: 8px; }
-  html body .vertical-carousel .slick-list {
-    overflow: visible !important; }
-  html body .vertical-carousel .slider .slick-slide {
-    margin-right: 10px !important; }
-    html body .vertical-carousel .slider .slick-slide:nth-child(even) {
-      margin-top: 20px !important; }
-  @media all and (max-width: 767px) {
-    html body .vertical-carousel .slick-list {
-      overflow: hidden !important; }
-    html body .vertical-carousel .slider .slick-slide {
-      margin-right: 10px !important; }
-      html body .vertical-carousel .slider .slick-slide:nth-child(even) {
-        margin-top: 20px !important; } }
-  html body .product-callout {
-    padding: 0px 8vw; }
-    html body .product-callout .right-aligned .background {
-      float: right; }
-    html body .product-callout .right-aligned .foreground {
-      margin-top: 12.5%; }
-    html body .product-callout.product-photos .foreground {
-      margin-top: 0px;
-      top: 0px;
-      height: 35vw;
-      width: 30vw;
-      -webkit-background-size: contain !important;
-      background-size: contain !important;
-      -moz-background-size: contain !important; }
-    html body .product-callout.product-photos .background {
-      height: 360px;
-      width: 520px;
-      margin-top: 60px; }
-    html body .product-callout .images {
-      position: relative; }
-      html body .product-callout .images .background {
-        height: 460px;
-        width: 340px; }
-      html body .product-callout .images .foreground {
-        height: 27vw;
-        width: 40vw;
-        position: absolute;
-        left: 15%;
-        top: 12.5%; }
-    html body .product-callout .content h4 {
-      font-family: 'Gotham';
-      font-weight: 300;
-      font-size: .875rem;
-      color: #000;
-      text-transform: uppercase;
-      margin: 0px 0px 4px; }
-    html body .product-callout .content h2 {
-      font-family: 'Gotham';
-      font-size: 1.4rem;
-      color: #000000;
-      letter-spacing: 1.71px;
-      line-height: 1.4;
-      text-transform: uppercase;
-      margin: 0px; }
-    html body .product-callout .content p {
-      font-family: 'Gotham';
-      font-size: .875rem;
-      color: #767676;
-      letter-spacing: 0;
-      line-height: 1.4; }
-    @media all and (min-width: 1500px) {
-      html body .product-callout .images .foreground {
-        width: 34vw;
-        height: 23vw; } }
-    @media all and (max-width: 767px) {
-      html body .product-callout .images .background {
-        height: 240px;
-        width: auto; }
-      html body .product-callout .content {
-        margin-top: 4vh; } }
   html body .become-rs-influencer .content .box {
     padding: 0px 40px; }
   html body .become-rs-influencer .seperator {
     margin-top: 30px; }
-  html body .testimonial-slider .quote {
-    font-family: 'Didot';
-    font-style: italic;
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 1.4;
-    margin-bottom: 20px; }
-  html body .testimonial-slider h4 {
-    font-size: .875rem; }
   html body .stats-wall h2 {
     font-size: 3.5rem;
     margin: 0px;
@@ -542,27 +691,6 @@ html body {
       margin: 4vh auto; } }
   html body .process-steps h2 {
     font-size: 1.6rem; }
-  html body .call-to-action-banner {
-    position: relative;
-    z-index: 0;
-    padding: 12vh 0px !important; }
-    html body .call-to-action-banner:after {
-      content: '';
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      right: 0px;
-      bottom: 0px;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      z-index: 0; }
-    html body .call-to-action-banner .box {
-      position: relative;
-      z-index: 1; }
-      html body .call-to-action-banner .box p {
-        font-family: 'Gotham';
-        color: #fff; }
   html body .brand-wall h2 {
     font-family: 'Didot' !important;
     font-style: italic;
@@ -617,97 +745,10 @@ html body {
       line-height: 40px; }
     html body .values-callout .container p {
       max-width: 100%; } }
-  html body .perks-wall {
-    margin-top: 60px; }
-    html body .perks-wall .perks {
-      margin-top: 60px; }
-      html body .perks-wall .perks .perk {
-        margin: 20px auto 40px; }
-        html body .perks-wall .perks .perk h4 {
-          font-size: 1rem;
-          letter-spacing: 1px;
-          margin-bottom: 8px; }
-        html body .perks-wall .perks .perk p {
-          font-size: .725rem; }
-    html body .perks-wall .top-line {
-      height: 3px;
-      background: #000;
-      width: 50%; }
-    html body .perks-wall .perk-gallery {
-      height: 400px;
-      width: 90%; }
-  html body .employee-spotlight {
-    background: #f2f2f2; }
-    html body .employee-spotlight h2 {
-      font-size: 4rem;
-      font-family: 'Didot' !important;
-      font-weight: 300;
-      font-style: italic;
-      text-transform: none;
-      margin-bottom: 0px; }
-    html body .employee-spotlight h4 {
-      margin-top: 0px; }
-  html body .instagram-feed h2 {
-    font-family: 'Didot' !important;
-    text-transform: none;
-    font-style: italic;
-    font-weight: 300;
-    margin: 30px auto; }
-  html body .press-timeline {
-    background: #f2f2f2;
-    width: 100%;
-    position: relative; }
-    html body .press-timeline::after {
-      content: '';
-      position: absolute;
-      height: 1px;
-      background: #000;
-      width: 100%;
-      top: 50%; }
-    html body .press-timeline .circle {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      line-height: 48px;
-      text-align: center;
-      background: #000;
-      position: relative;
-      z-index: 8;
-      transition: all .2s ease-in-out;
-      -webkit-transition: all .2s ease-in-out;
-      -moz-transition: all .2s ease-in-out;
-      cursor: pointer; }
-      html body .press-timeline .circle:hover {
-        background: #fff;
-        border: 1px solid #000; }
-        html body .press-timeline .circle:hover i {
-          color: #000; }
-    html body .press-timeline img {
-      position: relative;
-      z-index: 5;
-      cursor: pointer; }
-    html body .press-timeline .content {
-      padding: 0px 30px; }
-    html body .press-timeline .box {
-      position: relative;
-      z-index: 5;
-      background: #f2f2f2;
-      border-left: 1px solid #000;
-      border-right: 1px solid #000;
-      padding: 0px 40px; }
-  html body .team-member-wall p {
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 0px;
-    font-size: .725rem; }
-  html body .team-member-wall h4 {
-    margin-top: 0px; }
   html body .team-member-bio.left .content {
     padding-left: 40px; }
   html body .team-member-bio.right .content {
     padding-right: 40px; }
-  html body .team-member-wall .team-member {
-    margin-bottom: 30px; }
   html body .pull-quotes .col-md-4 {
     margin-bottom: 48px; }
   html body .pull-quotes article img {
@@ -722,25 +763,6 @@ html body {
     max-width: 90%;
     margin: 16px auto;
     color: #000; }
-  html body .job-postings {
-    padding-top: 0px !important; }
-    html body .job-postings #BambooHR {
-      padding: 0 40px; }
-      html body .job-postings #BambooHR .BambooHR-ATS-board li {
-        font-family: 'Gotham'; }
-  html body .join-the-family h2 {
-    font-family: 'Didot' !important;
-    text-transform: none;
-    font-style: italic;
-    letter-spacing: 0px;
-    font-weight: 300; }
-  html body .mission-statement .subheading {
-    font-size: 1.6rem;
-    font-family: 'Didot' !important;
-    text-transform: none;
-    font-style: italic;
-    letter-spacing: 0px;
-    font-weight: 300; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
     html body .articles-by-category article a {

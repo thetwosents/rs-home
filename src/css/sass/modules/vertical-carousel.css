@@ -1,0 +1,16 @@
+.vertical-carousel h4 {
+  font-weight: 300;
+  margin-top: 8px; }
+.vertical-carousel .slick-list {
+  overflow: visible !important; }
+.vertical-carousel .slider .slick-slide {
+  margin-right: 10px !important; }
+  .vertical-carousel .slider .slick-slide:nth-child(even) {
+    margin-top: 20px !important; }
+@media all and (max-width: 767px) {
+  .vertical-carousel .slick-list {
+    overflow: hidden !important; }
+  .vertical-carousel .slider .slick-slide {
+    margin-right: 10px !important; }
+    .vertical-carousel .slider .slick-slide:nth-child(even) {
+      margin-top: 20px !important; } }

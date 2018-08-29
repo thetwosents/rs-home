@@ -1,0 +1,6 @@
+html body .job-postings {
+  padding-top: 0px !important; }
+  html body .job-postings #BambooHR {
+    padding: 0 40px; }
+    html body .job-postings #BambooHR .BambooHR-ATS-board li {
+      font-family: 'Gotham'; }

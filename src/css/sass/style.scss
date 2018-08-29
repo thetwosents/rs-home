@@ -9,6 +9,24 @@
 @import "modules/mixins";
 @import "modules/fonts";
 
+// WP Modules
+@import "modules/call-to-action-banner.scss";
+@import "modules/company-stats.scss";
+@import "modules/employee-spotlight.scss";
+@import "modules/instagram-feed.scss";
+@import "modules/job-postings.scss";
+@import "modules/join-the-family.scss";
+@import "modules/masthead.scss";
+@import "modules/mission-statement.scss";
+@import "modules/perks-wall.scss";
+@import "modules/press-timeline.scss";
+@import "modules/product-callout.scss";
+@import "modules/side-by-side.scss";
+@import "modules/team-member-wall.scss";
+@import "modules/testimonial-slider.scss";
+@import "modules/vertical-carousel.scss";
+
+
 // Partials
 @import "partials/reset";
 @import "partials/wordpress";
