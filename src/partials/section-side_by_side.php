@@ -30,18 +30,18 @@ $left_or_right = get_sub_field('left_or_right');
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="box">
-						<div class="jarallax">
-							<img class="jarallax-img" src="<?php echo $image; ?>">
-						</div>
+						<!-- <div class="jarallax"> -->
+							<img src="<?php echo $image; ?>">
+						<!-- </div> -->
 					</div>
 				</div>
 
 			<?php } else { ?>
 				<div class="col-xs-12 col-md-6">
 					<div class="box">
-						<div class="jarallax" >
-							<img class="jarallax-img" src="<?php echo $image; ?>">
-						</div>
+						<!-- <div class="jarallax" > -->
+							<img src="<?php echo $image; ?>">
+						<!-- </div> -->
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6">
