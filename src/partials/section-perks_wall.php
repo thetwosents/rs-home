@@ -3,7 +3,7 @@
 $title = get_sub_field('title');
 $above_title = get_sub_field('above_title');
 $content = get_sub_field('content');
-$images = get_sub_field('images');
+$image = get_sub_field('image');
 
 ?>
 
@@ -57,7 +57,7 @@ $images = get_sub_field('images');
               <div class="row">
                 <div class="col-xs-12 col-md-6">
                   <div class="jarallax perk-gallery" data-jarallax data-speed="0.96">
-                    <img class="jarallax-img" src="http://placehold.it/600x600" alt="">
+                    <img class="jarallax-img" src="<?php echo $image; ?>" alt="">
                   </div>
                 </div> 
                 <div class="col-xs-12 col-md-6">
