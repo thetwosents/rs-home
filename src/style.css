@@ -90,8 +90,26 @@ html body .call-to-action-banner {
       font-family: 'Gotham';
       color: #fff; }
 
+html body .company-stats .box {
+  padding: 0px 30px;
+  border-right: 1px solid #e8e8e8; }
+  html body .company-stats .box.last {
+    border: 0px !important; }
+  html body .company-stats .box p {
+    font-size: .875rem; }
+
 html body .company-stats .stat {
-  margin: 20px auto; }
+  display: block;
+  margin: 30px auto 0px;
+  width: 50%;
+  float: left; }
+  html body .company-stats .stat h1 {
+    font-weight: 300;
+    font-size: 2rem; }
+  html body .company-stats .stat h4 {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: .875rem; }
 
 html body .employee-spotlight {
   background: #f2f2f2; }
@@ -104,6 +122,37 @@ html body .employee-spotlight {
     margin-bottom: 0px; }
   html body .employee-spotlight h4 {
     margin-top: 0px; }
+
+html body .highlight-callout .left {
+  margin-top: 120px;
+  position: relative;
+  z-index: 0; }
+
+html body .highlight-callout h3 {
+  font-size: 1.6rem;
+  color: #000;
+  letter-spacing: 0px;
+  font-weight: 300;
+  margin: 20px auto; }
+
+html body .highlight-callout .right {
+  float: right;
+  margin-top: -400px;
+  max-width: 350px;
+  z-index: 1;
+  position: relative; }
+
+html body .highlight-callout .top {
+  margin-top: -48px; }
+
+html body .highlight-callout a {
+  margin-top: 20px; }
+
+html body .highlight-callout .content {
+  padding: 0px 30px 0px 30px; }
+  html body .highlight-callout .content p {
+    padding: 0px 30px 0px 0px;
+    font-size: .875rem; }
 
 html body .instagram-feed h2 {
   font-family: 'Didot' !important;
@@ -228,22 +277,23 @@ html body .product-callout {
     float: right; }
   html body .product-callout .right-aligned .foreground {
     margin-top: 12.5%; }
-  html body .product-callout.product-photos .foreground {
-    margin-top: 0px;
-    top: 0px;
-    height: 35vw;
-    width: 30vw;
-    background-size: contain !important;
-    -moz-background-size: contain !important; }
-  html body .product-callout.product-photos .background {
-    height: 360px;
-    width: 520px;
-    margin-top: 60px; }
+  html body .product-callout .product-images {
+    text-align: left;
+    position: relative; }
+    html body .product-callout .product-images img {
+      max-width: 80%;
+      height: auto;
+      position: relative; }
+    html body .product-callout .product-images .foreground {
+      max-width: 50%;
+      right: 12.5%;
+      margin-top: -400px; }
   html body .product-callout .images {
     position: relative; }
     html body .product-callout .images .background {
       height: 460px;
-      width: 340px; }
+      width: 340px;
+      position: relative; }
     html body .product-callout .images .foreground {
       height: 27vw;
       width: 40vw;
@@ -840,6 +890,7 @@ html {
     html body h3 {
       font-size: 1.4rem;
       font-family: 'Didot';
+      font-style: italic;
       margin: 0px; }
     html body h4 {
       font-size: 1rem;

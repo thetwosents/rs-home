@@ -10,20 +10,19 @@ html {
           margin-top: 12.5%;
         }
       }
-      &.product-photos {
-        .foreground {
-          margin-top: 0px;
-          top: 0px;
-          height: 35vw;
-          width: 30vw;
-          -webkit-background-size: contain !important;
-          background-size: contain !important;
-          -moz-background-size: contain !important;
+      .product-images {
+        text-align: left;
+        position: relative;
+        img {
+          max-width: 80%;
+          height: auto;
+          position: relative;
         }
-        .background {
-          height: 360px;
-          width: 520px;
-          margin-top: 60px;
+        .foreground {
+          // position: absolute;
+          max-width: 50%;
+          right: 12.5%;
+          margin-top: -400px;
         }
       }
       .images {
@@ -31,6 +30,7 @@ html {
         .background {
           height: 460px; 
           width: 340px;
+          position: relative;
         }
         .foreground {
           height: 27vw;

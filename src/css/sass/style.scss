@@ -13,6 +13,7 @@
 @import "modules/call-to-action-banner.scss";
 @import "modules/company-stats.scss";
 @import "modules/employee-spotlight.scss";
+@import "modules/highlight-callout.scss";
 @import "modules/instagram-feed.scss";
 @import "modules/job-postings.scss";
 @import "modules/join-the-family.scss";
@@ -93,6 +94,7 @@ html {
     h3 {
       font-size: 1.4rem;
       font-family: 'Didot';
+      font-style: italic;
       margin: 0px;
     }
     h4 {

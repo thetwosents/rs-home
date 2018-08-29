@@ -1,9 +1,31 @@
 html {
 	body {
 		.company-stats {
-	      .stat {
-	        margin: 20px auto;
-	      }
-	    }
+			.box {
+				padding: 0px 30px;
+				border-right: 1px solid #e8e8e8;
+				&.last {
+					border: 0px !important;
+				}
+				p {
+					font-size: .875rem;
+				}
+			}
+			.stat {
+				display: block;
+				margin: 30px auto 0px;
+				width: 50%;
+				float: left;
+				h1 {
+					font-weight: 300;
+					font-size: 2rem;
+				}
+				h4 {
+					margin-bottom: 40px;
+					font-weight: 300;
+					font-size: .875rem;
+				}
+			}
+		}
 	}
 }
