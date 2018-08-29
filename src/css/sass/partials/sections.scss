@@ -320,12 +320,12 @@ html {
           p {
             font-size: .725rem;
           }
-          .top-line {
-            height: 3px;
-            background: #000;
-            width: 50%;
-          }
         }
+      }
+      .top-line {
+        height: 3px;
+        background: #000;
+        width: 50%;
       }
       .perk-gallery {
         height: 400px;
@@ -461,6 +461,15 @@ html {
           max-width: 90%;
           margin: 16px auto;
           color: #000;
+        }
+      }
+    }
+    .job-postings {
+      padding-top: 0px !important;
+      #BambooHR {
+        padding: 0 40px;
+        .BambooHR-ATS-board li {
+          font-family: 'Gotham';
         }
       }
     }

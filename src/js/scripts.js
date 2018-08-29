@@ -51,6 +51,13 @@
       nextArrow: '.next'
     });
 
+    $('.employee-spotlight .slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 600
+    });
+
     AOS.init({
       duration: 1200,
       delay: 0,

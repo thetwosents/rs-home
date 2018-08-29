@@ -1,9 +1,13 @@
+<?php 
+$image = get_sub_field('map_image');
+?>
+
 <section class="job-postings">
   <div class="container">
     <div class="row center-xs">
     	<div class="col-xs-12 col-md-6">
     		<div class="box">
-    			<img src="http://placehold.it/600x400">
+    			<img src="<?php echo $image; ?>">
     		</div>
     	</div>
       <div class="col-xs-12 col-md-6">

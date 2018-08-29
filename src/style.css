@@ -637,10 +637,10 @@ html body {
           margin-bottom: 8px; }
         html body .perks-wall .perks .perk p {
           font-size: .725rem; }
-        html body .perks-wall .perks .perk .top-line {
-          height: 3px;
-          background: #000;
-          width: 50%; }
+    html body .perks-wall .top-line {
+      height: 3px;
+      background: #000;
+      width: 50%; }
     html body .perks-wall .perk-gallery {
       height: 400px;
       width: 90%; }
@@ -730,6 +730,12 @@ html body {
     max-width: 90%;
     margin: 16px auto;
     color: #000; }
+  html body .job-postings {
+    padding-top: 0px !important; }
+    html body .job-postings #BambooHR {
+      padding: 0 40px; }
+      html body .job-postings #BambooHR .BambooHR-ATS-board li {
+        font-family: 'Gotham'; }
   html body .join-the-family h2 {
     font-family: 'Didot' !important;
     text-transform: none;
