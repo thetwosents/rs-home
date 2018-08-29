@@ -499,6 +499,10 @@ html body {
       color: #767676;
       letter-spacing: 0;
       line-height: 1.4; }
+    @media all and (min-width: 1500px) {
+      html body .product-callout .images .foreground {
+        width: 34vw;
+        height: 23vw; } }
     @media all and (max-width: 767px) {
       html body .product-callout .images .background {
         height: 240px;

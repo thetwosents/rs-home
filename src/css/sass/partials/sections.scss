@@ -138,6 +138,14 @@ html {
           line-height: 1.4;
         }
       }
+      @media all and (min-width: 1500px) {
+        .images {
+          .foreground {
+            width: 34vw;
+            height: 23vw;
+          }
+        }
+      }
       @media all and (max-width: 767px) {
         .images {
           .background {
