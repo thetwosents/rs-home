@@ -13,6 +13,16 @@ html {
       .product-images {
         text-align: left;
         position: relative;
+        &.left {
+          .background {
+            z-index: 6;
+          }
+        }
+        &.right {
+          .foreground {
+            z-index: 6;
+          }
+        }
         img {
           max-width: 80%;
           height: auto;

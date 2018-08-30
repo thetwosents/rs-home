@@ -258,6 +258,10 @@ html body .product-callout {
   html body .product-callout .product-images {
     text-align: left;
     position: relative; }
+    html body .product-callout .product-images.left .background {
+      z-index: 6; }
+    html body .product-callout .product-images.right .foreground {
+      z-index: 6; }
     html body .product-callout .product-images img {
       max-width: 80%;
       height: auto;
