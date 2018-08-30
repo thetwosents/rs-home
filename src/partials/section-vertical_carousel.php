@@ -17,7 +17,7 @@ $verticals = new WP_Query($args);
 
 <section class="vertical-carousel">
   <div class="container">
-    <div class="row">
+    <div class="row center-xs">
       <div class="col-xs-12 col-md-8 col-lg-9">
         <div class="box" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
           <!-- <h4><?php //echo $above_title; ?></h4> -->
