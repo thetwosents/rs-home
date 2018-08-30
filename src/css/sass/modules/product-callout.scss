@@ -166,6 +166,13 @@ html {
           letter-spacing: 0;
           line-height: 1.4;
         }
+        @media all and (min-width: 768px) and (max-width: 1023px) {
+          padding-left: 16vw !important;
+          padding-right: 16vw !important;
+          p {
+            font-size: 1rem;
+          }
+        }
         @media all and (max-width: 767px) {
           p {
             font-size: 1rem;

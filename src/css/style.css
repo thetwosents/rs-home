@@ -377,6 +377,12 @@ html body .product-callout {
       color: #767676;
       letter-spacing: 0;
       line-height: 1.4; }
+    @media all and (min-width: 768px) and (max-width: 1023px) {
+      html body .product-callout .content {
+        padding-left: 16vw !important;
+        padding-right: 16vw !important; }
+        html body .product-callout .content p {
+          font-size: 1rem; } }
     @media all and (max-width: 767px) {
       html body .product-callout .content p {
         font-size: 1rem; } }
