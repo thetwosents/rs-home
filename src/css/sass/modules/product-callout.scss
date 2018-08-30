@@ -4,10 +4,16 @@ html {
       padding: 0px 8vw;
       .right-aligned {
         .background {
-          float:right;
+          float: right;
         }
         .foreground {
           margin-top: 12.5%;
+        }
+        .product-images {
+          .foreground {
+            // right: 0px;
+            max-height: 70vh;
+          }
         }
       }
       .product-images {
