@@ -27,6 +27,17 @@ html {
             padding-left: 0px;
           }
         }
+        @media all and (min-width: 768px) and (max-width: 1023px) {
+          .background { 
+            width: 70vw;
+            margin-left: -6vw !important;
+          }
+          .foreground {
+            width: 28vw;
+            right: -2vw;
+            top: -7vw;
+          }
+        }
         @media all and (max-width: 767px) {
           width: 100%;
           padding: 0px 16vw;

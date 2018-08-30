@@ -276,6 +276,14 @@ html body .product-callout {
       margin-left: 8vw; }
     html body .product-callout .product-images.left .content {
       padding-left: 0px; }
+    @media all and (min-width: 768px) and (max-width: 1023px) {
+      html body .product-callout .product-images .background {
+        width: 70vw;
+        margin-left: -6vw !important; }
+      html body .product-callout .product-images .foreground {
+        width: 28vw;
+        right: -2vw;
+        top: -7vw; } }
     @media all and (max-width: 767px) {
       html body .product-callout .product-images {
         width: 100%;
