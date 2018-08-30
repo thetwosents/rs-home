@@ -28,7 +28,18 @@
       slidesToScroll: 1,
       autoplay: true,
       speed: 600,
-      autoplaySpeed: 2200
+      autoplaySpeed: 2200,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true
+          }
+        }
+      ]
     });
 
     $('.testimonial-slider .slider').slick({
