@@ -276,6 +276,17 @@ html body .product-callout {
       margin-left: 8vw; }
     html body .product-callout .product-images.left .content {
       padding-left: 0px; }
+    @media all and (max-width: 767px) {
+      html body .product-callout .product-images {
+        width: 100%;
+        padding: 0px 16vw; }
+        html body .product-callout .product-images .foreground {
+          width: 29vw;
+          right: 22vw;
+          top: -3vw; }
+        html body .product-callout .product-images .background {
+          margin-left: 0px;
+          width: 60vw; } }
   html body .product-callout .images {
     position: relative;
     width: 55vw; }
@@ -366,6 +377,9 @@ html body .product-callout {
       color: #767676;
       letter-spacing: 0;
       line-height: 1.4; }
+    @media all and (max-width: 767px) {
+      html body .product-callout .content p {
+        font-size: 1rem; } }
   @media all and (min-width: 1500px) {
     html body .product-callout .images .foreground {
       width: 34vw;
@@ -374,12 +388,10 @@ html body .product-callout {
     html body .product-callout .images {
       width: 100%; }
     html body .product-callout .content {
-      margin-top: 0vh;
-      padding: 0px 8vw; } }
+      margin-top: 0vh; } }
   @media all and (max-width: 767px) {
     html body .product-callout .content {
-      margin-top: 4vh;
-      padding: 2vw 4vw; } }
+      margin-top: 4vh; } }
 
 html body .side-by-side .jarallax {
   width: 100%;

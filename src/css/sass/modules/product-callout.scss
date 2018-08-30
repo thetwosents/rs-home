@@ -27,6 +27,19 @@ html {
             padding-left: 0px;
           }
         }
+        @media all and (max-width: 767px) {
+          width: 100%;
+          padding: 0px 16vw;
+          .foreground {
+            width: 29vw;
+            right: 22vw;
+            top: -3vw;
+          }
+          .background {
+            margin-left: 0px;
+            width: 60vw;
+          }
+        }
       }
       .images {
         position: relative;
@@ -153,6 +166,11 @@ html {
           letter-spacing: 0;
           line-height: 1.4;
         }
+        @media all and (max-width: 767px) {
+          p {
+            font-size: 1rem;
+          }
+        }
       }
       @media all and (min-width: 1500px) {
         .images {
@@ -179,16 +197,13 @@ html {
         }
         .content {
           margin-top: 0vh;
-          padding: 0px 8vw;
+          // padding: 0px 8vw;
         }
       }
       @media all and (max-width: 767px) {
-        .images {
-
-        }
         .content {
           margin-top: 4vh;
-          padding: 2vw 4vw;
+          // padding: 2vw 4vw;
         }
       }
     }
