@@ -273,8 +273,7 @@ html body .product-callout {
       position: relative; }
     html body .product-callout .product-images .foreground {
       max-width: 50%;
-      right: 12.5%;
-      margin-top: -400px; }
+      right: 12.5%; }
   html body .product-callout .images {
     position: relative;
     width: 55vw; }
