@@ -89,22 +89,27 @@ html {
           top: 14vw;
         }
         @media all and (min-width: 768px) and (max-width: 1023px) {
-          margin: 0vw 0px 15vw;
+          margin: 0vw 0px 6vw;
           width: 100%;
           .background {
-            left: 22vw;
+            left: 14vw;
+            height: 44vw;
+            width: 31vw;
           }
           .foreground {
-            right: 22vw;
+            right: 14vw;
+            height: 36vw;
+            width: 57vw;
           }
           &.right-aligned {
             padding-right: 16vw;
             .background {
               float: right;
               left: 0px;
+              margin-right: -2vw;
             }
             .foreground {
-              left: 24vw;
+              left: 16vw;
             }
           }
         }

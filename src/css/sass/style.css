@@ -310,19 +310,24 @@ html body .product-callout {
       top: 14vw; }
     @media all and (min-width: 768px) and (max-width: 1023px) {
       html body .product-callout .images {
-        margin: 0vw 0px 15vw;
+        margin: 0vw 0px 6vw;
         width: 100%; }
         html body .product-callout .images .background {
-          left: 22vw; }
+          left: 14vw;
+          height: 44vw;
+          width: 31vw; }
         html body .product-callout .images .foreground {
-          right: 22vw; }
+          right: 14vw;
+          height: 36vw;
+          width: 57vw; }
         html body .product-callout .images.right-aligned {
           padding-right: 16vw; }
           html body .product-callout .images.right-aligned .background {
             float: right;
-            left: 0px; }
+            left: 0px;
+            margin-right: -2vw; }
           html body .product-callout .images.right-aligned .foreground {
-            left: 24vw; } }
+            left: 16vw; } }
     @media all and (max-width: 767px) {
       html body .product-callout .images {
         margin: 0px auto 4vw !important;
