@@ -1,21 +1,7 @@
 html {
   body {
     .product-callout {
-      padding: 0px 8vw;
-      .right-aligned {
-        .background {
-          float: right;
-        }
-        .foreground {
-          margin-top: 12.5%;
-        }
-        .product-images {
-          .foreground {
-            // right: 0px;
-            max-height: 70vh;
-          }
-        }
-      }
+      padding: 0px 0vw;
       .product-images {
         text-align: left;
         position: relative;
@@ -43,30 +29,104 @@ html {
       }
       .images {
         position: relative;
-        &.left {
+        width: 55vw;
+        &.left-aligned--tall-front {
           .background {
             z-index: 6;
           }
         }
-        &.right {
+        &.left-aligned--wide-front {
           .foreground {
             z-index: 6;
           }
         }
+        &.right-aligned {
+          .background {
+            margin-right: 8vw;
+            float: right;
+          }
+          .foreground {
+            left: 8vw;
+          }
+          &.right-aligned--tall-front {
+            .background {
+              z-index: 6;
+            }
+          }
+          &.right-aligned--wide-front {
+            .foreground {
+              z-index: 6;
+            }
+          }
+        }
         .background {
-          height: 460px; 
-          width: 340px;
+          height: 30vw; 
+          width: 22vw;
+          top: 0px;
+          left: 8vw;
           position: relative;
         }
         .foreground {
           height: 27vw;
           width: 40vw;
-          position: relative;
-          left: 15%;
-          top: 12.5%;
+          position: absolute;
+          right: 0px;
+          top: 14vw;
+        }
+        @media all and (min-width: 768px) and (max-width: 1023px) {
+          margin: 0vw 0px 15vw;
+          width: 100%;
+          .background {
+            left: 22vw;
+          }
+          .foreground {
+            right: 22vw;
+          }
+          &.right-aligned {
+            padding-right: 16vw;
+            .background {
+              float: right;
+              left: 0px;
+            }
+            .foreground {
+              left: 24vw;
+            }
+          }
+        }
+        @media all and (max-width: 767px) {
+          margin: 0px auto 4vw !important;
+          // .foreground {
+          //   top: 22vw;
+          // }
+          // margin: 0 auto 20vw;
+          width: 100%;
+          .background {
+            width: 36vw;
+            height: 48vw;
+            left: 16vw;
+            top: -25px;
+          }
+          .foreground {
+            width: 60vw;
+            height: 38vw;
+            right: 16vw;
+            top: 15vw;
+          }
+          &.right-aligned {
+            padding-right: 16vw;
+            .background {
+              float: right;
+            }
+            .foreground {
+              left: 16vw;
+            }
+          }
         }
       }
       .content {
+        padding-left: 7vw;
+        padding-top: 6vw;
+        padding-right: 4vw;
         h4 {
           font-family: 'Gotham';
           font-weight: 300;
@@ -100,15 +160,33 @@ html {
           }
         }
       }
+      @media all and (max-width: 1024px) {
+        .images {
+          // margin: 0 auto 20vw;
+          width: 100%;
+          // .background {
+          //   width: 34vw;
+          //   height: 44vw;
+          //   left: 16vw;
+          // }
+          // .foreground {
+          //   // width: 47.5vw;
+          //   // height: 35.5vw;
+          //   right: 16vw;
+          // }
+        }
+        .content {
+          margin-top: 0vh;
+          padding: 0px 8vw;
+        }
+      }
       @media all and (max-width: 767px) {
         .images {
-          .background {
-            height: 240px;
-            width: auto;
-          }
+
         }
         .content {
           margin-top: 4vh;
+          padding: 2vw 4vw;
         }
       }
     }

@@ -309,7 +309,7 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "default_value": -321,
+                            "default_value": 0,
                             "min": -1000,
                             "max": 1000,
                             "step": "",
@@ -2693,5 +2693,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1535566373
+    "modified": 1535608060
 }

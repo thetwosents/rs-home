@@ -70,8 +70,8 @@ html {
   body {
     font-size: 100%;
     section {
-      padding-top: 9vh !important;
-      padding-bottom: 9vh !important;
+      padding-top: 7.5vw !important;
+      padding-bottom: 7.5vw !important;
     }
     .container {
       // width: 1370px;
@@ -171,7 +171,7 @@ html {
         // width: 100% !important;
       }
       section {
-        padding: 9vh 12vw !important;
+        // padding: 9vh 12vw !important;
         &.masthead {
           padding: 4vh 12vw !important;
         }
@@ -204,8 +204,9 @@ html {
 // Mobile styles
 @media all and (max-width: 767px) {
   html {
+    font-size: 80% !important;
     body {
-      font-size: 50% !important;
+      font-size: 40% !important;
       section {
         padding-top: 6vh !important;
         padding-bottom: 6vh !important;

@@ -29,22 +29,38 @@ $right_photo_y = get_sub_field('right_photo_y');
 ?>
 
 <section class="product-callout">
-  <div class="container">
-    <div class="row middle-xs">
+  <div class="row middle-xs center-xs start-md">
 
     <?php if ($left_or_right_side === 'left') { ?>
-      <div class="col-xs-12 col-md-8 col-lg-7">
         <?php if (!$product_photos): ?>
           <?php if( $images ): ?>
-              <?php echo '<div class="images ' . $top_photo . '">' ?>
-                <div class="background jarallax" style="margin-top: <?php echo $left_photo_y; ?>px; margin-left: <?php echo $left_photo_x; ?>px;" data-jarallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-speed="0.96">
-                  <img class="jarallax-img" data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+              <?php 
+
+              $alignment = 'left-aligned left-aligned--wide-front';
+              echo '<div class="images ' . $alignment . '">' 
+              ?>
+                <div 
+                  class="background jarallax" 
+                  data-jarallax 
+                  data-disable-parallax="/iPad|iPhone|iPod|Android/" 
+                  data-speed="0.96">
+                  <img 
+                    class="jarallax-img" 
+                    data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
                 </div>
-                <div class="foreground jarallax" style="margin-top: <?php echo $right_photo_y; ?>px; margin-left: <?php echo $right_photo_x; ?>px;" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
-                <img class="jarallax-img" data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+                <div 
+                  class="foreground jarallax" 
+                  data-disable-parallax="/iPad|iPhone|iPod|Android/" 
+                  data-jarallax 
+                  data-speed="0.96">
+                  <img 
+                    class="jarallax-img" 
+                    data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
                 </div>
               </div>
           <?php endif; ?>
+        
+
         <?php else: ?>
           <?php echo '<div class="product-images ' . $top_photo . '">' ?>
               <img class="background" style="margin-top: <?php echo $left_photo_y; ?>px; margin-left: <?php echo $left_photo_x; ?>px;"  src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
@@ -52,41 +68,42 @@ $right_photo_y = get_sub_field('right_photo_y');
           </div>
         <?php ?>
       <?php endif; ?>
-    </div>
     
-    <div class="col-xs-12 col-md-4 col-lg-4 content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-      <?php if ($above_title) {
-        echo '<h4>' . $above_title . '</h4>';
-      } ?>
-
-      <?php if ($title) {
-        echo '<h2>' . $title . '</h2>';
-      } ?>
-
-      <?php if ($content) {
-        echo '<p>' . $content . '</p>';
-      } ?>
-    </div>
+      <div class="col-xs-12 col-md-4 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div class="box content">
+          <?php
+            echo '<h4>' . $above_title . '</h4>';
+            echo '<h2>' . $title . '</h2>';
+            echo '<p>' . $content . '</p>';
+          ?>
+        </div>
+      </div>
 
     <?php } else { ?>
 
-      <div class="col-xs-12 col-md-4 col-lg-4 content last-xs first-md" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        <?php if ($above_title) {
-          echo '<h4>' . $above_title . '</h4>';
-        } ?>
+      <div class="col-xs-12 col-md-4 col-lg-5 last-xs first-md" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div class="content">
+          <?php if ($above_title) {
+            echo '<h4>' . $above_title . '</h4>';
+          } ?>
 
-        <?php if ($title) {
-          echo '<h2>' . $title . '</h2>';
-        } ?>
+          <?php if ($title) {
+            echo '<h2>' . $title . '</h2>';
+          } ?>
 
-        <?php if ($content) {
-          echo '<p>' . $content . '</p>';
-        } ?>
+          <?php if ($content) {
+            echo '<p>' . $content . '</p>';
+          } ?>
+        </div>
       </div>
-      <div class="col-xs-12 col-md-8 col-lg-8 right-aligned first-xs last-md">
+      <!-- <div class="col-xs-12 col-md-8 col-lg-8 right-aligned first-xs last-md"> -->
         <?php if (!$product_photos): ?>
           <?php if( $images ): ?>
-            <?php echo '<div class="images ' . $top_photo . '">' ?>
+            <?php 
+
+              $alignment = 'right-aligned right-aligned--tall-front';
+              echo '<div class="images ' . $alignment . '">' 
+              ?>
               
                 <div class="background jarallax" style="margin-top: <?php echo $left_photo_y; ?>px; margin-left: <?php echo $left_photo_x; ?>px;" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
                   <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
@@ -104,11 +121,11 @@ $right_photo_y = get_sub_field('right_photo_y');
           </div>
           <?php ?>
         <?php endif; ?>
-      </div>
+      <!-- </div> -->
 
     <?php } ?>
   </div>
-  </div>
+  <!-- </div> -->
 </section>
 
 <?php if ($have_primary_cta) {
