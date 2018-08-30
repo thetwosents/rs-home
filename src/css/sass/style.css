@@ -270,11 +270,13 @@ html body .product-callout {
     @media all and (min-width: 768px) and (max-width: 1023px) {
       html body .product-callout .product-images .background {
         width: 70vw;
+        margin-top: -3vw;
         margin-left: -6vw !important; }
       html body .product-callout .product-images .foreground {
-        width: 28vw;
-        right: -2vw;
-        top: -7vw; } }
+        height: 48vw;
+        width: auto;
+        right: -3vw;
+        top: -15vw; } }
     @media all and (max-width: 767px) {
       html body .product-callout .product-images {
         width: 100%;

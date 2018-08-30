@@ -14,9 +14,6 @@ html {
           width: 20vw;
           right: 0vw;
           top: 0vw;
-          // right: 12.5%;
-          // margin-top: -400px;
-          // margin-left: -25%;
         }
         .background {
           width: 40vw;
@@ -30,12 +27,14 @@ html {
         @media all and (min-width: 768px) and (max-width: 1023px) {
           .background { 
             width: 70vw;
+            margin-top: -3vw;
             margin-left: -6vw !important;
           }
           .foreground {
-            width: 28vw;
-            right: -2vw;
-            top: -7vw;
+            height: 48vw;
+            width: auto;
+            right: -3vw;
+            top: -15vw;
           }
         }
         @media all and (max-width: 767px) {
