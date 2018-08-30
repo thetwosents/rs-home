@@ -290,6 +290,10 @@ html body .product-callout {
       margin-top: -400px; }
   html body .product-callout .images {
     position: relative; }
+    html body .product-callout .images.left .background {
+      z-index: 6; }
+    html body .product-callout .images.right .foreground {
+      z-index: 6; }
     html body .product-callout .images .background {
       height: 460px;
       width: 340px;
@@ -512,7 +516,7 @@ input[type="search"] {
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 5;
+  z-index: 8;
   background: #fff;
   border-bottom: 1px solid #e8e8e8; }
   .header .menu-toggle {

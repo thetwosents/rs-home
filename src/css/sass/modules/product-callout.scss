@@ -27,6 +27,16 @@ html {
       }
       .images {
         position: relative;
+        &.left {
+          .background {
+            z-index: 6;
+          }
+        }
+        &.right {
+          .foreground {
+            z-index: 6;
+          }
+        }
         .background {
           height: 460px; 
           width: 340px;
