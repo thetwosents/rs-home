@@ -290,15 +290,19 @@ html body .product-callout {
     html body .product-callout .product-images.left .content {
       padding-left: 0px; }
     @media all and (min-width: 768px) and (max-width: 1023px) {
-      html body .product-callout .product-images .background {
-        width: 70vw;
-        margin-top: -3vw;
-        margin-left: -6vw !important; }
-      html body .product-callout .product-images .foreground {
-        height: 48vw;
-        width: auto;
-        right: -3vw;
-        top: -15vw; } }
+      html body .product-callout .product-images {
+        width: 100vw;
+        padding: 0px 16vw;
+        margin-bottom: 2vw; }
+        html body .product-callout .product-images .background {
+          width: 70vw;
+          margin-top: -3vw;
+          margin-left: -6vw !important; }
+        html body .product-callout .product-images .foreground {
+          height: 53vw;
+          width: auto;
+          right: 20vw;
+          top: -9vw; } }
     @media all and (max-width: 767px) {
       html body .product-callout .product-images {
         width: 100%;

@@ -25,16 +25,19 @@ html {
           }
         }
         @media all and (min-width: 768px) and (max-width: 1023px) {
+          width: 100vw;
+          padding: 0px 16vw;
+          margin-bottom: 2vw;
           .background { 
             width: 70vw;
             margin-top: -3vw;
             margin-left: -6vw !important;
           }
           .foreground {
-            height: 48vw;
+            height: 53vw;
             width: auto;
-            right: -3vw;
-            top: -15vw;
+            right: 20vw;
+            top: -9vw;
           }
         }
         @media all and (max-width: 767px) {
