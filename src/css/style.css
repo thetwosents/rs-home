@@ -260,20 +260,22 @@ html body .press-timeline {
 
 html body .product-callout {
   padding: 0px 0vw; }
+  html body .product-callout .right-content {
+    margin-left: 3vw; }
   html body .product-callout .product-images {
     text-align: left;
-    position: relative; }
-    html body .product-callout .product-images.left .background {
-      z-index: 6; }
-    html body .product-callout .product-images.right .foreground {
-      z-index: 6; }
-    html body .product-callout .product-images img {
-      max-width: 80%;
-      height: auto;
-      position: relative; }
+    position: relative;
+    width: 55vw; }
     html body .product-callout .product-images .foreground {
-      max-width: 50%;
-      right: 12.5%; }
+      position: absolute;
+      width: 20vw;
+      right: 0vw;
+      top: 0vw; }
+    html body .product-callout .product-images .background {
+      width: 40vw;
+      margin-left: 8vw; }
+    html body .product-callout .product-images.left .content {
+      padding-left: 0px; }
   html body .product-callout .images {
     position: relative;
     width: 55vw; }
@@ -281,15 +283,17 @@ html body .product-callout {
       z-index: 6; }
     html body .product-callout .images.left-aligned--wide-front .foreground {
       z-index: 6; }
-    html body .product-callout .images.right-aligned .background {
-      margin-right: 8vw;
-      float: right; }
-    html body .product-callout .images.right-aligned .foreground {
-      left: 8vw; }
-    html body .product-callout .images.right-aligned.right-aligned--tall-front .background {
-      z-index: 6; }
-    html body .product-callout .images.right-aligned.right-aligned--wide-front .foreground {
-      z-index: 6; }
+    html body .product-callout .images.right-aligned {
+      padding-right: 4vw; }
+      html body .product-callout .images.right-aligned .background {
+        margin-right: 12vw;
+        float: right; }
+      html body .product-callout .images.right-aligned .foreground {
+        left: 8vw; }
+      html body .product-callout .images.right-aligned.right-aligned--tall-front .background {
+        z-index: 6; }
+      html body .product-callout .images.right-aligned.right-aligned--wide-front .foreground {
+        z-index: 6; }
     html body .product-callout .images .background {
       height: 30vw;
       width: 22vw;
@@ -912,8 +916,8 @@ html {
   html body {
     font-size: 100%; }
     html body section {
-      padding-top: 7.5vw !important;
-      padding-bottom: 7.5vw !important; }
+      padding-top: 9vw !important;
+      padding-bottom: 9vw !important; }
     html body h1 {
       font-size: 3rem;
       font-family: 'Gotham';

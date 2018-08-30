@@ -80,22 +80,16 @@ $right_photo_y = get_sub_field('right_photo_y');
       </div>
 
     <?php } else { ?>
-
-      <div class="col-xs-12 col-md-4 col-lg-5 last-xs first-md" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="col-xs-12 col-md-4 col-lg-5 last-xs first-md right-content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <div class="content">
-          <?php if ($above_title) {
+          <?php 
             echo '<h4>' . $above_title . '</h4>';
-          } ?>
-
-          <?php if ($title) {
             echo '<h2>' . $title . '</h2>';
-          } ?>
-
-          <?php if ($content) {
             echo '<p>' . $content . '</p>';
-          } ?>
+           ?>
         </div>
       </div>
+      
       <!-- <div class="col-xs-12 col-md-8 col-lg-8 right-aligned first-xs last-md"> -->
         <?php if (!$product_photos): ?>
           <?php if( $images ): ?>
@@ -122,6 +116,8 @@ $right_photo_y = get_sub_field('right_photo_y');
           <?php ?>
         <?php endif; ?>
       <!-- </div> -->
+
+
 
     <?php } ?>
   </div>

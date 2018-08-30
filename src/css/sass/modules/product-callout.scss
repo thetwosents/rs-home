@@ -2,29 +2,30 @@ html {
   body {
     .product-callout {
       padding: 0px 0vw;
+      .right-content {
+        margin-left: 3vw;
+      }
       .product-images {
         text-align: left;
         position: relative;
-        &.left {
-          .background {
-            z-index: 6;
-          }
-        }
-        &.right {
-          .foreground {
-            z-index: 6;
-          }
-        }
-        img {
-          max-width: 80%;
-          height: auto;
-          position: relative;
-        }
+        width: 55vw;
         .foreground {
-          // position: absolute;
-          max-width: 50%;
-          right: 12.5%;
+          position: absolute;
+          width: 20vw;
+          right: 0vw;
+          top: 0vw;
+          // right: 12.5%;
           // margin-top: -400px;
+          // margin-left: -25%;
+        }
+        .background {
+          width: 40vw;
+          margin-left: 8vw;
+        }
+        &.left {
+          .content {
+            padding-left: 0px;
+          }
         }
       }
       .images {
@@ -41,8 +42,9 @@ html {
           }
         }
         &.right-aligned {
+          padding-right: 4vw;
           .background {
-            margin-right: 8vw;
+            margin-right: 12vw;
             float: right;
           }
           .foreground {
