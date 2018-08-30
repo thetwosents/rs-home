@@ -63,8 +63,8 @@ $right_photo_y = get_sub_field('right_photo_y');
 
         <?php else: ?>
           <?php echo '<div class="product-images ' . $top_photo . '">' ?>
-              <img class="background" style="margin-top: <?php echo $left_photo_y; ?>px; margin-left: <?php echo $left_photo_x; ?>px;"  src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
-              <img class="foreground" style="margin-top: <?php echo $right_photo_y; ?>px; margin-left: <?php echo $right_photo_x; ?>px;" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+              <img class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+              <img class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
           </div>
         <?php ?>
       <?php endif; ?>
@@ -116,8 +116,8 @@ $right_photo_y = get_sub_field('right_photo_y');
 
           <?php else: ?>
           <?php echo '<div class="product-images ' . $top_photo . '">' ?>
-              <img class="background" style="margin-top: <?php echo $left_photo_y; ?>px; margin-left: <?php echo $left_photo_x; ?>px;"  src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
-              <img class="foreground" style="margin-top: <?php echo $right_photo_y; ?>px; margin-left: <?php echo $right_photo_x; ?>px;" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+              <img class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+              <img class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
           </div>
           <?php ?>
         <?php endif; ?>
