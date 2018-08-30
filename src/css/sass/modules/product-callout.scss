@@ -27,7 +27,7 @@ html {
         @media all and (min-width: 768px) and (max-width: 1023px) {
           width: 100vw;
           padding: 0px 16vw;
-          margin-bottom: 2vw;
+          margin-bottom: 3vw;
           .background { 
             width: 70vw;
             margin-top: -3vw;
@@ -36,8 +36,8 @@ html {
           .foreground {
             height: 53vw;
             width: auto;
-            right: 20vw;
-            top: -9vw;
+            right: 13vw;
+            top: -13vw;
           }
         }
         @media all and (max-width: 767px) {

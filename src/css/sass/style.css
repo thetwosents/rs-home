@@ -271,7 +271,7 @@ html body .product-callout {
       html body .product-callout .product-images {
         width: 100vw;
         padding: 0px 16vw;
-        margin-bottom: 2vw; }
+        margin-bottom: 3vw; }
         html body .product-callout .product-images .background {
           width: 70vw;
           margin-top: -3vw;
@@ -279,8 +279,8 @@ html body .product-callout {
         html body .product-callout .product-images .foreground {
           height: 53vw;
           width: auto;
-          right: 20vw;
-          top: -9vw; } }
+          right: 13vw;
+          top: -13vw; } }
     @media all and (max-width: 767px) {
       html body .product-callout .product-images {
         width: 100%;
