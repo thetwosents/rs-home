@@ -1038,7 +1038,12 @@ html {
     overflow-x: hidden; }
     html body {
       width: 100%;
-      overflow-x: hidden; } }
+      overflow-x: hidden; }
+      html body section {
+        padding-left: 8vw;
+        padding-right: 8vw; }
+      html body .container {
+        width: auto !important; } }
 
 @media all and (max-width: 767px) {
   html {

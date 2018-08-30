@@ -209,6 +209,11 @@ html {
       width: 100%;
       overflow-x: hidden;
       section {
+        padding-left: 8vw;
+        padding-right: 8vw;
+      }
+      .container {
+        width: auto !important;
       }
     }
   }
