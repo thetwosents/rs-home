@@ -184,7 +184,7 @@ html body .join-the-family h2 {
     background: rgba(0, 0, 0, 0.5); }
   @media all and (min-width: 768px) and (max-width: 1023px) {
     .masthead {
-      padding-top: 25vw !important; } }
+      padding-top: 35vw !important; } }
   @media all and (max-width: 767px) {
     .masthead {
       padding-bottom: 8vh !important;
