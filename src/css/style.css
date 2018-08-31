@@ -169,6 +169,9 @@ html body .join-the-family h2 {
     color: #fff;
     position: relative;
     z-index: 4; }
+  .masthead .box {
+    position: relative !important;
+    z-index: 6 !important; }
   .masthead h1 {
     margin-top: 160px; }
   .masthead h4 {
@@ -186,6 +189,7 @@ html body .join-the-family h2 {
     right: 0px;
     bottom: 0px;
     width: 100%;
+    z-index: 0;
     height: 100%;
     background: rgba(0, 0, 0, 0.65); }
   @media all and (min-width: 768px) and (max-width: 1023px) {

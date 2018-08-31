@@ -40,6 +40,7 @@ $right_photo_y = get_sub_field('right_photo_y');
               echo '<div class="images ' . $alignment . '">' 
               ?>
                 <div 
+                  data-jarallax-element="80"
                   class="background jarallax" 
                   data-jarallax 
                   data-disable-parallax="/iPad|iPhone|iPod|Android/" 
@@ -49,8 +50,9 @@ $right_photo_y = get_sub_field('right_photo_y');
                     data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
                 </div>
                 <div 
+                  data-jarallax-element="-100"
                   class="foreground jarallax" 
-                  data-disable-parallax="/iPad|iPhone|iPod|Android/" 
+                  data-disable-parallax="/iPad|iPhone|iPod|Android/"
                   data-jarallax 
                   data-speed="0.96">
                   <img 
@@ -99,11 +101,19 @@ $right_photo_y = get_sub_field('right_photo_y');
               echo '<div class="images ' . $alignment . '">' 
               ?>
               
-                <div class="background jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
+                <div 
+                  data-jarallax-element="-80"
+                  class="background jarallax" 
+                  data-disable-parallax="/iPad|iPhone|iPod|Android/" 
+                  data-jarallax data-speed="0.96">
                   <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
                 </div>
-                <div class="foreground jarallax" data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax data-speed="0.96">
-                <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+                <div 
+                  data-jarallax-element="80"
+                  class="foreground jarallax" 
+                  data-disable-parallax="/iPad|iPhone|iPod|Android/" 
+                  data-jarallax data-speed="0.96">
+                  <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
                 </div>
               </div>
           <?php endif; ?>
