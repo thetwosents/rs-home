@@ -270,9 +270,10 @@ html body .product-callout {
     width: 55vw; }
     html body .product-callout .product-images .foreground {
       position: absolute;
-      width: 20vw;
+      height: 35vw;
+      width: auto;
       right: 0vw;
-      top: 0vw; }
+      top: -4vw; }
     html body .product-callout .product-images .background {
       width: 40vw;
       margin-left: 8vw; }

@@ -11,9 +11,10 @@ html {
         width: 55vw;
         .foreground {
           position: absolute;
-          width: 20vw;
+          height: 35vw;
+          width: auto;
           right: 0vw;
-          top: 0vw;
+          top: -4vw;
         }
         .background {
           width: 40vw;
