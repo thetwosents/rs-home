@@ -1066,6 +1066,9 @@ html {
         font-size: 1.4rem; }
       html body .container {
         padding-left: 8vw;
-        padding-right: 8vw; } }
+        padding-right: 8vw; }
+      html body p {
+        color: #000;
+        font-weight: 500; } }
 
 /*# sourceMappingURL=style.css.map */
