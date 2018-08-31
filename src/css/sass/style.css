@@ -191,7 +191,7 @@ html body .join-the-family h2 {
       padding-bottom: 8vh !important;
       min-height: 80vh; }
       .masthead p {
-        max-width: auto; } }
+        max-width: 100%; } }
 
 html body .mission-statement .subheading {
   font-size: 1.6rem;
