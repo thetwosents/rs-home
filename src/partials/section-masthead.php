@@ -25,11 +25,13 @@ $primary_cta_link = get_sub_field('primary_cta_link');
             data-aos-anchor-placement="top-bottom" 
             data-aos="fade-up" 
             data-aos-duration="1200"><?php echo $title; ?></h1>
-          <p 
+          <div 
             data-aos-anchor-placement="top-bottom" 
             data-aos="fade-up" 
-            data-aos-delay="100"  
+            data-aos-delay="100">
+            <p 
             ><?php echo $content; ?></p>
+          </div>
 
           <?php if ($have_primary_cta) { ?>
             <a 
