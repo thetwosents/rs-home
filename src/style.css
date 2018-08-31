@@ -205,6 +205,9 @@ html body .join-the-family h2 {
     z-index: 0;
     height: 100%;
     background: rgba(0, 0, 0, 0.65); }
+  @media all and (min-width: 1800px) {
+    .masthead .row {
+      min-height: 70vh; } }
   @media all and (min-width: 768px) and (max-width: 1023px) {
     .masthead {
       padding-top: 35vw !important; } }
@@ -408,13 +411,13 @@ html body .product-callout {
     html body .product-callout .content h4 {
       font-family: 'Gotham';
       font-weight: 300;
-      font-size: .875rem;
+      font-size: .725rem;
       color: #000;
       text-transform: uppercase;
-      margin: 0px 0px 4px; }
+      margin: 0px 0px 20px; }
     html body .product-callout .content h2 {
       font-family: 'Gotham';
-      font-size: 1.4rem;
+      font-size: 2rem;
       color: #000000;
       letter-spacing: 1.71px;
       line-height: 1.4;
@@ -475,6 +478,7 @@ html body .team-member-wall .team-member {
   margin-bottom: 30px; }
 
 html body .testimonial-slider .quote {
+  cursor: pointer;
   font-family: 'Didot';
   font-style: italic;
   font-size: 2rem;
@@ -506,6 +510,9 @@ html body .vertical-carousel .slider {
     margin-right: 10px !important; }
     html body .vertical-carousel .slider .slick-slide:nth-child(even) {
       margin-top: 20px !important; } }
+
+.become-rs-influencer .slider {
+  width: 100%; }
 
 /**
  * partials/reset
@@ -1070,9 +1077,9 @@ html {
 
 @media all and (min-width: 1800px) {
   html {
-    font-size: 100% !important; }
+    font-size: 140% !important; }
     html body {
-      font-size: 100%; }
+      font-size: 140%; }
       html body section.masthead {
         padding: 4vh 12vw !important; }
       html body .product-callout .images .foreground {
