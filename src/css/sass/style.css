@@ -417,6 +417,11 @@ html body .side-by-side .jarallax {
   height: 400px; }
 html body .side-by-side p {
   max-width: 90%; }
+html body .side-by-side .box {
+  padding: 2vw 2vw 0px 0px; }
+@media all and (max-width: 767px) {
+  html body .side-by-side .box {
+    padding: 2vw 4vw; } }
 
 html body .team-member-wall p {
   text-transform: uppercase;
