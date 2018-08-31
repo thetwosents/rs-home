@@ -12,12 +12,12 @@ $images = get_sub_field('gallery');
     <div class="row">
       <div class="col-xs-12 col-md-5">
         <div class="box">
-          <img class="top" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>">
+          <img data-jarallax-element="40" class="top" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>">
         </div> 
       </div>
       <div class="col-xs-12 col-md-7">
         <div class="box">
-          <div class="content">
+          <div class="content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <h2><?php echo $title; ?></h2>
             <p><?php echo $subtext; ?></p>
             <a href="" class="btn">Buy The Book</a>
@@ -28,10 +28,10 @@ $images = get_sub_field('gallery');
     <div class="row">
       <div class="col-xs-12 col-md-8 col-md-offset-4">
         <div class="left">
-          <img src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>">
+          <img data-jarallax-element="-40" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>">
         </div>
         <div class="right">
-          <img src="<?php echo wp_get_attachment_image_url( $images[2]['ID'], 'full' ); ?>">
+          <img data-jarallax-element="40" src="<?php echo wp_get_attachment_image_url( $images[2]['ID'], 'full' ); ?>">
         </div>
       </div>
     </div>
