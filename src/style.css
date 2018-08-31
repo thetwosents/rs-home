@@ -326,6 +326,7 @@ html body .product-callout {
         html body .product-callout .product-images .foreground {
           width: 29vw;
           right: 22vw;
+          height: auto;
           top: -14vw; }
         html body .product-callout .product-images .background {
           margin-left: 0px;
