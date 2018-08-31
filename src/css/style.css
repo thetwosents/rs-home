@@ -176,6 +176,8 @@ html body .join-the-family h2 {
     margin-top: 160px; }
   .masthead p {
     max-width: 45vw; }
+  .masthead .btn {
+    margin: 20px 0px; }
   .masthead:after {
     content: '';
     position: absolute;
