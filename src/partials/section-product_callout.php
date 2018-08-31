@@ -65,8 +65,8 @@ $right_photo_y = get_sub_field('right_photo_y');
 
         <?php else: ?>
           <?php echo '<div class="product-images ' . $top_photo . '">' ?>
-              <img class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
-              <img class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+              <img data-jarallax-element="80" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+              <img data-jarallax-element="-80" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
           </div>
         <?php ?>
       <?php endif; ?>
@@ -120,8 +120,8 @@ $right_photo_y = get_sub_field('right_photo_y');
 
           <?php else: ?>
           <?php echo '<div class="product-images ' . $top_photo . '">' ?>
-              <img class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
-              <img class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+              <img data-jarallax-element="-80" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+              <img data-jarallax-element="80" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
           </div>
           <?php ?>
         <?php endif; ?>

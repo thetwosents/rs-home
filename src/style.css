@@ -191,7 +191,7 @@ html body .join-the-family h2 {
     font-weight: 400;
     margin-top: 160px; }
   .masthead p {
-    max-width: 45vw; }
+    width: 45vw; }
   .masthead .btn {
     margin: 20px 0px; }
   .masthead:after {
@@ -213,7 +213,7 @@ html body .join-the-family h2 {
       padding-bottom: 8vh !important;
       min-height: 80vh; }
       .masthead p {
-        max-width: 100%; } }
+        width: 100%; } }
 
 html body .mission-statement .subheading {
   font-size: 1.6rem;
