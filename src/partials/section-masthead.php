@@ -21,11 +21,20 @@ $primary_cta_link = get_sub_field('primary_cta_link');
       <div class="col-xs-12 col-md-7 col-lg-10">
         <div class="box" >
           <!-- <h4><?php echo $above_title; ?></h4> -->
-          <h1 data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-duration="1200"><?php echo $title; ?></h1>
-          <p data-aos-anchor-placement="top-bottom" data-aos-delay="100" data-aos="fade-up" data-aos-duration="1200"><?php echo $content; ?></p>
+          <h1 
+            data-aos-anchor-placement="top-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $title; ?></h1>
+          <p 
+            data-aos-anchor-placement="top-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100"  
+            ><?php echo $content; ?></p>
 
           <?php if ($have_primary_cta) { ?>
-            <a data-aos="fade-up" data-aos-delay="200" href="<?php echo $primary_cta_link; ?>" class="btn btn-secondary"><?php echo $primary_cta_text; ?></a>
+            <a 
+              data-aos="fade-up" 
+              data-aos-delay="200" href="<?php echo $primary_cta_link; ?>" class="btn btn-secondary"><?php echo $primary_cta_text; ?></a>
           <?php } ?>
           
         </div>
