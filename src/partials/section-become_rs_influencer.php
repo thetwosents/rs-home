@@ -20,7 +20,6 @@ $content = get_sub_field('content');
 			<div class="col-xs-12 col-md-6">
 				<div class="box">
 					<div class="slider">
-
 						<?php foreach( $images as $image ): ?>
 							<div>
 								<img src="<?php echo wp_get_attachment_image_url( $image['ID'],'full' ); ?>">

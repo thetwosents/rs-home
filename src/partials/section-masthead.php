@@ -20,7 +20,7 @@ $primary_cta_link = get_sub_field('primary_cta_link');
     <div class="row middle-xs">
       <div class="col-xs-12 col-md-7 col-lg-10">
         <div class="box">
-          <h4><?php echo $above_title; ?></h4>
+          <!-- <h4><?php echo $above_title; ?></h4> -->
           <h1><?php echo $title; ?></h1>
           <p><?php echo $content; ?></p>
 
