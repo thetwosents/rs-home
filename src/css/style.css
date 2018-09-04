@@ -156,12 +156,20 @@ html body .job-postings {
       font-family: 'Gotham'; }
   @media all and (max-width: 767px) {
     html body .job-postings #BambooHR {
+      text-align: center;
       padding: 0px !important; }
       html body .job-postings #BambooHR .BambooHR-ATS-Jobs-List {
         padding: 0px !important; }
+      html body .job-postings #BambooHR .BambooHR-ATS-Department-Header {
+        font-size: 1.6rem;
+        margin-bottom: 25px; }
       html body .job-postings #BambooHR .BambooHR-ATS-Location {
         float: none !important;
-        padding-top: 4px !important; } }
+        padding-top: 4px !important; }
+      html body .job-postings #BambooHR .BambooHR-ATS-board a {
+        line-height: 1.2em !important; }
+      html body .job-postings #BambooHR .BambooHR-ATS-board li {
+        margin-bottom: 25px !important; } }
 
 html body .join-the-family h2 {
   font-family: 'Didot' !important;

@@ -10,13 +10,24 @@ html {
 	      }
 	      @media all and (max-width: 767px) {
 	      	#BambooHR {
+	      		text-align: center;
 	      		padding: 0px !important;
 	      		.BambooHR-ATS-Jobs-List {
 	      			padding: 0px !important;
 	      		}
+	      		.BambooHR-ATS-Department-Header {
+	      			font-size: 1.6rem;
+	      			margin-bottom: 25px;
+	      		}
 	      		.BambooHR-ATS-Location {
 	      			float: none !important;
 	      			padding-top: 4px !important;
+	      		}
+	      		.BambooHR-ATS-board a {
+	      			line-height: 1.2em !important;
+	      		}
+	      		.BambooHR-ATS-board li {
+	      			margin-bottom: 25px !important;
 	      		}
 	      	}
 	      }
