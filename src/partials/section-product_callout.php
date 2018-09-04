@@ -43,7 +43,6 @@ $right_photo_y = get_sub_field('right_photo_y');
                   data-jarallax-element="40"
                   class="background jarallax" 
                   data-jarallax 
-                  data-disable-parallax="/iPad|iPhone|iPod|Android/" 
                   data-speed="0.96">
                   <img 
                     class="jarallax-img" 
@@ -52,7 +51,6 @@ $right_photo_y = get_sub_field('right_photo_y');
                 <div 
                   data-jarallax-element="-40"
                   class="foreground jarallax" 
-                  data-disable-parallax="/iPad|iPhone|iPod|Android/"
                   data-jarallax 
                   data-speed="0.96">
                   <img 
@@ -104,13 +102,15 @@ $right_photo_y = get_sub_field('right_photo_y');
                 <div 
                   data-jarallax-element="-40"
                   class="background jarallax" 
-                  data-jarallax data-speed="0.96">
+                  data-jarallax
+                  data-speed="0.96">
                   <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
                 </div>
                 <div 
                   data-jarallax-element="40"
                   class="foreground jarallax" 
-                  data-jarallax data-speed="0.96">
+                  data-jarallax 
+                  data-speed="0.96">
                   <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
                 </div>
               </div>

@@ -53,7 +53,8 @@
         {
           breakpoint: 767,
           settings: {
-            adaptiveHeight: true
+            adaptiveHeight: true,
+            autoplay: false
           }
         }
       ]
