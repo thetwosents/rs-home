@@ -518,7 +518,10 @@ html body .vertical-carousel .slider {
   font-weight: 300;
   text-transform: none; }
 .brand-wall .logo-slider .slick-slide {
-  margin: 0px 20px !important; }
+  margin: 0px 20px !important;
+  display: flex;
+  align-items: center;
+  text-align: center; }
   .brand-wall .logo-slider .slick-slide .logo {
     width: 75% !important; }
   .brand-wall .logo-slider .slick-slide img {
