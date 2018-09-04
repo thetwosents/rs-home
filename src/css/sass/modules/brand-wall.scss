@@ -7,16 +7,31 @@
     text-transform: none;
   }
   .logo-slider {
+    align-items: center;
     .slick-slide {
       margin: 0px 20px !important;
-      display: flex; 
-      align-items: center;
+      // display: flex; 
       text-align: center;
+      &::before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
       .logo {
+        vertical-align: middle;
+        display: inline-block;
         width: 75% !important;
+        img {
+          vertical-align: middle;
+          display: inline-block;
+        }
       }
       img {
         height: auto !important;
+        vertical-align: middle;
+        display: inline-block;
+        width: 75% !important;
       }
     }
   }

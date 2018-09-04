@@ -517,15 +517,28 @@ html body .vertical-carousel .slider {
   margin-bottom: 60px;
   font-weight: 300;
   text-transform: none; }
-.brand-wall .logo-slider .slick-slide {
-  margin: 0px 20px !important;
-  display: flex;
-  align-items: center;
-  text-align: center; }
-  .brand-wall .logo-slider .slick-slide .logo {
-    width: 75% !important; }
-  .brand-wall .logo-slider .slick-slide img {
-    height: auto !important; }
+.brand-wall .logo-slider {
+  align-items: center; }
+  .brand-wall .logo-slider .slick-slide {
+    margin: 0px 20px !important;
+    text-align: center; }
+    .brand-wall .logo-slider .slick-slide::before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
+    .brand-wall .logo-slider .slick-slide .logo {
+      vertical-align: middle;
+      display: inline-block;
+      width: 75% !important; }
+      .brand-wall .logo-slider .slick-slide .logo img {
+        vertical-align: middle;
+        display: inline-block; }
+    .brand-wall .logo-slider .slick-slide img {
+      height: auto !important;
+      vertical-align: middle;
+      display: inline-block;
+      width: 75% !important; }
 
 .team-member-bio.left .content {
   padding-left: 40px; }
