@@ -7,7 +7,7 @@ $size = 'medium';
 
 ?>
 
-<section class="brand-wall">
+<section class="brand-wall light--spacing">
   <div class="container">
     <div class="row middle-xs center-xs">
       <div class="col-xs-12">

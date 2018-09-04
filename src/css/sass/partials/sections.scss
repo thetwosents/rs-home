@@ -2,10 +2,6 @@ html {
   body {
     overflow-x: hidden;
     width: 100%;
-    
-    .our-story {
-      
-    }
     .become-rs-influencer {
       .content {
         .box {
@@ -40,27 +36,6 @@ html {
     .process-steps {
       h2 {
         font-size: 1.6rem;
-      }
-    }
-    
-    .brand-wall {
-      h2 {
-        font-family: 'Didot' !important;
-        font-style: italic;
-        margin-bottom: 60px;
-        font-weight: 300;
-        text-transform: none;
-      }
-      .logo-slider {
-        .slick-slide {
-          margin: 0px 20px !important;
-          .logo {
-            width: 75% !important;
-          }
-          img {
-            height: auto !important;
-          }
-        }
       }
     }
     .large-callout {

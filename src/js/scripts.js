@@ -33,8 +33,7 @@
         {
           breakpoint: 767,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 4,
             infinite: true,
             dots: true
           }
@@ -49,7 +48,15 @@
       speed: 600,
       autoplaySpeed: 2200,
       fade: true,
-      dots: true
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            adaptiveHeight: true
+          }
+        }
+      ]
     });
 
     $('.become-rs-influencer .slider').slick({

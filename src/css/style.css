@@ -404,7 +404,7 @@ html body .product-callout {
       margin: 0px 0px 20px; }
     html body .product-callout .content h2 {
       font-family: 'Gotham';
-      font-size: 2rem;
+      font-size: 1.8rem;
       color: #000000;
       letter-spacing: 1.71px;
       line-height: 1.4;
@@ -476,6 +476,10 @@ html body .testimonial-slider .quote {
 html body .testimonial-slider h4 {
   font-size: .875rem; }
 
+@media all and (max-width: 767px) {
+  html body .testimonial-slider .quote {
+    font-size: 1.2rem; } }
+
 html body .vertical-carousel h4 {
   font-weight: 300;
   margin-top: 8px; }
@@ -500,6 +504,20 @@ html body .vertical-carousel .slider {
 
 .become-rs-influencer .slider {
   width: 100%; }
+
+.brand-wall h2 {
+  font-family: 'Didot' !important;
+  font-style: italic;
+  margin-bottom: 60px;
+  font-weight: 300;
+  text-transform: none; }
+
+.brand-wall .logo-slider .slick-slide {
+  margin: 0px 20px !important; }
+  .brand-wall .logo-slider .slick-slide .logo {
+    width: 75% !important; }
+  .brand-wall .logo-slider .slick-slide img {
+    height: auto !important; }
 
 /**
  * partials/reset
@@ -875,18 +893,6 @@ html body {
       margin: 4vh auto; } }
   html body .process-steps h2 {
     font-size: 1.6rem; }
-  html body .brand-wall h2 {
-    font-family: 'Didot' !important;
-    font-style: italic;
-    margin-bottom: 60px;
-    font-weight: 300;
-    text-transform: none; }
-  html body .brand-wall .logo-slider .slick-slide {
-    margin: 0px 20px !important; }
-    html body .brand-wall .logo-slider .slick-slide .logo {
-      width: 75% !important; }
-    html body .brand-wall .logo-slider .slick-slide img {
-      height: auto !important; }
   html body .large-callout .box {
     position: relative; }
   html body .large-callout .top-img {
@@ -982,9 +988,14 @@ html body {
   min-height: 50vh; }
 
 html {
-  font-size: 100% !important; }
+  font-size: 100% !important;
+  overflow-x: hidden; }
   html body {
-    font-size: 100%; }
+    font-size: 100%;
+    overflow-x: hidden; }
+    html body .row {
+      margin-left: 0px !important;
+      margin-right: 0px !important; }
     html body section {
       padding-top: 9vw !important;
       padding-bottom: 9vw !important; }
@@ -1088,6 +1099,9 @@ html {
       html body section {
         padding-top: 9vh !important;
         padding-bottom: 9vh !important; }
+        html body section.light--spacing {
+          padding-top: 4vh !important;
+          padding-bottom: 4vh !important; }
       html body h1 {
         font-size: 2.4rem; }
       html body h2 {

@@ -1,4 +1,4 @@
-<section class="testimonial-slider">
+<section class="testimonial-slider light--spacing">
   <div class="container">
     <div class="row center-xs middle-xs">
       <div class="col-xs-12 col-md-10">
