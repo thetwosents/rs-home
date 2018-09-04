@@ -4,26 +4,35 @@ html {
 	      margin-top: 60px;
 	      .perks {
 	        margin-top: 60px;
-	        .perk {
-	          margin: 20px auto 40px;
-	          h4 {
-	            font-size: 1rem;
-	            letter-spacing: 1px;
-	            margin-bottom: 8px;
-	          }
-	          p {
-	            font-size: .725rem;
-	          }
-	        }
 	      }
+	      .perk {
+          margin: 20px auto 40px;
+          h4 {
+            font-size: 1rem;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+          }
+          p {
+            font-size: .725rem !important;
+          }
+        }
 	      .top-line {
-	        height: 3px;
+	        height: 2px;
 	        background: #000;
 	        width: 50%;
 	      }
 	      .perk-gallery {
 	        height: 400px;
 	        width: 90%;
+	      }
+	      @media all and (max-width: 767px) {
+	      	.top-line {
+	      		margin: 20px auto;
+	      	}
+	      	.perk-gallery {
+	      		width: 100%;
+	      		height: 320px;
+	      	}
 	      }
 	    }
 	}

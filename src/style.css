@@ -230,21 +230,27 @@ html body .perks-wall {
   margin-top: 60px; }
   html body .perks-wall .perks {
     margin-top: 60px; }
-    html body .perks-wall .perks .perk {
-      margin: 20px auto 40px; }
-      html body .perks-wall .perks .perk h4 {
-        font-size: 1rem;
-        letter-spacing: 1px;
-        margin-bottom: 8px; }
-      html body .perks-wall .perks .perk p {
-        font-size: .725rem; }
+  html body .perks-wall .perk {
+    margin: 20px auto 40px; }
+    html body .perks-wall .perk h4 {
+      font-size: 1rem;
+      letter-spacing: 1px;
+      margin-bottom: 8px; }
+    html body .perks-wall .perk p {
+      font-size: .725rem !important; }
   html body .perks-wall .top-line {
-    height: 3px;
+    height: 2px;
     background: #000;
     width: 50%; }
   html body .perks-wall .perk-gallery {
     height: 400px;
     width: 90%; }
+  @media all and (max-width: 767px) {
+    html body .perks-wall .top-line {
+      margin: 20px auto; }
+    html body .perks-wall .perk-gallery {
+      width: 100%;
+      height: 320px; } }
 
 html body .press-timeline {
   background: #f2f2f2;
@@ -1037,7 +1043,8 @@ html {
       color: #000; }
       @media all and (max-width: 767px) {
         html body h1 {
-          font-size: 2rem !important; } }
+          font-size: 2rem !important;
+          line-height: 1.4 !important; } }
     html body h2 {
       font-size: 2rem;
       font-family: 'Gotham' !important;

@@ -9,7 +9,7 @@ $image = get_sub_field('image');
 
 <section class="perks-wall">
   <div class="container">
-    <div class="row">
+    <div class="row center-xs start-md">
       <div class="col-xs-12 col-md-4">
         <h4><?php echo $above_title; ?></h4>
         <h1><?php echo $title; ?></h1>
@@ -19,7 +19,7 @@ $image = get_sub_field('image');
         <img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/RS-Press-Logos-FC-MOST-INNOVATIVE.jpg">
       </div>
     </div>
-    <div class="row perks">
+    <div class="row center-xs start-md perks">
 
       <?php
 
@@ -54,7 +54,7 @@ $image = get_sub_field('image');
             if ($count === 8) { ?>
               </div>
 
-              <div class="row">
+              <div class="row center-xs start-md">
                 <div class="col-xs-12 col-md-6">
                   <div class="jarallax perk-gallery" data-jarallax data-speed="0.96">
                     <img class="jarallax-img" src="<?php echo $image; ?>" alt="">
