@@ -76,6 +76,12 @@ $right_photo_y = get_sub_field('right_photo_y');
             echo '<h2>' . $title . '</h2>';
             echo '<p>' . $content . '</p>';
           ?>
+
+          <?php if ($have_primary_cta) {
+
+            echo '<a href="' . $primary_cta_link . '" class="btn">' . $primary_cta_text . '</a>';
+
+          } ?>
         </div>
       </div>
 
@@ -87,6 +93,11 @@ $right_photo_y = get_sub_field('right_photo_y');
             echo '<h2>' . $title . '</h2>';
             echo '<p>' . $content . '</p>';
            ?>
+           <?php if ($have_primary_cta) {
+
+            echo '<a href="' . $primary_cta_link . '" class="btn">' . $primary_cta_text . '</a>';
+
+          } ?>
         </div>
       </div>
       
@@ -131,18 +142,6 @@ $right_photo_y = get_sub_field('right_photo_y');
   </div>
   <!-- </div> -->
 </section>
-
-<?php if ($have_primary_cta) {
-
-  echo '<a href="' . $primary_cta_link . '">' . $primary_cta_text . '</a>';
-
-} ?>
-
-<?php if ($have_secondary_cta) {
-
-  echo '<a href="' . $secondary_cta_link . '">' . $secondary_cta_text . '</a>';
-
-} ?>
 
 </div>
 

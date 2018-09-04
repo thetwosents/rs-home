@@ -1,0 +1,18 @@
+.team-member-bio {
+  &.left {
+    .content {
+      padding-left: 40px;
+    }
+  }
+  &.right {
+    .content {
+      padding-right: 40px;
+    }
+  }
+  @media all and (max-width: 767px) {
+    .content {
+      padding-left: 0px !important;
+      margin-top: 40px;
+    }
+  }
+}

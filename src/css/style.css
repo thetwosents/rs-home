@@ -401,7 +401,7 @@ html body .product-callout {
       font-size: .725rem;
       color: #000;
       text-transform: uppercase;
-      margin: 0px 0px 20px; }
+      margin: 0px 0px 10px; }
     html body .product-callout .content h2 {
       font-family: 'Gotham';
       font-size: 1.8rem;
@@ -450,7 +450,9 @@ html body .side-by-side .box {
 
 @media all and (max-width: 767px) {
   html body .side-by-side .box {
-    padding: 2vw 4vw; } }
+    padding: 2vw 1vw; }
+  html body .side-by-side p {
+    max-width: 100%; } }
 
 html body .team-member-wall p {
   text-transform: uppercase;
@@ -518,6 +520,17 @@ html body .vertical-carousel .slider {
     width: 75% !important; }
   .brand-wall .logo-slider .slick-slide img {
     height: auto !important; }
+
+.team-member-bio.left .content {
+  padding-left: 40px; }
+
+.team-member-bio.right .content {
+  padding-right: 40px; }
+
+@media all and (max-width: 767px) {
+  .team-member-bio .content {
+    padding-left: 0px !important;
+    margin-top: 40px; } }
 
 /**
  * partials/reset
@@ -935,10 +948,6 @@ html body {
       line-height: 40px; }
     html body .values-callout .container p {
       max-width: 100%; } }
-  html body .team-member-bio.left .content {
-    padding-left: 40px; }
-  html body .team-member-bio.right .content {
-    padding-right: 40px; }
   html body .pull-quotes .col-md-4 {
     margin-bottom: 48px; }
   html body .pull-quotes article img {
@@ -1005,6 +1014,9 @@ html {
       line-height: 100%;
       margin: 0px;
       color: #000; }
+      @media all and (max-width: 767px) {
+        html body h1 {
+          font-size: 2rem !important; } }
     html body h2 {
       font-size: 2rem;
       font-family: 'Gotham' !important;
@@ -1012,6 +1024,9 @@ html {
       color: #000;
       letter-spacing: 1.7px;
       margin: 0px; }
+      @media all and (max-width: 767px) {
+        html body h2 {
+          font-size: 1.6rem !important; } }
     html body h3 {
       font-size: 1.4rem;
       font-family: 'Didot';
@@ -1029,8 +1044,15 @@ html {
       color: #767676;
       line-height: 1.9 !important;
       font-weight: 400; }
-    html body ul li {
-      font-size: 1rem; }
+    html body ul {
+      padding-left: 17px !important;
+      margin-left: 0px; }
+      html body ul li {
+        margin-left: 0px;
+        padding-left: 0px !important;
+        line-height: 1.9;
+        font-size: 1rem;
+        font-family: 'Gotham' !important; }
     html body a {
       font-size: 1rem; }
     html body span {

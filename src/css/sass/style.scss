@@ -28,6 +28,7 @@
 @import "modules/vertical-carousel.scss";
 @import "modules/become-rs-influencer.scss";
 @import "modules/brand-wall.scss";
+@import "modules/team-member-bio.scss";
 
 // Partials
 @import "partials/reset";
@@ -89,6 +90,9 @@ html {
       line-height: 100%;
       margin: 0px;
       color: #000;
+      @media all and (max-width: 767px) {
+        font-size: 2rem !important;
+      }
     }
     h2 {
       font-size: 2rem;
@@ -97,6 +101,9 @@ html {
       color: #000;
       letter-spacing: 1.7px;
       margin: 0px;
+      @media all and (max-width: 767px) {
+        font-size: 1.6rem !important;
+      }
     }
     h3 {
       font-size: 1.4rem;
@@ -119,8 +126,14 @@ html {
       font-weight: 400;
     }
     ul {
+      padding-left: 17px !important;
+      margin-left: 0px;
       li {
+        margin-left: 0px;
+        padding-left: 0px !important;
+        line-height: 1.9;
         font-size: 1rem;
+        font-family: 'Gotham' !important;
       }
     }
     a {

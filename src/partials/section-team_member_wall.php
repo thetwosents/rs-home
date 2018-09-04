@@ -7,19 +7,15 @@
 
 				$team_members = get_sub_field('team_members');
 
-				  if( have_rows('team_members') ):
+				  if( have_rows('team_members') ): while ( have_rows('team_members') ) : the_row();
 
-					  // loop through the rows of data
-				    while ( have_rows('team_members') ) : the_row();
-
-				    	// display a sub field value
-              $title = get_sub_field('title');
-              $name = get_sub_field('name');
-              $image = get_sub_field('image');
+						$title = get_sub_field('title');
+						$name = get_sub_field('name');
+						$image = get_sub_field('image');
 
 						?>
 
-						<div class="col-xs-12 col-md-3">
+						<div class="col-xs-6 col-md-3">
 							<div class="box team-member">
 								<img src="<?php echo $image; ?>">
 								<p><?php echo $title; ?></p>
@@ -27,17 +23,7 @@
 							</div>
 						</div>
 
-			<?php 
-
-         endwhile;
-
-      else :
-
-          // no rows found
-
-      endif;
-
-      ?>
+			<?php endwhile; else : endif; ?>
 		</div>
 	</div>
 </section>

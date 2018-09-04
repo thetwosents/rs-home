@@ -16,7 +16,7 @@
 
               ?>
 
-              <div class="col-xs-12 col-md-3" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+              <div class="col-xs-12 col-md-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                 <div class="box">
                   <div class="stat">
                     <h2><?php echo $number; ?></h2>
