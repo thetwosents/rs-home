@@ -8,6 +8,18 @@ html {
 	          font-family: 'Gotham';
 	        }
 	      }
+	      @media all and (max-width: 767px) {
+	      	#BambooHR {
+	      		padding: 0px !important;
+	      		.BambooHR-ATS-Jobs-List {
+	      			padding: 0px !important;
+	      		}
+	      		.BambooHR-ATS-Location {
+	      			float: none !important;
+	      			padding-top: 4px !important;
+	      		}
+	      	}
+	      }
 	    }
 	}
 }
