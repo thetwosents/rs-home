@@ -177,6 +177,7 @@ html body .job-postings {
         font-size: 1.6rem;
         margin-bottom: 25px; }
       html body .job-postings #BambooHR .BambooHR-ATS-Location {
+        display: block;
         float: none !important;
         padding-top: 4px !important; }
       html body .job-postings #BambooHR .BambooHR-ATS-board a {
