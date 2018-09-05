@@ -5,11 +5,8 @@ Template name: Customizable Page
 get_header(); ?>
 
 <main class="main" role="main">
-  <br><br><br><br><br><br><br><br><br><br>
 <?php // open the WordPress loop
 if (have_posts()) : while (have_posts()) : the_post();
-
-  print_r(get_field_objects());
 
   // are there any rows within within our flexible content?
   if( have_rows('page_content') ): 
