@@ -14,6 +14,7 @@ if (have_posts()) : while (have_posts()) : the_post();
     // loop through all the rows of flexible content
     while ( have_rows('page_content') ) : the_row();
 
+      print_r(get_row_layout());
     // Product Callout 
     if( get_row_layout() == 'product_callout' )
       get_template_part('partials/section', 'product_callout');
