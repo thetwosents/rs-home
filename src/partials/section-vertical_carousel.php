@@ -15,7 +15,7 @@ $args = array(
 $verticals = new WP_Query($args);
 ?>
 
-<section class="vertical-carousel">
+<section class="vertical-carousel light--spacing">
   <div class="container">
     <div class="row center-xs">
       <div class="col-xs-12 col-md-8 col-lg-9">
