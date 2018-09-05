@@ -5,8 +5,11 @@ Template name: Customizable Page
 get_header(); ?>
 
 <main class="main" role="main">
+  <br><br><br><br><br><br><br><br><br><br>
 <?php // open the WordPress loop
 if (have_posts()) : while (have_posts()) : the_post();
+
+  print_r(get_field_objects());
 
   // are there any rows within within our flexible content?
   if( have_rows('page_content') ): 
@@ -14,7 +17,6 @@ if (have_posts()) : while (have_posts()) : the_post();
     // loop through all the rows of flexible content
     while ( have_rows('page_content') ) : the_row();
 
-      print_r(get_row_layout());
     // Product Callout 
     if( get_row_layout() == 'product_callout' )
       get_template_part('partials/section', 'product_callout');
