@@ -928,6 +928,8 @@ html body {
     padding: 0px 40px; }
   html body .become-rs-influencer .seperator {
     margin-top: 30px; }
+  html body .stats-wall .stat {
+    margin-bottom: 12vw; }
   html body .stats-wall h2 {
     font-size: 3.5rem;
     margin: 0px;
@@ -1001,6 +1003,8 @@ html body {
     max-width: 90%;
     margin: 16px auto;
     color: #000; }
+  html body .articles-by-category h1 {
+    margin-bottom: 48px !important; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
     html body .articles-by-category article a {

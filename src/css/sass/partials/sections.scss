@@ -13,6 +13,9 @@ html {
       }
     }
     .stats-wall {
+      .stat {
+        margin-bottom: 12vw;
+      }
       h2 {
         font-size: 3.5rem;
         margin: 0px;
@@ -133,6 +136,9 @@ html {
     }
     
     .articles-by-category {
+      h1 {
+        margin-bottom: 48px !important;
+      }
       article {
         margin-bottom: 20px;
         a {

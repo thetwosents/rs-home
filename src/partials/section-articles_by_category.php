@@ -12,7 +12,12 @@ $across = get_sub_field('across');
 
 ?>
 
-<?php if ($version === 'feed') { $query = new WP_Query( array( 'cat' => $category->term_id ) ); ?>
+<?php if ($version === 'feed') { 
+
+  $query = new WP_Query( array( 
+    'cat' => $category->term_id, 
+    'posts_per_page' => $number_of_posts 
+  ) ); ?>
 
 
 
@@ -20,7 +25,7 @@ $across = get_sub_field('across');
   <div class="container">
     <div class="row center-xs middle-xs">
       <div class="col-xs-12 col-md-10">
-        <h2><?php echo $section_title; ?></h2>
+        <h1><?php echo $section_title; ?></h1>
       </div>
     </div>
     <div class="row">
@@ -56,7 +61,7 @@ $across = get_sub_field('across');
   </div> 
 </section>
 
-<?php } else if ($version === 'pull-quotes') { $query = new WP_Query( array( 'tag' => 'pull-quotes' ) ); ?>
+<?php } else if ($version === 'pull-quotes') { $query = new WP_Query( array( 'tag' => 'pull-quotes', 'posts_per_page' => $number_of_posts ) ); ?>
 
 <section class="pull-quotes">
   <div class="container">
