@@ -16,7 +16,8 @@ $across = get_sub_field('across');
 
   $query = new WP_Query( array( 
     'cat' => $category->term_id, 
-    'posts_per_page' => $number_of_posts 
+    'posts_per_page' => $number_of_posts,
+    'suppress_filters' => false 
   ) ); ?>
 
 
