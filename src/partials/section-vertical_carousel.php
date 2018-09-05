@@ -34,7 +34,7 @@ $verticals = new WP_Query($args);
         <?php while ( $verticals->have_posts() ) : $verticals->the_post(); 
         $image = get_the_post_thumbnail_url();
         ?>
-          <div><img src="<?php echo $image; ?>"><h4><?php echo get_the_title(); ?></h4></div>
+          <div><h4><?php echo get_the_title(); ?></h4><img src="<?php echo $image; ?>"></div>
         <?php endwhile; ?>
         <!-- end of the loop -->
 

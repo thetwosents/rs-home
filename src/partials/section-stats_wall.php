@@ -1,4 +1,4 @@
-<section class="stats-wall">
+<section class="stats-wall light--spacing">
   <div class="container">
     <div class="row center-xs middle-md">
       <?php
