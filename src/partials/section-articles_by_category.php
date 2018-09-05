@@ -65,26 +65,23 @@ $across = get_sub_field('across');
 
 <section class="pull-quotes">
   <div class="container">
-    <div class="row center-xs top-xs">
+      <div class="slider">
   <?php if ( $query->have_posts() ) : ?>
 
       <!-- the loop -->
       <?php while ( $query->have_posts() ) : $query->the_post();  $post_date = get_the_date();
 
         $url = get_field('url');
+        $logo_img = get_field('logo_img');
 
         ?>
-
-        <div class="col-xs-12 col-md-4">
-          <div class="box">
-            <article>
-              <a href="<?php echo $url; ?>" target="_blank">
-                <img src="http://placehold.it/150x60">
-                <p><?php echo get_the_content(); ?></p>
-              </a>
-            </article>
-          </div>
-        </div>
+        
+          <article>
+            <a href="<?php echo $url; ?>" target="_blank">
+              <img src="<?php echo $logo_img; ?>">
+              <p><?php echo get_the_content(); ?></p>
+            </a>
+          </article>
 
       <?php endwhile; ?>
           <!-- end of the loop -->
@@ -93,6 +90,7 @@ $across = get_sub_field('across');
 
         <?php else : ?>
         <?php endif; ?>
+      </div>
 
     </div>
   </div>

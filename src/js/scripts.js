@@ -23,6 +23,25 @@
       ]
     });
 
+    $('.pull-quotes .slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      dots: true,
+      infinite: true,
+      arrows: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        }
+      ]
+    });
+
     $('.brand-wall .logo-slider').slick({
       slidesToShow: 6,
       slidesToScroll: 1,

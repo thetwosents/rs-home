@@ -914,7 +914,7 @@ html body {
   html body .become-rs-influencer .seperator {
     margin-top: 30px; }
   html body .stats-wall .stat {
-    margin-bottom: 12vw; }
+    margin-bottom: 10vw; }
   html body .stats-wall h2 {
     font-size: 3.5rem;
     margin: 0px;
@@ -976,18 +976,28 @@ html body {
       max-width: 100%; } }
   html body .pull-quotes .col-md-4 {
     margin-bottom: 48px; }
-  html body .pull-quotes article img {
-    transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out; }
-  html body .pull-quotes article:hover img {
+  html body .pull-quotes a:hover {
+    text-decoration: none;
     opacity: .8; }
-  html body .pull-quotes article p {
-    font-family: 'Didot' !important;
-    font-style: italic;
-    max-width: 90%;
-    margin: 16px auto;
-    color: #000; }
+  html body .pull-quotes article {
+    text-align: center; }
+    html body .pull-quotes article img {
+      max-height: 7vw;
+      margin: 0 auto;
+      transition: all .2s ease-in-out;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out; }
+    html body .pull-quotes article:hover img {
+      opacity: .8; }
+    html body .pull-quotes article p {
+      font-family: 'Didot' !important;
+      font-style: italic;
+      max-width: 75%;
+      margin: 16px auto;
+      color: #000; }
+  @media all and (max-width: 767px) {
+    html body .pull-quotes article img {
+      max-height: 20vw; } }
   html body .articles-by-category h1 {
     margin-bottom: 48px !important; }
   html body .articles-by-category article {
