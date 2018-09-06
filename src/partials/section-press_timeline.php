@@ -33,7 +33,9 @@ $highlights = get_sub_field('articles');
 									<div class="content">
 										<h2><?php echo $title; ?></h2>
 										<p><?php echo $content; ?></p>
-										<a href="<?php echo $url; ?>" class="btn" target="_blank">View Article</a>
+										<?php if ($url) { ?>
+											<a href="<?php echo $url; ?>" class="btn" target="_blank">View Article</a>
+										<?php } ?>
 									</div>
 								</div>
 							</div>	
