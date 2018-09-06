@@ -1,5 +1,7 @@
 <?php
 
+$highlights = get_sub_field('articles');
+
 ?>
 
 <section class="press-timeline">
@@ -13,32 +15,29 @@
 			<div class="col-xs-10">
 				<div class="box">
 					<div class="slider">
+						<?php 
+							if( have_rows('articles') ): while ( have_rows('articles') ) : the_row();
+
+							$title = get_sub_field('title');
+							$content = get_sub_field('content');
+							$image = get_sub_field('image');
+
+							?>
 						<div>
 							<div class="row middle-xs start-xs">
 								<div class="col-xs-3">
-									<img src="http://placehold.it/400x500">
+									<img src="<?php echo $image; ?>">
 								</div>
 								<div class="col-xs-9">
 									<div class="content">
-										<h2>#rsTheCon</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus pulvinar diam ultricies porttitor. </p>
+										<h2><?php echo $title; ?></h2>
+										<p><?php echo $content; ?></p>
 									</div>
 								</div>
 							</div>	
 						</div>
-						<div>
-							<div class="row middle-xs start-xs">
-								<div class="col-xs-3">
-									<img src="http://placehold.it/400x500">
-								</div>
-								<div class="col-xs-9">
-									<div class="content">
-										<h2>1 Million app downloads</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempus pulvinar diam ultricies porttitor. </p>
-									</div>
-								</div>
-							</div>	
-						</div>
+
+						<?php endwhile; else : endif; ?>
 					</div>
 				</div>
 			</div>
