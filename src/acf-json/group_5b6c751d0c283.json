@@ -1273,6 +1273,22 @@
                                     "toolbar": "full",
                                     "media_upload": 1,
                                     "delay": 0
+                                },
+                                {
+                                    "key": "field_5b91920f243da",
+                                    "label": "Url",
+                                    "name": "url",
+                                    "type": "url",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": ""
                                 }
                             ]
                         }
@@ -3017,5 +3033,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1536266650
+    "modified": 1536266792
 }

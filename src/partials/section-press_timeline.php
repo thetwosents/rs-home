@@ -21,6 +21,7 @@ $highlights = get_sub_field('articles');
 							$title = get_sub_field('title');
 							$content = get_sub_field('content');
 							$image = get_sub_field('image');
+							$url = get_sub_field('url');
 
 							?>
 						<div>
@@ -32,6 +33,7 @@ $highlights = get_sub_field('articles');
 									<div class="content">
 										<h2><?php echo $title; ?></h2>
 										<p><?php echo $content; ?></p>
+										<a href="<?php echo $url; ?>" class="btn" target="_blank">View Article</a>
 									</div>
 								</div>
 							</div>	
