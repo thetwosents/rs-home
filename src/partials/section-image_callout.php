@@ -1,4 +1,8 @@
-<?php $image = get_sub_field('image'); ?>
+<?php 
+
+$image = get_sub_field('image_block'); 
+
+?>
 
 <section class="image-callout">
   <div class="container">
