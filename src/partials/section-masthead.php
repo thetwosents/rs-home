@@ -10,7 +10,16 @@ $image = get_sub_field('image'); // make gallery
 $have_primary_cta = get_sub_field('have_primary_cta'); // true / false
 $primary_cta_text = get_sub_field('primary_cta_text');
 $primary_cta_link = get_sub_field('primary_cta_link');
+$primary_cta_external = get_sub_field('external_link');
 
+$internal_or_external = get_sub_field('internal_or_external');
+
+
+if ($internal_or_external === 'internal') {
+  $primary_cta_link = $primary_cta_link;
+} else {
+  $primary_cta_link = $primary_cta_external;
+}
 
 ?>
 
@@ -33,11 +42,16 @@ $primary_cta_link = get_sub_field('primary_cta_link');
             ><?php echo $content; ?></p>
           </div>
 
-          <?php if ($have_primary_cta) { ?>
+          <?php if ($have_primary_cta) {
+            if ($internal_or_external === 'internal') { ?>
             <a 
               data-aos="fade-up" 
               data-aos-delay="200" href="<?php echo $primary_cta_link; ?>" class="btn btn-secondary"><?php echo $primary_cta_text; ?></a>
-          <?php } ?>
+          <?php } else { ?>
+            <a 
+              data-aos="fade-up" 
+              data-aos-delay="200" target="_blank" href="<?php echo $primary_cta_link; ?>" class="btn btn-secondary"><?php echo $primary_cta_text; ?></a>
+          <?php } } ?>
           
         </div>
       </div>
