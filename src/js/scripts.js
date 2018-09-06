@@ -17,7 +17,7 @@
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false
           }
         }
       ]
@@ -52,9 +52,9 @@
         {
           breakpoint: 767,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
             infinite: true,
-            dots: true
+            dots: false
           }
         }
       ]

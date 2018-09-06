@@ -2489,6 +2489,33 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "key": "field_5b91970604d04",
+                            "label": "Internal link",
+                            "name": "internal_link",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5b7ae1bf4a9e1",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "allow_archives": 1,
+                            "multiple": 0
+                        },
+                        {
                             "key": "field_5b7ae1854a9dd",
                             "label": "Title",
                             "name": "title",
@@ -3033,5 +3060,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1536266792
+    "modified": 1536268115
 }
