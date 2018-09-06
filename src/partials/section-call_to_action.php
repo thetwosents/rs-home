@@ -7,6 +7,7 @@ $cta_text = get_sub_field('cta_text');
 $link = get_sub_field('cta_link');
 $is_external = get_sub_field('is_external');
 $img = get_sub_field('image');
+$internal_link = get_sub_field('internal_link');
 
 
 // Add option to change text color based on the type of bg image
@@ -28,7 +29,7 @@ $img = get_sub_field('image');
 
           <?php } else { ?>
 
-            <a class="btn btn-secondary" href="<?php echo $link; ?>"><?php echo $cta_text; ?></a>
+            <a class="btn btn-secondary" href="<?php echo $internal_link; ?>"><?php echo $cta_text; ?></a>
 
           <?php } ?>          
         </div>
