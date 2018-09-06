@@ -9,6 +9,7 @@
       slidesToScroll: 1,
       autoplay: true,
       speed: 600,
+      arrows: false,
       autoplaySpeed: 2200,
       responsive: [
         {
