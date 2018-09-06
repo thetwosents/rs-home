@@ -53,6 +53,7 @@
           breakpoint: 767,
           settings: {
             slidesToShow: 3,
+            slidesToScroll: 3,
             infinite: true,
             dots: false
           }
