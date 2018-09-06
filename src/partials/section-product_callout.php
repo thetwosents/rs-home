@@ -44,7 +44,13 @@ $stat_text = get_sub_field('stat_text');
           <?php if( $images ): ?>
               <?php 
 
-              $alignment = 'left-aligned left-aligned--wide-front';
+              if ($top_photo === 'wide') {
+                $top_photo = 'left-aligned--wide-front';
+              } else {
+                $top_photo = 'left-aligned--tall-front';
+              }
+
+              $alignment = 'left-aligned ' .$top_photo;
               echo '<div class="images ' . $alignment . '">' 
               ?>
                 <div 
@@ -140,8 +146,15 @@ $stat_text = get_sub_field('stat_text');
           <?php if( $images ): ?>
             <?php 
 
-              $alignment = 'right-aligned right-aligned--tall-front';
-              echo '<div class="images ' . $alignment . '">' 
+              if ($top_photo === 'wide') {
+                $top_photo = 'right-aligned--wide-front';
+              } else {
+                $top_photo = 'right-aligned--tall-front';
+              }
+
+              $alignment = 'right-aligned ' . $top_photo;
+              echo '<div class="images ' . $alignment . '">';
+              echo $top_photo;
               ?>
               
                 <div 
