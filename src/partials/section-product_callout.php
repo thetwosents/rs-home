@@ -154,7 +154,6 @@ $stat_text = get_sub_field('stat_text');
 
               $alignment = 'right-aligned ' . $top_photo;
               echo '<div class="images ' . $alignment . '">';
-              echo $top_photo;
               ?>
               
                 <div 
