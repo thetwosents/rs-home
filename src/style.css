@@ -431,6 +431,22 @@ html body .product-callout {
     padding-left: 7vw;
     padding-top: 6vw;
     padding-right: 4vw; }
+    html body .product-callout .content .quote {
+      margin-top: 3vw; }
+      html body .product-callout .content .quote p {
+        font-family: 'Didot' !important;
+        font-size: 1.4rem !important;
+        color: #000;
+        line-height: 1.4em !important; }
+    html body .product-callout .content .stat {
+      margin-top: 3vw;
+      max-width: 50%; }
+      html body .product-callout .content .stat h2 {
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: 300; }
+      html body .product-callout .content .stat h4 {
+        font-weight: 600; }
     html body .product-callout .content h4 {
       font-family: 'Gotham';
       font-weight: 300;
@@ -460,7 +476,12 @@ html body .product-callout {
           font-size: 1rem; } }
     @media all and (max-width: 767px) {
       html body .product-callout .content p {
-        font-size: 1rem; } }
+        font-size: 1rem; }
+      html body .product-callout .content .stat {
+        max-width: 100%;
+        margin-top: 12vw; }
+        html body .product-callout .content .stat h2 {
+          font-size: 3rem !important; } }
   @media all and (min-width: 1500px) {
     html body .product-callout .images .foreground {
       width: 34vw;

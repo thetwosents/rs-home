@@ -17,7 +17,7 @@ $across = get_sub_field('across');
   $query = new WP_Query( array( 
     'cat' => $category->term_id, 
     'posts_per_page' => $number_of_posts,
-    'suppress_filters' => false 
+    'suppress_filters' => false // https://wpml.org/documentation/support/wpml-coding-api/
   ) ); ?>
 
 

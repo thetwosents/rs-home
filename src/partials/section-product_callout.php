@@ -26,6 +26,14 @@ $left_photo_y = get_sub_field('left_photo_y');
 $right_photo_x = get_sub_field('right_photo_x');
 $right_photo_y = get_sub_field('right_photo_y');
 
+$has_secondary = get_sub_field('has_secondary');
+$secondary_type = get_sub_field('quote_or_stat');
+$quote_text = get_sub_field('quote_text');
+$quote_img = get_sub_field('quote_img');
+
+$stat_number = get_sub_field('stat_number');
+$stat_text = get_sub_field('stat_text');
+
 ?>
 
 <section class="product-callout">
@@ -82,6 +90,19 @@ $right_photo_y = get_sub_field('right_photo_y');
             echo '<a href="' . $primary_cta_link . '" class="btn">' . $primary_cta_text . '</a>';
 
           } ?>
+           <?php 
+            if ($secondary_type === 'quote') { ?>
+              <div class="quote">
+                <p><?php echo $quote_text; ?></p>
+                <img src="<?php echo $quote_img; ?>">
+              </div> 
+            <?php } else if ($secondary_type === 'stat') { ?>
+              <div class="stat">
+                <h2><?php echo $stat_number; ?></h2>
+                <h4><?php echo $stat_text; ?></h4>
+              </div>
+            <?php } ?>
+          
         </div>
       </div>
 
@@ -98,6 +119,19 @@ $right_photo_y = get_sub_field('right_photo_y');
             echo '<a href="' . $primary_cta_link . '" class="btn">' . $primary_cta_text . '</a>';
 
           } ?>
+
+          <?php 
+            if ($secondary_type === 'quote') { ?>
+              <div class="quote">
+                <p><?php echo $quote_text; ?></p>
+                <img src="<?php echo $quote_img; ?>">
+              </div> 
+            <?php } else if ($secondary_type === 'stat') { ?>
+              <div class="stat">
+                <h2><?php echo $stat_number; ?></h2>
+                <h4><?php echo $stat_text; ?></h4>
+              </div>
+            <?php } ?>
         </div>
       </div>
       
