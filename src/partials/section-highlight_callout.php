@@ -4,6 +4,7 @@ $title = get_sub_field('title');
 $subtext = get_sub_field('subtext');
 $images = get_sub_field('gallery');
 $url = get_sub_field('url');
+$cta_text = get_sub_field('cta_text');
 
 
 ?>
@@ -21,7 +22,7 @@ $url = get_sub_field('url');
           <div class="content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <h2><?php echo $title; ?></h2>
             <p><?php echo $subtext; ?></p>
-            <a href="<?php echo $url; ?>" class="btn">Buy The Book</a>
+            <a href="<?php echo $url; ?>" target="_blank" class="btn"><?php echo $cta_text; ?></a>
           </div>
         </div> 
       </div>

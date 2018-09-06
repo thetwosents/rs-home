@@ -2274,6 +2274,25 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "key": "field_5b9199ab616d4",
+                            "label": "CTA Text",
+                            "name": "cta_text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Buy the book",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
                             "key": "field_5b919973f3d30",
                             "label": "URL",
                             "name": "url",
@@ -3076,5 +3095,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1536268674
+    "modified": 1536268769
 }
