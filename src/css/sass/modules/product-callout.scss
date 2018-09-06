@@ -59,6 +59,23 @@ html {
       .images {
         position: relative;
         width: 55vw;
+        &.left-aligned--single-image {
+          img {
+            margin-left: 8vw;
+            margin-top: 2vw;
+          }
+          @media all and (max-width: 767px) {
+            img {
+              margin-left: 0px;
+            }
+          }
+        }
+        &.right-aligned--single-image {
+          img {
+            margin-left: 8vw;
+            margin-top: 2vw;
+          }
+        }
         &.left-aligned--tall-front {
           .background {
             z-index: 6;

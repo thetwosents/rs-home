@@ -338,6 +338,15 @@ html body .product-callout {
   html body .product-callout .images {
     position: relative;
     width: 55vw; }
+    html body .product-callout .images.left-aligned--single-image img {
+      margin-left: 8vw;
+      margin-top: 2vw; }
+    @media all and (max-width: 767px) {
+      html body .product-callout .images.left-aligned--single-image img {
+        margin-left: 0px; } }
+    html body .product-callout .images.right-aligned--single-image img {
+      margin-left: 8vw;
+      margin-top: 2vw; }
     html body .product-callout .images.left-aligned--tall-front .background {
       z-index: 6; }
     html body .product-callout .images.left-aligned--wide-front .foreground {

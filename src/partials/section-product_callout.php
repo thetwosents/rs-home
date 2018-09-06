@@ -38,10 +38,15 @@ $stat_text = get_sub_field('stat_text');
 
 <section class="product-callout">
   <div class="row middle-xs center-xs start-md">
-
     <?php if ($left_or_right_side === 'left') { ?>
         <?php if (!$product_photos): ?>
           <?php if( $images ): ?>
+            <?php if (count($images) === 1) { ?>
+              <div class="images left-aligned--single-image ">
+                <img src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>">
+              </div>
+            <?php } else { ?>
+
               <?php 
 
               if ($top_photo === 'wide') {
@@ -72,11 +77,13 @@ $stat_text = get_sub_field('stat_text');
                     data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
                 </div>
               </div>
+
+            <?php } ?>
           <?php endif; ?>
         
 
         <?php else: ?>
-          <?php echo '<div class="product-images ' . $top_photo . '">' ?>
+          <?php echo '<div class="product-images ' . $top_photo . '">'; ?>
               <img data-jarallax-element="40" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
               <img data-jarallax-element="-40" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
           </div>
@@ -144,6 +151,11 @@ $stat_text = get_sub_field('stat_text');
       <!-- <div class="col-xs-12 col-md-8 col-lg-8 right-aligned first-xs last-md"> -->
         <?php if (!$product_photos): ?>
           <?php if( $images ): ?>
+            <?php if (count($images) === 1) { ?>
+              <div class="images right-aligned--single-image">
+                <img src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>">
+              </div>
+            <?php } else { ?>
             <?php 
 
               if ($top_photo === 'wide') {
@@ -171,6 +183,7 @@ $stat_text = get_sub_field('stat_text');
                   <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
                 </div>
               </div>
+            <?php } ?>
           <?php endif; ?>
 
           <?php else: ?>
