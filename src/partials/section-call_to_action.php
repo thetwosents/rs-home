@@ -4,7 +4,7 @@
 $title = get_sub_field('title');
 $subtext = get_sub_field('subtext');
 $cta_text = get_sub_field('cta_text');
-$link = get_sub_field('cta_link');
+$link = get_sub_field('button_link');
 $is_external = get_sub_field('is_external');
 $img = get_sub_field('image');
 $internal_link = get_sub_field('internal_link');
