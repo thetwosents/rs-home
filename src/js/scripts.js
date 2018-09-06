@@ -64,7 +64,7 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 600,
+      speed: 2000,
       autoplaySpeed: 2200,
       fade: true,
       dots: true,
