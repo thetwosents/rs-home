@@ -302,7 +302,11 @@ function html5_blank_view_article( $more ) {
 
 // Remove Admin bar
 function remove_admin_bar() {
-    return true;
+    if ( current_user_can( 'manage_options' ) ) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 // Remove 'text/css' from our enqueued stylesheet
