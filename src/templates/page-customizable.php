@@ -22,6 +22,10 @@ if (have_posts()) : while (have_posts()) : the_post();
     if( get_row_layout() == 'company_stats' )
       get_template_part('partials/section', 'company_stats');
 
+    // Awards side by side
+    if( get_row_layout() == 'awards_side' )
+      get_template_part('partials/section', 'awards_side');
+
     // Articles by category
     if( get_row_layout() == 'articles_by_category' )
       get_template_part('partials/section', 'articles_by_category');

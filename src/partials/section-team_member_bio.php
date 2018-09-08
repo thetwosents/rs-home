@@ -9,43 +9,41 @@ $left_or_right = get_sub_field('left_or_right');
 
 ?>
 
-
-
-      <?php if ($left_or_right === 'left') { ?>
-        <section class="team-member-bio left">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-md-4 col-md-offset-1">
-                <img src="<?php echo $image; ?>">
-              </div>
-              <div class="col-xs-12 col-md-6">
-                <div class="content">
-                  <h4><?php echo $title; ?></h4>
-                  <h1><?php echo $name; ?></h1>
-                  <p><?php echo $bio; ?></p>
-                </div>
-              </div>
-            </div>
+<?php if ($left_or_right === 'left') { ?>
+  <section class="team-member-bio left light--spacing">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-4 col-md-offset-1">
+          <img src="<?php echo $image; ?>">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="content">
+            <h4><?php echo $title; ?></h4>
+            <h1><?php echo $name; ?></h1>
+            <p><?php echo $bio; ?></p>
           </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <?php } else { ?>
-        <section class="team-member-bio left">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-md-4 col-md-offset-1">
-                <img src="<?php echo $image; ?>">
-              </div>
-              <div class="col-xs-12 col-md-6">
-                <div class="content">
-                  <h4><?php echo $title; ?></h4>
-                  <h1><?php echo $name; ?></h1>
-                  <p><?php echo $bio; ?></p>
-                </div>
-              </div>
-            </div>
+<?php } else { ?>
+  <section class="team-member-bio left light--spacing">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-4 col-md-offset-1">
+          <img src="<?php echo $image; ?>">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="content">
+            <h4><?php echo $title; ?></h4>
+            <h1><?php echo $name; ?></h1>
+            <p><?php echo $bio; ?></p>
           </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <?php } ?>
+<?php } ?>
 

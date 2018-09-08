@@ -13,7 +13,7 @@ $title = get_sub_field('title');
 				<h2><?php echo $title; ?></h2>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row center-xs">
 			<?php
 
 				$team_members = get_sub_field('team_members');
