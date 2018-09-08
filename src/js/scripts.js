@@ -8,7 +8,7 @@
       slidesToShow: 6,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
+      speed: 600,
       arrows: false,
       autoplaySpeed: 2200,
       responsive: [
@@ -46,7 +46,8 @@
     $('.brand-wall .logo-slider').slick({
       slidesToShow: 6,
       autoplay: true,
-      speed: 2000,
+      speed: 600,
+      autoplaySpeed: 2200,
       responsive: [
         {
           breakpoint: 767,
@@ -64,7 +65,7 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
+      speed: 600,
       autoplaySpeed: 2200,
       fade: true,
       dots: true,
@@ -83,7 +84,7 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
+      speed: 600,
       autoplaySpeed: 2200,
       dots: true
     });
@@ -92,7 +93,8 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: false,
-      speed: 2000,
+      speed: 600,
+      autoplaySpeed: 2200,
       fade: true,
       prevArrow: '.prev',
       nextArrow: '.next'
@@ -102,13 +104,15 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000
+      autoplaySpeed: 2200,
+      speed: 600
     });
 
     $('.awards-side .slider').slick({
       slidesToShow: 3,
       autoplay: true,
-      speed: 2000
+      speed: 600,
+      autoplaySpeed: 2200
     })
 
     AOS.init({
