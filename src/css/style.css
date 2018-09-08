@@ -967,6 +967,24 @@ html body {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     padding: 4vh 0px; }
+  html body .awards-side img {
+    margin: 0 auto;
+    vertical-align: middle;
+    display: inline-block;
+    height: auto !important;
+    vertical-align: middle;
+    display: inline-block; }
+  html body .awards-side .logo {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 75%; }
+  html body .awards-side .slider {
+    align-items: center; }
+    html body .awards-side .slider::before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
   html body .stats-wall .stat {
     margin-bottom: 10vw; }
   html body .stats-wall h2 {

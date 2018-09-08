@@ -20,6 +20,28 @@ html {
         border-bottom: 1px solid #000;
         padding: 4vh 0px;
       }
+      img {
+        margin: 0 auto;
+        vertical-align: middle;
+        display: inline-block;
+        height: auto !important;
+        vertical-align: middle;
+        display: inline-block;
+      }
+      .logo {
+        vertical-align: middle;
+        display: inline-block;
+        max-width: 75%;
+      }
+      .slider {
+        align-items: center;
+        &::before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+        }
+      }
     }
     .stats-wall {
       .stat {
