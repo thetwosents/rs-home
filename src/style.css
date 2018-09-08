@@ -316,6 +316,8 @@ html body .product-callout {
   padding: 0px 0vw; }
   html body .product-callout .right-content {
     margin-left: 3vw; }
+  html body .product-callout.left .single-image {
+    padding-left: 0px; }
   html body .product-callout .product-images {
     text-align: left;
     position: relative;

@@ -5,6 +5,11 @@ html {
       .right-content {
         margin-left: 3vw;
       }
+      &.left {
+        .single-image {
+          padding-left: 0px;
+        }
+      }
       .product-images {
         text-align: left;
         position: relative;

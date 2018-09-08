@@ -34,9 +34,9 @@ $quote_img = get_sub_field('quote_img');
 $stat_number = get_sub_field('stat_number');
 $stat_text = get_sub_field('stat_text');
 
-?>
+echo '<section class="product-callout ' . $left_or_right_side . '">';
 
-<section class="product-callout">
+?>
   <div class="row middle-xs center-xs start-md">
     <?php if ($left_or_right_side === 'left') { ?>
         <?php if (!$product_photos): ?>
@@ -91,7 +91,15 @@ $stat_text = get_sub_field('stat_text');
       <?php endif; ?>
     
       <div class="col-xs-12 col-md-4 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        <div class="box content">
+        <?php if (count($images) === 1) { ?>
+
+          <div class="box content single-image">
+
+        <?php } else { ?>
+
+          <div class="box content">
+
+        <?php } ?>
           <?php
             echo '<h4>' . $above_title . '</h4>';
             echo '<h2>' . $title . '</h2>';
