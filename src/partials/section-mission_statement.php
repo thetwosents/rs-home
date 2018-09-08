@@ -6,7 +6,7 @@ $isLarge = get_sub_field('is_large');
 
 ?>
 
-<section class="mission-statement light--spacing">
+<section class="mission-statement">
   <div class="container">
     <div class="row middle-xs center-xs">
       <div class="col-xs-12 col-md-10">

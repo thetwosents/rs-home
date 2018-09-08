@@ -1115,6 +1115,9 @@ html {
     html body section {
       padding-top: 9vw !important;
       padding-bottom: 9vw !important; }
+      html body section.light--spacing {
+        padding-top: 4vh !important;
+        padding-bottom: 4vh !important; }
     html body h1 {
       font-size: 3rem;
       font-family: 'Gotham';

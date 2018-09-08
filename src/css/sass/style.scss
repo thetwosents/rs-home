@@ -80,6 +80,10 @@ html {
     section {
       padding-top: 9vw !important;
       padding-bottom: 9vw !important;
+      &.light--spacing {
+        padding-top: 4vh !important;
+        padding-bottom: 4vh !important;
+      }
     }
     .container {
       // width: 1370px;
