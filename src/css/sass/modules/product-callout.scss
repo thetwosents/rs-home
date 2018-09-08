@@ -65,9 +65,11 @@ html {
         position: relative;
         width: 55vw;
         &.left-aligned--single-image {
+          padding-left: 8vw;
           img {
-            margin-left: 8vw;
+            margin-left: 0px;
             margin-top: 2vw;
+            max-width: 90%;
           }
           @media all and (max-width: 767px) {
             img {
