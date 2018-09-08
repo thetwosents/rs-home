@@ -1110,6 +1110,8 @@ html {
       html body section.light--spacing {
         padding-top: 5vh !important;
         padding-bottom: 5vh !important; }
+      html body section.mission-statement {
+        padding-bottom: 4vh !important; }
     html body h1 {
       font-size: 3rem;
       font-family: 'Gotham';
