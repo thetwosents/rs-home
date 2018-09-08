@@ -121,7 +121,11 @@ $stat_text = get_sub_field('stat_text');
 
     <?php } else { ?>
       <div class="col-xs-12 col-md-4 col-lg-5 last-xs first-md right-content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        <div class="content">
+        <?php if (count($images) === 1) { ?>
+          <div class="content single-image">
+        <?php } else { ?>
+          <div class="content">
+        <?php } ?>
           <?php 
             echo '<h4>' . $above_title . '</h4>';
             echo '<h2>' . $title . '</h2>';

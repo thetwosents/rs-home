@@ -1101,6 +1101,25 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "key": "field_5b93f8a892bcd",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
                             "key": "field_5b837e51914b1",
                             "label": "Team members",
                             "name": "team_members",
@@ -3095,5 +3114,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1536268769
+    "modified": 1536424121
 }

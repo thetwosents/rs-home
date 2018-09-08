@@ -1,7 +1,18 @@
 
+<?php
+
+$title = get_sub_field('title');
+
+?>
+
 
 <section class="team-member-wall">
 	<div class="container">
+		<div class="row center-xs middle-xs">
+			<div class="col-xs-12 col-md-10">
+				<h2><?php echo $title; ?></h2>
+			</div>
+		</div>
 		<div class="row">
 			<?php
 
