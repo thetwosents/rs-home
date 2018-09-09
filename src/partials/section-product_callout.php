@@ -40,6 +40,10 @@ if ($product_photos) {
   $class = 'has-product';
 }
 
+if (count($images) === 1) {
+  $class = $class . ' ' . 'has-single';
+}
+
 echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'">';
 
 ?>

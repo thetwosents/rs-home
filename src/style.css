@@ -323,6 +323,8 @@ html body .product-callout {
   html body .product-callout.has-product {
     padding-top: 12vw !important;
     padding-bottom: 9vw !important; }
+  html body .product-callout.has-single {
+    padding-top: 8vw !important; }
   html body .product-callout .right-content {
     margin-left: 3vw; }
     @media all and (max-width: 767px) {

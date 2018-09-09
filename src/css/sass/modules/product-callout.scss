@@ -7,6 +7,9 @@ html {
         padding-top: 12vw !important;
         padding-bottom: 9vw !important;
       }
+      &.has-single {
+        padding-top: 8vw !important;
+      }
       .right-content {
         margin-left: 3vw;
         @media all and (max-width: 767px) {
