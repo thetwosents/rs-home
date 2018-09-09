@@ -305,7 +305,11 @@ html body .press-timeline {
     padding: 0px 40px; }
 
 html body .product-callout {
-  padding: 0px 0vw; }
+  padding-top: 5vw !important;
+  padding-bottom: 5vw !important; }
+  html body .product-callout.has-product {
+    padding-top: 12vw !important;
+    padding-bottom: 9vw !important; }
   html body .product-callout .right-content {
     margin-left: 3vw; }
     @media all and (max-width: 767px) {
@@ -564,6 +568,9 @@ html body .testimonial-slider h4 {
 @media all and (max-width: 767px) {
   html body .testimonial-slider .quote {
     font-size: 1.2rem; } }
+
+html body .vertical-carousel h1 {
+  margin-top: 6vw; }
 
 html body .vertical-carousel h4 {
   font-weight: 600;
@@ -1144,8 +1151,8 @@ html {
       padding-top: 9vw !important;
       padding-bottom: 9vw !important; }
       html body section.light--spacing {
-        padding-top: 5vh !important;
-        padding-bottom: 5vh !important; }
+        padding-top: 8vh !important;
+        padding-bottom: 8vh !important; }
       html body section.mission-statement {
         padding-bottom: 4vh !important; }
     html body h1 {

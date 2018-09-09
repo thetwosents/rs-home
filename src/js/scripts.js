@@ -45,9 +45,11 @@
 
     $('.brand-wall .logo-slider').slick({
       slidesToShow: 6,
+      slidesToScroll: 6,
       autoplay: true,
-      speed: 600,
-      autoplaySpeed: 2200,
+      speed: 1200,
+      autoplaySpeed: 2000,
+      fade: false,
       responsive: [
         {
           breakpoint: 767,

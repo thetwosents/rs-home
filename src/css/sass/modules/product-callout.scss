@@ -1,7 +1,12 @@
 html {
   body {
     .product-callout {
-      padding: 0px 0vw;
+      padding-top: 5vw !important;
+      padding-bottom: 5vw !important;
+      &.has-product {
+        padding-top: 12vw !important;
+        padding-bottom: 9vw !important;
+      }
       .right-content {
         margin-left: 3vw;
         @media all and (max-width: 767px) {

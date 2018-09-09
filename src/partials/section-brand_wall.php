@@ -22,8 +22,9 @@ $size = 'medium';
           <?php
           if ($brands) {
             foreach($brands as $image) { ?>
-
+              <div class="logo">
                   <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+              </div>
 
              <?php 
 

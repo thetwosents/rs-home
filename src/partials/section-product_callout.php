@@ -34,7 +34,13 @@ $quote_img = get_sub_field('quote_img');
 $stat_number = get_sub_field('stat_number');
 $stat_text = get_sub_field('stat_text');
 
-echo '<section class="product-callout ' . $left_or_right_side . '">';
+$class = '';
+
+if ($product_photos) {
+  $class = 'has-product';
+}
+
+echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'">';
 
 ?>
   <div class="row middle-xs center-xs start-md">
