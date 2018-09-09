@@ -4,6 +4,9 @@ html {
       padding: 0px 0vw;
       .right-content {
         margin-left: 3vw;
+        @media all and (max-width: 767px) {
+          margin-left: 0px !important;
+        }
       }
       &.left {
         .single-image {
@@ -72,8 +75,11 @@ html {
             max-width: 90%;
           }
           @media all and (max-width: 767px) {
+            padding-left: 4vw !important;
+            padding-right: 4vw !important;
             img {
               margin-left: 0px;
+              max-width: 100%;
             }
           }
         }
@@ -186,6 +192,9 @@ html {
         padding-left: 7vw;
         padding-top: 6vw;
         padding-right: 4vw;
+        @media all and (max-width: 767px) {
+
+        }
         .quote {
           margin-top: 3vw;
           p {
@@ -244,6 +253,7 @@ html {
           }
         }
         @media all and (max-width: 767px) {
+          padding-left: 4vw !important;
           p {
             font-size: 1rem;
           }
@@ -288,6 +298,11 @@ html {
         .content {
           margin-top: 4vh;
           // padding: 2vw 4vw;
+          .btn {
+            margin-bottom: 40px;
+            margin-top: 20px;
+            display: block;
+          }
         }
       }
     }

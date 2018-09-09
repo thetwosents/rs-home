@@ -185,6 +185,10 @@ html {
           font-weight: 600;
         }
       }
+      @media all and (max-width: 767px) {
+        line-height: 32px;
+        font-size: 1.2rem;
+      }
     }
   }
 }

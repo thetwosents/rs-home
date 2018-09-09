@@ -96,20 +96,25 @@ html body .company-stats .box {
   html body .company-stats .box.last {
     border: 0px !important; }
   html body .company-stats .box p {
-    font-size: .875rem; }
+    font-size: .875rem;
+    margin-bottom: 3vw; }
 
 html body .company-stats .stat {
   display: block;
-  margin: 30px auto 0px;
-  width: 50%;
-  float: left; }
+  margin: 1vw auto 0px;
+  width: 100%; }
   html body .company-stats .stat h1 {
     font-weight: 300;
-    font-size: 2rem; }
+    font-size: 3.4rem;
+    margin-bottom: 0px; }
   html body .company-stats .stat h4 {
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 1vw;
     font-weight: 300;
     font-size: .875rem; }
+
+html body .company-stats .btn {
+  margin-top: 2vw; }
 
 html body .employee-spotlight {
   background: #f2f2f2; }
@@ -316,6 +321,9 @@ html body .product-callout {
   padding: 0px 0vw; }
   html body .product-callout .right-content {
     margin-left: 3vw; }
+    @media all and (max-width: 767px) {
+      html body .product-callout .right-content {
+        margin-left: 0px !important; } }
   html body .product-callout.left .single-image {
     padding-left: 0px; }
   html body .product-callout .product-images {
@@ -369,8 +377,12 @@ html body .product-callout {
         margin-top: 2vw;
         max-width: 90%; }
       @media all and (max-width: 767px) {
-        html body .product-callout .images.left-aligned--single-image img {
-          margin-left: 0px; } }
+        html body .product-callout .images.left-aligned--single-image {
+          padding-left: 4vw !important;
+          padding-right: 4vw !important; }
+          html body .product-callout .images.left-aligned--single-image img {
+            margin-left: 0px;
+            max-width: 100%; } }
     html body .product-callout .images.right-aligned--single-image img {
       margin-left: 8vw;
       margin-top: 2vw; }
@@ -493,13 +505,15 @@ html body .product-callout {
         html body .product-callout .content p {
           font-size: 1rem; } }
     @media all and (max-width: 767px) {
-      html body .product-callout .content p {
-        font-size: 1rem; }
-      html body .product-callout .content .stat {
-        max-width: 100%;
-        margin-top: 12vw; }
-        html body .product-callout .content .stat h2 {
-          font-size: 3rem !important; } }
+      html body .product-callout .content {
+        padding-left: 4vw !important; }
+        html body .product-callout .content p {
+          font-size: 1rem; }
+        html body .product-callout .content .stat {
+          max-width: 100%;
+          margin-top: 12vw; }
+          html body .product-callout .content .stat h2 {
+            font-size: 3rem !important; } }
   @media all and (min-width: 1500px) {
     html body .product-callout .images .foreground {
       width: 34vw;
@@ -511,7 +525,11 @@ html body .product-callout {
       margin-top: 0vh; } }
   @media all and (max-width: 767px) {
     html body .product-callout .content {
-      margin-top: 4vh; } }
+      margin-top: 4vh; }
+      html body .product-callout .content .btn {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        display: block; } }
 
 html body .side-by-side .jarallax {
   width: 100%;
@@ -1050,6 +1068,8 @@ html body {
   html body .large-callout .bottom-img {
     width: 625px;
     height: 400px; }
+  html body .image-callout img {
+    margin-top: 4vw; }
   html body .values-callout .container {
     position: relative;
     min-height: 80vh; }
@@ -1232,6 +1252,10 @@ html {
           background: #000;
           color: #fff;
           font-weight: 600; }
+      @media all and (max-width: 767px) {
+        html body .btn {
+          line-height: 32px;
+          font-size: 1.2rem; } }
 
 @media all and (min-width: 1800px) {
   html {

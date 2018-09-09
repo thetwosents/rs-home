@@ -9,22 +9,27 @@ html {
 				}
 				p {
 					font-size: .875rem;
+					margin-bottom: 3vw;
 				}
 			}
 			.stat {
 				display: block;
-				margin: 30px auto 0px;
-				width: 50%;
-				float: left;
+				margin: 1vw auto 0px;
+				width: 100%;
 				h1 {
 					font-weight: 300;
-					font-size: 2rem;
+					font-size: 3.4rem;
+					margin-bottom: 0px;
 				}
 				h4 {
-					margin-bottom: 40px;
+					margin-top: 0px;
+					margin-bottom: 1vw;
 					font-weight: 300;
 					font-size: .875rem;
 				}
+			}
+			.btn {
+				margin-top: 2vw;
 			}
 		}
 	}
