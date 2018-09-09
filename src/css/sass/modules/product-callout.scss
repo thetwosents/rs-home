@@ -21,6 +21,19 @@ html {
           padding-left: 0px;
         }
       }
+      &.right {
+        &.has-product {
+          .product-images {
+            padding-right: 8vw;
+            .background {
+              margin-left: 0px !important;
+            }
+            .foreground {
+              right: 8vw !important;
+            }
+          }
+        }
+      }
       .product-images {
         text-align: left;
         position: relative;

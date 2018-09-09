@@ -332,6 +332,12 @@ html body .product-callout {
         margin-left: 0px !important; } }
   html body .product-callout.left .single-image {
     padding-left: 0px; }
+  html body .product-callout.right.has-product .product-images {
+    padding-right: 8vw; }
+    html body .product-callout.right.has-product .product-images .background {
+      margin-left: 0px !important; }
+    html body .product-callout.right.has-product .product-images .foreground {
+      right: 8vw !important; }
   html body .product-callout .product-images {
     text-align: left;
     position: relative;
