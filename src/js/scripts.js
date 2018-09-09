@@ -71,6 +71,7 @@
       autoplaySpeed: 2200,
       fade: true,
       dots: true,
+      adaptiveHeight: true,
       responsive: [
         {
           breakpoint: 767,
