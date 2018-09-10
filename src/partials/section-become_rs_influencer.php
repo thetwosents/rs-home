@@ -8,7 +8,7 @@ $content = get_sub_field('content');
 
 <section class="become-rs-influencer light--spacing">
 	<div class="container">
-		<div class="row center-xs">
+		<div class="row start-md center-xs">
 			<div class="col-xs-12 col-md-10">
 				<div class="box">
 					<h1><?php echo $title; ?></h1>

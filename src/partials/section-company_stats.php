@@ -2,7 +2,7 @@
 
 ?>
 
-<section class="company-stats">
+<section class="company-stats light--spacing">
 	<div class="container">
 		<div class="row top-xs start-xs">
 

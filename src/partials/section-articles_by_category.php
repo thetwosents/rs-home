@@ -22,7 +22,7 @@ $across = get_sub_field('across');
 
 
 
-<section class="articles-by-category">
+<section class="articles-by-category light--spacing">
   <div class="container">
     <div class="row center-xs middle-xs">
       <div class="col-xs-12 col-md-10">
@@ -72,7 +72,7 @@ $across = get_sub_field('across');
 
 <?php } else if ($version === 'pull-quotes') { $query = new WP_Query( array( 'tag' => 'pull-quotes', 'posts_per_page' => $number_of_posts ) ); ?>
 
-<section class="pull-quotes">
+<section class="pull-quotes light--spacing">
   <div class="container">
     <div class="row">
       <!-- <div class="slider"> -->

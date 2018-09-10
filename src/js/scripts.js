@@ -152,32 +152,34 @@
     });
 
 
+    // Initialize logos on the page
+
     var brandLogos = [];
 
     var list = $('.hidden-logos li').toArray();
 
     $(list).each(function(index,item){
-      console.log(item);
       brandLogos.push($(item).find('img').attr('src'));
-      console.log(brandLogos);
     });
     
     for (var i = 0; i < brandLogos.length; i++) {
-      
       if (i < 6) { $('.brand-wall .logos').append('<div class="logo is--visible"><img src="' + brandLogos[i] + '"></div>'); }
     }
       
     logosLoaded();
         
+    // Create the fade effect
 
     function logosLoaded(){
-      console.log('fired');
-      var currentItem = 6;
+      var currentItem = 6; // currently selected item in the array of logos
+
       var count = 6; // Number of elements to choose from
-      
+
       window.setInterval(function(){ 
 
-        var sel = Math.floor(Math.random() * count) + 1; 
+        var prevCount = count;
+
+        var sel = Math.floor(Math.random() * count) + 1; // Get a random number between 1 and 6
 
         var el = $('.logo')[sel]; // get a random element to switch out with new logo
         $(el).removeClass('is--visible'); // hide logo
