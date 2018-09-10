@@ -100,7 +100,18 @@
       autoplaySpeed: 3000,
       fade: true,
       prevArrow: '.prev',
-      nextArrow: '.next'
+      nextArrow: '.next',
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        }
+      ]
     });
 
     $('.employee-spotlight .slider').slick({

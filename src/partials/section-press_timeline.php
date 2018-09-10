@@ -7,12 +7,12 @@ $highlights = get_sub_field('articles');
 <section class="press-timeline">
 	<div class="container">
 		<div class="row middle-xs center-xs">
-			<div class="col-xs-1">
+			<div class="col-md-1 col-xs-12">
 				<div class="circle prev">
 					<i class="fas fa-angle-left"></i>
 				</div>
 			</div>
-			<div class="col-xs-10">
+			<div class="col-xs-12 col-md-10">
 				<div class="box">
 					<div class="slider">
 						<?php 
@@ -25,11 +25,11 @@ $highlights = get_sub_field('articles');
 
 							?>
 						<div>
-							<div class="row middle-xs start-xs">
-								<div class="col-xs-3">
+							<div class="row center-xs middle-xs start-md">
+								<div class="col-xs-12 col-md-3">
 									<img src="<?php echo $image; ?>">
 								</div>
-								<div class="col-xs-9">
+								<div class="col-xs-12 col-md-9">
 									<div class="content">
 										<h2><?php echo $title; ?></h2>
 										<p><?php echo $content; ?></p>
@@ -45,7 +45,7 @@ $highlights = get_sub_field('articles');
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-1 end-xs">
+			<div class="col-xs-12 col-md-1 end-xs">
 				<div class="circle next">
 					<i class="fas fa-angle-right"></i>
 				</div>

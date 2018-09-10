@@ -299,6 +299,18 @@ html body .press-timeline {
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     padding: 0px 40px; }
+    @media all and (max-width: 767px) {
+      html body .press-timeline .box {
+        padding: 0px;
+        border: 0px; }
+        html body .press-timeline .box .btn {
+          font-size: 1rem;
+          display: block; }
+        html body .press-timeline .box h2 {
+          margin-top: 8vw; } }
+  @media all and (max-width: 767px) {
+    html body .press-timeline::after {
+      display: none; } }
 
 html body.brands .product-callout.right.has-product .product-images .foreground {
   right: 32vw !important; }
