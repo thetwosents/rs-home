@@ -9,13 +9,13 @@ $image = get_sub_field('image');
 
 <section class="perks-wall">
   <div class="container">
-    <div class="row center-xs start-md">
-      <div class="col-xs-12 col-md-4">
+    <div class="row center-xs middle-xs start-md">
+      <div class="col-xs-12 col-md-5">
         <h4><?php echo $above_title; ?></h4>
         <h1><?php echo $title; ?></h1>
         <p><?php echo $content; ?></p>
       </div>
-      <div class="col-xs-12 col-md-2">
+      <div class="col-xs-12 col-md-2 award">
         <img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/RS-Press-Logos-FC-MOST-INNOVATIVE.jpg">
       </div>
     </div>
