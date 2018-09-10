@@ -708,6 +708,70 @@ html body .vertical-carousel .slider {
     .brand-wall h2 {
       margin-bottom: 0px; } }
 
+html body .graphic-slider .container {
+  position: relative; }
+
+html body .graphic-slider .title .box {
+  padding: 20px 0px;
+  border: 2px solid #000;
+  vertical-align: middle;
+  position: relative;
+  margin-bottom: 20px; }
+  html body .graphic-slider .title .box::after {
+    content: '';
+    width: 2px;
+    height: 20px;
+    background: #000;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -2px; }
+  html body .graphic-slider .title .box p {
+    display: none; }
+  html body .graphic-slider .title .box:hover {
+    background: #000; }
+    html body .graphic-slider .title .box:hover h4 {
+      display: none; }
+    html body .graphic-slider .title .box:hover p {
+      display: block;
+      color: #fff; }
+
+html body .graphic-slider .contents {
+  height: 300px; }
+  html body .graphic-slider .contents .box {
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out; }
+    html body .graphic-slider .contents .box .content {
+      border: 2px solid #000;
+      height: 300px;
+      padding-top: 25%;
+      padding-left: 4%;
+      padding-right: 4%;
+      position: relative;
+      margin-top: 20px; }
+      html body .graphic-slider .contents .box .content::after {
+        content: '';
+        width: 2px;
+        height: 20px;
+        background: #000;
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -2px; }
+      html body .graphic-slider .contents .box .content p {
+        display: none;
+        margin-top: -4px;
+        font-size: .875rem; }
+      html body .graphic-slider .contents .box .content img {
+        margin: 0 auto; }
+    html body .graphic-slider .contents .box:hover {
+      background: #000; }
+      html body .graphic-slider .contents .box:hover h4 {
+        display: none; }
+      html body .graphic-slider .contents .box:hover p {
+        display: block;
+        color: #fff; }
+
 .team-member-bio.left .content {
   padding-left: 40px; }
 

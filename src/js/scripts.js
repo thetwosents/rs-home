@@ -24,6 +24,22 @@
       ]
     });
 
+    var length = $('.contents').children().length;
+
+    $('.contents').slick({
+      slidesToShow: length,
+      infinite: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            arrows: true
+          }
+        }
+      ]
+    })
+
     $('.pull-quotes .slider').slick({
       slidesToShow: 3,
       slidesToScroll: 1,

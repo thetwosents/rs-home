@@ -22,6 +22,10 @@ if (have_posts()) : while (have_posts()) : the_post();
     if( get_row_layout() == 'company_stats' )
       get_template_part('partials/section', 'company_stats');
 
+    // Product Callout 
+    if( get_row_layout() == 'graphic_slider' )
+      get_template_part('partials/section', 'graphic_slider');
+
     // Awards side by side
     if( get_row_layout() == 'awards_side' )
       get_template_part('partials/section', 'awards_side');
