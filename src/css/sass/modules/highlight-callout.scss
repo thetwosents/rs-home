@@ -33,6 +33,26 @@ html {
           font-size: .875rem;
         }
       }
+      @media all and (max-width: 767px) {
+        .left {
+          margin-top: 4vw;
+        }
+        .right {
+          margin-top: 4vw;
+        }
+        h2 {
+          margin-top: 8vw;
+        }
+        .btn {
+          margin-bottom: 4vw;
+        }
+        .content {
+          padding: 0px;
+          p {
+            padding: 0px !important;
+          }
+        }
+      }
 		}
 	}
 }

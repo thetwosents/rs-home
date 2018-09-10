@@ -11,10 +11,10 @@ $cta_text = get_sub_field('cta_text');
 
 <section class="highlight-callout">
   <div class="container">
-    <div class="row">
+    <div class="row start-md center-xs">
       <div class="col-xs-12 col-md-5">
         <div class="box">
-          <img data-jarallax-element="40" class="top" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>">
+          <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="40" class="top" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>">
         </div> 
       </div>
       <div class="col-xs-12 col-md-7">
@@ -30,10 +30,10 @@ $cta_text = get_sub_field('cta_text');
     <div class="row">
       <div class="col-xs-12 col-md-8 col-md-offset-4">
         <div class="left">
-          <img data-jarallax-element="-40" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>">
+          <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="-40" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>">
         </div>
         <div class="right">
-          <img data-jarallax-element="40" src="<?php echo wp_get_attachment_image_url( $images[2]['ID'], 'full' ); ?>">
+          <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="40" src="<?php echo wp_get_attachment_image_url( $images[2]['ID'], 'full' ); ?>">
         </div>
       </div>
     </div>
