@@ -12,6 +12,12 @@ html {
 					margin-bottom: 3vw;
 				}
 			}
+			.mobile {
+				display: none;
+			}
+			.desktop {
+				display: block;
+			}
 			.stat {
 				display: block;
 				margin: 1vw auto 0px;
@@ -30,6 +36,14 @@ html {
 			}
 			.btn {
 				margin-top: 2vw;
+			}
+			@media all and (max-width: 767px) {
+				.desktop {
+					display: none;
+				}
+				.mobile {
+					display: block;
+				}
 			}
 		}
 	}

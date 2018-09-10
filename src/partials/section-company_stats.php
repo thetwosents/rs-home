@@ -30,17 +30,32 @@
 					<div class="content">
 						<h2><?php echo $title; ?></h2>
 						<?php echo $content; ?>
-						<div class="stat">
-							<h1><?php echo $stat_1_number; ?></h1>
-							<h4><?php echo $stat_1_text; ?></h4>
+						<div class="mobile">
+							<div class="stat">
+								<h1><?php echo $stat_1_number; ?></h1>
+								<h4><?php echo $stat_1_text; ?></h4>
+							</div>
+							<div class="stat">
+								<h1><?php echo $stat_2_number; ?></h1>
+								<h4><?php echo $stat_2_text; ?></h4>
+							</div>
+							<a href="<?php echo $cta_link; ?>" class="btn"><?php echo $cta_text; ?></a>
 						</div>
-						<div class="stat">
-							<h1><?php echo $stat_2_number; ?></h1>
-							<h4><?php echo $stat_2_text; ?></h4>
-						</div>
-						<a href="<?php echo $cta_link; ?>" class="btn"><?php echo $cta_text; ?></a>
 					</div>
 				</div>	
+			</div>
+			<div class="col-xs-12 desktop">
+				<div class="box">
+					<div class="stat">
+						<h1><?php echo $stat_1_number; ?></h1>
+						<h4><?php echo $stat_1_text; ?></h4>
+					</div>
+					<div class="stat">
+						<h1><?php echo $stat_2_number; ?></h1>
+						<h4><?php echo $stat_2_text; ?></h4>
+					</div>
+					<a href="<?php echo $cta_link; ?>" class="btn"><?php echo $cta_text; ?></a>
+				</div>
 			</div>
 
 			<?php endwhile; else : endif; ?>

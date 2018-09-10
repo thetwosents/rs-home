@@ -99,6 +99,12 @@ html body .company-stats .box {
     font-size: .875rem;
     margin-bottom: 3vw; }
 
+html body .company-stats .mobile {
+  display: none; }
+
+html body .company-stats .desktop {
+  display: block; }
+
 html body .company-stats .stat {
   display: block;
   margin: 1vw auto 0px;
@@ -115,6 +121,12 @@ html body .company-stats .stat {
 
 html body .company-stats .btn {
   margin-top: 2vw; }
+
+@media all and (max-width: 767px) {
+  html body .company-stats .desktop {
+    display: none; }
+  html body .company-stats .mobile {
+    display: block; } }
 
 html body .employee-spotlight {
   background: #f2f2f2; }
