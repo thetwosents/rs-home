@@ -66,25 +66,28 @@ $across = get_sub_field('across');
 
 <section class="pull-quotes">
   <div class="container">
-      <div class="slider">
-  <?php if ( $query->have_posts() ) : ?>
+    <div class="row">
+      <!-- <div class="slider"> -->
+  <?php if ( $query->have_posts() ) : $count = 0; ?>
 
-      <!-- the loop -->
+        <!-- the loop -->
       <?php while ( $query->have_posts() ) : $query->the_post();  $post_date = get_the_date();
 
         $url = get_field('url');
         $logo_img = get_field('logo_img');
+        if ($count < 6) {
 
         ?>
-        
+        <div class="col-xs-12 col-md-4">
           <article>
             <a href="<?php echo $url; ?>" target="_blank">
               <img src="<?php echo $logo_img; ?>">
               <p><?php echo get_the_content(); ?></p>
             </a>
           </article>
+        </div>
 
-      <?php endwhile; ?>
+      <?php } $count++; endwhile; ?>
           <!-- end of the loop -->
 
           <?php wp_reset_postdata(); ?>
@@ -92,6 +95,7 @@ $across = get_sub_field('across');
         <?php else : ?>
         <?php endif; ?>
       </div>
+    </div>
 
     </div>
   </div>
