@@ -535,7 +535,11 @@ html body .product-callout {
     html body .product-callout .content .stat {
       margin-top: 3vw;
       max-width: 75%;
-      position: absolute; }
+      position: absolute;
+      display: none; }
+      @media all and (max-width: 767px) {
+        html body .product-callout .content .stat {
+          display: block; } }
       html body .product-callout .content .stat h2 {
         text-transform: uppercase;
         font-size: 3rem;
