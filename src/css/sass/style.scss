@@ -70,6 +70,12 @@
 html {
   font-size: 100% !important;
   overflow-x: hidden;
+  iframe {
+    max-width: 100%;
+    @media all and (max-width: 767px) {
+      height: 240px;
+    }
+  }
   body {
     font-size: 100%;
     overflow-x: hidden;

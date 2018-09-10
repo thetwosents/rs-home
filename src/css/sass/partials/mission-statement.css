@@ -1,4 +1,5 @@
 html body .mission-statement {
+  padding-top: 4vh !important;
   padding-bottom: 4vh !important; }
   html body .mission-statement .subheading {
     font-size: 1.6rem;

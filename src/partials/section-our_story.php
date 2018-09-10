@@ -17,13 +17,14 @@
     <div class="row middle-xs">
       <div class="col-xs-12 col-md-4">
         <div class="box">
+          <h4><?php echo $above_title; ?></h4>
           <h2><?php echo $title; ?></h2>
           <p><?php echo $content; ?></p>
         </div>
       </div>
       <div class="col-xs-12 col-md-7 col-md-offset-1">
         <div class="box">
-          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CF-sUDSnJz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
     </div>
