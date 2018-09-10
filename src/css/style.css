@@ -335,6 +335,10 @@ html body .product-callout {
       margin-left: 0px !important; }
     html body .product-callout.right.has-product .product-images .foreground {
       right: 8vw !important; }
+  html body .product-callout.right.has-single .images.right-aligned--single-image {
+    padding-right: 8vw; }
+    html body .product-callout.right.has-single .images.right-aligned--single-image img {
+      margin-left: 0px !important; }
   html body .product-callout .product-images {
     text-align: left;
     position: relative;
@@ -588,7 +592,7 @@ html body .testimonial-slider h4 {
     font-size: 1.2rem; } }
 
 html body .vertical-carousel h1 {
-  margin-top: 3vw; }
+  margin-top: 1vw; }
 
 html body .vertical-carousel h4 {
   font-weight: 600;

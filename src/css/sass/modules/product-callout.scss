@@ -40,6 +40,16 @@ html {
             }
           }
         }
+        &.has-single {
+          .images {
+            &.right-aligned--single-image {
+              padding-right: 8vw;
+              img {
+                margin-left: 0px !important;
+              }
+            }
+          }
+        }
       }
       .product-images {
         text-align: left;
