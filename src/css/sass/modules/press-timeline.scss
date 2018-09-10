@@ -71,6 +71,9 @@ html {
         &::after {
           display: none;
         }
+        .circle {
+          display: none !important;
+        }
       }
     }
   }

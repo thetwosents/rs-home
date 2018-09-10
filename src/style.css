@@ -333,7 +333,9 @@ html body .press-timeline {
           margin-top: 8vw; } }
   @media all and (max-width: 767px) {
     html body .press-timeline::after {
-      display: none; } }
+      display: none; }
+    html body .press-timeline .circle {
+      display: none !important; } }
 
 html body.brands .product-callout.right.has-product .product-images .foreground {
   right: 32vw !important; }
