@@ -15,17 +15,17 @@ $size = 'medium';
         <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><?php echo $subtitle; ?></h2>
       </div>
     </div>
-    <div class="row middle-xs">
+    <div class="row middle-xs center-xs">
       <div class="col-xs-12">
-        <div class="logo-slider">
 
+
+        <div class="logos"></div>
+
+        <ul class="hidden-logos" id="brandLogos">
           <?php
           if ($brands) {
             foreach($brands as $image) { ?>
-              <div class="logo">
-                  <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
-              </div>
-
+              <li><?php echo wp_get_attachment_image( $image['ID'], $size ); ?></li>
              <?php 
 
             }
@@ -33,8 +33,9 @@ $size = 'medium';
           }
 
           ?>
+
+        </ul>
           
-        </div>
       </div>
     </div>
   </div>

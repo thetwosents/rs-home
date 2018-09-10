@@ -1,4 +1,5 @@
 .brand-wall {
+  align-items: center;
   h2 {
     font-family: 'Didot' !important;
     font-style: italic;
@@ -6,36 +7,58 @@
     font-weight: 300;
     text-transform: none;
   }
-  .logo-slider {
-    align-items: center;
-    .slick-slide {
-      margin: 0px 20px !important;
-      // display: flex; 
-      text-align: center;
-      &::before {
-        content: '';
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
-      }
-      .logo {
-        vertical-align: middle;
-        display: inline-block;
-        width: 75% !important;
-        img {
-          vertical-align: middle;
-          display: inline-block;
-        }
-      }
-      img {
-        height: auto !important;
-        vertical-align: middle;
-        display: inline-block;
-        width: 75% !important;
-      }
-    }
+  // .logo-slider {
+  //   align-items: center;
+  //   .slick-slide {
+  //     margin: 0px 20px !important;
+  //     // display: flex; 
+  //     text-align: center;
+  //     &::before {
+  //       content: '';
+  //       display: inline-block;
+  //       height: 100%;
+  //       vertical-align: middle;
+  //     }
+  //     .logo {
+  //       vertical-align: middle;
+  //       display: inline-block;
+  //       width: 75% !important;
+  //       img {
+  //         vertical-align: middle;
+  //         display: inline-block;
+  //       }
+  //     }
+  //     img {
+  //       height: auto !important;
+  //       vertical-align: middle;
+  //       display: inline-block;
+  //       width: 75% !important;
+  //     }
+  //   }
+  // }
+  .logo {
+    display: inline-block;
+    opacity: 0;
+    // max-width: 8vw;
+    margin: 0px 2vw;
+    transition: all 1.2s ease-in-out;
+    -webkit-transition: all 1.2s ease-in-out;
+    max-width: 11%;
+  }
+  .is--visible {
+    opacity: 1;
+  }
+  .hidden-logos {
+    display: none;
   }
   @media all and (max-width: 767px) {
+    .logo {
+      max-width: 40%;
+      margin: 8vw 2vw;
+    }
+    h2 {
+      margin-bottom: 0px;
+    }
     .logo-slider {
       .slick-slide {
         // width: 30vw !important;

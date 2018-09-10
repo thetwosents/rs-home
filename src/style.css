@@ -323,8 +323,15 @@ html body .product-callout {
   html body .product-callout.has-product {
     padding-top: 12vw !important;
     padding-bottom: 9vw !important; }
+    @media all and (max-width: 767px) {
+      html body .product-callout.has-product {
+        padding-bottom: 12vw !important; } }
   html body .product-callout.has-single {
     padding-top: 8vw !important; }
+  @media all and (max-width: 767px) {
+    html body .product-callout {
+      padding-top: 9vw !important;
+      padding-bottom: 9vw !important; } }
   html body .product-callout .right-content {
     margin-left: 3vw; }
     @media all and (max-width: 767px) {
@@ -615,37 +622,33 @@ html body .vertical-carousel .slider {
 .become-rs-influencer .slider {
   width: 100%; }
 
-.brand-wall h2 {
-  font-family: 'Didot' !important;
-  font-style: italic;
-  margin-bottom: 60px;
-  font-weight: 300;
-  text-transform: none; }
-
-.brand-wall .logo-slider {
+.brand-wall {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .brand-wall .logo-slider .slick-slide {
-    margin: 0px 20px !important;
-    text-align: center; }
-    .brand-wall .logo-slider .slick-slide::before {
-      content: '';
-      display: inline-block;
-      height: 100%;
-      vertical-align: middle; }
-    .brand-wall .logo-slider .slick-slide .logo {
-      vertical-align: middle;
-      display: inline-block;
-      width: 75% !important; }
-      .brand-wall .logo-slider .slick-slide .logo img {
-        vertical-align: middle;
-        display: inline-block; }
-    .brand-wall .logo-slider .slick-slide img {
-      height: auto !important;
-      vertical-align: middle;
-      display: inline-block;
-      width: 75% !important; }
+  .brand-wall h2 {
+    font-family: 'Didot' !important;
+    font-style: italic;
+    margin-bottom: 60px;
+    font-weight: 300;
+    text-transform: none; }
+  .brand-wall .logo {
+    display: inline-block;
+    opacity: 0;
+    margin: 0px 2vw;
+    transition: all 1.2s ease-in-out;
+    -webkit-transition: all 1.2s ease-in-out;
+    max-width: 11%; }
+  .brand-wall .is--visible {
+    opacity: 1; }
+  .brand-wall .hidden-logos {
+    display: none; }
+  @media all and (max-width: 767px) {
+    .brand-wall .logo {
+      max-width: 40%;
+      margin: 8vw 2vw; }
+    .brand-wall h2 {
+      margin-bottom: 0px; } }
 
 .team-member-bio.left .content {
   padding-left: 40px; }

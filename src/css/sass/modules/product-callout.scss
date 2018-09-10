@@ -6,9 +6,16 @@ html {
       &.has-product {
         padding-top: 12vw !important;
         padding-bottom: 9vw !important;
+        @media all and (max-width: 767px) {
+          padding-bottom: 12vw !important;
+        }
       }
       &.has-single {
         padding-top: 8vw !important;
+      }
+      @media all and (max-width: 767px) {
+        padding-top: 9vw !important;
+        padding-bottom: 9vw !important;
       }
       .right-content {
         margin-left: 3vw;

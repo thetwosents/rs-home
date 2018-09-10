@@ -140,6 +140,50 @@
         }
     });
 
+
+    var brandLogos = [];
+
+    var list = $('.hidden-logos li').toArray();
+
+    $(list).each(function(index,item){
+      console.log(item);
+      brandLogos.push($(item).find('img').attr('src'));
+      console.log(brandLogos);
+    });
+    
+    for (var i = 0; i < brandLogos.length; i++) {
+      
+      if (i < 6) { $('.brand-wall .logos').append('<div class="logo is--visible"><img src="' + brandLogos[i] + '"></div>'); }
+    }
+      
+    logosLoaded();
+        
+
+    function logosLoaded(){
+      console.log('fired');
+      var currentItem = 6;
+      var count = 6; // Number of elements to choose from
+      
+      window.setInterval(function(){ 
+
+        var sel = Math.floor(Math.random() * count) + 1; 
+
+        var el = $('.logo')[sel]; // get a random element to switch out with new logo
+        $(el).removeClass('is--visible'); // hide logo
+        
+        window.setTimeout(function(){
+              $(el).find('img').attr('src',brandLogos[currentItem]);
+            $(el).addClass('is--visible');
+        }, 1200);
+        
+        currentItem++;
+      
+        if (currentItem === brandLogos.length) {
+          currentItem = 0;
+        }
+      },4000);
+    }
+
     // (function() {
     //   //add css file to dom so IE8 recognizes it
     //   document.write('<link href="https://rewardstyle.bamboohr.com/css/jobs-embed.css" rel="stylesheet" />');
