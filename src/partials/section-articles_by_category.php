@@ -37,16 +37,24 @@ $across = get_sub_field('across');
       <?php while ( $query->have_posts() ) : $query->the_post();  $post_date = get_the_date();
 
         $url = get_field('url');
+        $logo_img = get_field('logo_img');
       ?>
 
       <div class="col-xs-12 col-md-offset-2 col-md-8">
         <div class="box">
           <article>
-            <a href="<?php echo $url; ?>" target="_blank">
-              <h4><?php echo $post_date; ?></h4>
-              <h2><?php the_title(); ?></h2>
-              <p><?php the_excerpt(); ?></p>
-            </a>
+            <div class="row start-xs middle-xs">
+              <div class="col-xs-12 col-md-3 image">
+                <img src="<?php echo $logo_img; ?>">
+              </div>
+              <div class="col-xs-12 col-md-8 col-md-offset-1">
+                <a href="<?php echo $url; ?>" target="_blank">
+                  <h4><?php echo $post_date; ?></h4>
+                  <h2><?php the_title(); ?></h2>
+                  <p><?php the_excerpt(); ?></p>
+                </a>
+              </div>
+            </div>
           </article>
         </div>
       </div>

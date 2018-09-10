@@ -1132,6 +1132,11 @@ html body {
     margin-bottom: 48px !important; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
+    html body .articles-by-category article .image {
+      text-align: center; }
+      html body .articles-by-category article .image img {
+        max-width: 75%;
+        margin: 0 auto; }
     html body .articles-by-category article a {
       text-decoration: none; }
       html body .articles-by-category article a h4 {
