@@ -11,7 +11,7 @@ $left_or_right = get_sub_field('left_or_right');
 
 ?>
 
-<section class="side-by-side">
+<section class="side-by-side light--spacing">
 	<div class="container">
 		<div class="row center-xs top-xs start-md">
 			<?php if ($left_or_right === 'left') { ?> 
