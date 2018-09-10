@@ -1065,6 +1065,8 @@ html body {
   html body .large-callout .bottom-img {
     width: 625px;
     height: 400px; }
+  html body .image-callout h2 {
+    margin-bottom: 1vw; }
   html body .image-callout img {
     margin-top: 4vw; }
   html body .values-callout .container {
