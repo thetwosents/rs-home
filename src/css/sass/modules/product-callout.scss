@@ -1,5 +1,21 @@
 html {
   body {
+    &.brands {
+      .product-callout {
+        &.right {
+          &.has-product {
+            .product-images {
+              .foreground {
+                right: 32vw !important;
+              }
+              .background {
+                margin-left: 10vw !important;
+              }
+            }
+          }
+        }
+      }
+    } 
     .product-callout {
       padding-top: 5vw !important;
       padding-bottom: 5vw !important;

@@ -297,6 +297,10 @@ html body .press-timeline {
     border-right: 1px solid #000;
     padding: 0px 40px; }
 
+html body.brands .product-callout.right.has-product .product-images .foreground {
+  right: 32vw !important; }
+html body.brands .product-callout.right.has-product .product-images .background {
+  margin-left: 10vw !important; }
 html body .product-callout {
   padding-top: 5vw !important;
   padding-bottom: 5vw !important; }
