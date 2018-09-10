@@ -100,7 +100,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
         <?php ?>
       <?php endif; ?>
     
-      <div class="col-xs-12 col-md-4 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="col-xs-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <?php if (count($images) === 1) { ?>
 
           <div class="box content single-image">
@@ -138,7 +138,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
       </div>
 
     <?php } else { ?>
-      <div class="col-xs-12 col-md-4 col-lg-5 last-xs first-md right-content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="col-xs-12 col-md-4 col-lg-4 last-xs first-md right-content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <?php if (count($images) === 1) { ?>
           <div class="content single-image">
         <?php } else { ?>
