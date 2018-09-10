@@ -44,8 +44,8 @@
 					</div>
 				</div>	
 			</div>
-			<div class="col-xs-12 desktop">
-				<div class="box">
+			<div class="col-xs-12">
+				<div class="box desktop">
 					<div class="stat">
 						<h1><?php echo $stat_1_number; ?></h1>
 						<h4><?php echo $stat_1_text; ?></h4>
