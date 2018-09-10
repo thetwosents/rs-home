@@ -91,8 +91,7 @@ html body .call-to-action-banner {
       color: #fff; }
 
 html body .company-stats .box {
-  padding: 0px 30px;
-  border-right: 1px solid #e8e8e8; }
+  padding: 0px 30px; }
   html body .company-stats .box.last {
     border: 0px !important; }
   html body .company-stats .box p {

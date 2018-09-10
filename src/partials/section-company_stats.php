@@ -44,7 +44,31 @@
 					</div>
 				</div>	
 			</div>
-			<div class="col-xs-12">
+
+			<?php endwhile; else : endif; ?>
+
+			</div>
+
+			<div class="row">
+
+			<?php 
+
+			if( have_rows('steps') ): while ( have_rows('steps') ) : the_row();
+
+
+				$title = get_sub_field('title');
+				$content = get_sub_field('content');
+
+				$stat_1_number = get_sub_field('stat_1_number');
+				$stat_1_text = get_sub_field('stat_1_text');
+				$stat_2_number = get_sub_field('stat_2_number');
+				$stat_2_text = get_sub_field('stat_2_text');
+
+				$cta_text = get_sub_field('cta_text');
+				$cta_link = get_sub_field('cta_link');
+
+			?>
+			<div class="col-xs-4">
 				<div class="box desktop">
 					<div class="stat">
 						<h1><?php echo $stat_1_number; ?></h1>
@@ -59,8 +83,9 @@
 			</div>
 
 			<?php endwhile; else : endif; ?>
-			
-		</div>
+
+
+		
 		<!-- <div class="row center-xs top-xs">
 			<div class="col-xs-12 col-md-4">
 				<div class="box">
