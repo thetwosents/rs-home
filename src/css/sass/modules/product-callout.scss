@@ -247,7 +247,11 @@ html {
         padding-top: 6vw;
         padding-right: 4vw;
         @media all and (max-width: 767px) {
-
+          .quote {
+            img {
+              margin-top: 3vw;
+            }
+          }
         }
         .quote {
           margin-top: 3vw;
