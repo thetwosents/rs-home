@@ -163,7 +163,8 @@ html {
       article {
         text-align: center;
         img {
-          max-height: 7vw;
+          width: 200px;
+          // max-height: 4vw;
           margin: 0 auto;
           transition: all .2s ease-in-out;
           -webkit-transition: all .2s ease-in-out;
@@ -177,8 +178,8 @@ html {
         p {
           font-family: 'Didot' !important;
           font-style: italic;
-          max-width: 75%;
-          margin: 16px auto;
+          max-width: 90%;
+          margin: 4px auto;
           color: #000;
         }
       }

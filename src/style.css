@@ -1251,7 +1251,7 @@ html body {
   html body .pull-quotes article {
     text-align: center; }
     html body .pull-quotes article img {
-      max-height: 7vw;
+      width: 200px;
       margin: 0 auto;
       transition: all .2s ease-in-out;
       -webkit-transition: all .2s ease-in-out;
@@ -1261,8 +1261,8 @@ html body {
     html body .pull-quotes article p {
       font-family: 'Didot' !important;
       font-style: italic;
-      max-width: 75%;
-      margin: 16px auto;
+      max-width: 90%;
+      margin: 4px auto;
       color: #000; }
   @media all and (max-width: 767px) {
     html body .pull-quotes article img {
