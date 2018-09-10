@@ -80,14 +80,14 @@ html body .company-stats .box {
     border: 0px !important; }
   html body .company-stats .box p {
     font-size: .875rem;
-    margin-bottom: 3vw; }
+    margin-bottom: 0vw; }
 html body .company-stats .mobile {
   display: none; }
 html body .company-stats .desktop {
   display: block; }
 html body .company-stats .stat {
   display: block;
-  margin: 1vw auto 0px;
+  margin: 3vw auto 0px;
   width: 100%; }
   html body .company-stats .stat h1 {
     font-weight: 300;
