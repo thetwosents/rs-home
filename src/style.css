@@ -547,7 +547,7 @@ html body .product-callout {
         width: auto; }
     html body .product-callout .content .stat {
       margin-top: 3vw;
-      max-width: 50%; }
+      max-width: 75%; }
       html body .product-callout .content .stat h2 {
         text-transform: uppercase;
         font-size: 3rem;
