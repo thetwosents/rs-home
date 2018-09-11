@@ -380,7 +380,7 @@ html body .product-callout {
   padding-bottom: 5vw !important; }
   html body .product-callout.has-product {
     padding-top: 12vw !important;
-    padding-bottom: 9vw !important; }
+    padding-bottom: 5vw !important; }
     @media all and (max-width: 767px) {
       html body .product-callout.has-product {
         padding-bottom: 12vw !important; } }
