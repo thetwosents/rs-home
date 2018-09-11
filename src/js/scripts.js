@@ -210,12 +210,15 @@
             $(el).addClass('is--visible');
         }, 1200);
         
-        currentItem++;
-      
         if (currentItem === brandLogos.length) {
           currentItem = 0;
+        } else {
+          currentItem++;
         }
-      },4000);
+
+        console.log(currentItem);
+        
+      },1000);
     }
 
     if (youtube.length > 1) {
