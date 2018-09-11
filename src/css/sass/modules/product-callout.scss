@@ -5,10 +5,14 @@ html {
         .product-images {
           .content {
             padding-top: 0px;
+            // margin-top: -60px;
           }
         }
         &.right {
           &.has-product {
+            .content {
+              margin-top: -6vw;;
+            }
             .product-images {
               .foreground {
                 right: 32vw !important;
