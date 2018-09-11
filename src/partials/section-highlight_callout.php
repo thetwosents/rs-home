@@ -19,7 +19,7 @@ $cta_text = get_sub_field('cta_text');
       </div>
       <div class="col-xs-12 col-md-7">
         <div class="box">
-          <div class="content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <div class="content">
             <h2><?php echo $title; ?></h2>
             <p><?php echo $subtext; ?></p>
             <a href="<?php echo $url; ?>" target="_blank" class="btn"><?php echo $cta_text; ?></a>
