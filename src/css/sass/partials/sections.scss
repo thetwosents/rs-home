@@ -14,6 +14,7 @@ html {
     }
 
     .awards-side {
+      padding: 0px 0px !important;
       .container {
         margin: 0vw auto;
         // border-top: 1px solid #000;
@@ -27,7 +28,7 @@ html {
         height: auto !important;
         vertical-align: middle;
         display: inline-block;
-        max-width: 75%;
+        max-width: 50%;
       }
       .logo {
         vertical-align: middle;

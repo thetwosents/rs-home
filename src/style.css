@@ -316,6 +316,7 @@ html body .press-timeline {
   background: #f2f2f2;
   width: 100%;
   position: relative;
+  margin-top: 4vh;
   padding: 8vh 0px !important; }
   html body .press-timeline::after {
     content: '';
@@ -1175,30 +1176,32 @@ html body {
     padding: 0px 40px; }
   html body .become-rs-influencer .seperator {
     margin-top: 30px; }
-  html body .awards-side .container {
-    margin: 0vw auto;
-    padding: 0vh 0px; }
-  html body .awards-side img {
-    margin: 0 auto;
-    vertical-align: middle;
-    display: inline-block;
-    height: auto !important;
-    vertical-align: middle;
-    display: inline-block;
-    max-width: 75%; }
-  html body .awards-side .logo {
-    vertical-align: middle;
-    display: inline-block;
-    max-width: 75%; }
-  html body .awards-side .slider {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    html body .awards-side .slider::before {
-      content: '';
+  html body .awards-side {
+    padding: 0px 0px !important; }
+    html body .awards-side .container {
+      margin: 0vw auto;
+      padding: 0vh 0px; }
+    html body .awards-side img {
+      margin: 0 auto;
+      vertical-align: middle;
       display: inline-block;
-      height: 100%;
-      vertical-align: middle; }
+      height: auto !important;
+      vertical-align: middle;
+      display: inline-block;
+      max-width: 50%; }
+    html body .awards-side .logo {
+      vertical-align: middle;
+      display: inline-block;
+      max-width: 75%; }
+    html body .awards-side .slider {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      html body .awards-side .slider::before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle; }
   html body .stats-wall .stat {
     margin-bottom: 5vw; }
   html body .stats-wall h2 {
@@ -1358,6 +1361,8 @@ html {
       html body section.light--spacing {
         padding-top: 3vw !important;
         padding-bottom: 3vw !important; }
+      html body section.awards-side {
+        padding: 0px 0px !important; }
       html body section.mission-statement {
         padding-bottom: 12vh !important; }
     html body h1 {
