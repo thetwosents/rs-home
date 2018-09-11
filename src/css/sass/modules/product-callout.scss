@@ -264,6 +264,9 @@ html {
         padding-left: 7vw;
         padding-top: 4vw;
         padding-right: 4vw;
+        .btn {
+          margin-top: .875em;
+        }
         @media all and (max-width: 767px) {
           .quote {
             img {
@@ -281,8 +284,9 @@ html {
             margin-bottom: -7px !important;
           }
           img {
-            max-height: 60px;
+            height: 30px;
             width: auto;
+            margin-top: 2vw;
           }
         }
         .stat {
