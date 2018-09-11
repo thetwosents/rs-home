@@ -1,4 +1,4 @@
-<?php
+\<?php
 
 $title = get_sub_field('title');
 $subtitle = get_sub_field('subtitle');
@@ -9,12 +9,14 @@ $size = 'medium';
 
 <section class="brand-wall light--spacing">
   <div class="container">
+    <?php if ($title) { ?>
     <div class="row middle-xs center-xs">
       <div class="col-xs-12">
         <h1 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><?php echo $title; ?></h1>
         <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><?php echo $subtitle; ?></h2>
       </div>
     </div>
+  <?php } ?>
     <div class="row middle-xs center-xs">
       <div class="col-xs-12">
 
