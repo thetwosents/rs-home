@@ -205,11 +205,16 @@ html {
   }
 }
 
-@media all and (min-width: 1800px) {
+@media all and (min-width: 1700px) {
   html {
     font-size: 120% !important;
     body {
       font-size: 120%;
+      .brand-wall {
+        .container {
+          width: 75%;
+        }
+      }
       .container {
         // padding: 0px 12vw;
         // width: 100% !important;

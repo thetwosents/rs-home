@@ -1430,11 +1430,13 @@ html {
           line-height: 32px;
           font-size: 1.2rem; } }
 
-@media all and (min-width: 1800px) {
+@media all and (min-width: 1700px) {
   html {
     font-size: 120% !important; }
     html body {
       font-size: 120%; }
+      html body .brand-wall .container {
+        width: 75%; }
       html body section.masthead {
         padding: 4vh 12vw !important; }
       html body .product-callout .images .foreground {
