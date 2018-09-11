@@ -250,7 +250,8 @@ html body .mission-statement {
     font-weight: 300; }
 
 html body .perks-wall {
-  margin-top: 60px; }
+  margin-top: 60px;
+  padding-bottom: 0px !important; }
   html body .perks-wall .award img {
     max-width: 75% !important;
     margin-left: 25%; }
