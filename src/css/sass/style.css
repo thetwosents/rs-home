@@ -170,6 +170,10 @@ html body .highlight-callout .content {
     html body .highlight-callout .content p {
       padding: 0px !important; } }
 
+html body .instagram-feed h1 {
+  margin-top: 2vw; }
+html body .instagram-feed .btn {
+  margin-bottom: 2vw; }
 html body .instagram-feed h2 {
   font-family: 'Didot' !important;
   text-transform: none;

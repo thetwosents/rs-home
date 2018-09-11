@@ -1,7 +1,7 @@
 <?php 
 
 ?>
-<section class="instagram-feed light--spacing">
+<section class="instagram-feed">
 	<div class="container">
 		<div class="row center-xs middle-xs">
 			<div class="col-xs-12 col-md-12">
