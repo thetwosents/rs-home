@@ -28,7 +28,7 @@ html {
     .product-callout {
       padding-top: 5vw !important;
       padding-bottom: 5vw !important;
-      &:first-child {
+      &.first {
         padding-top: 2vw !important;
       }
       .single-image {

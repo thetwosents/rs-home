@@ -24,6 +24,9 @@
       ]
     });
 
+    var callout = $('.product-callout');
+    $(callout[0]).addClass('first');
+
     var youtube = document.querySelectorAll( ".youtube" );
 
     var length = $('.contents').children().length;
