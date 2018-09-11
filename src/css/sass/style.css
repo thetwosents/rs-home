@@ -350,7 +350,7 @@ html body .product-callout {
         padding-bottom: 12vw !important; } }
   html body .product-callout.has-single {
     padding-top: 8vw !important;
-    padding-bottom: 0px !important; }
+    padding-bottom: 2vw !important; }
   @media all and (max-width: 767px) {
     html body .product-callout {
       padding-top: 9vw !important;
