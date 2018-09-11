@@ -2,7 +2,7 @@
 $image = get_sub_field('map_image');
 ?>
 
-<section class="job-postings">
+<section class="job-postings light--spacing">
   <div class="container">
     <div class="row center-xs">
     	<div class="col-xs-12 col-md-12">
