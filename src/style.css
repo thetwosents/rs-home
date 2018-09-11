@@ -829,8 +829,12 @@ html body .graphic-slider {
           margin-left: -2px; }
         html body .graphic-slider .contents .box .content p {
           display: none;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          max-width: 100%;
           font-size: .875rem;
-          line-height: .875rem;
           color: #Fff !important; }
         html body .graphic-slider .contents .box .content img {
           margin: 0 auto; }
@@ -846,6 +850,8 @@ html body .graphic-slider {
       html body .graphic-slider .contents .box:hover {
         background: #000; }
         html body .graphic-slider .contents .box:hover h4 {
+          display: none; }
+        html body .graphic-slider .contents .box:hover .align {
           display: none; }
         html body .graphic-slider .contents .box:hover img {
           opacity: 0; }

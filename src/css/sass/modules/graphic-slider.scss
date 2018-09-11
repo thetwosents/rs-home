@@ -101,9 +101,11 @@ html {
 						}
 						p {
 							display: none;
+							-webkit-flex-direction: row; 
+							flex-direction: row;
 							// margin-top: -12px;
+							max-width: 100%;
 							font-size: .875rem;
-							line-height: .875rem;
 							color: #Fff !important;
 							// @media all and (max-width: 767px) {
 							// 	font-size: .875rem;
@@ -127,6 +129,9 @@ html {
 					&:hover {
 						background: #000;
 						h4 {
+							display: none;
+						}
+						.align {
 							display: none;
 						}
 						img {
