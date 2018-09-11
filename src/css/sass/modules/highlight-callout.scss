@@ -5,6 +5,10 @@ html {
         margin-top: -1vw;
         position: relative;
         z-index: 0;
+        max-width: 30vw;
+        img {
+          width: 100%;
+        }
 			}
       h3 {
         font-size: 1.6rem;
