@@ -136,7 +136,8 @@
       autoplay: true,
       autoplaySpeed: 4200,
       speed: 600,
-      fade: true
+      fade: true,
+      adaptiveHeight: true
     });
 
     $('.awards-side .slider').slick({
