@@ -764,6 +764,8 @@ html body .graphic-slider {
         background: #000; }
         html body .graphic-slider .contents .box:hover h4 {
           display: none; }
+        html body .graphic-slider .contents .box:hover img {
+          opacity: 0; }
         html body .graphic-slider .contents .box:hover p {
           display: block;
           color: #fff; }
