@@ -725,7 +725,8 @@ html body .graphic-slider {
       left: 50%;
       margin-left: -2px; }
     html body .graphic-slider .title .box p {
-      display: none; }
+      display: none;
+      color: #fff !important; }
     html body .graphic-slider .title .box:hover {
       background: #000; }
       html body .graphic-slider .title .box:hover h4 {
@@ -776,7 +777,8 @@ html body .graphic-slider {
           display: none;
           margin-top: -12px;
           font-size: .875rem;
-          line-height: 100%; }
+          line-height: 100%;
+          color: #Fff !important; }
         html body .graphic-slider .contents .box .content img {
           margin: 0 auto; }
         @media all and (max-width: 767px) {
