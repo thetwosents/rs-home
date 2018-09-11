@@ -559,7 +559,8 @@ html body .product-callout {
       position: absolute; }
       @media all and (max-width: 767px) {
         html body .product-callout .content .stat {
-          display: block; } }
+          display: block;
+          position: relative; } }
       html body .product-callout .content .stat h2 {
         text-transform: uppercase;
         font-size: 2rem;
