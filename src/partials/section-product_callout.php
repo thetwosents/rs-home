@@ -111,7 +111,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
 
         <?php } ?>
           <?php
-            echo '<h4>' . $above_title . '</h4>';
+            echo '<h4 class="title">' . $above_title . '</h4>';
             echo '<h2>' . $title . '</h2>';
             echo '<p>' . $content . '</p>';
           ?>
@@ -155,7 +155,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
           <div class="content">
         <?php } ?>
           <?php 
-            echo '<h4>' . $above_title . '</h4>';
+            echo '<h4 class="title">' . $above_title . '</h4>';
             echo '<h2>' . $title . '</h2>';
             echo '<p>' . $content . '</p>';
            ?>
