@@ -1174,32 +1174,34 @@ html body {
     margin-bottom: 1vw; }
   html body .image-callout img {
     margin-top: 4vw; }
-  html body .values-callout .container {
-    position: relative;
-    min-height: 80vh; }
-    html body .values-callout .container .images {
-      max-width: 50%;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-      margin-top: 20.5%; }
-      html body .values-callout .container .images img {
-        width: 100%;
-        display: block;
-        margin: 8px auto; }
-    html body .values-callout .container p {
-      max-width: 55%;
-      margin-bottom: 40px; }
-  @media all and (max-width: 767px) {
-    html body .values-callout .container .images {
+  html body .values-callout {
+    padding-top: 0px !important; }
+    html body .values-callout .container {
       position: relative;
-      max-width: 100%; }
-    html body .values-callout .container .btn {
-      display: block;
-      text-align: center;
-      line-height: 40px; }
-    html body .values-callout .container p {
-      max-width: 100%; } }
+      min-height: 80vh; }
+      html body .values-callout .container .images {
+        max-width: 50%;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        margin-top: 20.5%; }
+        html body .values-callout .container .images img {
+          width: 100%;
+          display: block;
+          margin: 8px auto; }
+      html body .values-callout .container p {
+        max-width: 55%;
+        margin-bottom: 40px; }
+    @media all and (max-width: 767px) {
+      html body .values-callout .container .images {
+        position: relative;
+        max-width: 100%; }
+      html body .values-callout .container .btn {
+        display: block;
+        text-align: center;
+        line-height: 40px; }
+      html body .values-callout .container p {
+        max-width: 100%; } }
   html body .pull-quotes .col-md-4 {
     margin-bottom: 48px; }
   html body .pull-quotes a:hover {
