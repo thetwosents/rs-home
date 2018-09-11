@@ -133,6 +133,9 @@ html body .highlight-callout .left {
   max-width: 30vw; }
   html body .highlight-callout .left img {
     width: 100%; }
+  @media all and (max-width: 1700px) {
+    html body .highlight-callout .left {
+      max-width: 39vw; } }
 
 html body .highlight-callout h3 {
   font-size: 1.6rem;

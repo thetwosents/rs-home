@@ -9,6 +9,9 @@ html {
         img {
           width: 100%;
         }
+        @media all and (max-width: 1700px) {
+          max-width: 39vw;
+        }
 			}
       h3 {
         font-size: 1.6rem;
