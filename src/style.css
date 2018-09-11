@@ -359,6 +359,9 @@ html body .press-timeline {
       border: 1px solid #000; }
       html body .press-timeline .circle:hover i {
         color: #000; }
+    html body .press-timeline .circle.prev {
+      margin: 0px;
+      float: right; }
   html body .press-timeline img {
     position: relative;
     z-index: 5;
@@ -1066,7 +1069,7 @@ input[type="search"] {
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 8;
+  z-index: 9999;
   background: #fff;
   border-bottom: 1px solid #e8e8e8; }
   .header .menu-toggle {

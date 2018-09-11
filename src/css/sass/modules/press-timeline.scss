@@ -38,6 +38,10 @@ html {
             color: #000;
           }
         }
+        &.prev {
+          margin: 0px;
+          float: right;
+        }
       }
       img {
         position: relative;
