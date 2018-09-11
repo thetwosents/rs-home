@@ -315,7 +315,8 @@ html body .perks-wall {
 html body .press-timeline {
   background: #f2f2f2;
   width: 100%;
-  position: relative; }
+  position: relative;
+  padding: 8vh 0px !important; }
   html body .press-timeline::after {
     content: '';
     position: absolute;
@@ -703,6 +704,9 @@ html body .vertical-carousel .slider {
 .become-rs-influencer .slider {
   width: 100%; }
 
+.become-rs-influencer p {
+  margin-bottom: 40px; }
+
 .brand-wall {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1084,12 +1088,13 @@ input[type="search"] {
         font-size: .725rem;
         color: #767676;
         font-family: 'Gotham';
-        font-weight: 600;
+        font-weight: 300;
         transition: all .2s ease-in-out;
         -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out; }
         .footer nav ul li a:hover {
           color: #000;
+          font-weight: 600;
           text-decoration: none; }
   .footer .social {
     margin: 30px auto 0px;

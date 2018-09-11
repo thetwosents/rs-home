@@ -28,12 +28,13 @@
           font-size: .725rem;
           color: #767676;
           font-family: 'Gotham';
-          font-weight: 600;
+          font-weight: 300;
           transition: all .2s ease-in-out;
         -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out;
           &:hover {
             color: #000;
+            font-weight: 600;
             text-decoration: none;
           }
         }
