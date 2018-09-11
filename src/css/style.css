@@ -733,7 +733,7 @@ html body .graphic-slider {
   html body .graphic-slider .container {
     position: relative; }
   html body .graphic-slider .title .box {
-    padding: 20px 0px;
+    padding: 8px 0px;
     border: 2px solid #000;
     vertical-align: middle;
     position: relative;
@@ -757,14 +757,14 @@ html body .graphic-slider {
         display: block;
         color: #fff; }
   html body .graphic-slider .contents {
-    height: 300px; }
+    height: 220px; }
     html body .graphic-slider .contents .box {
       transition: all .2s ease-in-out;
       -webkit-transition: all .2s ease-in-out; }
       html body .graphic-slider .contents .box .content {
         border: 2px solid #000;
-        height: 300px;
-        padding-top: 25%;
+        height: 200px;
+        padding-top: 12.5%;
         padding-left: 4%;
         padding-right: 4%;
         position: relative;
@@ -780,8 +780,9 @@ html body .graphic-slider {
           margin-left: -2px; }
         html body .graphic-slider .contents .box .content p {
           display: none;
-          margin-top: -4px;
-          font-size: 1.2rem; }
+          margin-top: -12px;
+          font-size: .875rem;
+          line-height: 100%; }
         html body .graphic-slider .contents .box .content img {
           margin: 0 auto; }
       html body .graphic-slider .contents .box:hover {

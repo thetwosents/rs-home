@@ -7,7 +7,7 @@ html {
 			}
 			.title {
 				.box {
-					padding: 20px 0px;
+					padding: 8px 0px;
 					border: 2px solid #000;
 					vertical-align: middle;
 					position: relative;
@@ -41,15 +41,14 @@ html {
 				}
 			}
 			.contents {
-				height: 300px;
+				height: 220px;
 				.box {
 					transition: all .2s ease-in-out;
 					-webkit-transition: all .2s ease-in-out;
-
 					.content {
 						border: 2px solid #000;
-						height: 300px;
-						padding-top: 25%;
+						height: 200px;
+						padding-top: 12.5%;
 						padding-left: 4%;
 						padding-right: 4%;
 						position: relative;
@@ -66,8 +65,9 @@ html {
 						}
 						p {
 							display: none;
-							margin-top: -4px;
-							font-size: 1.2rem;
+							margin-top: -12px;
+							font-size: .875rem;
+							line-height: 100%;
 							// @media all and (max-width: 767px) {
 							// 	font-size: .875rem;
 							// }
