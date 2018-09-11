@@ -24,7 +24,7 @@
       </div>
       <div class="col-xs-12 col-md-7 col-md-offset-1">
         <div class="box">
-          <iframe width="100%" height="500" src="https://www.youtube.com/embed/CF-sUDSnJz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <!-- <iframe width="100%" height="500" src="https://www.youtube.com/embed/CF-sUDSnJz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
         </div>
       </div>
     </div>
