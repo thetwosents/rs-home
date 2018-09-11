@@ -16,9 +16,9 @@ $isLarge = get_sub_field('is_large');
           data-aos-duration="1200">
           <h2><?php echo $header; ?></h2>
           <?php if ($isLarge) { ?>
-            <p class="subheading"><?php echo $subheader; ?></p>
+            <div class="subheading"><?php echo $subheader; ?></div>
           <?php } else { ?>
-            <p><?php echo $subheader; ?></p>
+            <div class="quoteheader"><?php echo $subheader; ?></div>
           <?php } ?>
           
         </div>

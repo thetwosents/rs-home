@@ -91,6 +91,22 @@ html {
         padding-bottom: 0px !important;
       }
     }
+    &.careers {
+      .mission-statement {
+        padding-bottom: 0px !important;
+        .quoteheader {
+          
+          
+          // display: none;
+        }
+        .subheading {
+          p {
+            font-size: 1.6rem;
+            font-family: 'Didot' !important;
+          }
+        }
+      }
+    }
     .row {
       margin-left: 0px !important;
       margin-right: 0px !important;
@@ -150,7 +166,7 @@ html {
     p {
       font-size: 1rem;
       font-family: 'Gotham' !important;
-      color: #767676;
+      color: #000 !important;
       line-height: 1.9 !important;
       font-weight: 400;
     }
