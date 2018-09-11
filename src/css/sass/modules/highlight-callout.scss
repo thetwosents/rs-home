@@ -2,9 +2,12 @@ html {
 	body {
 		.highlight-callout {
 			.left {
-        margin-top: 60px;
+        margin-top: -5vw;
         position: relative;
         z-index: 0;
+        img {
+          width: 100%;
+        }
 			}
       h3 {
         font-size: 1.6rem;
@@ -15,10 +18,13 @@ html {
       }
 			.right {
         float: right;
-        margin-top: -270px;
+        margin-top: -20vw;
         max-width: 350px;
         z-index: 1;
         position: relative;
+        img {
+          width: 100%;
+        }
 			}
       .top {
         margin-top: 40px;
