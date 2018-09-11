@@ -251,7 +251,8 @@ html body .join-the-family h2 {
     font-weight: 400;
     margin-top: 160px; }
   .masthead p {
-    width: 45vw; }
+    width: 45vw;
+    color: #fff !important; }
   .masthead .btn {
     margin: 20px 0px; }
   .masthead:after {
