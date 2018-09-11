@@ -365,7 +365,8 @@ html body .product-callout {
       html body .product-callout.has-product {
         padding-bottom: 12vw !important; } }
   html body .product-callout.has-single {
-    padding-top: 8vw !important; }
+    padding-top: 8vw !important;
+    padding-bottom: 0px !important; }
   @media all and (max-width: 767px) {
     html body .product-callout {
       padding-top: 9vw !important;
@@ -516,7 +517,7 @@ html body .product-callout {
             left: 16vw; } }
   html body .product-callout .content {
     padding-left: 7vw;
-    padding-top: 6vw;
+    padding-top: 4vw;
     padding-right: 4vw; }
     @media all and (max-width: 767px) {
       html body .product-callout .content .quote img {

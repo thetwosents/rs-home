@@ -28,6 +28,7 @@ html {
       }
       &.has-single {
         padding-top: 8vw !important;
+        padding-bottom: 0px !important;
       }
       @media all and (max-width: 767px) {
         padding-top: 9vw !important;
@@ -244,7 +245,7 @@ html {
       }
       .content {
         padding-left: 7vw;
-        padding-top: 6vw;
+        padding-top: 4vw;
         padding-right: 4vw;
         @media all and (max-width: 767px) {
           .quote {
