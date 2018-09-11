@@ -16,7 +16,7 @@ $content = get_sub_field('content');
 				</div>
 			</div>
 		</div>
-		<div class="row center-xs top-xs seperator">
+		<div class="row center-xs top-xs">
 			<div class="col-xs-12 col-md-6">
 				<div class="box">
 					<div class="slider">
