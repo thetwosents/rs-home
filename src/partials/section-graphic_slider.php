@@ -5,7 +5,7 @@ $subheader = get_sub_field('subheader');
 
 ?>
 
-<section class="graphic-slider light--spacing">
+<section class="graphic-slider">
 	<div class="container">
 		<div class="row title middle-xs center-xs">
 			<div class="col-xs-12 col-md-6">
