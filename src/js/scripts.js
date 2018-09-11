@@ -111,7 +111,7 @@
     $('.press-timeline .slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       speed: 800,
       autoplaySpeed: 4200,
       fade: true,
