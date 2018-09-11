@@ -118,7 +118,9 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
 
           <?php if ($have_primary_cta) {
 
-            echo '<a href="' . $primary_cta_link . '" class="btn">' . $primary_cta_text . '</a>';
+            echo '<a data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100" href="' . $primary_cta_link . '" class="btn">' . $primary_cta_text . '</a>';
 
           } ?>
            <?php 
