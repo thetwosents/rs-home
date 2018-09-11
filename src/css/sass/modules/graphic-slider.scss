@@ -1,6 +1,7 @@
 html {
 	body {
 		.graphic-slider {
+			padding-top: 0px !important;
 			.container {
 				position: relative;
 			}
@@ -66,7 +67,10 @@ html {
 						p {
 							display: none;
 							margin-top: -4px;
-							font-size: .875rem;
+							font-size: 1.2rem;
+							@media all and (max-width: 767px) {
+								font-size: .875rem;
+							}
 						}
 						img {
 							margin: 0 auto;
