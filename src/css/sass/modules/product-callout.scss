@@ -2,6 +2,11 @@ html {
   body {
     &.brands {
       .product-callout {
+        .product-images {
+          .content {
+            padding-top: 0px;
+          }
+        }
         &.right {
           &.has-product {
             .product-images {

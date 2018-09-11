@@ -351,6 +351,8 @@ html body .press-timeline {
     html body .press-timeline .circle {
       display: none !important; } }
 
+html body.brands .product-callout .product-images .content {
+  padding-top: 0px; }
 html body.brands .product-callout.right.has-product .product-images .foreground {
   right: 32vw !important; }
 html body.brands .product-callout.right.has-product .product-images .background {
