@@ -10,17 +10,28 @@ $version = get_sub_field('version');
 
 $across = get_sub_field('across');
 
+$selected_articles = get_sub_field('selected_posts');
+
 ?>
 
 <?php if ($version === 'feed') { 
 
-  $query = new WP_Query( array( 
-    'cat' => $category->term_id, 
-    'posts_per_page' => $number_of_posts,
-    'suppress_filters' => false // https://wpml.org/documentation/support/wpml-coding-api/
-  ) ); ?>
-
-
+  if ($selected_articles) {
+    $query = new WP_Query(array(
+      'post__in' => $selected_articles,
+      'posts_per_page' => $count,
+      'suppress_filters' => false
+    ));
+  } else {
+    $query = new WP_Query( 
+      array( 
+      'cat' => $category->term_id, 
+      'posts_per_page' => $number_of_posts,
+      'suppress_filters' => false // https://wpml.org/documentation/support/wpml-coding-api/
+      ) 
+    );
+  }
+   ?>
 
 <section class="articles-by-category light--spacing">
   <div class="container">
