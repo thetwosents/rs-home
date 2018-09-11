@@ -160,7 +160,7 @@ html {
             float: right;
           }
           .foreground {
-            left: 8vw;
+            left: 4vw;
           }
           &.right-aligned--tall-front {
             .background {
@@ -174,18 +174,18 @@ html {
           }
         }
         .background {
-          height: 30vw; 
-          width: 22vw;
-          top: 0px;
+          height: 27vw; 
+          width: 20vw;
+          top: 4vw;
           left: 8vw;
           position: relative;
         }
         .foreground {
-          height: 21vw;
-          width: 34vw;
+          height: 20vw;
+          width: 32vw;
           position: absolute;
           right: 0px;
-          top: 14vw;
+          top: 11vw;
         }
         @media all and (min-width: 768px) and (max-width: 1023px) {
           margin: 0vw 0px 6vw;

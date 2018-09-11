@@ -470,23 +470,23 @@ html body .product-callout {
         margin-right: 12vw;
         float: right; }
       html body .product-callout .images.right-aligned .foreground {
-        left: 8vw; }
+        left: 4vw; }
       html body .product-callout .images.right-aligned.right-aligned--tall-front .background {
         z-index: 6; }
       html body .product-callout .images.right-aligned.right-aligned--wide-front .foreground {
         z-index: 6; }
     html body .product-callout .images .background {
-      height: 30vw;
-      width: 22vw;
-      top: 0px;
+      height: 27vw;
+      width: 20vw;
+      top: 4vw;
       left: 8vw;
       position: relative; }
     html body .product-callout .images .foreground {
-      height: 21vw;
-      width: 34vw;
+      height: 20vw;
+      width: 32vw;
       position: absolute;
       right: 0px;
-      top: 14vw; }
+      top: 11vw; }
     @media all and (min-width: 768px) and (max-width: 1023px) {
       html body .product-callout .images {
         margin: 0vw 0px 6vw;
@@ -1417,9 +1417,9 @@ html {
 
 @media all and (min-width: 1800px) {
   html {
-    font-size: 140% !important; }
+    font-size: 120% !important; }
     html body {
-      font-size: 140%; }
+      font-size: 120%; }
       html body section.masthead {
         padding: 4vh 12vw !important; }
       html body .product-callout .images .foreground {
