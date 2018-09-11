@@ -714,7 +714,8 @@ html body .vertical-carousel .slider {
       margin-bottom: 0px; } }
 
 html body .graphic-slider {
-  padding-top: 0px !important; }
+  padding-top: 0px !important;
+  padding-bottom: 2vw !important; }
   html body .graphic-slider .container {
     position: relative; }
   html body .graphic-slider .title .box {
