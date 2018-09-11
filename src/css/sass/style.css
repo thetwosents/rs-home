@@ -1420,6 +1420,8 @@ html {
     overflow-x: hidden; }
     html body.brands .mission-statement {
       padding-bottom: 0px !important; }
+    html body.brands .graphic-slider {
+      padding-bottom: 3vw !important; }
     html body.influencers .mission-statement {
       padding-bottom: 0px !important; }
     html body.careers .mission-statement {
