@@ -622,6 +622,9 @@ html body .side-by-side .jarallax {
 html body .side-by-side p {
   max-width: 90%; }
 
+html body .side-by-side .btn {
+  margin-top: 20px; }
+
 html body .side-by-side .box {
   padding: 2vw 2vw 0px 0px; }
 
