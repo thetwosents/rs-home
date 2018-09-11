@@ -116,6 +116,8 @@ html body .company-stats .btn {
   html body .company-stats .box {
     padding: 0px;
     margin-bottom: 12vw; }
+    html body .company-stats .box img {
+      max-width: 50%; }
   html body .company-stats .stat {
     margin: 6vw auto; } }
 
