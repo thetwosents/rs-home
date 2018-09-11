@@ -1224,6 +1224,7 @@ html body {
       margin: 0vw auto;
       padding: 0vh 0px; }
     html body .awards-side img {
+      height: 100px;
       opacity: .35;
       margin: 0 auto;
       vertical-align: middle;
@@ -1231,7 +1232,7 @@ html body {
       height: auto !important;
       vertical-align: middle;
       display: inline-block;
-      max-width: 50%; }
+      width: auto; }
     html body .awards-side .logo {
       vertical-align: middle;
       display: inline-block;

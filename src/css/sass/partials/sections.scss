@@ -22,6 +22,7 @@ html {
         padding: 0vh 0px;
       }
       img {
+        height: 100px;
         opacity: .35;
         margin: 0 auto;
         vertical-align: middle;
@@ -29,7 +30,7 @@ html {
         height: auto !important;
         vertical-align: middle;
         display: inline-block;
-        max-width: 50%;
+        width: auto;
       }
       .logo {
         vertical-align: middle;
