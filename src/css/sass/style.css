@@ -104,7 +104,12 @@ html body .company-stats .btn {
   html body .company-stats .desktop {
     display: none; }
   html body .company-stats .mobile {
-    display: block; } }
+    display: block; }
+  html body .company-stats .box {
+    padding: 0px;
+    margin-bottom: 12vw; }
+  html body .company-stats .stat {
+    margin: 6vw auto; } }
 
 html body .employee-spotlight {
   background: #f2f2f2; }

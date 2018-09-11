@@ -18,9 +18,15 @@ $left_or_right = get_sub_field('left_or_right');
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="content">
-            <h4><?php echo $title; ?></h4>
-            <h1><?php echo $name; ?></h1>
-            <p><?php echo $bio; ?></p>
+            <h4 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $title; ?></h4>
+            <h1 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $name; ?></h1>
+            <div data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100"><p><?php echo $bio; ?></p></div>
           </div>
         </div>
       </div>
