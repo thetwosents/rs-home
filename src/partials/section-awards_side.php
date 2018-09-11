@@ -7,7 +7,7 @@ $awards = get_sub_field('awards');
 <section class="awards-side light--spacing">
 	<div class="container">
 		<div class="row center-xs middle-xs">
-			<div class="col-xs-12 col-md-10">
+			<div class="col-xs-12 col-md-12">
 				<div class="box">
 				<div class="slider">
 					<?php if( have_rows('awards') ): while ( have_rows('awards') ) : the_row(); 
