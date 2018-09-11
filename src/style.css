@@ -1370,6 +1370,8 @@ html {
     overflow-x: hidden; }
     html body.brands .mission-statement {
       padding-bottom: 0px !important; }
+    html body.influencers .mission-statement {
+      padding-bottom: 0px !important; }
     html body .row {
       margin-left: 0px !important;
       margin-right: 0px !important; }
