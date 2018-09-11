@@ -196,11 +196,19 @@
 
       var count = 6; // Number of elements to choose from
 
+      var sel = 0;
+
       window.setInterval(function(){ 
 
         var prevCount = count;
 
-        var sel = Math.floor(Math.random() * count) + 1; // Get a random number between 1 and 6
+        // var sel = Math.floor(Math.random() * count) + 1; // Get a random number between 1 and 6
+
+        sel++;
+
+        if (sel > 5) {
+          sel = 0;
+        }
 
         var el = $('.logo')[sel]; // get a random element to switch out with new logo
         $(el).removeClass('is--visible'); // hide logo
@@ -211,14 +219,14 @@
         }, 1200);
         
         if (currentItem === brandLogos.length) {
+          currentItem++;
           currentItem = 0;
         } else {
           currentItem++;
         }
 
-        console.log(currentItem);
         
-      },1000);
+      },2700);
     }
 
     if (youtube.length > 1) {
