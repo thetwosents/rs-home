@@ -40,6 +40,25 @@ html {
 					}
 				}
 			}
+			.slick-slide {
+				position: relative;
+				&::after {
+					content: '';
+					position: absolute;
+					top: 0px;
+					background: #000;
+					height: 2px;
+					width: 100%;
+				}
+				&:first-child {
+
+				}
+				&:last-child {
+					&::after {
+						width: 0%;
+					}
+				}
+			}
 			.contents {
 				height: 220px;
 				.box {

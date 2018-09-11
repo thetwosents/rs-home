@@ -761,6 +761,17 @@ html body .graphic-slider {
       html body .graphic-slider .title .box:hover p {
         display: block;
         color: #fff; }
+  html body .graphic-slider .slick-slide {
+    position: relative; }
+    html body .graphic-slider .slick-slide::after {
+      content: '';
+      position: absolute;
+      top: 0px;
+      background: #000;
+      height: 2px;
+      width: 100%; }
+    html body .graphic-slider .slick-slide:last-child::after {
+      width: 0%; }
   html body .graphic-slider .contents {
     height: 220px; }
     html body .graphic-slider .contents .box {
