@@ -10,7 +10,7 @@
       autoplay: true,
       speed: 600,
       arrows: false,
-      autoplaySpeed: 2200,
+      autoplaySpeed: 4200,
       responsive: [
         {
           breakpoint: 767,
@@ -64,7 +64,7 @@
       slidesToScroll: 6,
       autoplay: true,
       speed: 1200,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 4200,
       fade: false,
       responsive: [
         {
@@ -104,7 +104,7 @@
       slidesToScroll: 1,
       autoplay: true,
       speed: 600,
-      autoplaySpeed: 2200,
+      autoplaySpeed: 4200,
       dots: true
     });
 
@@ -134,7 +134,7 @@
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2200,
+      autoplaySpeed: 4200,
       speed: 600
     });
 
@@ -142,7 +142,7 @@
       slidesToShow: 3,
       autoplay: true,
       speed: 600,
-      autoplaySpeed: 2200
+      autoplaySpeed: 4200
     })
 
     AOS.init({
