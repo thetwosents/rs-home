@@ -129,8 +129,12 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
               </div> 
             <?php } else if ($secondary_type === 'stat') { ?>
               <div class="stat">
-                <h2><?php echo $stat_number; ?></h2>
-                <h4><?php echo $stat_text; ?></h4>
+                <h2 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $stat_number; ?></h2>
+                <h4 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100"><?php echo $stat_text; ?></h4>
               </div>
             <?php } ?>
           
@@ -163,8 +167,12 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
               </div> 
             <?php } else if ($secondary_type === 'stat') { ?>
               <div class="stat">
-                <h2><?php echo $stat_number; ?></h2>
-                <h4><?php echo $stat_text; ?></h4>
+                <h2 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $stat_number; ?></h2>
+                <h4 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100"><?php echo $stat_text; ?></h4>
               </div>
             <?php } ?>
         </div>
