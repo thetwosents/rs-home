@@ -24,6 +24,11 @@ html {
     .product-callout {
       padding-top: 5vw !important;
       padding-bottom: 5vw !important;
+      .single-image {
+        h4 {
+          margin-top: -4vw !important;
+        }
+      }
       &.has-product {
         padding-top: 12vw !important;
         padding-bottom: 5vw !important;

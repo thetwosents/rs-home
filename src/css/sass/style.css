@@ -360,6 +360,8 @@ html body.brands .product-callout.right.has-product .product-images .background 
 html body .product-callout {
   padding-top: 5vw !important;
   padding-bottom: 5vw !important; }
+  html body .product-callout .single-image h4 {
+    margin-top: -4vw !important; }
   html body .product-callout.has-product {
     padding-top: 12vw !important;
     padding-bottom: 5vw !important; }
