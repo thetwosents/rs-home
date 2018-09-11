@@ -10,40 +10,27 @@ $testimonials = get_sub_field('testimonials');
 			<div class="col-xs-12">
 				<div class="box">
 					<div class="slider">
+						<?php
+						if( have_rows('employees') ): while ( have_rows('employees') ) : the_row(); 
+
+							$title = get_sub_field('title');
+							$quote = get_sub_field('quote');
+							$name = get_sub_field('name');
+							$image = get_sub_field('image');
+							?>
 						<div>
 							<div class="row">
 								<div class="col-xs-12 col-md-3">
-									<img src="https://placehold.it/400x500">
+									<img src="<?php echo $image; ?>">
 								</div>
 								<div class="col-xs-12 col-md-offset-1 col-md-8">
-									<h2>Chelsee</h2>
-									<h4>Director of Marketing - Class of 2014</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<h2><?php echo $name; ?></h2>
+									<h4><?php echo $title; ?></h4>
+									<?php echo $quote; ?>
 								</div>
 							</div>
 						</div>
-						<div>
-							<div class="row">
-								<div class="col-xs-12 col-md-3">
-									<img src="https://placehold.it/400x500">
-								</div>
-								<div class="col-xs-12 col-md-offset-1 col-md-8">
-									<h2>Chelsee</h2>
-									<h4>Director of Marketing - Class of 2014</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								</div>
-							</div>
-						</div>
+						<?php endwhile; else : endif; ?>
 					</div>
 				</div>
 			</div>
