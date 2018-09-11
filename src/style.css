@@ -781,6 +781,9 @@ html body .graphic-slider {
     html body .graphic-slider .contents .box {
       transition: all .2s ease-in-out;
       -webkit-transition: all .2s ease-in-out; }
+      html body .graphic-slider .contents .box .icon {
+        max-width: 48px;
+        margin: 0 auto; }
       html body .graphic-slider .contents .box .content {
         border: 2px solid #000;
         height: 200px;
