@@ -17,7 +17,7 @@ $left_or_right = get_sub_field('left_or_right');
 			<?php if ($left_or_right === 'left') { ?> 
 
 				<div class="col-xs-12 col-md-6">
-					<div class="box" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+					<div class="box" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 						<?php if ($isH1) { ?>
 							<h1><?php echo $title; ?></h1>
 						<?php  } else { ?>
@@ -44,7 +44,7 @@ $left_or_right = get_sub_field('left_or_right');
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6">
-					<div class="box" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+					<div class="box" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 						<?php if ($isH1) { ?>
 							<h1><?php echo $title; ?>
 						<?php  } else { ?>

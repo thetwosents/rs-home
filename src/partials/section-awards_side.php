@@ -8,6 +8,7 @@ $awards = get_sub_field('awards');
 	<div class="container">
 		<div class="row center-xs middle-xs">
 			<div class="col-xs-12 col-md-10">
+				<div class="box">
 				<div class="slider">
 					<?php if( have_rows('awards') ): while ( have_rows('awards') ) : the_row(); 
 
@@ -20,6 +21,7 @@ $awards = get_sub_field('awards');
 
 					<?php endwhile; else : endif; ?>
 
+				</div>
 				</div>
 			</div>
 		</div>

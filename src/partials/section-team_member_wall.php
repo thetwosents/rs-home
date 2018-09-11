@@ -6,7 +6,7 @@ $title = get_sub_field('title');
 ?>
 
 
-<section class="team-member-wall">
+<section class="team-member-wall light--spacing">
 	<div class="container">
 		<div class="row center-xs middle-xs">
 			<div class="col-xs-12 col-md-10">

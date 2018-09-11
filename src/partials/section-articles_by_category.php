@@ -44,10 +44,10 @@ $across = get_sub_field('across');
         <div class="box">
           <article>
             <div class="row start-xs middle-xs">
-              <div class="col-xs-12 col-md-3 image">
+              <div class="col-xs-12 col-md-3 image col-md-offset-1">
                 <img src="<?php echo $logo_img; ?>">
               </div>
-              <div class="col-xs-12 col-md-8 col-md-offset-1">
+              <div class="col-xs-12 col-md-8">
                 <a href="<?php echo $url; ?>" target="_blank">
                   <h4><?php echo $post_date; ?></h4>
                   <h2><?php the_title(); ?></h2>
