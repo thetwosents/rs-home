@@ -6,7 +6,7 @@ $content = get_sub_field('content');
 
 ?>
 
-<section class="join-the-family">
+<section class="join-the-family light--spacing">
 	<div class="container">
 		<div class="row center-xs start-md">
 			<div class="col-xs-12 col-md-12">
