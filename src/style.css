@@ -827,6 +827,8 @@ html body .graphic-slider {
           bottom: 100%;
           left: 50%;
           margin-left: -2px; }
+        html body .graphic-slider .contents .box .content .align {
+          margin: 0 auto; }
         html body .graphic-slider .contents .box .content p {
           display: none;
           -webkit-box-orient: horizontal;
