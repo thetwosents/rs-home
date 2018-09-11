@@ -58,6 +58,11 @@ html {
 						width: 0%;
 					}
 				}
+				@media all and (max-width: 767px) {
+					&::after {
+						display: none;
+					}
+				}
 			}
 			.contents {
 				height: 220px;
@@ -97,6 +102,17 @@ html {
 						}
 						img {
 							margin: 0 auto;
+						}
+						@media all and (max-width: 767px) {
+							padding-top: 12.5%;
+							margin-top: 0px;
+							&::after {
+								display: none;
+							}
+							p {
+								font-size: 1rem;
+								margin-top: -8px;
+							}
 						}
 					}
 					&:hover {
