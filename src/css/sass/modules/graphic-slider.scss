@@ -11,7 +11,7 @@ html {
 					border: 2px solid #000;
 					vertical-align: middle;
 					position: relative;
-					margin-bottom: 20px;
+					margin-bottom: 14px;
 					// height: 100px;
 					// line-height: 100%;
 					&::after {
@@ -69,18 +69,26 @@ html {
 				.box {
 					transition: all .2s ease-in-out;
 					-webkit-transition: all .2s ease-in-out;
+					
 					.icon {
 						max-width: 48px;
-						margin: 0 auto;
+						margin: 0 auto 12px;
+						-webkit-flex-direction: row; 
+  						flex-direction: row;
 					}
 					.content {
 						border: 2px solid #000;
 						height: 200px;
-						padding-top: 8.5%;
+						// padding-top: 8.5%;
 						padding-left: 4%;
 						padding-right: 4%;
 						position: relative;
-						margin-top: 20px;
+						margin-top: 14px;
+						display: flex;
+					  	align-items: center;
+					  	h4 {
+					  		margin: 0px;
+					  	}
 						&::after {
 							content: '';
 							  width: 2px;
@@ -93,9 +101,9 @@ html {
 						}
 						p {
 							display: none;
-							margin-top: -12px;
+							// margin-top: -12px;
 							font-size: .875rem;
-							line-height: 100%;
+							line-height: .875rem;
 							color: #Fff !important;
 							// @media all and (max-width: 767px) {
 							// 	font-size: .875rem;

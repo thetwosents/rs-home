@@ -31,11 +31,13 @@ $subheader = get_sub_field('subheader');
 					<div class="col-xs">
 						<div class="box">
 							<div class="content">
-								<div class="icon">
-									<img src="<?php echo $icon; ?>">
+								<div>
+									<div class="icon">
+										<img src="<?php echo $icon; ?>">
+									</div>
+									<h4><?php echo $title; ?></h4>
+									<p><?php echo $description; ?></p>
 								</div>
-								<h4><?php echo $title; ?></h4>
-								<p><?php echo $description; ?></p>
 							</div>
 						</div>
 					</div>
