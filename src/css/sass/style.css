@@ -727,13 +727,6 @@ html body .graphic-slider {
     html body .graphic-slider .title .box p {
       display: none;
       color: #fff !important; }
-    html body .graphic-slider .title .box:hover {
-      background: #000; }
-      html body .graphic-slider .title .box:hover h4 {
-        display: none; }
-      html body .graphic-slider .title .box:hover p {
-        display: block;
-        color: #fff; }
   html body .graphic-slider .slick-slide {
     position: relative; }
     html body .graphic-slider .slick-slide::after {
@@ -1479,8 +1472,9 @@ html {
       display: inline-block;
       background: #000;
       color: #fff;
+      line-height: 100%;
       font-size: .875rem;
-      padding: 8px 20px;
+      padding: 15px 20px 14px;
       font-weight: 300;
       letter-spacing: 1px;
       text-transform: uppercase;

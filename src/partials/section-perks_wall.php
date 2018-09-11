@@ -16,7 +16,7 @@ $image = get_sub_field('image');
         <p><?php echo $content; ?></p>
       </div>
       <div class="col-xs-12 col-md-2 award">
-        <img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/RS-Press-Logos-FC-MOST-INNOVATIVE.jpg">
+
       </div>
     </div>
     <div class="row center-xs start-md perks">

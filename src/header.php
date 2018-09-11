@@ -56,7 +56,7 @@
 						<!-- logo -->
 						<!-- /logo -->
 						<div class="col-xs-12 col-md-3">
-							<a href="<?php echo site_url(); ?>"><img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
+							<a href="<?php echo site_url(); ?>"><img src="<?php echo bloginfo('template_url'); ?>/img/logo.svg" class="logo-img"></a>
 						</div>
 						<div class="col-xs-12 col-md-9 center-xs end-md">
 							<div class="box">

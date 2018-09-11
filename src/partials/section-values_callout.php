@@ -16,7 +16,7 @@ $images = get_sub_field('images');
           <h4><?php echo $above_title; ?></h4>
           <h1><?php echo $title; ?></h1>
           <p><?php echo $content; ?></p>
-          <a href="" class="btn">View positions</a>
+          <a href="https://www.instagram.com/rewardstylehq/?hl=en" target="_blank" class="btn">Follow Us <i class="fa-instagram"></i></a>
         </div>
       </div>
     </div>
