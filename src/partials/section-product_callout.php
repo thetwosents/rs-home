@@ -124,8 +124,12 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
            <?php 
             if ($secondary_type === 'quote') { ?>
               <div class="quote">
-                <p><?php echo $quote_text; ?></p>
-                <img src="<?php echo $quote_img; ?>">
+                <p data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $quote_text; ?></p>
+                <img data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100" src="<?php echo $quote_img; ?>">
               </div> 
             <?php } else if ($secondary_type === 'stat') { ?>
               <div class="stat">
@@ -162,8 +166,12 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
           <?php 
             if ($secondary_type === 'quote') { ?>
               <div class="quote">
-                <p><?php echo $quote_text; ?></p>
-                <img src="<?php echo $quote_img; ?>">
+                <p data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $quote_text; ?></p>
+                <img data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100" src="<?php echo $quote_img; ?>">
               </div> 
             <?php } else if ($secondary_type === 'stat') { ?>
               <div class="stat">
