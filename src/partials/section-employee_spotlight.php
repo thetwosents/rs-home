@@ -4,7 +4,7 @@ $testimonials = get_sub_field('testimonials');
 
 ?>
 
-<section class="employee-spotlight">
+<section class="employee-spotlight light--spacing">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
