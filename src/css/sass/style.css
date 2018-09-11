@@ -1283,6 +1283,8 @@ html {
   html body {
     font-size: 100%;
     overflow-x: hidden; }
+    html body.brands .mission-statement {
+      padding-bottom: 0px !important; }
     html body .row {
       margin-left: 0px !important;
       margin-right: 0px !important; }
