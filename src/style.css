@@ -1223,6 +1223,8 @@ html body {
     height: 400px; }
   html body .image-callout h2 {
     margin-bottom: 1vw; }
+  html body .image-callout h3 {
+    color: #000; }
   html body .image-callout img {
     margin-top: 4vw; }
   html body .values-callout {
