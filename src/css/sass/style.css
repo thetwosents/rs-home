@@ -304,7 +304,7 @@ html body .press-timeline {
   width: 100%;
   position: relative;
   margin-top: 4vh;
-  padding: 8vh 0px !important; }
+  padding: 5vw 0px !important; }
   html body .press-timeline::after {
     content: '';
     position: absolute;
@@ -1233,6 +1233,8 @@ input[type="search"] {
 html body {
   overflow-x: hidden;
   width: 100%; }
+  html body .our-story {
+    padding: 5vh 0px !important; }
   html body .become-rs-influencer .content .box {
     padding: 0px 40px; }
   html body .become-rs-influencer .seperator {

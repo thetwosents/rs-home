@@ -7,7 +7,7 @@
 
 ?>
 
-<section class="our-story light--spacing">
+<section class="our-story">
   <div class="container">
     <div class="row center-xs middle-xs">
       <div class="col-xs-12 col-md-12">
