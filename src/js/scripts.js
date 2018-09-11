@@ -147,7 +147,7 @@
     });
 
     $('.awards-side .slider').slick({
-      slidesToShow: 5,
+      slidesToShow: 6,
       autoplay: true,
       speed: 600,
       autoplaySpeed: 4200
