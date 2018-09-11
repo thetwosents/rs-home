@@ -530,7 +530,7 @@ html body .product-callout {
     padding-right: 4vw; }
     @media all and (max-width: 767px) {
       html body .product-callout .content .quote img {
-        margin-top: 3vw; } }
+        margin-top: 1vw; } }
     html body .product-callout .content .quote {
       margin-top: 3vw; }
       html body .product-callout .content .quote p {
