@@ -15,14 +15,14 @@
       </div>
     </div>
     <div class="row middle-xs">
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-4 last-xs first-md">
         <div class="box">
           <h4><?php echo $above_title; ?></h4>
           <h2><?php echo $title; ?></h2>
           <p><?php echo $content; ?></p>
         </div>
       </div>
-      <div class="col-xs-12 col-md-7 col-md-offset-1">
+      <div class="col-xs-12 col-md-7 col-md-offset-1 first-xs end-md">
         <div class="box">
           <div class="youtube" data-embed="kNjiRZx7mbE"> 
  
