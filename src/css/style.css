@@ -1248,6 +1248,8 @@ html body {
     margin-top: 30px; }
   html body .awards-side {
     padding: 0px 0px !important; }
+    html body .awards-side .slider::before {
+      display: none !important; }
     html body .awards-side .container {
       margin: 0vw auto;
       padding: 0vh 0px; }
