@@ -663,7 +663,9 @@ html body .side-by-side .btn {
   margin-top: 20px; }
 
 html body .side-by-side .box {
-  padding: 2vw 2vw 0px 0px; }
+  padding: 0vw 2vw 0px 0px; }
+  html body .side-by-side .box h1 {
+    margin-top: 2vw; }
 
 html body .side-by-side img {
   max-width: 100%;
