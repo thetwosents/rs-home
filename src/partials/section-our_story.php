@@ -24,6 +24,12 @@
       </div>
       <div class="col-xs-12 col-md-7 col-md-offset-1">
         <div class="box">
+          <div class="youtube" data-embed="kNjiRZx7mbE"> 
+ 
+              <!-- (2) the "play" button -->
+              <div class="play-button"></div> 
+               
+          </div>
           <!-- <iframe width="100%" height="500" src="https://www.youtube.com/embed/CF-sUDSnJz4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
         </div>
       </div>
