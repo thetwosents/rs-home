@@ -614,6 +614,9 @@ html body .product-callout {
         margin-bottom: 40px;
         margin-top: 20px;
         display: block; }
+      html body .product-callout .content .quote, html body .product-callout .content .stat {
+        max-width: 75%;
+        margin: 3vh auto 0px; }
       html body .product-callout .content .quote img {
         height: 30px;
         margin: 6vw auto; } }
