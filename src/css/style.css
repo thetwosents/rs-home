@@ -615,6 +615,8 @@ html body .product-callout {
     html body .product-callout .content {
       margin-top: 0vh; } }
   @media all and (max-width: 767px) {
+    html body .product-callout .images img {
+      width: 100%; }
     html body .product-callout .content {
       margin-top: 0vh; }
       html body .product-callout .content .btn {

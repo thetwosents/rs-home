@@ -340,6 +340,11 @@ html {
         }
       }
       @media all and (max-width: 767px) {
+        .images {
+          img {
+            width: 100%;
+          }
+        }
         .content {
           margin-top: 0vh;
           // padding: 2vw 4vw;
