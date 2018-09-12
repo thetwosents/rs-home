@@ -47,7 +47,7 @@ if (count($images) === 1) {
 echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'">';
 
 ?>
-  <div class="row middle-xs center-xs start-md">
+  <div class="row middle-md top-xs center-xs start-md">
     <?php if ($left_or_right_side === 'left') { ?>
         <?php if (!$product_photos): ?>
           <?php if( $images ): ?>

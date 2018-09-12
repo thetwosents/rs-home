@@ -233,13 +233,6 @@ html {
         .btn {
           margin-top: .875em;
         }
-        @media all and (max-width: 767px) {
-          .quote {
-            img {
-              margin-top:3vw;
-            }
-          }
-        }
         .quote {
           margin-top: 3vw;
           p {
@@ -348,12 +341,18 @@ html {
       }
       @media all and (max-width: 767px) {
         .content {
-          margin-top: 4vh;
+          margin-top: 0vh;
           // padding: 2vw 4vw;
           .btn {
             margin-bottom: 40px;
             margin-top: 20px;
             display: block;
+          }
+          .quote {
+            img {
+              height: 30px;
+              margin: 6vw auto;
+            }
           }
         }
       }
