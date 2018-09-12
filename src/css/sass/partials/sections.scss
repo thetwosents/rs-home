@@ -209,14 +209,19 @@ html {
     
     .articles-by-category {
       h1 {
-        margin-bottom: 48px !important;
+        margin-bottom: 4vw !important;
+      }
+      h4 {
+        font-weight: 300;
+        margin-bottom: 0px;
+        font-size: .625rem !important;
       }
       article {
         margin-bottom: 20px;
         .image {
           text-align: center;
           img {
-            max-width: 50%;
+            max-width: 75%;
             margin: 0 auto;
           }
         }

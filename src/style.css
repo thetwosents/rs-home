@@ -1444,13 +1444,17 @@ html body {
     html body .pull-quotes article img {
       max-height: 20vw; } }
   html body .articles-by-category h1 {
-    margin-bottom: 48px !important; }
+    margin-bottom: 4vw !important; }
+  html body .articles-by-category h4 {
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-size: .625rem !important; }
   html body .articles-by-category article {
     margin-bottom: 20px; }
     html body .articles-by-category article .image {
       text-align: center; }
       html body .articles-by-category article .image img {
-        max-width: 50%;
+        max-width: 75%;
         margin: 0 auto; }
     html body .articles-by-category article a {
       text-decoration: none; }
