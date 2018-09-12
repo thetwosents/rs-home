@@ -1,7 +1,7 @@
 html {
 	body {
 		.perks-wall {
-	      margin-top: 60px;
+	      margin-top: 0px;
 	      padding-bottom: 1vw !important;
 	      .award {
           	img {
@@ -13,7 +13,7 @@ html {
 	        margin-top: 60px;
 	      }
 	      .perk {
-          margin: 20px auto 40px;
+          	margin: 20px auto 20px;
           h4 {
             font-size: 1rem;
             letter-spacing: 1px;
@@ -31,6 +31,7 @@ html {
 	      .perk-gallery {
 	        height: 400px;
 	        width: 90%;
+	        margin-top: 20px;
 	      }
 	      @media all and (max-width: 767px) {
 	      	.top-line {
