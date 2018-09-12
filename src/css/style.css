@@ -737,6 +737,8 @@ html body .vertical-carousel {
     html body .vertical-carousel .slider .slick-slide {
       margin-right: 10px !important; }
   @media all and (max-width: 767px) {
+    html body .vertical-carousel h4 {
+      height: 24px; }
     html body .vertical-carousel .slick-list {
       overflow: hidden !important; }
     html body .vertical-carousel .slider .slick-slide {

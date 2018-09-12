@@ -60,6 +60,9 @@ html {
         }
       }
       @media all and (max-width: 767px) {
+        h4 {
+          height: 24px;
+        }
         .slick-list {
           overflow: hidden !important;
         }
