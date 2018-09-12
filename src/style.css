@@ -792,7 +792,7 @@ html body .graphic-slider {
       html body .graphic-slider .slick-slide::after {
         display: none; } }
   html body .graphic-slider .contents {
-    height: 220px; }
+    height: 208px; }
     html body .graphic-slider .contents .box {
       transition: all .2s ease-in-out;
       -webkit-transition: all .2s ease-in-out; }
@@ -842,7 +842,6 @@ html body .graphic-slider {
           margin: 0 auto; }
         @media all and (max-width: 767px) {
           html body .graphic-slider .contents .box .content {
-            padding-top: 12.5%;
             margin-top: 0px; }
             html body .graphic-slider .contents .box .content::after {
               display: none; }
