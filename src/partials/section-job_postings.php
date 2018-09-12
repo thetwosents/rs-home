@@ -8,7 +8,7 @@ $image = get_sub_field('map_image');
     	<div class="col-xs-12 col-md-12">
     		<div class="box">
     			<img src="<?php echo $image; ?>" style="margin-bottom: 0vw;">
-          <h4 style="margin-bottom: 4vw;">DALLAS | NEW YORK | LOS ANGELES | LONDON | SHANGHAI</h4>
+          <h4 style="margin-bottom: 4vw;">LOS ANGELES | DALLAS | NEW YORK | SAO PAULO | LONDON | BERLIN | SHANGHAI</h4>
     		</div>
     	</div>
       <div class="col-xs-12 col-md-12">
