@@ -77,6 +77,9 @@ html {
         }
       }
       &.right {
+        .content {
+          padding-left: 4vw !important
+        }
         &.has-product {
           .product-images {
             padding-right: 8vw;
