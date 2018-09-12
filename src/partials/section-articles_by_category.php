@@ -27,7 +27,7 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
       'paged'         => $paged,
     ));
   } else {
-    $query = query_posts( 
+    $query = new WP_Query( 
       array( 
       'cat' => $category->term_id, 
       'posts_per_page' => $number_of_posts,
