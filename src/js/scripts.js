@@ -118,10 +118,9 @@
       slidesToScroll: 1,
       autoplay: false,
       speed: 800,
-      autoplaySpeed: 4200,
       fade: true,
-      prevArrow: '.prev',
-      nextArrow: '.next',
+      // prevArrow: '.prev',
+      // nextArrow: '.next',
       responsive: [
         {
           breakpoint: 767,
