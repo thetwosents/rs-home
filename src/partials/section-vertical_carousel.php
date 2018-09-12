@@ -26,6 +26,16 @@ $verticals = new WP_Query($args);
         </div>
       </div>
     </div>
+    <div class="arrows">
+      <div class="row middle-xs">
+        <div class="col-xs-6 start=xs">
+          <div class="prev circle"><i class="fas fa-angle-left"></i></div>
+        </div>
+        <div class="col-xs-6 end-xs">
+          <div class="next circle"><i class="fas fa-angle-right"></i></div>
+        </div>
+      </div>
+    </div>
     <div class="slider">
 
       <?php if ( $verticals->have_posts() ) : ?>

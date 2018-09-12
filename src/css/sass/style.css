@@ -649,6 +649,36 @@ html body .testimonial-slider h4 {
   html body .testimonial-slider .quote {
     font-size: 1.2rem !important; } }
 
+html body .container {
+  position: relative; }
+html body .vertical-carousel .arrows {
+  position: absolute;
+  left: 0px;
+  z-index: 9;
+  margin-top: 10%;
+  width: 100%; }
+  @media all and (max-width: 767px) {
+    html body .vertical-carousel .arrows {
+      display: none; } }
+html body .vertical-carousel .circle {
+  height: 48px;
+  width: 48px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 48px;
+  color: #000;
+  opacity: .5;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out; }
+  html body .vertical-carousel .circle:hover {
+    background: #000;
+    cursor: pointer;
+    opacity: 1; }
+    html body .vertical-carousel .circle:hover i {
+      color: #fff; }
+  html body .vertical-carousel .circle.next {
+    float: right; }
 html body .vertical-carousel h1 {
   margin-top: 1vw; }
 html body .vertical-carousel h4 {

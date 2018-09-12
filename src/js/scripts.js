@@ -24,6 +24,14 @@
       ]
     });
 
+    $('.vertical-carousel .prev').click(function(){
+      $('.vertical-carousel .slider').slick('slickPrev');
+    })
+
+    $('.vertical-carousel .next').click(function(){
+      $('.vertical-carousel .slider').slick('slickNext');
+    })
+
     var callout = $('.product-callout');
     $(callout[0]).addClass('first');
 
