@@ -1384,11 +1384,10 @@ html body {
         position: relative;
         max-width: 100%; }
       html body .values-callout .container .btn {
-        display: block;
-        text-align: center;
-        line-height: 40px; }
+        margin-top: 1vh; }
       html body .values-callout .container p {
-        max-width: 100%; } }
+        max-width: 100%;
+        margin-bottom: 1em; } }
   html body .pull-quotes .col-md-4 {
     margin-bottom: 48px; }
   html body .pull-quotes a:hover {
