@@ -1183,6 +1183,20 @@ input[type="search"] {
       font-size: .725rem; }
   .footer .logo-img {
     margin: 8px auto; }
+  .footer .ltk-footer img {
+    max-width: 130px; }
+  .footer .ltk-footer ul {
+    list-style-type: none;
+    padding: 0px; }
+    .footer .ltk-footer ul li {
+      display: inline-block;
+      margin: 8px auto; }
+      .footer .ltk-footer ul li a {
+        padding: 0px 8px 0px 0px;
+        border-right: 1px solid #767676;
+        font-size: .625rem; }
+      .footer .ltk-footer ul li:last-child a {
+        border-right: 0px; }
   .footer nav ul {
     margin: 0px;
     padding: 0px;

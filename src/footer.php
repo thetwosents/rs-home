@@ -21,6 +21,17 @@
 								<li><a href="https://www.instagram.com/rewardstylehq/?hl=en " target="_blank"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 
+							<div class="ltk-footer">
+								<a href="<?php echo site_url(); ?>"><img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
+								<ul class="subnav">
+									<li><a href="https://www.instagram.com/liketoknow.it/?hl=en" target="_blank">@LIKEtoKNOW.it</a></li>
+									<li><a href="https://www.instagram.com/liketoknow.it.europe/?hl=en" target="_blank">@LIKEtoKNOW.it.europe</a></li>
+									<li><a href="https://www.instagram.com/liketoknow.it.family/?hl=en" target="_blank">@LIKEtoKNOW.it.family</a></li>
+									<li><a href="https://www.instagram.com/liketoknow.it.home/?hl=en" target="_blank">@LIKEtoKNOW.it.home</a></li>
+									<li><a href="https://www.instagram.com/liketoknow.it.BRASIL/" target="_blank">@LIKEtoKNOW.it.brazil</a></li>
+								</ul>
+							</div>	
+
 							<p>Copyright 2018 rewardStyle.com | <a href="<?php site_url(); ?>/privacy-policy">Privacy Policy</a></p>
 						</div>
 					</div>
