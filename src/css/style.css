@@ -417,7 +417,18 @@ html body .product-callout {
   @media all and (max-width: 767px) {
     html body .product-callout {
       padding-top: 9vw !important;
-      padding-bottom: 9vw !important; } }
+      padding-bottom: 9vw !important; }
+      html body .product-callout .images {
+        padding: 0px !important; }
+        html body .product-callout .images .background {
+          display: none !important; }
+        html body .product-callout .images .foreground {
+          position: relative !important;
+          right: 0px !important;
+          left: 0px !important;
+          top: 0px !important;
+          width: 100% !important;
+          height: 300px !important; } }
   html body .product-callout .right-content {
     margin-left: 3vw; }
     @media all and (max-width: 767px) {
@@ -464,18 +475,6 @@ html body .product-callout {
           width: auto;
           right: 13vw;
           top: -13vw; } }
-    @media all and (max-width: 767px) {
-      html body .product-callout .product-images {
-        width: 100%;
-        padding: 0px 16vw; }
-        html body .product-callout .product-images .foreground {
-          width: 29vw;
-          right: 22vw;
-          height: auto;
-          top: -14vw; }
-        html body .product-callout .product-images .background {
-          margin-left: 0px;
-          width: 60vw; } }
   html body .product-callout .images {
     position: relative;
     width: 55vw; }
@@ -485,13 +484,6 @@ html body .product-callout {
         margin-left: 0px;
         margin-top: 2vw;
         max-width: 90%; }
-      @media all and (max-width: 767px) {
-        html body .product-callout .images.left-aligned--single-image {
-          padding-left: 4vw !important;
-          padding-right: 4vw !important; }
-          html body .product-callout .images.left-aligned--single-image img {
-            margin-left: 0px;
-            max-width: 100%; } }
     html body .product-callout .images.right-aligned--single-image img {
       margin-left: 8vw;
       margin-top: 2vw; }
@@ -540,26 +532,6 @@ html body .product-callout {
             float: right;
             left: 0px;
             margin-right: -2vw; }
-          html body .product-callout .images.right-aligned .foreground {
-            left: 16vw; } }
-    @media all and (max-width: 767px) {
-      html body .product-callout .images {
-        margin: 0px auto 4vw !important;
-        width: 100%; }
-        html body .product-callout .images .background {
-          width: 36vw;
-          height: 48vw;
-          left: 16vw;
-          top: -25px; }
-        html body .product-callout .images .foreground {
-          width: 60vw;
-          height: 38vw;
-          right: 16vw;
-          top: 15vw; }
-        html body .product-callout .images.right-aligned {
-          padding-right: 16vw; }
-          html body .product-callout .images.right-aligned .background {
-            float: right; }
           html body .product-callout .images.right-aligned .foreground {
             left: 16vw; } }
   html body .product-callout .content {
@@ -1573,8 +1545,8 @@ html {
           font-weight: 600; }
       @media all and (max-width: 767px) {
         html body .btn {
-          line-height: 32px;
-          font-size: 1.2rem; } }
+          line-height: 100%;
+          font-size: 1rem; } }
 
 @media all and (min-width: 1700px) {
   html {

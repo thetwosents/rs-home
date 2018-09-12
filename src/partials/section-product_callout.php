@@ -72,7 +72,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
                   data-jarallax-element="40"
                   class="background jarallax" 
                   data-jarallax 
-                  data-speed="0.96">
+                  data-speed="0.96" data-disable-parallax="/iPad|iPhone|iPod|Android/">
                   <img 
                     class="jarallax-img" 
                     data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
@@ -81,7 +81,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
                   data-jarallax-element="-40"
                   class="foreground jarallax" 
                   data-jarallax 
-                  data-speed="0.96">
+                  data-speed="0.96" data-disable-parallax="/iPad|iPhone|iPod|Android/">
                   <img 
                     class="jarallax-img" 
                     data-disable-parallax="/iPad|iPhone|iPod|Android/" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
@@ -94,8 +94,8 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
 
         <?php else: ?>
           <?php echo '<div class="product-images ' . $top_photo . '">'; ?>
-              <img data-jarallax-element="40" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
-              <img data-jarallax-element="-40" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+              <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="40" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+              <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="-40" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
           </div>
         <?php ?>
       <?php endif; ?>
@@ -209,6 +209,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
               ?>
               
                 <div 
+                data-disable-parallax="/iPad|iPhone|iPod|Android/"
                   data-jarallax-element="-40"
                   class="background jarallax" 
                   data-jarallax
@@ -216,6 +217,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
                   <img class="jarallax-img" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
                 </div>
                 <div 
+                data-disable-parallax="/iPad|iPhone|iPod|Android/"
                   data-jarallax-element="40"
                   class="foreground jarallax" 
                   data-jarallax 

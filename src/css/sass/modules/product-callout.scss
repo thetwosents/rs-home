@@ -50,6 +50,20 @@ html {
       @media all and (max-width: 767px) {
         padding-top: 9vw !important;
         padding-bottom: 9vw !important;
+        .images {
+          padding: 0px !important;
+          .background {
+            display: none !important;
+          }
+          .foreground {
+            position: relative !important;
+            right: 0px !important;
+            left: 0px !important;
+            top: 0px !important;
+            width: 100% !important;
+            height: 300px !important;
+          }
+        }
       }
       .right-content {
         margin-left: 3vw;
@@ -121,20 +135,6 @@ html {
             top: -13vw;
           }
         }
-        @media all and (max-width: 767px) {
-          width: 100%;
-          padding: 0px 16vw;
-          .foreground {
-            width: 29vw;
-            right: 22vw;
-            height: auto;
-            top: -14vw;
-          }
-          .background {
-            margin-left: 0px;
-            width: 60vw;
-          }
-        }
       }
       .images {
         position: relative;
@@ -145,14 +145,6 @@ html {
             margin-left: 0px;
             margin-top: 2vw;
             max-width: 90%;
-          }
-          @media all and (max-width: 767px) {
-            padding-left: 4vw !important;
-            padding-right: 4vw !important;
-            img {
-              margin-left: 0px;
-              max-width: 100%;
-            }
           }
         }
         &.right-aligned--single-image {
@@ -224,35 +216,6 @@ html {
               float: right;
               left: 0px;
               margin-right: -2vw;
-            }
-            .foreground {
-              left: 16vw;
-            }
-          }
-        }
-        @media all and (max-width: 767px) {
-          margin: 0px auto 4vw !important;
-          // .foreground {
-          //   top: 22vw;
-          // }
-          // margin: 0 auto 20vw;
-          width: 100%;
-          .background {
-            width: 36vw;
-            height: 48vw;
-            left: 16vw;
-            top: -25px;
-          }
-          .foreground {
-            width: 60vw;
-            height: 38vw;
-            right: 16vw;
-            top: 15vw;
-          }
-          &.right-aligned {
-            padding-right: 16vw;
-            .background {
-              float: right;
             }
             .foreground {
               left: 16vw;
