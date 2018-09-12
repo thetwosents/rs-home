@@ -68,8 +68,8 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
                   <?php if (get_sub_field('hide_dates')) {
 
                   } else { ?>
-                    
-                  <?php } ?><h4><?php echo $post_date; ?></h4>
+                    <h4><?php echo $post_date; ?>
+                  <?php } ?></h4>
                   <h2><?php the_title(); ?></h2>
                   <p><?php the_excerpt(); ?></p>
                 </a>
