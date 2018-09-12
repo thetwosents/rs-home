@@ -175,7 +175,17 @@
       slidesToShow: 5,
       autoplay: true,
       speed: 600,
-      autoplaySpeed: 4200
+      autoplaySpeed: 4200,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            dots: true,
+            arrows: false,
+            slidesToShow: 1
+          }
+        }
+      ]
     })
 
     AOS.init({
