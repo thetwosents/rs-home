@@ -134,6 +134,10 @@ html body .employee-spotlight {
     margin-bottom: 0px; }
   html body .employee-spotlight h4 {
     margin-top: 0px; }
+  @media all and (max-width: 767px) {
+    html body .employee-spotlight img {
+      margin-bottom: 5vw;
+      max-width: 75%; } }
 
 html body .highlight-callout .left {
   margin-top: -1vw;

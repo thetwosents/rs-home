@@ -13,6 +13,13 @@ html {
 	      h4 {
 	        margin-top: 0px;
 	      }
+
+	      @media all and (max-width: 767px) {
+	      	img {
+	      		margin-bottom: 5vw;
+	      		max-width: 75%;
+	      	}
+	      }
 	    }
 	}
 }
