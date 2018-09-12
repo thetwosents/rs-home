@@ -129,7 +129,9 @@ html body .employee-spotlight {
   @media all and (max-width: 767px) {
     html body .employee-spotlight img {
       margin-bottom: 5vw;
-      max-width: 75%; } }
+      max-width: 75%; }
+    html body .employee-spotlight h2 {
+      font-size: 2.6rem !important; } }
 
 html body .highlight-callout .left {
   margin-top: -1vw;
