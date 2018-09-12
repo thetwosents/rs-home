@@ -15,14 +15,14 @@
 							</nav>
 
 							<ul class="social">
-								<li><a href="https://www.facebook.com/rewardStyleHQ" target="_blank"><i class="fab fa-facebook"></i></a></li>
-								<li><a href="https://twitter.com/rewardStyleHQ" target="_blank"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/rewardstyle/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 								<li><a href="https://www.instagram.com/rewardstylehq/?hl=en " target="_blank"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/rewardstyle/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+								
+								<li><a href="https://www.facebook.com/rewardStyleHQ" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/icons/crunchbase.png" /></a></li>
 							</ul>
 
 							<div class="ltk-footer">
-								<a href="<?php echo site_url(); ?>"><img src="https://socialrevoltdesigns.com/demo/rewardstyle/wp-content/uploads/2018/08/logo.png" class="logo-img"></a>
+								<a href="https://liketoknow.it" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/LIKEtoKNOWit.png" class="logo-img"></a>
 								<ul class="subnav">
 									<li><a href="https://www.instagram.com/liketoknow.it/?hl=en" target="_blank">@LIKEtoKNOW.it</a></li>
 									<li><a href="https://www.instagram.com/liketoknow.it.europe/?hl=en" target="_blank">@LIKEtoKNOW.it.europe</a></li>

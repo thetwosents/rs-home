@@ -1254,20 +1254,23 @@ input[type="search"] {
       font-size: .725rem; }
   .footer .logo-img {
     margin: 8px auto; }
-  .footer .ltk-footer img {
-    max-width: 130px; }
-  .footer .ltk-footer ul {
-    list-style-type: none;
-    padding: 0px; }
-    .footer .ltk-footer ul li {
-      display: inline-block;
-      margin: 8px auto; }
-      .footer .ltk-footer ul li a {
-        padding: 0px 8px 0px 0px;
-        border-right: 1px solid #767676;
-        font-size: .625rem; }
-      .footer .ltk-footer ul li:last-child a {
-        border-right: 0px; }
+  .footer .ltk-footer {
+    margin-top: 32px; }
+    .footer .ltk-footer svg {
+      width: 100%; }
+    .footer .ltk-footer ul {
+      margin-top: -8px;
+      list-style-type: none;
+      padding: 0px; }
+      .footer .ltk-footer ul li {
+        display: inline-block;
+        margin: 8px auto; }
+        .footer .ltk-footer ul li a {
+          padding: 0px 8px 0px 0px;
+          border-right: 1px solid #767676;
+          font-size: .625rem; }
+        .footer .ltk-footer ul li:last-child a {
+          border-right: 0px; }
   .footer nav ul {
     margin: 0px;
     padding: 0px;
@@ -1289,19 +1292,27 @@ input[type="search"] {
           font-weight: 600;
           text-decoration: none; }
   .footer .social {
-    margin: 30px auto 0px;
-    padding: 0px;
+    margin: 10px auto 0px;
+    padding: 0px !important;
     list-style-type: none; }
     .footer .social li {
       display: inline-block; }
+      .footer .social li img {
+        height: 24px;
+        margin-top: -5px;
+        margin-left: -8px;
+        opacity: 1; }
       .footer .social li a {
-        padding: 16px;
+        color: #000;
+        opacity: .5;
+        padding: 16px 8px;
         font-size: 1.2rem;
         transition: all .2s ease-in-out;
         -webkit-transition: all .2s ease-in-out;
         -moz-transition: all .2s ease-in-out; }
         .footer .social li a:hover {
-          color: #000; }
+          color: #000;
+          opacity: 1; }
   @media all and (max-width: 767px) {
     .footer nav ul {
       margin-top: 30px; }
