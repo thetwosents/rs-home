@@ -726,7 +726,7 @@ html body .vertical-carousel {
     text-align: center;
     line-height: 48px;
     color: #000;
-    opacity: .5;
+    opacity: 1;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out; }
     html body .vertical-carousel .circle:hover {
