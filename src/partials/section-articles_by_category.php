@@ -55,7 +55,7 @@ $selected_articles = get_sub_field('selected_posts');
         <div class="box">
           <article>
             <div class="row start-xs middle-xs">
-              <div class="col-xs-12 col-md-2 image col-md-offset-1">
+              <div class="col-xs-12 col-md-2 image col-md-offset-2">
                 <img src="<?php echo $logo_img; ?>">
               </div>
               <div class="col-xs-12 col-md-8">
