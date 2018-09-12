@@ -678,7 +678,8 @@ html body .testimonial-slider .quote {
   margin-bottom: 20px; }
 
 html body .testimonial-slider h4 {
-  font-size: .875rem; }
+  font-size: .875rem;
+  margin-bottom: 0px; }
 
 @media all and (max-width: 767px) {
   html body .testimonial-slider .quote {
