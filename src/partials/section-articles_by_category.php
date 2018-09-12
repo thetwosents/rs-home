@@ -22,7 +22,6 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
   if ($selected_articles) {
     $query = new WP_Query(array(
       'post__in' => $selected_articles,
-      'posts_per_page' => $number_of_posts,
       'suppress_filters' => false,
       'orderby' => 'menu_order',
       'paged'         => $paged,
@@ -107,7 +106,6 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
   if ($selected_articles) {
     $query = new WP_Query(array(
       'post__in' => $selected_articles,
-      'posts_per_page' => $number_of_posts,
       'suppress_filters' => false,
       'paged'         => $paged,
       'orderby' => 'menu_order'
