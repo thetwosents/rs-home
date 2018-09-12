@@ -23,18 +23,7 @@
           font-weight: 600;
         }
       }
-      &:active {
-        text-decoration: none;
-        font-weight: 600;
-      }
-      &:link {
-        text-decoration: none;
-        font-weight: 600;
-      }
-      &:visited {
-        text-decoration: none;
-        font-weight: 600;
-      }
+
       &.current-menu-item {
         a {
           font-weight: 600;
@@ -75,6 +64,18 @@
         font-size: .725rem;
         color: #000;
         letter-spacing: 1.7px;
+        &:active {
+          text-decoration: none;
+          font-weight: 600;
+        }
+        &:link {
+          text-decoration: none;
+          font-weight: 600;
+        }
+        &:visited {
+          text-decoration: none;
+          font-weight: 600;
+        }
       }
     }
   }
