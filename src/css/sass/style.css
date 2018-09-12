@@ -687,20 +687,20 @@ html body .vertical-carousel {
   html body .vertical-carousel .circle {
     height: 48px;
     width: 48px;
-    background: #fff;
+    background: #000;
     border-radius: 50%;
     text-align: center;
     line-height: 48px;
-    color: #000;
+    color: #fff;
     opacity: 1;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out; }
     html body .vertical-carousel .circle:hover {
-      background: #000;
+      background: #fff;
       cursor: pointer;
       opacity: 1; }
       html body .vertical-carousel .circle:hover i {
-        color: #fff; }
+        color: #000; }
     html body .vertical-carousel .circle.next {
       float: right; }
   html body .vertical-carousel h1 {
