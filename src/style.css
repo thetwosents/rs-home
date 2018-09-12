@@ -911,6 +911,9 @@ html body .graphic-slider {
         html body .graphic-slider .contents .box:hover p {
           display: block;
           color: #fff; }
+    @media all and (max-width: 767px) {
+      html body .graphic-slider .contents {
+        height: 208px; } }
 
 .team-member-bio.left .content {
   padding-left: 40px; }
