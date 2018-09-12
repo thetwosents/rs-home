@@ -441,7 +441,7 @@ html body .product-callout {
           left: 0px !important;
           top: 0px !important;
           width: 100% !important;
-          height: 300px !important; } }
+          height: 240px !important; } }
   html body .product-callout .right-content {
     margin-left: 3vw; }
     @media all and (max-width: 767px) {
@@ -634,7 +634,7 @@ html body .product-callout {
       width: 100%;
       max-width: 100%; }
     html body .product-callout .content {
-      margin-top: 0vh; }
+      margin-top: 2vh; }
       html body .product-callout .content .btn {
         margin-bottom: 40px;
         margin-top: 20px;
