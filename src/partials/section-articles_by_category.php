@@ -20,7 +20,8 @@ $selected_articles = get_sub_field('selected_posts');
     $query = new WP_Query(array(
       'post__in' => $selected_articles,
       'posts_per_page' => $count,
-      'suppress_filters' => false
+      'suppress_filters' => false,
+      'orderby' => 'menu_order'
     ));
   } else {
     $query = new WP_Query( 
@@ -87,7 +88,8 @@ $selected_articles = get_sub_field('selected_posts');
     $query = new WP_Query(array(
       'post__in' => $selected_articles,
       'posts_per_page' => $count,
-      'suppress_filters' => false
+      'suppress_filters' => false,
+      'orderby' => 'menu_order'
     ));
   } else {
   
