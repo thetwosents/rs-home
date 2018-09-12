@@ -2959,6 +2959,25 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "key": "field_5b7ae1ad4a9e0",
+                            "label": "Button link",
+                            "name": "button_link",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
                             "key": "field_5b91970604d04",
                             "label": "Internal link",
                             "name": "internal_link",
@@ -3041,22 +3060,6 @@
                             "prepend": "",
                             "append": "",
                             "maxlength": ""
-                        },
-                        {
-                            "key": "field_5b7ae1ad4a9e0",
-                            "label": "Button link",
-                            "name": "button_link",
-                            "type": "url",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": ""
                         },
                         {
                             "key": "field_5b7ae1bf4a9e1",
@@ -3587,5 +3590,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1536778289
+    "modified": 1536784042
 }
