@@ -61,7 +61,7 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
         <div class="box">
           <article>
             <div class="row start-xs middle-xs">
-              <div class="col-xs-12 col-md-2 image col-md-offset-2">
+              <div class="col-xs-12 col-md-2 image">
                 <img src="<?php echo $logo_img; ?>">
               </div>
               <div class="col-xs-12 col-md-8">
