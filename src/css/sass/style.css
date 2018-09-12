@@ -738,7 +738,7 @@ html body .graphic-slider {
       html body .graphic-slider .slick-slide::after {
         display: none; } }
   html body .graphic-slider .contents {
-    height: 208px; }
+    height: 220px; }
     html body .graphic-slider .contents .box {
       transition: all .2s ease-in-out;
       -webkit-transition: all .2s ease-in-out; }
@@ -1049,6 +1049,15 @@ input[type="search"] {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out; }
     .nav ul li:hover a {
+      text-decoration: none;
+      font-weight: 600; }
+    .nav ul li:active {
+      text-decoration: none;
+      font-weight: 600; }
+    .nav ul li:link {
+      text-decoration: none;
+      font-weight: 600; }
+    .nav ul li:visited {
       text-decoration: none;
       font-weight: 600; }
     .nav ul li.current-menu-item a {
