@@ -25,7 +25,7 @@ $content = get_sub_field('content');
 		<div class="row center-xs start-md">
 			<div class="col-xs-12 col-md-10">
 				<div class="box">
-					<p><?php echo $content; ?></p>
+					<?php echo $content; ?>
 				</div>
 			</div>
 		</div>
