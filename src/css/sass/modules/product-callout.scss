@@ -340,6 +340,13 @@ html {
         }
       }
       @media all and (max-width: 767px) {
+        &.has-single {
+          .image {
+            img {
+              max-width: 100% !important;
+            }
+          }
+        }
         .images {
           img {
             width: 100%;
