@@ -1443,8 +1443,7 @@ html {
       html iframe {
         height: 240px; } }
   html body {
-    font-size: 100%;
-    overflow-x: hidden; }
+    font-size: 100%; }
     html body.brands .mission-statement {
       padding-bottom: 0px !important; }
     html body.brands .graphic-slider {
