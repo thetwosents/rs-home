@@ -18,7 +18,7 @@
 								<li><a href="https://www.instagram.com/rewardstylehq/?hl=en " target="_blank"><i class="fab fa-instagram"></i></a></li>
 								<li><a href="https://www.linkedin.com/company/rewardstyle/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 								
-								<li><a href="https://www.facebook.com/rewardStyleHQ" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/icons/crunchbase.png" /></a></li>
+								<li><a href="https://www.crunchbase.com/organization/rewardstyle" target="_blank"><img src="<?php echo bloginfo('template_url'); ?>/img/icons/crunchbase.png" /></a></li>
 							</ul>
 
 							<div class="ltk-footer">
