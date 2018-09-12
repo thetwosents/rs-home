@@ -79,6 +79,12 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
         <?php endwhile; ?>
           <!-- end of the loop -->
 
+          <div class="navigation">
+            <ul>
+              <li><a href="" class="btn">Load more</a></li>
+            </ul>
+          </div>
+
           <?php wp_reset_postdata(); ?>
 
 

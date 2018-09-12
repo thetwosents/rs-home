@@ -211,6 +211,23 @@ html {
     }
     
     .articles-by-category {
+      .navigation {
+        width: 100%;
+      }
+      ul {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0px;
+        list-style-type: none;
+        li {
+          display: inline-block;
+          margin: 8px 16px;
+          a {
+            font-weight: 600;
+          }
+        }
+      }
       h1 {
         margin-bottom: 4vw !important;
       }
