@@ -686,6 +686,9 @@ html body .team-member-wall h4 {
 html body .team-member-wall .team-member {
   margin-bottom: 2vw; }
 
+html body.influencers h4 img {
+  display: inline-block !important; }
+
 html body .testimonial-slider .quote {
   cursor: pointer;
   font-family: 'Didot';
@@ -700,7 +703,7 @@ html body .testimonial-slider h4 {
   margin-bottom: 0px; }
   html body .testimonial-slider h4 img {
     height: 24px;
-    display: inline-block;
+    display: none;
     margin-right: 8px; }
 
 @media all and (max-width: 767px) {

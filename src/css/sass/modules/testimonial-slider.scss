@@ -1,5 +1,12 @@
 html {
   body {
+    &.influencers {
+      h4 {
+        img {
+          display: inline-block !important;
+        }
+      }
+    }
     .testimonial-slider {
       .quote {
         cursor: pointer;
@@ -15,7 +22,7 @@ html {
         margin-bottom: 0px;
         img {
           height: 24px;
-          display: inline-block;
+          display: none;
           margin-right: 8px;
         }
       }
