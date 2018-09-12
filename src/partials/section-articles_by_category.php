@@ -81,7 +81,24 @@ $selected_articles = get_sub_field('selected_posts');
   </div> 
 </section>
 
-<?php } else if ($version === 'pull-quotes') { $query = new WP_Query( array( 'tag' => 'pull-quotes', 'posts_per_page' => $number_of_posts ) ); ?>
+<?php } else if ($version === 'pull-quotes') { 
+
+  if ($selected_articles) {
+    $query = new WP_Query(array(
+      'post__in' => $selected_articles,
+      'posts_per_page' => $count,
+      'suppress_filters' => false
+    ));
+  } else {
+  
+  $query = new WP_Query( 
+    array( 
+      'tag' => 'pull-quotes', 
+      'posts_per_page' => $number_of_posts 
+    ) 
+  ); 
+
+  } ?>
 
 <section class="pull-quotes light--spacing">
   <div class="container">
