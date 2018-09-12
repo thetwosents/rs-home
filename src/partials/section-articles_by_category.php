@@ -65,7 +65,11 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
               </div>
               <div class="col-xs-12 col-md-8 col-md-offset-1">
                 <a href="<?php echo $url; ?>" target="_blank">
-                  <h4><?php echo $post_date; ?></h4>
+                  <?php if (get_sub_field('hide_dates')) {
+
+                  } else { ?>
+                    
+                  <?php } ?><h4><?php echo $post_date; ?></h4>
                   <h2><?php the_title(); ?></h2>
                   <p><?php the_excerpt(); ?></p>
                 </a>
