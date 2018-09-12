@@ -47,10 +47,10 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
     </div>
     <div class="row">
 
-    <?php if ( have_posts() ) : ?>
+    <?php if ( $query->have_posts() ) : ?>
 
       <!-- the loop -->
-      <?php while ( have_posts() ) : the_post();  $post_date = get_the_date();
+      <?php while ( $query->have_posts() ) : $query->the_post();  $post_date = get_the_date();
 
         $url = get_field('url');
         $logo_img = get_field('logo_img');
