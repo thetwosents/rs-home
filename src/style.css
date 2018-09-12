@@ -701,6 +701,7 @@ html body .container {
   position: relative; }
 
 html body .vertical-carousel {
+  padding-top: 3vw !important;
   padding-bottom: 0px !important; }
   html body .vertical-carousel .arrows {
     position: absolute;
