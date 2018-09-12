@@ -37,11 +37,20 @@ html {
 	      }
 	      @media all and (max-width: 767px) {
 	      	.top-line {
-	      		margin: 20px auto;
+	      		margin: 20px 0px;
+	      		width: 25%;
+	      	}
+	      	.perk {
+	      		h4 {
+	      			font-size: 1.4rem;
+	      		}
 	      	}
 	      	.perk-gallery {
 	      		width: 100%;
 	      		height: 320px;
+	      	}
+	      	.extra-perks {
+	      		padding: 0px;
 	      	}
 	      }
 	    }

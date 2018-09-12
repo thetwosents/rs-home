@@ -324,10 +324,15 @@ html body .perks-wall {
     margin-top: 20px; }
   @media all and (max-width: 767px) {
     html body .perks-wall .top-line {
-      margin: 20px auto; }
+      margin: 20px 0px;
+      width: 25%; }
+    html body .perks-wall .perk h4 {
+      font-size: 1.4rem; }
     html body .perks-wall .perk-gallery {
       width: 100%;
-      height: 320px; } }
+      height: 320px; }
+    html body .perks-wall .extra-perks {
+      padding: 0px; } }
 
 html body .press-timeline {
   background: #f2f2f2;
