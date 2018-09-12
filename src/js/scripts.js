@@ -159,7 +159,16 @@
       autoplaySpeed: 4200,
       speed: 600,
       fade: true,
-      adaptiveHeight: true
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            dots: true,
+            arrows: false
+          }
+        }
+      ]
     });
 
     $('.awards-side .slider').slick({
