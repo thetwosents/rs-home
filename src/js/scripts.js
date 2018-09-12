@@ -291,6 +291,28 @@
       }
     }
 
+    $('.next-posts').click(function(){
+
+      var ajaxLoad = 1;
+
+      var site_url = $('.site_url').val();
+      $.ajax({
+        type: 'POST',
+        url: site_url + '/wp-admin/admin-ajax.php',
+        data: {
+        action: 'getPosts',
+        ajaxLoad: ajaxLoad,
+        },
+        success: function(data, textStatus, XMLHttpRequest){
+          $("#test-div1").html('');
+          $("#test-div1").append(data);
+        },
+        error: function(MLHttpRequest, textStatus, errorThrown){
+          alert(errorThrown);
+        }
+        }); 
+    })
+
     // (function() {
     //   //add css file to dom so IE8 recognizes it
     //   document.write('<link href="https://rewardstyle.bamboohr.com/css/jobs-embed.css" rel="stylesheet" />');

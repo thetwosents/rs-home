@@ -12,6 +12,9 @@ $across = get_sub_field('across');
 
 $selected_articles = get_sub_field('selected_posts');
 
+$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
+
 ?>
 
 <?php if ($version === 'feed') { 
@@ -19,15 +22,17 @@ $selected_articles = get_sub_field('selected_posts');
   if ($selected_articles) {
     $query = new WP_Query(array(
       'post__in' => $selected_articles,
-      'posts_per_page' => $count,
+      'posts_per_page' => $number_of_posts,
       'suppress_filters' => false,
-      'orderby' => 'menu_order'
+      'orderby' => 'menu_order',
+      'paged'         => $paged,
     ));
   } else {
-    $query = new WP_Query( 
+    $query = query_posts( 
       array( 
       'cat' => $category->term_id, 
       'posts_per_page' => $number_of_posts,
+      'paged'         => $paged,
       'suppress_filters' => false // https://wpml.org/documentation/support/wpml-coding-api/
       ) 
     );
@@ -43,10 +48,10 @@ $selected_articles = get_sub_field('selected_posts');
     </div>
     <div class="row">
 
-    <?php if ( $query->have_posts() ) : ?>
+    <?php if ( have_posts() ) : ?>
 
       <!-- the loop -->
-      <?php while ( $query->have_posts() ) : $query->the_post();  $post_date = get_the_date();
+      <?php while ( have_posts() ) : the_post();  $post_date = get_the_date();
 
         $url = get_field('url');
         $logo_img = get_field('logo_img');
@@ -76,8 +81,17 @@ $selected_articles = get_sub_field('selected_posts');
 
           <?php wp_reset_postdata(); ?>
 
+
+
         <?php else : ?>
+
+
         <?php endif; ?>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+
+      </div>
     </div>
   </div> 
 </section>
@@ -87,8 +101,9 @@ $selected_articles = get_sub_field('selected_posts');
   if ($selected_articles) {
     $query = new WP_Query(array(
       'post__in' => $selected_articles,
-      'posts_per_page' => $count,
+      'posts_per_page' => $number_of_posts,
       'suppress_filters' => false,
+      'paged'         => $paged,
       'orderby' => 'menu_order'
     ));
   } else {
@@ -96,6 +111,7 @@ $selected_articles = get_sub_field('selected_posts');
   $query = new WP_Query( 
     array( 
       'tag' => 'pull-quotes', 
+      'paged'         => $paged,
       'posts_per_page' => $number_of_posts 
     ) 
   ); 

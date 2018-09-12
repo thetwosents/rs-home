@@ -21,7 +21,7 @@
             <h1 class="quote">
               <?php echo $quote; ?>
             </h1>
-            <h4><?php echo $author; ?></h4>
+            <h4><img src="<?php echo bloginfo('template_url'); ?>/img/icons/LIKEtoKNOW.it_icon-02.svg"><?php echo $author; ?></h4>
           </div>
 
           <?php
