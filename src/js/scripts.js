@@ -126,6 +126,7 @@
       slidesToScroll: 1,
       autoplay: false,
       speed: 800,
+      arrows: false;
       fade: true,
       // prevArrow: '.prev',
       // nextArrow: '.next',
