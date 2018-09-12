@@ -182,6 +182,8 @@ html body .instagram-feed h2 {
   font-style: italic;
   font-weight: 300;
   margin: 30px auto; }
+html body .instagram-feed .sbi_load {
+  display: none !important; }
 
 html body .job-postings {
   padding-top: 0px !important; }
