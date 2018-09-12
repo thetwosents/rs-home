@@ -1290,7 +1290,6 @@ input[type="search"] {
     page-break-after: avoid; } }
 
 html body {
-  overflow-x: hidden;
   width: 100%; }
   html body .our-story {
     padding: 5vw 0px !important; }
