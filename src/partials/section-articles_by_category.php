@@ -63,7 +63,7 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
               <div class="col-xs-12 col-md-2 image">
                 <img src="<?php echo $logo_img; ?>">
               </div>
-              <div class="col-xs-12 col-md-8">
+              <div class="col-xs-12 col-md-8 col-md-offset-1">
                 <a href="<?php echo $url; ?>" target="_blank">
                   <h4><?php echo $post_date; ?></h4>
                   <h2><?php the_title(); ?></h2>
