@@ -135,6 +135,14 @@
       ]
     });
 
+    $('.press-timeline .prev').click(function(){
+      $('.press-timeline .slider').slick('slickPrev');
+    })
+
+    $('.press-timeline .next').click(function(){
+      $('.press-timeline .slider').slick('slickNext');
+    })
+
     $('.employee-spotlight .slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
