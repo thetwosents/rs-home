@@ -226,6 +226,9 @@ html body .job-postings {
       html body .job-postings #BambooHR .BambooHR-ATS-board li {
         margin-bottom: 25px !important; } }
 
+html body .join-the-family h4 {
+  margin-top: 0px; }
+
 html body .join-the-family h2 {
   font-family: 'Didot' !important;
   text-transform: none;
