@@ -1162,7 +1162,8 @@ input[type="search"] {
         padding: 8px 20px;
         transition: all .2s ease-in-out;
         -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out; }
+        -moz-transition: all .2s ease-in-out;
+        font-size: .875rem; }
         .nav ul li:last-child a:hover {
           text-decoration: none;
           background: #fff;
