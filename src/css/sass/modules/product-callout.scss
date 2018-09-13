@@ -151,6 +151,21 @@ html {
           width: 40vw;
           margin-left: 8vw;
         }
+        @media all and (max-width: 767px) {
+          padding-right: 0px !important;
+          width: 90% !important;
+          .foreground {
+            top: -5vw !important;
+            height: 55vw !important;
+            right: 8vw !important;
+          }
+          .background {
+            width: 80% !important;
+            max-width: 100% !important;
+            margin-left: 12px !important;
+            margin-bottom: 7vw !important;
+          }
+        }
         &.left {
           .content {
             padding-left: 0px;
