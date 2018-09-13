@@ -105,21 +105,29 @@
       margin-top: 30px;
     }
     nav {
+      margin-top: 0px;
       ul {
         padding: 0px !important;
-        margin-top: 30px;
+        margin-top: 0px;
         li {
           display: block;
-          margin-bottom: 30px;
+          margin-bottom: 12px;
         }
       }
+    }
+    .social {
+      img {
+            height: 28px !important;
+          }
     }
     .ltk-footer {
       .subnav {
         margin-top: 8px;
         padding: 0px !important;
+
         li {
           margin: 0 auto;
+
         }
       }
     }
