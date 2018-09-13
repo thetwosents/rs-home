@@ -1558,7 +1558,9 @@ html body {
     letter-spacing: 1px; }
   @media all and (max-width: 767px) {
     html body .stats-wall .stat {
-      margin: 4vh auto; } }
+      margin: 3vh auto; }
+      html body .stats-wall .stat h2 {
+        font-size: 2.5rem !important; } }
   html body .process-steps h2 {
     font-size: 1.6rem; }
   html body .large-callout .box {

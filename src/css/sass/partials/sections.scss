@@ -96,7 +96,10 @@ html {
       }
       @media all and (max-width: 767px) {
         .stat {
-          margin: 4vh auto;
+          h2 {
+            font-size: 2.5rem !important;
+          }
+          margin: 3vh auto;
         }
       }
     }
