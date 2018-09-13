@@ -67,12 +67,14 @@ html {
 				}
 				.box {
 					padding: 0px;
-					margin-bottom: 12vw;
+					margin-bottom: 12vh;
 					img {
 						max-width: 50%;
 					}
 				}
 				.stat {
+					width: 40%;
+					display:inline-block;
 					margin: 6vw auto;
 				}
 			}

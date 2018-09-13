@@ -125,10 +125,12 @@ html body .company-stats .btn {
     display: block; }
   html body .company-stats .box {
     padding: 0px;
-    margin-bottom: 12vw; }
+    margin-bottom: 12vh; }
     html body .company-stats .box img {
       max-width: 50%; }
   html body .company-stats .stat {
+    width: 40%;
+    display: inline-block;
     margin: 6vw auto; } }
 
 html body .employee-spotlight {
