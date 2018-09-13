@@ -1542,6 +1542,8 @@ html body {
     @media all and (min-width: 768px) and (max-width: 1023px) {
       html body .awards-side .container {
         padding: 6vw 0px !important; } }
+  html body .stats-wall h1 {
+    margin-bottom: 4vw !important; }
   html body .stats-wall .stat {
     margin-bottom: 5vw; }
   html body .stats-wall h2 {
