@@ -233,6 +233,11 @@ html {
         }
       }
       @media all and (max-width: 767px) {
+        .col-md-4 {
+          &:nth-of-type(6) {
+            margin-bottom: 0px !important;
+          }
+        }
         article {
           img {
             max-height: 20vw;

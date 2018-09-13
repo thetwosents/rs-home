@@ -1638,6 +1638,8 @@ html body {
       margin: 4px auto;
       color: #000; }
   @media all and (max-width: 767px) {
+    html body .pull-quotes .col-md-4:nth-of-type(6) {
+      margin-bottom: 0px !important; }
     html body .pull-quotes article img {
       max-height: 20vw;
       max-width: 50%;
