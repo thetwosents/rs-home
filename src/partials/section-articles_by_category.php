@@ -60,10 +60,10 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
         <div class="box">
           <article>
             <div class="row start-xs middle-xs">
-              <div class="col-xs-12 col-md-2 image">
+              <div class="col-xs-3 col-md-2 image">
                 <img src="<?php echo $logo_img; ?>">
               </div>
-              <div class="col-xs-12 col-md-8 col-md-offset-1">
+              <div class="col-xs-9 col-md-8 col-md-offset-1">
                 <a href="<?php echo $url; ?>" target="_blank">
                   <?php if (get_sub_field('hide_dates')) {
 

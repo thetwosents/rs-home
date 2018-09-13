@@ -1614,7 +1614,9 @@ html body {
       color: #000; }
   @media all and (max-width: 767px) {
     html body .pull-quotes article img {
-      max-height: 20vw; } }
+      max-height: 20vw;
+      max-width: 50%;
+      margin-bottom: 3vw; } }
   html body .articles-by-category .navigation {
     width: 100%; }
   html body .articles-by-category ul {
@@ -1657,6 +1659,11 @@ html body {
         margin-top: 0px; }
       html body .articles-by-category article a:hover h2 {
         opacity: .9; }
+    @media all and (max-width: 767px) {
+      html body .articles-by-category article .image {
+        text-align: left; }
+        html body .articles-by-category article .image img {
+          max-width: 100%; } }
 
 .jarallax {
   position: relative;

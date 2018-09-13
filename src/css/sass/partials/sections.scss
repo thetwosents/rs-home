@@ -213,6 +213,8 @@ html {
         article {
           img {
             max-height: 20vw;
+            max-width: 50%;
+            margin-bottom: 3vw;
           }
         }
       }
@@ -273,6 +275,14 @@ html {
           &:hover {
             h2 {
               opacity: .9;
+            }
+          }
+        }
+        @media all and (max-width: 767px) {
+          .image {
+            text-align: left;
+            img {
+              max-width: 100%;
             }
           }
         }
