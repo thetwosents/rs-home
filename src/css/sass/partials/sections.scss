@@ -2,6 +2,9 @@ html {
   body {
     // overflow-x: hidden;
     width: 100%;
+    .slick-dots {
+            padding-left: 0px !important;
+          }
     .our-story {
       padding: 5vw 0px !important;
       @media all and (max-width: 767px) {
