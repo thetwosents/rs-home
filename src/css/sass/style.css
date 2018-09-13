@@ -123,6 +123,8 @@ html body .company-stats .btn {
     display: none; }
   html body .company-stats .mobile {
     display: block; }
+  html body .company-stats .col-md-4:nth-of-type(3) .box {
+    margin-bottom: 0px; }
   html body .company-stats .box {
     padding: 0px;
     margin-bottom: 12vh; }
