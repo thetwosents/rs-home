@@ -1326,7 +1326,7 @@ input[type="search"] {
         display: inline-block;
         margin: 12px auto; }
         .footer .ltk-footer ul li a {
-          padding: 0px 12px 0px 0px;
+          padding: 0px 12px 0px 8px;
           border-right: 1px solid #767676;
           font-size: .625rem; }
         .footer .ltk-footer ul li:last-child a {
@@ -1358,7 +1358,7 @@ input[type="search"] {
     .footer .social li {
       display: inline-block; }
       .footer .social li img {
-        height: 28px;
+        height: 32px;
         margin-top: -5px;
         margin-left: -8px;
         opacity: 1; }
