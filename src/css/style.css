@@ -1533,6 +1533,11 @@ html body {
   width: 100%; }
   html body .our-story {
     padding: 5vw 0px !important; }
+    @media all and (max-width: 767px) {
+      html body .our-story {
+        padding-top: 6vh !important; }
+        html body .our-story .youtube {
+          margin-bottom: 0px !important; } }
   html body .become-rs-influencer .content .box {
     padding: 0px 40px; }
   html body .become-rs-influencer .seperator {
