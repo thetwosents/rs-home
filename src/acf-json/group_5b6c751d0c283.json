@@ -2435,6 +2435,25 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "key": "field_5b9ae449a329a",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
                             "key": "field_5b790acbb6c20",
                             "label": "Stats",
                             "name": "stats",
@@ -3647,5 +3666,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1536848458
+    "modified": 1536877666
 }

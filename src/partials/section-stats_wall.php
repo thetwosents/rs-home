@@ -1,5 +1,19 @@
+<?php 
+
+
+$title = get_sub_field('title'); // make gallery
+
+?>
+
 <section class="stats-wall light--spacing">
   <div class="container">
+    <div class="row center-xs middle-md">
+      <div class="col-xs-12 col-md-12">
+        <div class="box">
+          <h1><?php echo $title; ?></h1>
+        </div>
+      </div> 
+    </div>  
     <div class="row center-xs middle-md">
       <?php
 
