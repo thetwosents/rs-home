@@ -1758,6 +1758,8 @@ html body {
       html body .articles-by-category article a:hover h2 {
         opacity: .9; }
     @media all and (max-width: 767px) {
+      html body .articles-by-category article h2 {
+        font-size: 1rem !important; }
       html body .articles-by-category article .image {
         text-align: left; }
         html body .articles-by-category article .image img {
