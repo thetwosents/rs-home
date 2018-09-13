@@ -27,7 +27,7 @@ $cta_text = get_sub_field('cta_text');
         </div> 
       </div>
     </div>
-    <div class="row">
+    <div class="row desktop">
       <div class="col-xs-12 col-md-8 col-md-offset-4">
         <div class="left">
           <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="-40" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>">

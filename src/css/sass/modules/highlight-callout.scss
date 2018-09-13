@@ -41,6 +41,9 @@ html {
         }
       }
       @media all and (max-width: 767px) {
+        .desktop {
+          display: none !important;
+        }
         .left {
           margin-top: 4vw;
         }

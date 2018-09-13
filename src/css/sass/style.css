@@ -184,6 +184,8 @@ html body .highlight-callout .content {
     padding: 0px 30px 0px 0px;
     font-size: .875rem; }
 @media all and (max-width: 767px) {
+  html body .highlight-callout .desktop {
+    display: none !important; }
   html body .highlight-callout .left {
     margin-top: 4vw; }
   html body .highlight-callout .right {
