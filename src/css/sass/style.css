@@ -186,9 +186,17 @@ html body .instagram-feed h2 {
   text-transform: none;
   font-style: italic;
   font-weight: 300;
-  margin: 30px auto; }
+  margin: 30px auto;
+  letter-spacing: 0px !important; }
 html body .instagram-feed #sbi_load {
   display: none !important; }
+@media all and (max-width: 767px) {
+  html body .instagram-feed .btn {
+    margin-bottom: 30px; }
+  html body .instagram-feed h2 {
+    margin-top: 10px; }
+  html body .instagram-feed .sb_instagram_header {
+    display: none; } }
 
 html body .job-postings {
   padding-top: 0px !important; }
@@ -197,9 +205,15 @@ html body .job-postings {
     html body .job-postings #BambooHR .BambooHR-ATS-board li {
       font-family: 'Gotham'; }
   @media all and (max-width: 767px) {
+    html body .job-postings img {
+      margin-top: 0px;
+      margin-bottom: 4vh !important; }
     html body .job-postings #BambooHR {
       text-align: center;
       padding: 0px !important; }
+      html body .job-postings #BambooHR h2 {
+        text-align: center;
+        margin-top: 30px; }
       html body .job-postings #BambooHR .BambooHR-ATS-Jobs-List {
         padding: 0px !important; }
       html body .job-postings #BambooHR .BambooHR-ATS-Department-Header {
@@ -218,10 +232,10 @@ html body .join-the-family h4 {
   margin-top: 0px; }
 html body .join-the-family h2 {
   font-family: 'Didot' !important;
-  text-transform: none;
-  font-style: italic;
-  letter-spacing: 0px;
-  font-weight: 300; }
+  text-transform: none !important;
+  font-style: italic !important;
+  letter-spacing: 0px !important;
+  font-weight: 300 !important; }
 
 .masthead {
   min-height: 700px;
@@ -402,6 +416,21 @@ html body .product-callout {
   html body .product-callout.has-single {
     padding-top: 8vw !important;
     padding-bottom: 2vw !important; }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    html body .product-callout {
+      padding-top: 2vw !important;
+      padding-bottom: 2vw !important; }
+      html body .product-callout .images {
+        padding: 0px !important; }
+        html body .product-callout .images .background {
+          display: none !important; }
+        html body .product-callout .images .foreground {
+          position: relative !important;
+          right: 0px !important;
+          left: 0px !important;
+          top: 0px !important;
+          width: 100% !important;
+          height: 300px !important; } }
   @media all and (max-width: 767px) {
     html body .product-callout {
       padding-top: 9vw !important;
@@ -455,16 +484,7 @@ html body .product-callout {
       html body .product-callout .product-images {
         width: 100vw;
         padding: 0px 16vw;
-        margin-bottom: 3vw; }
-        html body .product-callout .product-images .background {
-          width: 70vw;
-          margin-top: -3vw;
-          margin-left: -6vw !important; }
-        html body .product-callout .product-images .foreground {
-          height: 53vw;
-          width: auto;
-          right: 13vw;
-          top: -13vw; } }
+        margin-bottom: 3vw; } }
   html body .product-callout .images {
     position: relative;
     width: 54vw; }
@@ -507,23 +527,7 @@ html body .product-callout {
     @media all and (min-width: 768px) and (max-width: 1023px) {
       html body .product-callout .images {
         margin: 0vw 0px 6vw;
-        width: 100%; }
-        html body .product-callout .images .background {
-          left: 14vw;
-          height: 44vw;
-          width: 31vw; }
-        html body .product-callout .images .foreground {
-          right: 14vw;
-          height: 36vw;
-          width: 57vw; }
-        html body .product-callout .images.right-aligned {
-          padding-right: 16vw; }
-          html body .product-callout .images.right-aligned .background {
-            float: right;
-            left: 0px;
-            margin-right: -2vw; }
-          html body .product-callout .images.right-aligned .foreground {
-            left: 16vw; } }
+        width: 100%; } }
   html body .product-callout .content {
     padding-left: 7vw;
     padding-top: 4vw;
@@ -582,7 +586,12 @@ html body .product-callout {
         padding-left: 16vw !important;
         padding-right: 16vw !important; }
         html body .product-callout .content p {
-          font-size: 1rem; } }
+          font-size: 1rem; }
+        html body .product-callout .content .stat {
+          max-width: 100%;
+          margin-top: 12vw; }
+          html body .product-callout .content .stat h2 {
+            font-size: 3rem !important; } }
     @media all and (max-width: 767px) {
       html body .product-callout .content {
         padding-left: 4vw !important; }
@@ -602,7 +611,30 @@ html body .product-callout {
       width: 100%; }
     html body .product-callout .content {
       margin-top: 0vh; } }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    html body .product-callout.has-single .images img {
+      max-width: 100% !important; }
+    html body .product-callout .images img {
+      width: 100%;
+      max-width: 100%; }
+    html body .product-callout .right-content {
+      margin-left: 0px !important; }
+    html body .product-callout .content {
+      padding: 0px 4vw !important;
+      margin-top: 0vh; }
+      html body .product-callout .content .btn {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        display: block; }
+      html body .product-callout .content .quote, html body .product-callout .content .stat {
+        max-width: 75%;
+        margin: 3vh auto 0px; }
+      html body .product-callout .content .quote img {
+        height: 30px;
+        margin: 6vw auto; } }
   @media all and (max-width: 767px) {
+    html body .product-callout.right.has-product .product-images .background {
+      margin-left: 0vw !important; }
     html body .product-callout.has-single .images img {
       max-width: 100% !important; }
     html body .product-callout .images img {
@@ -757,6 +789,10 @@ html body .vertical-carousel {
     opacity: 1; }
   .brand-wall .hidden-logos {
     display: none; }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    .brand-wall .logo {
+      max-width: 25%;
+      margin: 10px 3vw; } }
   @media all and (max-width: 767px) {
     .brand-wall .logo {
       max-width: 40%;
@@ -1250,11 +1286,19 @@ input[type="search"] {
           color: #000;
           opacity: 1; }
   @media all and (max-width: 767px) {
+    .footer p {
+      margin-top: 30px; }
     .footer nav ul {
+      padding: 0px !important;
       margin-top: 30px; }
       .footer nav ul li {
         display: block;
-        margin-bottom: 30px; } }
+        margin-bottom: 30px; }
+    .footer .ltk-footer .subnav {
+      margin-top: 8px;
+      padding: 0px !important; }
+      .footer .ltk-footer .subnav li {
+        margin: 0 auto; } }
 
 /**
  * partials/print

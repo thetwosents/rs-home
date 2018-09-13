@@ -94,8 +94,8 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
 
         <?php else: ?>
           <?php echo '<div class="product-images ' . $top_photo . '">'; ?>
-              <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="40" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
-              <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="-40" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+              <img data-parallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="40" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+              <img data-parallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="-40" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
           </div>
         <?php ?>
       <?php endif; ?>
@@ -230,8 +230,8 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
 
           <?php else: ?>
           <?php echo '<div class="product-images ' . $top_photo . '">' ?>
-              <img data-jarallax-element="40" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
-              <img data-jarallax-element="-40" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
+              <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="40" class="background" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>" alt="">
+              <img data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="-40" class="foreground" src="<?php echo wp_get_attachment_image_url( $images[1]['ID'], 'full' ); ?>" alt="">
           </div>
           <?php ?>
         <?php endif; ?>

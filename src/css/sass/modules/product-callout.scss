@@ -47,6 +47,25 @@ html {
         padding-top: 8vw !important;
         padding-bottom: 2vw !important;
       }
+      @media all and (min-width: 768px) and (max-width: 1023px) {
+        padding-top: 2vw !important;
+        padding-bottom: 2vw !important;
+        .images {
+          padding: 0px !important;
+          .background {
+            display: none !important;
+          }
+          .foreground {
+            position: relative !important;
+            right: 0px !important;
+            left: 0px !important;
+            top: 0px !important;
+            width: 100% !important;
+            height: 300px !important;
+          }
+        }
+      }
+
       @media all and (max-width: 767px) {
         padding-top: 9vw !important;
         padding-bottom: 9vw !important;
@@ -126,17 +145,6 @@ html {
           width: 100vw;
           padding: 0px 16vw;
           margin-bottom: 3vw;
-          .background { 
-            width: 70vw;
-            margin-top: -3vw;
-            margin-left: -6vw !important;
-          }
-          .foreground {
-            height: 53vw;
-            width: auto;
-            right: 13vw;
-            top: -13vw;
-          }
         }
       }
       .images {
@@ -203,27 +211,6 @@ html {
         @media all and (min-width: 768px) and (max-width: 1023px) {
           margin: 0vw 0px 6vw;
           width: 100%;
-          .background {
-            left: 14vw;
-            height: 44vw;
-            width: 31vw;
-          }
-          .foreground {
-            right: 14vw;
-            height: 36vw;
-            width: 57vw;
-          }
-          &.right-aligned {
-            padding-right: 16vw;
-            .background {
-              float: right;
-              left: 0px;
-              margin-right: -2vw;
-            }
-            .foreground {
-              left: 16vw;
-            }
-          }
         }
       }
       .content {
@@ -296,6 +283,13 @@ html {
           p {
             font-size: 1rem;
           }
+          .stat {
+            max-width: 100%;
+            margin-top: 12vw;
+            h2 {
+              font-size: 3rem !important;
+            }
+          }
         }
         @media all and (max-width: 767px) {
           padding-left: 4vw !important;
@@ -321,25 +315,70 @@ html {
       }
       @media all and (max-width: 1024px) {
         .images {
-          // margin: 0 auto 20vw;
           width: 100%;
-          // .background {
-          //   width: 34vw;
-          //   height: 44vw;
-          //   left: 16vw;
-          // }
-          // .foreground {
-          //   // width: 47.5vw;
-          //   // height: 35.5vw;
-          //   right: 16vw;
-          // }
         }
         .content {
           margin-top: 0vh;
-          // padding: 0px 8vw;
+        }
+      }
+      @media all and (min-width: 768px) and (max-width: 1023px) {
+        &.has-single {
+          .images {
+            img {
+              max-width: 100% !important;
+            }
+          }
+        }
+        .images {
+          img {
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+        &.right {
+          .content {
+            // padding: 0px !important;
+          }
+        }
+        .right-content {
+          margin-left: 0px !important;
+        }
+        .content {
+          padding: 0px 4vw !important;
+          margin-top: 0vh;
+          // padding: 2vw 4vw;
+          .btn {
+            margin-bottom: 40px;
+            margin-top: 20px;
+            display: block;
+          }
+          .quote,.stat {
+            max-width: 75%;
+            margin: 3vh auto 0px;
+          }
+          .quote {
+            img {
+              height: 30px;
+              margin: 6vw auto;
+            }
+          }
         }
       }
       @media all and (max-width: 767px) {
+        &.right {
+          &.has-product {
+            .content {
+            }
+            .product-images {
+              .foreground {
+
+              }
+              .background {
+                margin-left: 0vw !important;
+              }
+            }
+          }
+        }
         &.has-single {
           .images {
             img {

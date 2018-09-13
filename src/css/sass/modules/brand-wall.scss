@@ -51,6 +51,12 @@
   .hidden-logos {
     display: none;
   }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    .logo {
+          max-width: 25%;
+          margin: 10px 3vw;
+    }
+  }
   @media all and (max-width: 767px) {
     .logo {
       max-width: 40%;

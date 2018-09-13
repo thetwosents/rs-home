@@ -13,6 +13,15 @@
       autoplaySpeed: 2500,
       responsive: [
         {
+          breakpoint: 1023,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
           breakpoint: 767,
           settings: {
             slidesToShow: 3,

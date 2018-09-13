@@ -95,12 +95,25 @@
     }
   }
   @media all and (max-width: 767px) {
+    p{
+      margin-top: 30px;
+    }
     nav {
       ul {
+        padding: 0px !important;
         margin-top: 30px;
         li {
           display: block;
           margin-bottom: 30px;
+        }
+      }
+    }
+    .ltk-footer {
+      .subnav {
+        margin-top: 8px;
+        padding: 0px !important;
+        li {
+          margin: 0 auto;
         }
       }
     }
