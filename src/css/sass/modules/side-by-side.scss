@@ -21,6 +21,14 @@ html {
 		  	max-width: 100%;
 		  	width: 100%;
 		  }
+		  @media all and (min-width: 768px) and (max-width: 1023px) {
+		  	.box {
+		  		padding: 2vw 1vw;
+		  	}	
+		  	p {
+		  		max-width: 100%;
+		  	}
+		  }
 		  @media all and (max-width: 767px) {
 		  	.box {
 		  		padding: 2vw 1vw;

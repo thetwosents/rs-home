@@ -13,7 +13,7 @@ $left_or_right = get_sub_field('left_or_right');
 
 <section class="side-by-side light--spacing">
 	<div class="container">
-		<div class="row start-xs top-xs start-md">
+		<div class="row start-xs center-sm  top-xs start-md">
 			<?php if ($left_or_right === 'left') { ?> 
 
 				<div class="col-xs-12 col-md-6">

@@ -124,19 +124,21 @@ html body .company-stats .btn {
   margin-top: 2vw; }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  html body .company-stats .desktop {
-    display: none; }
-  html body .company-stats .mobile {
-    display: block; }
-  html body .company-stats .box {
-    padding: 0px;
-    margin-bottom: 12vw; }
-    html body .company-stats .box img {
-      max-width: 50%; }
-  html body .company-stats .stat {
-    margin: 6vw auto 3vw;
-    display: inline-block;
-    width: 40%; } }
+  html body .company-stats {
+    margin-top: 6vw; }
+    html body .company-stats .desktop {
+      display: none; }
+    html body .company-stats .mobile {
+      display: block; }
+    html body .company-stats .box {
+      padding: 0px;
+      margin-bottom: 12vw; }
+      html body .company-stats .box img {
+        max-width: 50%; }
+    html body .company-stats .stat {
+      margin: 6vw auto 3vw;
+      display: inline-block;
+      width: 40%; } }
 
 @media all and (max-width: 767px) {
   html body .company-stats .desktop {
@@ -741,6 +743,12 @@ html body .side-by-side .box {
 html body .side-by-side img {
   max-width: 100%;
   width: 100%; }
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  html body .side-by-side .box {
+    padding: 2vw 1vw; }
+  html body .side-by-side p {
+    max-width: 100%; } }
 
 @media all and (max-width: 767px) {
   html body .side-by-side .box {
