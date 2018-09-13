@@ -110,6 +110,21 @@ html body .company-stats .stat {
 html body .company-stats .btn {
   margin-top: 2vw; }
 
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  html body .company-stats .desktop {
+    display: none; }
+  html body .company-stats .mobile {
+    display: block; }
+  html body .company-stats .box {
+    padding: 0px;
+    margin-bottom: 12vw; }
+    html body .company-stats .box img {
+      max-width: 50%; }
+  html body .company-stats .stat {
+    margin: 6vw auto 3vw;
+    display: inline-block;
+    width: 40%; } }
+
 @media all and (max-width: 767px) {
   html body .company-stats .desktop {
     display: none; }
@@ -396,6 +411,17 @@ html body .press-timeline {
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     padding: 0px 40px; }
+    @media all and (min-width: 768px) and (max-width: 1023px) {
+      html body .press-timeline .box {
+        padding: 0px;
+        border: 0px; }
+        html body .press-timeline .box .btn {
+          font-size: 1rem;
+          display: block; }
+        html body .press-timeline .box h2 {
+          margin-top: 3vw; }
+        html body .press-timeline .box p {
+          margin-bottom: 0px; } }
     @media all and (max-width: 767px) {
       html body .press-timeline .box {
         padding: 0px;
@@ -405,6 +431,14 @@ html body .press-timeline {
           display: block; }
         html body .press-timeline .box h2 {
           margin-top: 8vw; } }
+  @media all and (min-width: 768px) and (max-width: 1023px) {
+    html body .press-timeline::after {
+      display: none; }
+    html body .press-timeline .circle {
+      display: none !important; }
+    html body .press-timeline img {
+      max-width: 300px;
+      margin: 0 auto; } }
   @media all and (max-width: 767px) {
     html body .press-timeline::after {
       display: none; }
