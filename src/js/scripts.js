@@ -141,6 +141,16 @@
       // nextArrow: '.next',
       responsive: [
         {
+          breakpoint: 1023,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            adaptiveHeight: true,
+            dots: true
+          }
+        },
+        {
           breakpoint: 767,
           settings: {
             slidesToShow: 1,

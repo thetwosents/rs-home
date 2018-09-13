@@ -945,6 +945,15 @@ html body .graphic-slider {
   padding-left: 40px; }
 .team-member-bio.right .content {
   padding-right: 40px; }
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .team-member-bio .content {
+    padding: 0px !important; }
+  .team-member-bio img {
+    max-width: 40%;
+    margin: 0 auto; }
+  .team-member-bio h4 {
+    margin-bottom: 1vw;
+    margin-top: 6vw; } }
 @media all and (max-width: 767px) {
   .team-member-bio .content {
     padding-left: 0px !important;
@@ -1001,6 +1010,16 @@ html body .graphic-slider {
   top: 0;
   left: 0; }
 
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  html body .our-story {
+    padding-top: 6vh !important; }
+    html body .our-story .container {
+      max-width: 75%; }
+      html body .our-story .container h4 {
+        margin-bottom: 0px; } }
+@media all and (max-width: 767px) {
+  .our-story .container {
+    max-width: 100%; } }
 /**
  * partials/reset
  * ---
@@ -1434,6 +1453,9 @@ html body {
         display: inline-block;
         height: 100%;
         vertical-align: middle; }
+    @media all and (min-width: 768px) and (max-width: 1023px) {
+      html body .awards-side .container {
+        padding: 6vw 0px !important; } }
   html body .stats-wall .stat {
     margin-bottom: 5vw; }
   html body .stats-wall h2 {

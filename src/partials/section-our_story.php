@@ -14,7 +14,7 @@
 
       </div>
     </div>
-    <div class="row middle-xs">
+    <div class="row middle-xs center-xs start-md">
       <div class="col-xs-12 col-md-4 last-xs first-md">
         <div class="box">
           <h4><?php echo $above_title; ?></h4>

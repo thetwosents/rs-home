@@ -49,3 +49,29 @@
     top: 0;
     left: 0;
 }
+
+
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    html {
+        body {
+            .our-story {
+                padding-top: 6vh !important;
+                .container {
+                    h4 {
+                        margin-bottom: 0px;
+                    }
+                    max-width: 75%;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .our-story {
+        .container {
+            max-width: 100%;
+        }
+    }
+}
