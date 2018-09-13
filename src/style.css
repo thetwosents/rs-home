@@ -1473,7 +1473,10 @@ input[type="search"] {
       margin-top: 8px;
       padding: 0px !important; }
       .footer .ltk-footer .subnav li {
-        margin: 0 auto; } }
+        margin: 0 auto; }
+        .footer .ltk-footer .subnav li a {
+          color: #000;
+          font-weight: 600; } }
 
 /**
  * partials/print
