@@ -12,7 +12,10 @@ html {
         font-weight: 300;
       }
       @media all and (max-width: 767px) {
-      	
+      	padding-top: 6vh !important;
+        .container {
+          margin-bottom: 3vh;
+        }
       }
 	  }
 	}

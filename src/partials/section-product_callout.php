@@ -116,6 +116,27 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
             echo '<p>' . $content . '</p>';
           ?>
 
+          <?php 
+            if ($secondary_type === 'quote') { ?>
+              <div class="quote mobile">
+                <p data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $quote_text; ?></p>
+                <img data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100" src="<?php echo $quote_img; ?>">
+              </div> 
+            <?php } else if ($secondary_type === 'stat') { ?>
+              <div class="stat mobile">
+                <h2 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $stat_number; ?></h2>
+                <h4 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100"><?php echo $stat_text; ?></h4>
+              </div>
+            <?php } ?>
+
           <?php if ($have_primary_cta) {
 
             echo '<a data-aos-anchor-placement="center-bottom" 
@@ -125,7 +146,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
           } ?>
            <?php 
             if ($secondary_type === 'quote') { ?>
-              <div class="quote">
+              <div class="quote desktop">
                 <p data-aos-anchor-placement="center-bottom" 
             data-aos="fade-up" 
             data-aos-duration="1200"><?php echo $quote_text; ?></p>
@@ -134,7 +155,7 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
             data-aos-delay="100" src="<?php echo $quote_img; ?>">
               </div> 
             <?php } else if ($secondary_type === 'stat') { ?>
-              <div class="stat">
+              <div class="stat desktop">
                 <h2 data-aos-anchor-placement="center-bottom" 
             data-aos="fade-up" 
             data-aos-duration="1200"><?php echo $stat_number; ?></h2>
@@ -159,15 +180,10 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
             echo '<h2>' . $title . '</h2>';
             echo '<p>' . $content . '</p>';
            ?>
-           <?php if ($have_primary_cta) {
 
-            echo '<a href="' . $primary_cta_link . '" class="btn">' . $primary_cta_text . '</a>';
-
-          } ?>
-
-          <?php 
+           <?php 
             if ($secondary_type === 'quote') { ?>
-              <div class="quote">
+              <div class="quote mobile">
                 <p data-aos-anchor-placement="center-bottom" 
             data-aos="fade-up" 
             data-aos-duration="1200"><?php echo $quote_text; ?></p>
@@ -176,7 +192,34 @@ echo '<section class="product-callout ' . $left_or_right_side . ' ' . $class .'"
             data-aos-delay="100" src="<?php echo $quote_img; ?>">
               </div> 
             <?php } else if ($secondary_type === 'stat') { ?>
-              <div class="stat">
+              <div class="stat mobile">
+                <h2 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $stat_number; ?></h2>
+                <h4 data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100"><?php echo $stat_text; ?></h4>
+              </div>
+            <?php } ?>
+
+           <?php if ($have_primary_cta) {
+
+            echo '<a href="' . $primary_cta_link . '" class="btn">' . $primary_cta_text . '</a>';
+
+          } ?>
+
+          <?php 
+            if ($secondary_type === 'quote') { ?>
+              <div class="quote desktop">
+                <p data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-duration="1200"><?php echo $quote_text; ?></p>
+                <img data-aos-anchor-placement="center-bottom" 
+            data-aos="fade-up" 
+            data-aos-delay="100" src="<?php echo $quote_img; ?>">
+              </div> 
+            <?php } else if ($secondary_type === 'stat') { ?>
+              <div class="stat desktop">
                 <h2 data-aos-anchor-placement="center-bottom" 
             data-aos="fade-up" 
             data-aos-duration="1200"><?php echo $stat_number; ?></h2>

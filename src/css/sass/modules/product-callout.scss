@@ -43,6 +43,20 @@ html {
     .product-callout {
       padding-top: 5vw !important;
       padding-bottom: 5vw !important;
+      .desktop {
+        display: block;
+      }
+      .mobile {
+        display: none;
+      }
+      @media all and (max-width: 767px) {
+        .desktop {
+          display: none !important;
+        }
+        .mobile {
+          display: block;
+        }
+      }
       &.first {
         padding-top: 2vw !important;
       }
