@@ -22,6 +22,12 @@
 				$cta_text = get_sub_field('cta_text');
 				$cta_link = get_sub_field('cta_link');
 
+				$is_external = get_sub_field('is_external');
+
+				if ($is_external) {
+					$cta_link = get_sub_field('external_link');
+				}
+
 			?>
 			
 
@@ -39,7 +45,12 @@
 								<h1><?php echo $stat_2_number; ?></h1>
 								<h4><?php echo $stat_2_text; ?></h4>
 							</div>
-							<a href="<?php echo $cta_link; ?>" class="btn"><?php echo $cta_text; ?></a>
+							<?php if ($is_external) { ?>
+								<a href="<?php echo $cta_link; ?>" target="_blank" class="btn"><?php echo $cta_text; ?></a>
+							<?php } else { ?>
+								<a href="<?php echo $cta_link; ?>" class="btn"><?php echo $cta_text; ?></a>
+							<?php } ?>
+							
 						</div>
 					</div>
 				</div>	
@@ -67,6 +78,12 @@
 				$cta_text = get_sub_field('cta_text');
 				$cta_link = get_sub_field('cta_link');
 
+				$is_external = get_sub_field('is_external');
+
+				if ($is_external) {
+					$cta_link = get_sub_field('external_link');
+				}
+
 			?>
 			<div class="col-xs-4">
 				<div class="box desktop">
@@ -78,7 +95,11 @@
 						<h1><?php echo $stat_2_number; ?></h1>
 						<h4><?php echo $stat_2_text; ?></h4>
 					</div>
-					<a href="<?php echo $cta_link; ?>" class="btn"><?php echo $cta_text; ?></a>
+					<?php if ($is_external) { ?>
+						<a href="<?php echo $cta_link; ?>" target="_blank" class="btn"><?php echo $cta_text; ?></a>
+					<?php } else { ?>
+						<a href="<?php echo $cta_link; ?>" class="btn"><?php echo $cta_text; ?></a>
+					<?php } ?>
 				</div>
 			</div>
 

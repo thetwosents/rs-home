@@ -1073,6 +1073,44 @@
                                     "allow_null": 0,
                                     "allow_archives": 1,
                                     "multiple": 0
+                                },
+                                {
+                                    "key": "field_5b9a723566bd7",
+                                    "label": "Is External",
+                                    "name": "is_external",
+                                    "type": "true_false",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "message": "",
+                                    "default_value": 0,
+                                    "ui": 0,
+                                    "ui_on_text": "",
+                                    "ui_off_text": ""
+                                },
+                                {
+                                    "key": "field_5b9a723f66bd8",
+                                    "label": "External Link",
+                                    "name": "external_link",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
                                 }
                             ]
                         }
@@ -3609,5 +3647,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1536784519
+    "modified": 1536848458
 }
