@@ -15,10 +15,16 @@ $image = get_sub_field('image');
         <h1><?php echo $title; ?></h1>
         <p><?php echo $content; ?></p>
       </div>
-      <div class="col-xs-12 col-md-2 award">
-
-      </div>
     </div>
+    <div class="row start-xs start-md first-md last-xs mobile">
+        <div class="col-xs-12 col-md-6">
+          <div class="jarallax perk-gallery" data-jarallax data-speed="0.96">
+            <img class="jarallax-img" src="<?php echo $image; ?>" alt="">
+          </div>
+        </div> 
+    </div>
+
+
     <div class="row start-xs start-md perks">
 
       <?php
@@ -55,7 +61,7 @@ $image = get_sub_field('image');
               </div>
 
               <div class="row start-xs start-md first-md last-xs">
-                <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-6 desktop">
                   <div class="jarallax perk-gallery" data-jarallax data-speed="0.96">
                     <img class="jarallax-img" src="<?php echo $image; ?>" alt="">
                   </div>

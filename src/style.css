@@ -349,6 +349,10 @@ html body .mission-statement {
 html body .perks-wall {
   margin-top: 0px;
   padding-bottom: 5vw !important; }
+  html body .perks-wall .mobile {
+    display: none !important; }
+  html body .perks-wall .desktop {
+    display: block !important; }
   html body .perks-wall .award img {
     max-width: 75% !important;
     margin-left: 25%; }
@@ -373,6 +377,10 @@ html body .perks-wall {
     width: 90%;
     margin-top: 20px; }
   @media all and (max-width: 767px) {
+    html body .perks-wall .mobile {
+      display: block !important; }
+    html body .perks-wall .desktop {
+      display: none !important; }
     html body .perks-wall .top-line {
       margin: 20px 0px;
       width: 25%; }
@@ -380,7 +388,8 @@ html body .perks-wall {
       font-size: 1.4rem; }
     html body .perks-wall .perk-gallery {
       width: 100%;
-      height: 320px; }
+      height: 320px;
+      margin-bottom: 20px !important; }
     html body .perks-wall .extra-perks {
       padding: 0px; } }
 

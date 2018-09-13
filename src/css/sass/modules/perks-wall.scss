@@ -1,6 +1,12 @@
 html {
 	body {
 		.perks-wall {
+			.mobile {
+	      		display: none !important;
+	      	}
+	      	.desktop {
+	      		display: block !important;
+	      	}
 	      margin-top: 0px;
 	      padding-bottom: 5vw !important;
 	      .award {
@@ -36,6 +42,12 @@ html {
 	        margin-top: 20px;
 	      }
 	      @media all and (max-width: 767px) {
+	      	.mobile {
+	      		display: block !important;
+	      	}
+	      	.desktop {
+	      		display: none !important;
+	      	}
 	      	.top-line {
 	      		margin: 20px 0px;
 	      		width: 25%;
@@ -48,6 +60,7 @@ html {
 	      	.perk-gallery {
 	      		width: 100%;
 	      		height: 320px;
+	      		margin-bottom: 20px !important;
 	      	}
 	      	.extra-perks {
 	      		padding: 0px;
