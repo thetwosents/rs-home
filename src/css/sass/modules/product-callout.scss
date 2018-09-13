@@ -20,6 +20,21 @@ html {
               .background {
                 margin-left: 10vw !important;
               }
+              @media all and (max-width: 767px) {
+                padding-right: 0px !important;
+                width: 90% !important;
+                .foreground {
+                  top: -5vw !important;
+                  height: 55vw !important;
+                  right: 8vw !important;
+                }
+                .background {
+                  width: 80% !important;
+                  max-width: 100% !important;
+                  margin-left: 0px !important;
+                  margin-bottom: 7vw !important;
+                }
+              }
             }
           }
         }

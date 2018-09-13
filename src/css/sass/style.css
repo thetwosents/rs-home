@@ -435,6 +435,19 @@ html body.brands .product-callout.right.has-product .product-images .foreground 
   right: 32vw !important; }
 html body.brands .product-callout.right.has-product .product-images .background {
   margin-left: 10vw !important; }
+@media all and (max-width: 767px) {
+  html body.brands .product-callout.right.has-product .product-images {
+    padding-right: 0px !important;
+    width: 90% !important; }
+    html body.brands .product-callout.right.has-product .product-images .foreground {
+      top: -5vw !important;
+      height: 55vw !important;
+      right: 8vw !important; }
+    html body.brands .product-callout.right.has-product .product-images .background {
+      width: 80% !important;
+      max-width: 100% !important;
+      margin-left: 0px !important;
+      margin-bottom: 7vw !important; } }
 html body .product-callout {
   padding-top: 5vw !important;
   padding-bottom: 5vw !important; }
