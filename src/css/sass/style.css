@@ -1519,6 +1519,11 @@ html body {
       vertical-align: middle;
       display: inline-block;
       width: auto; }
+    @media all and (max-width: 767px) {
+      html body .awards-side {
+        padding: 0px 0px !important; }
+        html body .awards-side .slick-dots {
+          padding-left: 0px !important; } }
     html body .awards-side .logo {
       vertical-align: middle;
       display: inline-block;

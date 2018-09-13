@@ -44,7 +44,15 @@ html {
         vertical-align: middle;
         display: inline-block;
         width: auto;
+        
       }
+      @media all and (max-width: 767px) {
+          // height: auto !important;
+          .slick-dots {
+            padding-left: 0px !important;
+          }
+          padding: 0px 0px !important;
+        }
       .logo {
         vertical-align: middle;
         display: inline-block;
