@@ -78,11 +78,18 @@ html {
         padding-bottom: 2vw !important;
       }
       @media all and (min-width: 768px) and (max-width: 1023px) {
-        padding-top: 9vw !important;
-        padding-bottom: 9vw !important;
+        padding-top: 5vw !important;
+        padding-bottom: 5vw !important;
+        .jarallax {
+          -webkit-transform: translate3d(0, 0, 0) !important;
+    -moz-transform: translate3d(0, 0, 0) !important;
+    -ms-transform: translate3d(0, 0, 0) !important;
+    -o-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+        }
         .images {
           padding: 0px !important;
-          margin-bottom: 7vw !important;
+          margin-bottom: 5vw !important;
           .background {
             display: none !important;
           }
