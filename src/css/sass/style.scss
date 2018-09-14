@@ -71,7 +71,7 @@
 
 html {
   font-size: 100% !important;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   iframe {
     max-width: 100%;
     @media all and (max-width: 767px) {
@@ -283,10 +283,8 @@ html {
 @media all and (min-width: 768px) and (max-width: 1023px) {
   html {
     width: 100%;
-      overflow-x: hidden;
     body {
       width: 100%;
-      overflow-x: hidden;
       section {
         padding-left: 8vw;
         padding-right: 8vw;
