@@ -901,6 +901,8 @@ html body .vertical-carousel {
       padding-bottom: 3vw !important; }
       html body .vertical-carousel h4 {
         height: 24px; }
+      html body .vertical-carousel h1 {
+        margin-top: 6vw !important; }
       html body .vertical-carousel .slick-list {
         overflow: hidden !important; }
       html body .vertical-carousel .arrows {
