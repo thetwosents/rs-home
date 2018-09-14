@@ -228,15 +228,17 @@
       $('.nav').toggleClass('active');
     });
 
-    jarallax(document.querySelectorAll('.jarallax'), {
+  console.log(jarallax($('.jarallax').toArray()[3], {}));    
+
+    jarallax($('.jarallax').toArray()[3], {
         disableParallax: function () {
-            return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
+          console.log('Hey');
+            return true;
         },
       disableVideo: function () {
-            return /iPad|iPhone|iPod|Android/.test(navigator.userAgent);
+            return true;
         }
     });
-
 
     // Initialize logos on the page
 

@@ -78,10 +78,11 @@ html {
         padding-bottom: 2vw !important;
       }
       @media all and (min-width: 768px) and (max-width: 1023px) {
-        padding-top: 2vw !important;
-        padding-bottom: 2vw !important;
+        padding-top: 9vw !important;
+        padding-bottom: 9vw !important;
         .images {
           padding: 0px !important;
+          margin-bottom: 7vw !important;
           .background {
             display: none !important;
           }
@@ -97,6 +98,7 @@ html {
       }
 
       @media all and (max-width: 767px) {
+
         padding-top: 9vw !important;
         padding-bottom: 9vw !important;
         .images {
