@@ -53,7 +53,7 @@ html {
       .slider {
         margin-top: 2vw;
         .slick-slide {
-          // margin-right: 10px !important;
+          margin-right: 10px !important;
 
           // &:nth-child(even) {
           //   margin-top: 20px !important;
@@ -83,7 +83,7 @@ html {
         .slider {
           // margin-left: 5px;
           .slick-slide {
-            margin: 0px 5px;
+            margin: 0px 5px !important;
             // margin-right: 10px !important;
           }
         }
