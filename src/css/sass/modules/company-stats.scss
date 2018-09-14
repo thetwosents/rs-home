@@ -52,6 +52,13 @@ html {
 						max-width: 50%;
 					}
 				}
+				.col-md-4 {
+					&:nth-of-type(3) {
+						.box {
+							margin-bottom: 0px;
+						}
+					}
+				}
 				.stat {
 					margin: 6vw auto 3vw;
 					display: inline-block;
