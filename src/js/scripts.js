@@ -228,18 +228,6 @@
       $('.nav').toggleClass('active');
     });
 
-  console.log(jarallax($('.jarallax').toArray()[3], {}));    
-
-    jarallax($('.jarallax').toArray()[3], {
-        disableParallax: function () {
-          console.log('Hey');
-            return true;
-        },
-      disableVideo: function () {
-            return true;
-        }
-    });
-
     // Initialize logos on the page
 
     var brandLogos = [];
