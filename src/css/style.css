@@ -1407,11 +1407,13 @@ input[type="search"] {
       display: block; }
     .nav ul {
       width: 100%;
-      padding: 0px;
+      padding: 0px !important;
       margin: 0px; }
       .nav ul li {
         display: block;
-        margin: 32px auto; } }
+        margin: 32px auto; }
+        .nav ul li a {
+          font-weight: 600; } }
 
 /**
  * partials/sidebar

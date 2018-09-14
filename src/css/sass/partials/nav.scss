@@ -91,11 +91,14 @@
     }
     ul {
       width: 100%;
-      padding: 0px;
+      padding: 0px !important;
       margin: 0px;
       li {
         display: block;
         margin: 32px auto;
+        a {
+          font-weight: 600;
+        }
       }
     }
   }
