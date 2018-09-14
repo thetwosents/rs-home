@@ -1666,7 +1666,8 @@ html body {
         vertical-align: middle; }
     @media all and (min-width: 768px) and (max-width: 1023px) {
       html body .awards-side .container {
-        padding: 6vw 0px !important; } }
+        padding: 6vw 0px !important;
+        margin-top: -3vw; } }
   html body .stats-wall h1 {
     margin-bottom: 4vw !important; }
   html body .stats-wall .stat {
