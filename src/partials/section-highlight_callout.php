@@ -14,7 +14,7 @@ $cta_text = get_sub_field('cta_text');
     <div class="row start-md center-xs">
       <div class="col-xs-12 col-md-5">
         <div class="box">
-          <img data-jarallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="40" class="top" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>">
+          <img data-parallax data-disable-parallax="/iPad|iPhone|iPod|Android/" data-jarallax-element="40" class="top" src="<?php echo wp_get_attachment_image_url( $images[0]['ID'], 'full' ); ?>">
         </div> 
       </div>
       <div class="col-xs-12 col-md-7">
