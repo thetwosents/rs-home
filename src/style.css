@@ -961,6 +961,41 @@ html body .graphic-slider {
   padding-bottom: 0vw !important; }
   html body .graphic-slider .container {
     position: relative; }
+  html body .graphic-slider .arrows {
+    position: absolute;
+    left: 0px;
+    z-index: 9;
+    margin-top: 16%;
+    width: 100%;
+    display: none; }
+    html body .graphic-slider .arrows .circle {
+      height: 48px;
+      width: 48px;
+      background: #000;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 48px;
+      color: #fff;
+      opacity: 1;
+      transition: all .2s ease-in-out;
+      -webkit-transition: all .2s ease-in-out; }
+      html body .graphic-slider .arrows .circle:hover {
+        background: #fff;
+        cursor: pointer;
+        opacity: 1; }
+        html body .graphic-slider .arrows .circle:hover i {
+          color: #000; }
+      html body .graphic-slider .arrows .circle.next {
+        float: right; }
+  @media all and (max-width: 767px) {
+    html body .graphic-slider .arrows {
+      display: block;
+      margin-top: 25%;
+      padding: 0px 0px; }
+      html body .graphic-slider .arrows .circle {
+        height: 24px;
+        width: 24px;
+        line-height: 24px; } }
   html body .graphic-slider .title .box {
     padding: 8px 0px;
     border: 2px solid #000;
