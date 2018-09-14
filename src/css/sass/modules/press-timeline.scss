@@ -89,6 +89,7 @@ html {
         }
       }
       @media all and (min-width: 768px) and (max-width: 1023px) {
+        margin-bottom: 6vw;
         &::after {
           display: none;
         }
