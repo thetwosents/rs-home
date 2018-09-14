@@ -867,9 +867,6 @@ html body .vertical-carousel {
     z-index: 9;
     margin-top: 16%;
     width: 100%; }
-    @media all and (max-width: 767px) {
-      html body .vertical-carousel .arrows {
-        display: none; } }
   html body .vertical-carousel .circle {
     height: 48px;
     width: 48px;
@@ -899,8 +896,6 @@ html body .vertical-carousel {
     overflow: visible !important; }
   html body .vertical-carousel .slider {
     margin-top: 2vw; }
-    html body .vertical-carousel .slider .slick-slide {
-      margin-right: 10px !important; }
   @media all and (max-width: 767px) {
     html body .vertical-carousel {
       padding-bottom: 3vw !important; }
@@ -908,8 +903,15 @@ html body .vertical-carousel {
         height: 24px; }
       html body .vertical-carousel .slick-list {
         overflow: hidden !important; }
+      html body .vertical-carousel .arrows {
+        margin-top: 28%;
+        padding: 0px 0px; }
+      html body .vertical-carousel .circle {
+        height: 24px;
+        width: 24px;
+        line-height: 24px; }
       html body .vertical-carousel .slider .slick-slide {
-        margin-right: 10px !important; } }
+        margin: 0px 5px; } }
 
 .become-rs-influencer .slider {
   width: 100%; }
