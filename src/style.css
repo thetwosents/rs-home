@@ -874,6 +874,8 @@ html body .container {
   position: relative; }
 
 html body .vertical-carousel {
+  width: 100%;
+  overflow-x: hidden;
   padding-top: 3vw !important;
   padding-bottom: 0px !important; }
   html body .vertical-carousel .arrows {

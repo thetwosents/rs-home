@@ -4,6 +4,8 @@ html {
       position: relative;
     }
     .vertical-carousel {
+      width: 100%;
+      overflow-x: hidden;
       padding-top: 3vw !important;
       padding-bottom: 0px !important;
       .arrows {
