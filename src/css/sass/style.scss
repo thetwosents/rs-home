@@ -197,12 +197,13 @@ html {
     }
     .btn {
       display: inline-block;
-      background: #000;
-      color: #fff;
+      background: transparent;
+      color: #000;
       line-height: 100%;
       font-size: .875rem;
       padding: 15px 20px 14px;
       font-weight: 300;
+      border: 1px sold #000;
       letter-spacing: 1px;
       text-transform: uppercase;
       font-family: 'Gotham';
@@ -211,19 +212,20 @@ html {
       -webkit-transition: all .2s ease-in-out;
       -moz-transition: all .2s ease-in-out;
       &:hover {
-        background: #fff;
-        color: #000;
+        background: transparent;
+        color: #fff;
         text-decoration: none;
         font-weight: 600;
       }
       &.btn-secondary {
-        background: #fff;
-        color: #000;
-        // border: 1px solid #000 !important;
+        background: transparent;
+        color: #fff;
+        border: 1px solid #fff !important;
         &:hover {
           background: #000;
           color: #fff;
           font-weight: 600;
+          border: 1px solid #000 !important;
         }
       }
       @media all and (max-width: 767px) {
