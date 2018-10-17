@@ -33,15 +33,12 @@
 								</ul>
 							</div>	
 
-							<p>Copyright 2018 rewardStyle.com | <a href="<?php echo site_url(); ?>/about/privacy-policy">Privacy Policy</a></p>
+							<p>Copyright <?php echo the_date('Y'); ?> rewardStyle.com | <a href="<?php echo site_url(); ?>/about/privacy-policy">Privacy Policy</a></p>
 						</div>
 					</div>
 				</div>
 			</footer>
 			<!-- /footer -->
-
-			
-
 		</div>
 		<!-- /wrapper -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>

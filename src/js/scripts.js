@@ -4,6 +4,54 @@
 	$(function () {
 		// DOM ready, take it away
 
+    switch(navigator.language) {
+        case 'en-US': // US
+            // window.location.replace("http://google.com");
+            break;
+        case 'en-GB': // United Kingdom
+            // window.location.replace("http://google.com");
+            break;
+        case 'nb': // Norw
+            window.location.replace("https://www.rewardstyle.com/?language=nb_NO");
+            break;
+        case 'sv': // Sweden
+            window.location.replace("https://www.rewardstyle.com/?language=sv_SE");
+            break;
+        case 'ru': // Russian
+            window.location.replace("https://www.rewardstyle.com/?language=ru_RU");
+            break;
+        case 'ja': // Japanese
+            window.location.replace("https://www.rewardstyle.com/?language=ja_JP");
+            break;
+        case 'nl': // Dutch
+            window.location.replace("https://www.rewardstyle.com/?language=nl_NL");
+            break;
+        case 'es': // Spanish
+            window.location.replace("https://www.rewardstyle.com/?language=es_ES");
+            break;
+        case 'de': // German
+            window.location.replace("https://www.rewardstyle.com/?language=de_DE");
+            break;
+        case 'fr': // France
+            window.location.replace("https://www.rewardstyle.com/?language=fr_FR");
+            break;
+        case 'zh': // Chinese
+            window.location.replace("https://www.rewardstyle.com/?language=zh_CN");
+            break;
+        case 'ko': // Korean
+            window.location.replace("https://www.rewardstyle.com/?language=ko_KR");
+            break;
+        case 'pt': // Porteguese
+            window.location.replace("https://www.rewardstyle.com/?language=pt_BR");
+            break;
+        case 'it': // Italian
+            window.location.replace("https://www.rewardstyle.com/?language=it_IT");
+            break;
+        default:
+
+    }
+
+
     $('.vertical-carousel .slider').slick({
       slidesToShow: 6,
       slidesToScroll: 1,

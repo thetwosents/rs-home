@@ -1812,6 +1812,26 @@ html body {
         html body .articles-by-category article .image img {
           max-width: 100%; } }
 
+.wpml-ls-legacy-list-horizontal {
+  display: none !important; }
+
+.languages {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  list-style-type: none; }
+  .languages li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: .875rem; }
+    .languages li img {
+      width: 24px;
+      height: auto;
+      margin-right: 4px; }
+    .languages li a {
+      font-size: .675rem;
+      text-transform: uppercase;
+      color: #000; }
+
 .jarallax {
   position: relative;
   z-index: 0; }
@@ -1934,7 +1954,7 @@ html {
       -webkit-transition: all .2s ease-in-out;
       -moz-transition: all .2s ease-in-out; }
       html body .btn:hover {
-        background: transparent;
+        background: #000;
         color: #fff;
         text-decoration: none;
         font-weight: 600; }

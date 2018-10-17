@@ -482,3 +482,4 @@ function my_layout_title($title, $field, $layout, $i) {
     return $title;
 }
 add_filter('acf/fields/flexible_content/layout_title', 'my_layout_title', 10, 4);
+
