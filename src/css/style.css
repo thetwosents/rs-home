@@ -42,19 +42,16 @@
   src: url("fonts/Gotham-Light.otf");
   font-weight: 400;
   font-style: normal; }
-
 @font-face {
   font-family: "Gotham";
   src: url("fonts/Gotham-Medium.otf");
   font-weight: 600;
   font-style: normal; }
-
 @font-face {
   font-family: "Didot";
   src: url("fonts/Didot-Italic.ttf");
   font-weight: normal;
   font-style: normal; }
-
 html body .call-to-action-banner {
   position: relative;
   z-index: 0;
@@ -86,13 +83,10 @@ html body .company-stats .box {
   html body .company-stats .box p {
     font-size: .875rem;
     margin-bottom: 0vw; }
-
 html body .company-stats .mobile {
   display: none; }
-
 html body .company-stats .desktop {
   display: block; }
-
 html body .company-stats .stat {
   display: block;
   margin: 3vw auto 0px;
@@ -106,10 +100,8 @@ html body .company-stats .stat {
     margin-bottom: 1vw;
     font-weight: 300;
     font-size: .875rem; }
-
 html body .company-stats .btn {
   margin-top: 2vw; }
-
 @media all and (min-width: 768px) and (max-width: 1023px) {
   html body .company-stats {
     margin-top: 6vw; }
@@ -128,7 +120,6 @@ html body .company-stats .btn {
       margin: 6vw auto 3vw;
       display: inline-block;
       width: 40%; } }
-
 @media all and (max-width: 767px) {
   html body .company-stats .desktop {
     display: none; }
@@ -173,39 +164,32 @@ html body .highlight-callout .left {
   @media all and (max-width: 1700px) {
     html body .highlight-callout .left {
       max-width: 39vw; } }
-
 html body .highlight-callout h3 {
   font-size: 1.6rem;
   color: #000;
   letter-spacing: 0px;
   font-weight: 300;
   margin: 20px auto; }
-
 html body .highlight-callout .right {
   float: right;
   margin-top: -20vw;
   max-width: 350px;
   z-index: 1;
   position: relative; }
-
 html body .highlight-callout .top {
   margin-top: 40px; }
-
 html body .highlight-callout a {
   margin-top: 20px; }
-
 html body .highlight-callout .content {
   padding: 0px 30px 0px 30px; }
   html body .highlight-callout .content p {
     padding: 0px 30px 0px 0px;
     font-size: .875rem; }
-
 @media all and (min-width: 768px) and (max-width: 1023px) {
   html body .highlight-callout .desktop {
     display: none !important; }
   html body .highlight-callout .top {
     margin-top: 0px !important; } }
-
 @media all and (max-width: 767px) {
   html body .highlight-callout .desktop {
     display: none !important; }
@@ -224,10 +208,8 @@ html body .highlight-callout .content {
 
 html body .instagram-feed h1 {
   margin-top: 2vw; }
-
 html body .instagram-feed .btn {
   margin-bottom: 2vw; }
-
 html body .instagram-feed h2 {
   font-family: 'Didot' !important;
   text-transform: none;
@@ -235,10 +217,8 @@ html body .instagram-feed h2 {
   font-weight: 300;
   margin: 30px auto;
   letter-spacing: 0px !important; }
-
 html body .instagram-feed #sbi_load {
   display: none !important; }
-
 @media all and (max-width: 767px) {
   html body .instagram-feed .btn {
     margin-bottom: 30px; }
@@ -279,7 +259,6 @@ html body .job-postings {
 
 html body .join-the-family h4 {
   margin-top: 0px; }
-
 html body .join-the-family h2 {
   font-family: 'Didot' !important;
   text-transform: none !important;
@@ -484,16 +463,12 @@ html body .press-timeline {
 
 html body.brands .product-callout .product-images .content {
   padding-top: 0px; }
-
 html body.brands .product-callout.right.has-product .content {
   margin-top: -8vw; }
-
 html body.brands .product-callout.right.has-product .product-images .foreground {
   right: 32vw !important; }
-
 html body.brands .product-callout.right.has-product .product-images .background {
   margin-left: 10vw !important; }
-
 @media all and (max-width: 767px) {
   html body.brands .product-callout.right.has-product .product-images {
     padding-right: 0px !important;
@@ -507,7 +482,6 @@ html body.brands .product-callout.right.has-product .product-images .background 
       max-width: 100% !important;
       margin-left: 0px !important;
       margin-bottom: 7vw !important; } }
-
 html body .product-callout {
   padding-top: 5vw !important;
   padding-bottom: 5vw !important; }
@@ -794,28 +768,22 @@ html body .product-callout {
 html body .side-by-side .jarallax {
   width: 100%;
   height: 400px; }
-
 html body .side-by-side p {
   max-width: 90%; }
-
 html body .side-by-side .btn {
   margin-top: 20px; }
-
 html body .side-by-side .box {
   padding: 0vw 2vw 0px 0px; }
   html body .side-by-side .box h1 {
     margin-top: 2vw; }
-
 html body .side-by-side img {
   max-width: 100%;
   width: 100%; }
-
 @media all and (min-width: 768px) and (max-width: 1023px) {
   html body .side-by-side .box {
     padding: 2vw 1vw; }
   html body .side-by-side p {
     max-width: 100%; } }
-
 @media all and (max-width: 767px) {
   html body .side-by-side .box {
     padding: 2vw 1vw; }
@@ -827,22 +795,17 @@ html body .team-member-wall p {
   font-weight: 300;
   margin-bottom: 0px;
   font-size: .725rem; }
-
 html body .team-member-wall img {
   width: 75%; }
-
 html body .team-member-wall h2 {
   margin-bottom: 4vw; }
-
 html body .team-member-wall h4 {
   margin-top: 0px; }
-
 html body .team-member-wall .team-member {
   margin-bottom: 2vw; }
 
 html body.influencers h4 img {
   display: inline-block !important; }
-
 html body .testimonial-slider .quote {
   cursor: pointer;
   font-family: 'Didot';
@@ -851,7 +814,6 @@ html body .testimonial-slider .quote {
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: 20px; }
-
 html body .testimonial-slider h4 {
   font-size: .875rem;
   margin-bottom: 0px; }
@@ -859,14 +821,12 @@ html body .testimonial-slider h4 {
     height: 24px;
     display: none;
     margin-right: 8px; }
-
 @media all and (max-width: 767px) {
   html body .testimonial-slider .quote {
     font-size: 1.2rem !important; } }
 
 html body .container {
   position: relative; }
-
 html body .vertical-carousel {
   width: 100%;
   overflow-x: hidden;
@@ -930,10 +890,8 @@ html body .vertical-carousel {
 
 .become-rs-influencer .slider {
   width: 100%; }
-
 .become-rs-influencer p {
   margin-bottom: 20px; }
-
 .become-rs-influencer .content p {
   margin-bottom: 40px; }
 
@@ -1105,10 +1063,8 @@ html body .graphic-slider {
 
 .team-member-bio.left .content {
   padding-left: 40px; }
-
 .team-member-bio.right .content {
   padding-right: 40px; }
-
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .team-member-bio .content {
     padding: 0px !important; }
@@ -1118,7 +1074,6 @@ html body .graphic-slider {
   .team-member-bio h4 {
     margin-bottom: 1vw;
     margin-top: 6vw; } }
-
 @media all and (max-width: 767px) {
   .team-member-bio .content {
     padding-left: 0px !important;
@@ -1182,11 +1137,9 @@ html body .graphic-slider {
       max-width: 75%; }
       html body .our-story .container h4 {
         margin-bottom: 0px; } }
-
 @media all and (max-width: 767px) {
   .our-story .container {
     max-width: 100%; } }
-
 /**
  * partials/reset
  * ---
@@ -1207,7 +1160,7 @@ body {
   font-size: 140%;
   line-height: 1.5;
   color: #767676;
-  background-color: #fff; }
+  background-color: white; }
 
 img {
   max-width: 100%;
@@ -1225,8 +1178,8 @@ input[type="search"] {
   line-height: inherit; }
 
 ::selection {
-  background-color: #04A4CC;
-  color: #fff;
+  background-color: #04a4cc;
+  color: white;
   text-shadow: none; }
 
 /**
@@ -1256,7 +1209,7 @@ input[type="search"] {
  * Gallery & images
  */
 .wp-caption {
-  background: #fff;
+  background: white;
   border: thin solid #F0F0F0;
   max-width: 95%;
   padding: 5px 5px;
@@ -1284,7 +1237,6 @@ input[type="search"] {
 .clear:before, .clear:after {
   content: " ";
   display: table; }
-
 .clear:after {
   clear: both; }
 
@@ -1429,7 +1381,6 @@ input[type="search"] {
         text-decoration: none; }
       .nav ul li a:visited {
         text-decoration: none; }
-
 @media all and (max-width: 767px) {
   .nav {
     display: none;
@@ -1574,13 +1525,17 @@ input[type="search"] {
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important; }
+
   a,
   a:visited {
     text-decoration: underline; }
+
   a[href]:after {
     content: " (" attr(href) ")"; }
+
   abbr[title]:after {
     content: " (" attr(title) ")"; }
+
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
@@ -1588,27 +1543,32 @@ input[type="search"] {
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
+
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
+
   tr,
   img {
     page-break-inside: avoid; }
+
   img {
     max-width: 100% !important; }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
+
   h2,
   h3 {
     page-break-after: avoid; } }
-
 html body {
   width: 100%; }
   html body .slick-dots {
@@ -1986,7 +1946,6 @@ html {
         width: 30vw; }
       html body .masthead {
         min-height: 1px; } }
-
 @media all and (min-width: 768px) and (max-width: 1023px) {
   html {
     width: 100%; }
@@ -1997,7 +1956,6 @@ html {
         padding-right: 8vw; }
       html body .container {
         width: auto !important; } }
-
 @media all and (max-width: 767px) {
   html {
     font-size: 80% !important; }
@@ -2019,5 +1977,3 @@ html {
       html body p {
         color: #000;
         font-weight: 500; } }
-
-/*# sourceMappingURL=style.css.map */

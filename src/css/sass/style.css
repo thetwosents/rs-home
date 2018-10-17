@@ -1265,7 +1265,8 @@ input[type="search"] {
   width: 100%;
   z-index: 9999;
   background: #000;
-  border-bottom: 1px solid #333; }
+  border-bottom: 1px solid #333;
+  display: none !important; }
   .header .logo-img {
     margin-top: 8px;
     display: block;
